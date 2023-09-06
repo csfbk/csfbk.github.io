@@ -2,14 +2,28 @@
 layout: default
 ---
 
-{% assign people = "" | split: "" %}
+{% assign peopleList = "" | split: "" %}
 {% for file in site.data.people %}
     {% for person in file[1] %}
-        {% assign people = people | push: person %}
+        {% assign peopleList = peopleList | push: person %}
     {% endfor %}
 {% endfor %}
 
-{% assign personFromId = people | where: "id", page.person %}
+{% assign publicationsList = "" | split: "" %}
+{% for file in site.data.publications %}
+    {% for publication in file[1] %}
+        {% assign publicationsList = publicationsList | push: publication %}
+    {% endfor %}
+{% endfor %}
+
+{% assign thesesList = "" | split: "" %}
+{% for file in site.data.theses %}
+    {% for thesis in file[1] %}
+        {% assign thesesList = thesesList | push: thesis %}
+    {% endfor %}
+{% endfor %}
+
+{% assign personFromId = peopleList | where: "id", page.person %}
 {% if personFromId.size > 0 %}
     {% assign person = personFromId[0] %}
 {% else %}
@@ -73,6 +87,45 @@ layout: default
             {% endif %}
 
             <div id="toc"></div>
+
+            <!-- PUBLICATIONS -->
+            {% assign publicationsByYear = publicationsList | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
+            {% if publicationsByYear.size > 0 %}
+                <section class="contains-publications">
+                    <h1>Publications</h1>
+                    {% for year in publicationsByYear %}
+                        <h4>{{ year.name }}</h4>
+                        {% include list-publications.html source=year.items sort="title" %}
+                    {% endfor %}
+                </section>
+            {% endif %}
+
+            <!-- THESES -->
+            {% assign theses = thesesList | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
+            {% if theses.size > 0 %}
+                <section class="contains-theses">
+                    <h1>Theses</h1>
+                    {% include list-theses.html source=theses %}
+                </section>
+            {% endif %}
+
+            <!-- SUPERVISED THESES -->
+            {% assign handledThesesByYear = "" | split: "," %}
+            {% for thesis in thesesList %}
+                {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
+                    {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
+                {% endif %}
+            {% endfor %}
+            {% assign handledThesesByYear = handledThesesByYear | group_by: "year" | sort: "name" | reverse %}
+            {% if handledThesesByYear.size > 0 %}
+                <section class="contains-supervised-theses">
+                    <h1>Supervised Theses</h1>
+                    {% for year in handledThesesByYear %}
+                        <h4>{{ year.name }}</h4>
+                        {% include list-theses.html source=year.items sort="title" %}
+                    {% endfor %}
+                </section>
+            {% endif %}
         </div>
 
         <div class="column is-4-tablet is-3-desktop">

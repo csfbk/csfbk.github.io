@@ -1,0 +1,182 @@
+# PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
+
+# ===== template for a new publication =====
+# - id:                       # Choose a unique ID for the publication, will be referenced later
+#   id_iris:                  # ID of the publication in FBK IRIS (e.g., "324208") (optional)
+#   title:                    # Title of the publication
+#   authors:                  # Authors of the publication (create a new line for each author)
+#     -                       # ... (remember that authors should exist in "_data/people.yml")
+#   tags:                     # Tags of the publication (create a new line for each tag)
+#     -                       # ... (remember that tags should exist in "_data/tags.yml")
+#   abstract: >               # Abstract (optional)
+#     textual abstract    
+#   destination:              # Unique ID of the destination (see below)
+#   destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
+#   isALEPH:                  # Whether the publication should appear in all pages including the list of publications of ALEPH (then, set to "true") or in all pages excluding the list of publications of ALEPH (then, set to "false")
+#   year:               # year of publication (e.g., 2023)
+#   doi:                # doi (e.g., 10.1145/3320269.3384767)
+#   urlComplementary:   # url of complementary (in "_complementary")
+
+
+
+## 2020
+- id: ASIACCS2020
+  id_iris: 323366
+  title: "Exploring Architectures for Cryptographic Access Control Enforcement in the Cloud for Fun and Optimization"
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - AdamJLee
+    - SilvioRanise
+  abstract: >
+    To facilitate the adoption of cloud by organizations, Cryptographic Access Control (CAC) is the obvious solution to control data sharing among users while preventing partially trusted Cloud Service Providers (CSP) to access sensitive data. Indeed, several CAC schemes have been proposed in the literature. Despite their differences, available solutions are based on a common set of entities—e.g., a data storage service or a proxy mediating the access of users to encrypted data—that operate in different (security) domains—e.g., on-premise or the CSP. However, the majority of the CAC schemes assumes a fixed assignment of entities to domains; this has security and usability implications that are not made explicit and can make inappropriate the use of a CAC scheme in certain scenarios with specific requirements. For instance, assuming that the proxy runs at the premises of the organization avoids the vendor lock-in effect but may substantially mine scalability. To the best of our knowledge, no previous work considers how to select the best possible architecture (i.e., the assignment of entities to domains) to deploy a CAC scheme for the requirements of a given scenario. In this paper, we propose a methodology to assist administrators to explore different architectures of CAC schemes for a given scenario. We do this by identifying the possible architectures underlying the CAC schemes available in the literature and formalize them in simple set theory. This allows us to reduce the problem of selecting the most suitable architecture satisfying a heterogeneous set of requirements arising from the considered scenario to a Multi-Objective Optimization Problem (MOOP) for which state-of-the-art solvers can be invoked. Finally, we show how the capability of solving the MOOP can be used to build a prototype tool assisting administrators to preliminary perform a ``What-if'' analysis to explore the trade-offs among the various architectures and then use available standards and tools (such as TOSCA and Cloudify) for automated deployment in multiple CSPs.
+  destination: ASIACCS2020
+  isALEPH: false
+  year: 2020
+  doi: 10.1145/3320269.3384767
+
+- id: TOPS2020_2
+  id_iris: 329068
+  title: "Formal Modelling and Automated Trade-Off Analysis of Enforcement Architectures for Cryptographic Access Control in the Cloud"
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - AdamJLee
+    - SilvioRanise
+  abstract: >
+    To facilitate the adoption of cloud by organizations, Cryptographic Access Control (CAC) is the obvious solution to control data sharing among users while preventing partially trusted Cloud Service Providers (CSP) from accessing sensitive data. Indeed, several CAC schemes have been proposed in the literature. Despite their differences, available solutions are based on a common set of entities---e.g., a data storage service or a proxy mediating the access of users to encrypted data---that operate in different (security) domains---e.g., on-premise or the CSP. However, the majority of these CAC schemes assumes a fixed assignment of entities to domains; this has security and usability implications that are not made explicit and can make inappropriate the use of a CAC scheme in certain scenarios with specific trust assumptions and requirements. For instance, assuming that the proxy runs at the premises of the organization avoids the vendor lock-in effect but may give rise to other security concerns (e.g., malicious insiders attackers). To the best of our knowledge, no previous work considers how to select the best possible architecture (i.e., the assignment of entities to domains) to deploy a CAC scheme for the trust assumptions and requirements of a given scenario. In this paper, we propose a methodology to assist administrators in exploring different architectures for the enforcement of CAC schemes in a given scenario. We do this by identifying the possible architectures underlying the CAC schemes available in the literature and formalizing them in simple set theory. This allows us to reduce the problem of selecting the most suitable architectures satisfying a heterogeneous set of trust assumptions and requirements arising from the considered scenario to a decidable Multi-Objective Combinatorial Optimization Problem (MOCOP) for which state-of-the-art solvers can be invoked. Finally, we show how we use the capability of solving the MOCOP to build a prototype tool assisting administrators to preliminary perform a ``What-if'' analysis to explore the trade-offs among the various architectures and then use available standards and tools (such as TOSCA and Cloudify) for automated deployment in multiple CSPs.
+  destination: TOPS
+  isALEPH: false
+  year: 2020
+  
+## 2021
+- id: SECRYPT2021_2
+  id_iris: 327652
+  title: "Cryptographic Enforcement of Access Control Policies in the Cloud: Implementation and Experimental Assessment"
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    While organisations move their infrastructure to the cloud, honest but curious Cloud Service Providers (CSPs) threaten the confidentiality of cloud-hosted data. In this context, many researchers proposed Cryptographic Access Control (CAC) schemes to support data sharing among users while preventing CSPs from accessing sensitive data. However, the majority of these schemes focuses on high-level features only and cannot adapt to the multiple requirements arising in different scenarios. Moreover, (almost) no CAC scheme implementation is available for enforcement of authorisation policies in the cloud, and performance evaluation is often over- looked. To fill this gap, we propose the toolchain COERCIVE, short for CryptOgraphy killEd (the honest but) cuRious Cloud servIce proVidEr, which is composed of two tools: TradeOffBoard and CryptoAC. TradeOff- Board assists organisations in identifying the optimal CAC architecture for their scenario. CryptoAC enforces authorisation policies in the cloud by deploying the architecture selected with TradeOffBoard. In this paper, we describe the implementation of CryptoAC and conduct a thorough performance evaluation to demonstrate its scalability and efficiency with synthetic benchmarks.
+  destination: SECRYPT2021
+  isALEPH: false
+  year: 2021
+  
+## 2022
+- id: DBSEC2022
+  id_iris: 335865
+  title: "End-to-End Protection of IoT Communications Through Cryptographic Enforcement of Access Control Policies"
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - UmbertoMorelli
+    - SilvioRanise
+  abstract: >
+    It is crucial to ensure the security and privacy of communications in IoT scenarios that process an increasingly large amount of sensitive data. In this context, we propose a cryptographic enforcement mechanism of access control policies to guarantee the confidentiality and integrity of messages exchanged with the MQTT protocol in presence of external attackers, malicious insiders and "honest-but-curious" service providers. A preliminary performance evaluation with a prototype implementation in an open-source tool shows the overhead is acceptable in relevant use case scenarios and provides a higher level of security with respect to other approaches.
+  destination: DBSEC2022
+  isALEPH: false
+  year: 2022
+  doi: 10.1007/978-3-031-10684-2_14
+
+- id: EVOTEID2022
+  title: "Adaptation of an i-voting scheme to Italian Elections for Citizens Abroad"
+  authors:
+    - RiccardoLongo
+    - UmbertoMorelli
+    - ChiaraSpadafora
+    - AlessandroTomasi
+  abstract: >
+    We adapt the Araújo-Traoré protocol to Italian elections, with emphasis on anti-coercion measures. In this short paper we focus on a new method for managing anti-coercion credentials for each voter.
+  destination: EVOTEID2022
+  isALEPH: false
+  year: 2022
+  doi: 10.15157/diss/027
+  tags:                     
+    - ThresholdCryptography
+    - ZKP
+    - SMPC
+    - PrivacyEnhancingCryptography
+    - DecentralizationOfTrust
+
+# 2023
+- id: AppliedSciences2023
+  title: "On Pseudorandomness and Deep Learning: A Case Study"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - RoccoZaccagnino
+    - PaoloD'Arco
+  abstract: >
+    Pseudorandomness is a crucial property that the designers of cryptographic primitives aim to achieve. It is also a key requirement in the calls for proposals of new primitives, as in the case of block ciphers. Therefore, the assessment of the property is an important issue to deal with. Currently, an interesting research line is the understanding of how powerful machine learning methods are in distinguishing pseudorandom objects from truly random objects. Moving along such a research line, in this paper a deep learning-based pseudorandom distinguisher is developed and trained for two well-known lightweight ciphers, Speck and Simon. Specifically, the distinguisher exploits a convolutional Siamese network for distinguishing the outputs of these ciphers from random sequences. Experiments with different instances of Speck and Simon show that the proposed distinguisher highly able to distinguish between the two types of sequences, with an average accuracy of 99.5%  for Speck and 99.6% for Simon. Hence, the proposed method could significantly impact the security of these cryptographic primitives and of the applications in which they are used.
+  destination: ApplSci
+  destinationAddon: Volume 13, Issue 5
+  isALEPH: true
+  year: 2023
+  doi: 10.3390/app13053372
+  tags:   
+    - Cryptanalysis
+  
+- id: EVOTEID2023
+  isALEPH: false
+  year: 2023
+  title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
+  authors:
+    - MatteoBitussi
+    - RiccardoLongo
+    - FrancescoAntonioMarino
+    - UmbertoMorelli
+    - AmirSharif
+    - ChiaraSpadafora
+    - AlessandroTomasi
+  abstract: >
+    This paper presents an architecture for an OAuth 2.0-based i-voting solution using a mobile native client in a variant of the Araújo-Traoré protocol. We follow a systematic approach by identifying relevant OAuth 2.0 specifications and best practices. Having defined our framework, we identify threats applicable to our proposed methodology and detail how our design mitigates them to provide a safer i-voting process.
+  destination: EVOTEID2023
+  #doi: 10.
+  tags:                     
+    - ThresholdCryptography
+    - ZKP
+    - SMPC
+    - PrivacyEnhancingCryptography
+    - DecentralizationOfTrust
+    
+- id: POLSIM2023
+  #id_iris: 323366
+  title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    While the security analysis of Access Control (AC) policies has received a lot of attention, the same cannot be said for their enforcement. As systems become more distributed (e.g., centralized services may become a bottleneck) and legal compliance constraints stricter (e.g., the problem of honest but curious Cloud providers in the light of privacy regulations), the fine-tuning of AC enforcement mechanisms is likely to become more and more important. This is especially true in scenarios where the quality of service may suffer from computationally heavy security mechanisms and low latency is a prominent requirement. As a first step towards a principled approach to fine-tune AC enforcement, this paper introduces a methodology providing the means to measure the performance of AC enforcement mechanisms through the simulation of realistic deployment scenarios. To do so, we base our methodology on Business Process Model and Notation (BPMN) workflows—that provide for an appropriate abstraction of the sequence of requests toward AC enforcement mechanisms performed by applications—to derive lists of AC operations (e.g., access a resource, revoke a permission) and execute them to evaluate and compare the performance of different mechanisms. Finally, we implement our methodology and apply it to three case studies representative of both traditional centralized AC—i.e., the Open Policy Agent (OPA) and the eXtensible Access Control Markup Language (XACML)—and decentralized Cryptographic Access Control (CAC)—i.e., CryptoAC—.
+  destination: POLSIM2023
+  isALEPH: false
+  year: 2023
+  #doi: 10.1145/3320269.3384767
+
+- id: SECRYPT2023
+  id_iris: 338307
+  title: "A First Appraisal of Cryptographic Mechanisms for the Selective Disclosure of Verifiable Credentials"
+  authors:
+    - AndreaFlamini
+    - SilvioRanise
+    - GiadaSciarretta
+    - MarioScuro
+    - AmirSharif
+    - AlessandroTomasi 
+  tags:                     
+    # - VerifiableCredentials
+    # - SelectiveDisclosure
+    - ZKP
+    - PrivacyEnhancingCryptography
+  abstract: >
+    Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to prove claims about the holder of the credential itself. One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes, describing their structure and comparing them in terms of performance, size of the associated verifiable presentations, and the ability to produce predicate proofs and unlinkable presentations.
+  destination: SECRYPT2023
+  isALEPH: true
+  year: 2023
+  doi: 10.5220/0012084000003555
+
+
+## 2024
+# ...
+
+# PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS

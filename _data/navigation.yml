@@ -1,5 +1,7 @@
 - name: People
   link: /people/
+- name: Publications
+  link: /publications/
 - name: Internships
   link: /internships/
   dropdown:

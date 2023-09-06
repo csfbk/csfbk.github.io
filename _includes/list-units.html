@@ -1,10 +1,10 @@
 {% assign source = include.source %}
 {% assign sort = include.sort %}
 
-{% assign people = "" | split: "" %}
+{% assign peopleList = "" | split: "" %}
 {% for file in site.data.people %}
     {% for person in file[1] %}
-        {% assign people = people | push: person %}
+        {% assign peopleList = peopleList | push: person %}
     {% endfor %}
 {% endfor %}
 
@@ -28,7 +28,7 @@
     {% for unit in units %}
         {% assign head = nil %}
         {%- if unit.head -%}
-            {% assign headFromId = people | where: "id", unit.head %}
+            {% assign headFromId = peopleList | where: "id", unit.head %}
             {% if headFromId %}
                 {% assign head = headFromId[0]["name"] | append: " " | append: headFromId[0]["surname"] %}
             {% endif %}

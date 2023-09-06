@@ -8,10 +8,10 @@
     {% assign source = source | sort_natural: "title" %}
 {% endif %}
 
-{% assign people = "" | split: "" %}
+{% assign peopleList = "" | split: "" %}
 {% for file in site.data.people %}
     {% for person in file[1] %}
-        {% assign people = people | push: person %}
+        {% assign peopleList = peopleList | push: person %}
     {% endfor %}
 {% endfor %}
 
@@ -82,11 +82,11 @@
                         {% if project.supervisor %}
                             {% if project.supervisor | first %}
                                 {% for supervisor in project.supervisor %}
-                                    {% assign supervisorFromId = people | where: "id", supervisor %}
+                                    {% assign supervisorFromId = peopleList | where: "id", supervisor %}
                                     {% assign supervisorsFromId = supervisorsFromId | push: supervisorFromId[0] %}
                                 {% endfor %}
                             {% else %}
-                                {% assign supervisorFromId = people | where: "id", project.supervisor %}
+                                {% assign supervisorFromId = peopleList | where: "id", project.supervisor %}
                                 {% assign supervisorsFromId = supervisorsFromId | concat: supervisorFromId[0] %}
                             {% endif %}
                         {% endif %}
@@ -119,11 +119,11 @@
                         {% if project.cosupervisor %}
                             {% if project.cosupervisor | first %}
                                 {% for cosupervisor in project.cosupervisor %}
-                                    {% assign cosupervisorFromId = people | where: "id", cosupervisor %}
+                                    {% assign cosupervisorFromId = peopleList | where: "id", cosupervisor %}
                                     {% assign cosupervisorsFromId = cosupervisorsFromId | push: cosupervisorFromId[0] %}
                                 {% endfor %}
                             {% else %}
-                                {% assign cosupervisorFromId = people | where: "id", project.cosupervisor %}
+                                {% assign cosupervisorFromId = peopleList | where: "id", project.cosupervisor %}
                                 {% assign cosupervisorsFromId = cosupervisorsFromId | concat: cosupervisorFromId[0] %}
                             {% endif %}
                         {% endif %}

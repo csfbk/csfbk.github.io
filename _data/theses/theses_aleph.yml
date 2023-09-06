@@ -1,0 +1,29 @@
+# ===== template for a thesis =====
+# - id:                 # ID of the thesis
+#   author:             # ID of the student
+#   title:              # Title of the thesis
+#   type:               # B for bachelor, M for master, P for PhD, PG for Postgraduate Thesis
+#   abstract: >
+#     Textual abstract
+#   supervisor:         # ID of supervisor
+#   co-supervisor:      # List of IDs of co-supervisors
+#     -
+#   year:               # Year of the thesis ("YYYY")
+#   awards:             # Eventual awards (e.g., CLUSIT)
+#   institution:        # Insitution (e.g., University of Trento)
+
+
+## 2023
+- id: IonAndyDitu_M
+  author: IonAndyDitu
+  title: "Leveraging Trusted Execution Environment for Efficient Revocation and Security in Cryptographic Access Control"
+  type: B     # B for bachelor, M for master, P for PhD, PG for Postgraduate Thesis
+  abstract: >
+    The Cloud has become an increasingly popular solution for data sharing and storage due to its inher- ent convenience, scalability, and cost-effectiveness qualities. However, outsourcing (possibly sensitive) data to Cloud Service Providers (CSPs) raises concerns about data privacy and security, as it leaves the data exposed to a heterogeneous set of threats such as external attackers, malicious insiders, miscon- figurations of Cloud services and honest but curious CSPs. To address these concerns, cryptography is usually employed to make the data unreadable by external attackers, while Access Control (AC) policies are defined and enforced to ensure that the data can be accessed by authorized users only. In this context, Cryptographic Access Control (CAC) is the natural solution to enable secure and controlled sharing of (encrypted) data. Essentially, CAC enforces AC policies through cryptography by (i) using cryptographic keys to encrypt data and then (ii) distributing these keys to authorized users. By doing so, CAC ensures that Cloud-hosted data remains protected — i.e., confidentiality and integrity of data are guaranteed — even in the presence of malicious insiders and partially trusted CSPs. In other words, CAC allows organizations to leverage the benefits of the Cloud for data sharing and storage while maintaining a high level of data security and privacy. Nonetheless, aside from its many benefits, CAC comes with its own challenges, especially for what concerns its practicality. In particular, achieving a reasonable efficiency while preserving security during user revocation — that is, the process of revoking the privileges or permissions granted to a user over some data — is a critical challenge in CAC. Indeed, traditional approaches for implementing user revocation in CAC consist in renewing and redistributing cryptographic material (e.g., new keys used to encrypt data) and re-encrypting existing data with the new keys to prevent revoked users from still accessing (i.e., decrypting) the data using cached old keys. Intuitively, the user revocation process incurs noticeable computational costs that hinder the scalability and responsiveness of CAC even to the point of ques- tioning its usability in real-world scenarios. Therefore, in this thesis, we investigate the use of popular hardware-based security technologies — such as Trusted Execution Environments (TEEs), Hardware Security Modules (HSMs), Secure Elements (SEs) and Trusted Platform Modules (TPMs) — as a solution to address the (currently almost prohibitive) computational overhead associated with tradi- tional user revocation in generic CAC schemes. In particular, we explore the functional characteristics and the security features of these hardware technologies to find the one most suitable for CAC, analyz- ing advantages and disadvantages of client-side and server-side use. Then, we design a methodology that employs client-side TEEs as a mean to mitigate the computational burden of traditional user revocation in CAC. Our intuition consists in exploiting the secure and isolated execution environment of TEEs to perform the cryptographic operations expected by CAC schemes (e.g., en/decrypt data) at the client-side while concealing cryptographic keys from users — who, consequently, cannot cache such keys. In this way, we remove the need for renewing keys and re-encrypting data after a user revocation, significantly reducing the associated computational overhead. We define in detail the flow of operations in our methodology, which encompasses 4 phases, namely onboarding, data upload, data download, and user revocation. In the onboarding phase — executed only once when configuring user' accounts — users are registered in the CAC scheme, while in the data upload and download phases users en/decrypt data according to the CAC scheme being used; in other words, besides for being run within TEEs, our methodology poses no (or minimal) modifications to the logic of the CAC scheme. Lastly, during user revocation, we just need to remove the revoked user's permissions from the AC policy, as the TEE automatically disposes of the keys from the revoked user's device.
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - StefanoBerlato
+  year: 2023
+  awards: 
+  institution: University of Trento

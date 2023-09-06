@@ -1,0 +1,199 @@
+# PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
+
+
+# JOURNALS
+
+# ===== template for a journal =====
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: journal             # Keep journal
+
+- id: ApplSci
+  name: Applied Sciences
+  acronym: Appl. Sci.
+  url: https://www.mdpi.com/journal/applsci
+  type: journal
+
+- id: JISA
+  name: Journal of Information Security and Applications
+  acronym: JISA
+  url: https://www.journals.elsevier.com/journal-of-information-security-and-applications
+  type: journal 
+ 
+- id: TOPS
+  name: ACM Transactions on Privacy and Security 
+  acronym: TOPS
+  url: https://tops.acm.org/
+  type: journal
+
+- id: VTMagazine
+  name: IEEE Vehicular Technology Magazine
+  url: https://vtmagazine.ieee.org/
+  type: journal
+
+- id: T-ITS
+  name: IEEE Transactions on Intelligent Transportation Systems
+  acronym: T-ITS
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
+  type: journal
+
+
+# ONLINE
+
+# ===== template for an online destination =====
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: website             # Keep website
+
+
+# BOOKS
+
+# ===== template for a book =====
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: book                # Keep book
+
+- id: SecAssAPIFinancial_book_2020
+  name: "Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
+  url: https://nowpublishers.com/article/BookDetails/9781680836868
+  type: book
+
+
+# CONFERENCES/WORKSHOPS/DEMOS
+
+# ===== template for a conference/workshop/demo =====
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   proceedings:              # Name of the proceedings (optional, only if different from "name")
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: conference          # Keep conference
+#   location:                 # Location of the destination (if applicable, e.g., not for journal)
+#   startDate:                # Starting date of the destination (if applicable, e.g., not for journal)
+#   endDate:                  # Ending date of the destination (if applicable, e.g., not for journal)
+
+## 2019
+- id: FPS2019
+  name: 12th International Symposium on Foundations & Practice of Security
+  acronym: FPS 2019
+  url: https://fps2019.sciencesconf.org/
+  type: conference
+  location: Toulouse, France
+  startDate: "2019-11-05"
+  endDate: "2019-11-07"
+
+- id: STM2019
+  name: 15th International Workshop on Security and Trust Management
+  acronym: STM 2019
+  url: https://stm2019.uni.lu/
+  type: workshop
+  location: Luxembourg
+  startDate: "2019-09-26"
+  endDate: "2019-09-27"
+
+## 2020
+- id: 5GWF20
+  name: 3rd IEEE 5G World Forum
+  acronym: 5GWF20
+  url: https://ieee-wf-5g.org/
+  type: conference
+  location: Virtual Event
+  startDate: "2020-09-10"
+  endDate: "2020-10-10"
+
+- id: ASIACCS2020
+  name: 15th ACM ASIA Conference on Computer and Communications Security
+  acronym: ASIACCS 2020
+  url: https://asiaccs2020.cs.nthu.edu.tw/
+  type: conference
+  location: Virtual Event
+  startDate: "2020-10-05"
+  endDate: "2020-10-09"
+
+- id: CPS4CIP2020
+  name: 1st International Workshop on Cyber-Physical Security for Critical Infrastructures Protection
+  acronym: CPS4CIP 2020
+  url: https://sites.google.com/fbk.eu/cps4cip20
+  type: workshop
+  location: Online
+  startDate: "2020-09-18"
+  endDate: "2020-09-18"
+
+- id: DETIPS2020
+  name: 25th European Symposium on Research in Computer Security
+  acronym: DETIPS2020
+  url: https://www.surrey.ac.uk/esorics-2020
+  type: conference
+  location: Virtual Event
+  startDate: "2020-09-14"
+  endDate: "2020-09-18"  
+
+## 2021
+- id: SECRYPT2021
+  name: 18th International Conference on Security and Cryptography
+  acronym: SECRYPT 2021
+  url: http://www.secrypt.org/?y=2021
+  type: conference
+  location: Virtual Event
+  startDate: "2021-07-06"
+  endDate: "2021-07-08"
+
+- id: SMDS2021
+  name: IEEE International Conference on Smart Data Services
+  acronym: SMDS 2021
+  url: https://conferences.computer.org/smds/2021/
+  type: conference
+  location: Virtual Event
+  startDate: "2021-09-05"
+  endDate: "2021-09-11"
+  
+# 2022
+- id: DBSEC2022
+  name: 36th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  proceedings: Proceedings of the 36th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy
+  acronym: DBSec 2022
+  url: http://cs.iit.edu/~dbsec2022/
+  type: conference
+  location: Newark, NJ, USA
+  startDate: "2022-07-18"
+  endDate: "2022-07-20"
+  
+- id: EVOTEID2022
+  name: Seventh International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2022
+  url: https://e-vote-id.org/e-vote-id-2022/
+  type: conference
+  location: Bregenz, Austria
+  startDate: "2022-10-04"
+  endDate: "2022-10-07"
+  
+# 2023
+- id: EVOTEID2023
+  name: Eighth International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2023
+  url: https://e-vote-id.org/e-vote-id-2023/
+  type: conference
+  location: Luxembourg City, Luxembourg
+  startDate: "2022-10-03"
+  endDate: "2022-10-06"
+  
+- id: SECRYPT2023
+  name: 20th International Conference on Security and Cryptography
+  acronym: SECRYPT 2023
+  url: http://www.secrypt.org/?y=2023
+  type: conference
+  location: Rome, Italy
+  startDate: "2023-07-10"
+  endDate: "2023-07-12"
+
+
+## 2024
+# ...
+
+# PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
