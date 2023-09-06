@@ -2,7 +2,8 @@
 {% assign sort = include.sort %}
 
 {% assign peopleList = "" | split: "" %}
-{% for file in site.data.people %}
+{% assign peopleFilesList = site.data.people | sort %}
+{% for file in peopleFilesList %}
     {% for person in file[1] %}
         {% assign peopleList = peopleList | push: person %}
     {% endfor %}
