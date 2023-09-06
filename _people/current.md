@@ -4,18 +4,18 @@ layout: page
 permalink: /people/
 ---
 
-{% assign detailsCenter = "picture, internalUnit, email, phone, personalPage" | split: ", " %}
-{% assign detailsUnits = "picture, internalUnit, email, phone" | split: ", " %}
-
 <h1>Research Center</h1>
 <h2>Director</h2>
-{% include list-people.html source=site.data.members.members_cs.current.head style="card" details=detailsCenter sort="none" %}
+{% assign details = "picture, email, phone, personalPage" | split: ", " %}
+{% include list-people.html source=site.data.members.members_cs.current.head style="card" details=details sort="none" %}
 
 <h2>Members</h2>
-{% include list-people.html source=site.data.members.members_cs.current.members style="card" details=detailsCenter %}
+{% assign details = "picture, role, email, phone, personalPage" | split: ", " %}
+{% include list-people.html source=site.data.members.members_cs.current.members style="card" details=details %}
 
 <h1>Research Units</h1>
 <h2>Heads</h2>
+{% assign details = "picture, internalUnit, email, phone" | split: ", " %}
 {% assign unitHeads = "" | split: "" %}
 {% for file in site.data.members %}
     {% if file[0] != "members_cs" %}
@@ -24,8 +24,9 @@ permalink: /people/
         {% endfor %}
     {% endif %}
 {% endfor %}
-{% include list-people.html source=unitHeads style="card" details=detailsUnits %}
+{% include list-people.html source=unitHeads style="card" details=details %}
 
+{% assign details = "picture, role, internalUnit, email, phone" | split: ", " %}
 <h2>Members</h2>
 {% assign unitMembers = "" | split: "" %}
 {% for file in site.data.members %}
@@ -35,7 +36,7 @@ permalink: /people/
         {% endfor %}
     {% endif %}
 {% endfor %}
-{% include list-people.html source=unitMembers style="card" details=detailsUnits %}
+{% include list-people.html source=unitMembers style="card" details=details %}
 
 <h2>Collaborators</h2>
 {% assign unitCollaborators = "" | split: "" %}
@@ -46,4 +47,4 @@ permalink: /people/
         {% endfor %}
     {% endif %}
 {% endfor %}
-{% include list-people.html source=unitCollaborators style="card" details=detailsUnits %}
+{% include list-people.html source=unitCollaborators style="card" details=details %}
