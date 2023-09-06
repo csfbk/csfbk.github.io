@@ -1,0 +1,61 @@
+{% assign source = include.source %}
+{% assign sort = include.sort %}
+
+{% assign people = "" | split: "" %}
+{% for file in site.data.people %}
+    {% for person in file[1] %}
+        {% assign people = people | push: person %}
+    {% endfor %}
+{% endfor %}
+
+{% if source.size > 0 %}
+<div class="columns is-multiline">
+    {% assign units = "" | split: "" %}
+    {% for unit in source %}
+        {% assign units = units | push: unit %}
+    {% endfor %}
+
+    {% if sort %}
+        {% assign units = units | sort_natural: sort %}
+    {% else %}
+        {% if sort == "none" %}
+            {% assign units = units %}
+        {% else %}
+            {% assign units = units | sort_natural: name %}
+        {% endif %}
+    {% endif %}
+    
+    {% for unit in units %}
+        {% assign head = nil %}
+        {%- if unit.head -%}
+            {% assign headFromId = people | where: "id", unit.head %}
+            {% if headFromId %}
+                {% assign head = headFromId[0]["name"] | append: " " | append: headFromId[0]["surname"] %}
+            {% endif %}
+        {%- endif -%}
+        
+        <div class="column is-4-desktop is-4-tablet">
+            {% if unit.website %}
+                <a href="{{ unit.website }}">
+                    {% endif %}
+                    <div class="card unit">
+                        {% if unit.logo %}
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="/assets/images/logos/{{ unit.logo }}" alt="{{ unit.name }}" />
+                                </figure>
+                            </div>
+                        {% endif %}
+                        <div class="card-content">
+                            {% if unit.name %}<p class="title is-spaced is-5">{{ unit.name }}</p>{% endif %}
+                            {% if unit.acronym %}<p class="subtitle acronym is-4">{{ unit.acronym }}</p>{% endif %}
+                            {% if head %}<p class="subtitle head is-4 mt-3">Head: {{ head }}</p>{% endif %}
+                        </div>
+                    </div>
+                    {% if unit.website %}
+                </a>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endif %}

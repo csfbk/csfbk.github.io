@@ -1,0 +1,221 @@
+# Please keep alphabetical order
+
+# ===== template for a new person =====
+# - id:                       # Choose a unique ID for the person, will be referenced later
+#   name:                     # Name
+#   surname:                  # Surname
+#   affiliations:             # Repeat the following structure to add more affiliations (optional)
+#     - role:                 # Role (optional)
+#       unit:                 # Unit or Department (optional)
+#       institution:          # Institution (optional)
+#       place:                # Place of the institution (optional)
+#   email:                    # Email (optional)
+#   image:                    # External URL of a picture (optional)
+#   phone:                    # Phone number as a string (optional)
+#   website                   # External website of the person (optional)
+
+- id: AdamJLee
+  name: Adam J.
+  surname: Lee
+  email: adamlee@cs.pitt.edu
+
+- id: AlessandroTomasi
+  name: Alessandro
+  surname: Tomasi
+  affiliations:
+    - role: Head of Unit
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: altomasi@fbk.eu
+
+- id: AmirSharif
+  name: Amir
+  surname: Sharif
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: asharif@fbk.eu
+  website: https://st.fbk.eu/people/amir-sharif
+  image: https://st.fbk.eu/assets/areas/people/AmirSharif.jpg
+
+- id: AndreaBisegna
+  name: Andrea
+  surname: Bisegna
+  affiliations:
+    - role: Employee
+      institution: "Futuro & Conoscenza"
+  email: a.bisegna@futuroeconoscenza.it
+  usernameFBK: a.bisegna
+  website: https://st.fbk.eu/people/andrea-bisegna
+  image: https://st.fbk.eu/assets/areas/people/AndreaBisegna.jpg
+
+- id: AndreaFlamini
+  name: Andrea
+  surname: Flamini
+  affiliations:
+    - role: PhD Candidate
+      unit: Department of Mathematics
+      institution: University of Trento
+      place: Trento, Italy
+  email: andrea.flamini@unitn.it
+  
+- id: ChiaraSpadafora
+  name: Chiara
+  surname: Spadafora
+  affiliations:
+    - role: PhD Candidate
+      unit: Department of Mathematics
+      institution: University of Trento
+      place: Trento, Italy
+  email: chiara.spadafora@unitn.it
+
+- id: FrancescoAntonioMarino
+  name: Francesco Antonio
+  surname: Marino
+  affiliations:
+    - institution: Istituto Poligrafico e Zecca dello Stato (IPZS)
+  email: fa.marino@ipzs.it
+
+- id: GiacomoZanolli
+  name: Giacomo
+  surname: Zanolli
+
+- id: GiadaSciarretta
+  name: Giada
+  surname: Sciarretta
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: g.sciarretta@fbk.eu
+  phone: "+390461312378"
+  website: https://st.fbk.eu/people/giada-sciarretta
+  image: https://st.fbk.eu/assets/areas/people/GiadaSciarretta.jpg
+
+- id: IonAndyDitu
+  name: Ion Andy
+  surname: Ditu
+
+- id: MarcoCentenaro
+  name: Marco
+  surname: Centenaro
+
+- id: MarianoCeccato
+  name: Mariano
+  surname: Ceccato
+
+- id: MarioScuro
+  name: Mario
+  surname: Scuro
+  
+- id: MatteoBitussi
+  name: Matteo
+  surname: Bitussi
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+  email: mbitussi@fbk.eu
+  
+- id: PaoloD'Arco
+  name: Paolo
+  surname: D'Arco
+  
+- id: RiccardoLongo
+  name: Riccardo
+  surname: Longo
+  affiliations:
+    - role: Researcher
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rlongo@fbk.eu
+
+- id: RobertoCarbone
+  name: Roberto
+  surname: Carbone
+  affiliations:
+    - role: Head of Unit
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: carbone@fbk.eu
+  phone: "+390461314185"
+  website: https://st.fbk.eu/people/roberto-carbone
+  image: https://st.fbk.eu/assets/areas/people/RobertoCarbone.jpg
+
+- id: RoccoZaccagnino
+  name: Rocco
+  surname: Zaccagnino
+
+- id: SalvatoreManfredi
+  name: Salvatore
+  surname: Manfredi
+  affiliations:
+    - role: Researcher
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: smanfredi@fbk.eu
+  phone: "+390461314193"
+  website: https://st.fbk.eu/people/salvatore-manfredi
+  image: https://st.fbk.eu/assets/areas/people/SalvatoreManfredi.jpg
+
+- id: SilvioRanise
+  name: Silvio
+  surname: Ranise
+  affiliations:
+    - role: Director of Center
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: Full Professor
+      unit: Department of Mathematics
+      institution: University of Trento
+      place: Trento, Italy
+  email: ranise@fbk.eu
+  phone: "+390461314192"
+  website: https://st.fbk.eu/people/silvio-ranise
+  image: https://st.fbk.eu/assets/areas/people/SilvioRanise.jpg
+
+- id: StefanoBerlato
+  name: Stefano
+  surname: Berlato
+  affiliations:
+    - role: PhD Student
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: PhD Student
+      unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: sberlato@fbk.eu
+
+- id: UmbertoMorelli
+  name: Umberto
+  surname: Morelli
+  affiliations:
+    - role: Technologist
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: u.morelli@futuroeconoscenza.it
+  usernameFBK: umorelli
+  website: https://st.fbk.eu/assets/areas/people/UmbertoMorelli.jpg
+  image: https://st.fbk.eu/people/umberto-morelli
+
+- id: ZahraEbadiAnsaroudi
+  name: Zahra
+  surname: Ebadi Ansaroudi
+  affiliations:
+    - role: Researcher
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: zebadiansaroudi@fbk.eu
+
+# Please keep alphabetical order

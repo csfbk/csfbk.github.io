@@ -1,0 +1,24 @@
+---
+layout: page
+show_sidebar: false
+---
+
+<div class="columns is-multiline">
+    <div class="column is-12">
+        {{ content }}
+    </div>
+
+    <div class="column is-12">
+        {% assign todayDate = "now" | date: "%Y-%m-%d %H:%M" %}
+        {% if page.year %}
+            {% assign internships = site.data.internships.calls | where_exp: "call", "call.year == page.year" %}
+        {% else %}
+            {% assign internships = site.data.internships.calls | where_exp: "call", "call.applicationStart <= todayDate" | where_exp: "call", "call.applicationEnd >= todayDate" %}
+            {% unless internships and internships.size > 0 %}
+                <p><i>No open calls are currently available.</i></p>
+            {% endunless %}
+        {% endif %}
+
+        {% include list-internships.html source=internships %}    
+    </div>
+</div>

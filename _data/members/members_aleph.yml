@@ -1,0 +1,54 @@
+current:
+  head:
+    - AlessandroTomasi
+
+  members:
+    - StefanoBerlato
+    - RiccardoLongo
+    - ZahraEbadiAnsaroudi
+
+  collaborators:
+    # -   # ID of the person
+      
+  students:
+    # - personId:       # ID of the person
+    #   type: B         # B for bachelor, M for master
+    #   topic:          # title of the topic/thesis/internship proposal
+    #   institution:    # e.g., University of Trento
+    #   yearFrom:       # e.g., 2022
+    #   yearTo:         # e.g., 2023
+
+  junior:
+    # -   # ID of the person
+      
+former:
+  head:
+    # - personId:       # ID of the person
+    #   formerRole:     # former role (textual)
+    #   yearFrom:       # e.g., 2010
+    #   yearTo:         # e.g., 2016
+
+  members:
+    - personId: GiacomoZanolli
+      formerRole: Junior Researcher
+      yearFrom: 2023
+      yearTo: 2023
+
+  phdStudents:
+    # - personId:       # ID of the person
+    #   thesisId:       # ID of the thesis
+  
+  students:
+    - personId: IonAndyDitu
+      type: B
+      topic: Trusted Execution Environments for Advanced Data Protection
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2023
+
+  junior:
+    # - personId:       # ID of the person
+    #   topic:          # title of the topic/thesis/internship proposal
+    #   institution:    # e.g., Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+    #   yearFrom:       # e.g., 2022
+    #   yearTo:         # e.g., 2023

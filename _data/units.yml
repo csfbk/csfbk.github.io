@@ -1,0 +1,20 @@
+- id: ALEPH
+  name: Applied Cryptography
+  acronym: ALEPH
+  logo: ALEPH_symbol.png
+  head: AlessandroTomasi
+  website: https://aleph.fbk.eu
+
+- id: RiSING
+  name: Robust and Secure Distributed Computing
+  acronym: RiSING
+  logo: RiSING_symbol.png
+  head: DomenicoSiracusa
+  website: https://rising.fbk.eu
+
+- id: ST
+  name: Security & Trust
+  acronym: ST
+  logo: ST_symbol.png
+  head: RobertoCarbone
+  website: https://st.fbk.eu

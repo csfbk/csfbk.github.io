@@ -1,0 +1,36 @@
+title: Center for Cybersecurity
+tagline: Research Center in Fondazione Bruno Kessler (FBK)
+logo: /assets/images/logos/CS.png
+remote_theme: chrisrhymes/bulma-clean-theme
+markdown: kramdown
+repository: csfbk/csfbk.github.io
+
+plugins:
+  - jekyll-redirect-from
+
+collections:
+  internships:
+    output: true
+    layout: page
+    show_sidebar: false
+  people:
+    output: true
+    layout: page
+    show_sidebar: false
+  topics:
+    output: true
+    layout: topic
+    show_sidebar: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logos/CS.png
+
+  - scope:
+      path: "_people/*-*"
+    values:
+      layout: person
+
+exclude: ["*/template*.md", "*/_template*.md", "README*.md"]

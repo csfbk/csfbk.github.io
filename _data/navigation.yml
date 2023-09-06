@@ -1,0 +1,9 @@
+- name: People
+  link: /people/
+- name: Internships
+  link: /internships/
+  dropdown:
+    - name: Open Calls
+      link: /internships/
+    - name: Archive
+      link: /internships/archive/
