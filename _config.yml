@@ -33,4 +33,4 @@ defaults:
     values:
       layout: person
 
-exclude: ["*/template*.md", "*/_template*.md", "README*.md"]
+exclude: ["*/template*.md", "*/_template*.md", "README*.md", "vendor"]
