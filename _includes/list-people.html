@@ -2,6 +2,7 @@
 {% assign details = include.details %}
 {% assign sort = include.sort %}
 {% assign style = include.style %}
+{% assign cols = include.cols %}
 
 {% assign peopleList = "" | split: "" %}
 {% assign peopleFilesList = site.data.people | sort %}
@@ -231,7 +232,7 @@
         {% endif %}
 
         {% if style == "card" %}
-            <div class="column is-3-desktop is-4-tablet">
+            <div class="column is-{% if cols %}{{ cols }}{% else %}3{% endif %}-desktop is-4-tablet">
                 <div class="card person">
                     {% if details contains "picture" %}
                         {% assign staticImageName = person.id | append: ".jpg" %}
