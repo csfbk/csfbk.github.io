@@ -27,15 +27,20 @@
 
 {% if source.size > 0 %}
 <ul class="publications">
-    {% assign publicationsFromId = "" | split: "" %}
+    {% assign publicationListID = "" | split: "" %}
     {% for publication in source %}
-        {% assign publicationFromId = publicationsList | where: "id", publication %}
-        {% assign publicationFromIdLabel = publicationsList | where: "id", publication.id %}
-        {% if publicationFromId.size > 0 %}
-            {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
-        {% elsif publicationFromIdLabel.size > 0 %}
-            {% assign publicationsFromId = publicationsFromId | push: publicationFromIdLabel[0] %}
+        {% if publication.id %}
+            {% assign publicationListID = publicationListID | push: publication.id %}
+        {% else %}
+            {% assign publicationListID = publicationListID | push: publication %}
         {% endif %}
+    {% endfor %}
+    {% assign publicationListIDUnique = publicationListID | uniq %}
+
+    {% assign publicationsFromId = "" | split: "" %}
+    {% for publication in publicationListIDUnique %}
+        {% assign publicationFromId = publicationsList | where: "id", publication %}
+        {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
     {% endfor %}
 
     {% if sort %}

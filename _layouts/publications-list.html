@@ -11,13 +11,15 @@ layout: page
         {% assign publicationsList = "" | split: "" %}
         {% for file in site.data.publications %}
             {% for publication in file[1] %}
-                {% assign publicationsList = publicationsList | push: publication %}
+                {% if publication.id_iris != nil %}
+                    {% assign publicationsList = publicationsList | push: publication %}
+                {% endif %}
             {% endfor %}
         {% endfor %}
         {% assign publicationsByYear = publicationsList | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
 
         {% for year in publicationsByYear %}
-            <h1>{{ year.name }} <small>({{ year.items.size }})</small></h1>
+            <h1>{{ year.name }}</h1>
             {% include list-publications.html source=year.items sort="title" %}
         {% endfor %}
     </div>
