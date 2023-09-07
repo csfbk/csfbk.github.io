@@ -14,5 +14,10 @@ To reduce risks, the crucial point is the co-development of digital technology a
 ## Mission
 In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu/en) (FBK), which aims to achieve results of scientific excellence and have an impact on society, the Center for Cybersecurity makes its techniques available to the largest number of organizations, including SMEs that make up a substantial part of the EU's economy but often lack cybersecurity expertise
 
-# Research Units
+# Organization
+## Director
+{% assign details = "picture, email, phone, personalPage" | split: ", " %}
+{% include list-people.html source=site.data.members.members_cs.current.head style="card" details=details cols=4 %}
+
+## Research Units
 {% include list-units.html source=site.data.units %}
