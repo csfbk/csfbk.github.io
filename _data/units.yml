@@ -1,9 +1,11 @@
+# Research Units
 - id: ALEPH
   name: Applied Cryptography
   acronym: ALEPH
   logo: ALEPH_symbol.png
   head: AlessandroTomasi
   website: https://aleph.fbk.eu
+  visible: true
 
 - id: RiSING
   name: Robust and Secure Distributed Computing
@@ -11,6 +13,7 @@
   logo: RiSING_symbol.png
   head: DomenicoSiracusa
   website: https://rising.fbk.eu
+  visible: true
 
 - id: ST
   name: Security & Trust
@@ -18,3 +21,4 @@
   logo: ST_symbol.png
   head: RobertoCarbone
   website: https://st.fbk.eu
+  visible: true

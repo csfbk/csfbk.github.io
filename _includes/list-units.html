@@ -13,7 +13,9 @@
 <div class="columns is-multiline">
     {% assign units = "" | split: "" %}
     {% for unit in source %}
-        {% assign units = units | push: unit %}
+        {% if unit.visible %}
+            {% assign units = units | push: unit %}
+        {% endif %}
     {% endfor %}
 
     {% if sort %}
