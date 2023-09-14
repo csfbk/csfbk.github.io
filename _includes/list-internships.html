@@ -44,7 +44,8 @@
             </div>
             {%- if call.projects.size > 0 -%}
                 <div class="university-projects">
-                    {% for project in call.projects %}
+                    {% assign projects_sorted = call.projects | sort_natural: "title" %}
+                    {% for project in projects_sorted %}
                         {% assign unitsFromId = "" | split: "" %}
                         {% if project.unit %}
                             {% if project.unit | first %}
@@ -113,43 +114,6 @@
                             {%- assign supervisorsString = supervisors | join: ", " -%}
                         {%- else -%}
                             {%- assign supervisorsString = nil -%}
-                        {%- endif -%}
-
-
-                        {% assign cosupervisorsFromId = "" | split: "" %}
-                        {% if project.cosupervisor %}
-                            {% if project.cosupervisor | first %}
-                                {% for cosupervisor in project.cosupervisor %}
-                                    {% assign cosupervisorFromId = peopleList | where: "id", cosupervisor %}
-                                    {% assign cosupervisorsFromId = cosupervisorsFromId | push: cosupervisorFromId[0] %}
-                                {% endfor %}
-                            {% else %}
-                                {% assign cosupervisorFromId = peopleList | where: "id", project.cosupervisor %}
-                                {% assign cosupervisorsFromId = cosupervisorsFromId | concat: cosupervisorFromId[0] %}
-                            {% endif %}
-                        {% endif %}
-
-                        {% assign cosupervisors = "" | split: "" %}
-                        {% for cosupervisor in cosupervisorsFromId %}
-                            {% assign cosupervisorName = cosupervisor.name | append: " " | append: cosupervisor.surname %}
-                            {% assign cosupervisorString = cosupervisorName %}
-
-                            {% assign cosupervisorEmail = nil %}
-                            {% if cosupervisor.email %}
-                                {% assign splitEmail = cosupervisor.email | split: '@' %}
-                                {% if splitEmail[1] == "fbk.eu" or splitEmail[1] == "futuroeconoscenza.it" %}
-                                    {% assign cosupervisorEmail = cosupervisor.email %}
-                                    {% assign cosupervisorString = cosupervisorString | append: ' (<a href=mailto:' | append: cosupervisorEmail | append: '>' | append: cosupervisorEmail | append: "</a>)" %}
-                                {% endif %}
-                            {% endif %}
-
-                            {% assign cosupervisors = cosupervisors | push: cosupervisorString %}
-                        {% endfor %}
-
-                        {%- if cosupervisors.size > 0 -%}
-                            {%- assign cosupervisorsString = cosupervisors | join: ", " -%}
-                        {%- else -%}
-                            {%- assign cosupervisorsString = nil -%}
                         {%- endif -%}
 
 
@@ -258,11 +222,34 @@
                         {%- if references.size > 0 -%}
                             {% capture referencesString %}
                                 <p style="margin-bottom: 5px;"><b>References:</b></p>
-                                <ol style="margin-top: 0px;">
-                                {% for reference in references %}
-                                    <li>{{ reference }}</li>
-                                {% endfor %}
-                                </ol>
+                                <ul style="margin-top: 0px; list-style-type: none;">
+                                    {% assign refCounter = 1 %}
+                                    {% for reference in references %}
+                                        {%- assign linksArray = "" | split: "" -%}
+                                        {%- assign linksString = nil -%}
+                                        {%- if reference.links -%}
+                                            {%- for link in reference.links -%}
+                                                {%- assign string = '<a href="' | append: link.url | append: '">' | append: link.name | append: '</a>' -%}
+                                                {%- assign linksArray = linksArray | push: string -%}
+                                            {%- endfor -%}
+                                        {%- endif -%}
+                                        {%- if linksArray.size > 0 -%}
+                                            {%- assign linksString = linksArray | join: ", " -%}
+                                        {%- endif -%}
+                                        <li>
+                                            {% if reference.id %}
+                                                [{{ reference.id }}]
+                                            {% else %}
+                                                [{{ refCounter }}]
+                                            {% endif %}
+                                            {{ reference.text }}
+                                            {% if linksString %}
+                                                • {{ linksString }}
+                                            {% endif %}
+                                            {% assign counter = counter ! plus: 1 %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
                             {% endcapture %}
                         {%- endif -%}
 
@@ -277,7 +264,7 @@
                                             {% if unit.website %}
                                                 <a href="{{ unit.website }}">
                                                 {% endif %}
-                                                <span class="tag tag-{{ unit.acronym | downcase }} unit">{{ unit.acronym }}</span>
+                                                <span class="tag tag-{{ unit.acronym | downcase | replace: ' ', '-' }} unit">{{ unit.acronym }}</span>
                                                 {% if unit.website %}
                                                 </a>
                                             {% endif %}
@@ -300,6 +287,7 @@
                                     {% endif %}
                                 </span>
                             </h2>
+                            {% if project.id %}<p><b>ID:</b> <tt>{{ project.id }}</tt></p>{% endif %}
                             {% if project.published %}<p><b>Published on:</b> {{ project.published | date: "%B %e, %Y" }}</p>{% endif %}
                             {% if project.description %}
                                 <div class="description">

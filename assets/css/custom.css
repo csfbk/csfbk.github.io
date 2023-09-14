@@ -505,20 +505,6 @@ section.page-top {
   margin-bottom: 1em;
 }
 
-.university-project ol {
-  counter-reset: list;
-  margin-left: 1em;
-}
-
-.university-project ol > li {
-  list-style: none;
-}
-
-.university-project ol > li:before {
-  content: "[" counter(list) "] ";
-  counter-increment: list;
-}
-
 .university-projects-call-header {
   margin-bottom: 30px;
 }
