@@ -21,7 +21,13 @@
   acronym: JISA
   url: https://www.journals.elsevier.com/journal-of-information-security-and-applications
   type: journal 
- 
+
+- id: TCS
+  name: Theoretical Computer Science
+  acronym: TCS
+  url: https://www.sciencedirect.com/journal/theoretical-computer-science
+  type: journal
+  
 - id: TOPS
   name: ACM Transactions on Privacy and Security 
   acronym: TOPS
