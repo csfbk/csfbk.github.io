@@ -175,6 +175,19 @@
   year: 2023
   doi: 10.5220/0012084000003555
 
+- id: TCS 2023 PaoloD'Arco
+  title: 'Multi-stage Proof-of-Works: Properties and vulnerabilities'
+  authors:
+  - PaoloD'Arco
+  - ZahraEbadiAnsaroudi
+  - FrancescoMogavero
+  destination: TCS
+  year: 2023
+  doi: 10.1016/j.tcs.2023.114108
+  isALEPH: true
+  destinationAddon: Volume 976
+  tags:
+  - DecentralizationOfTrust
 
 ## 2024
 # ...
