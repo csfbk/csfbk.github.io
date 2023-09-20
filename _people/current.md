@@ -26,8 +26,8 @@ permalink: /people/
 {% endfor %}
 {% include list-people.html source=unitHeads style="card" details=details %}
 
-{% assign details = "picture, role, internalUnit, email, phone" | split: ", " %}
 <h2>Members</h2>
+{% assign details = "picture, role, internalUnit, email, phone" | split: ", " %}
 {% assign unitMembers = "" | split: "" %}
 {% for file in site.data.members %}
     {% if file[0] != "members_cs" %}
@@ -39,6 +39,7 @@ permalink: /people/
 {% include list-people.html source=unitMembers style="card" details=details %}
 
 <h2>Collaborators</h2>
+{% assign details = "picture, role, institution, email, phone" | split: ", " %}
 {% assign unitCollaborators = "" | split: "" %}
 {% for file in site.data.members %}
     {% if file[0] != "members_cs" %}
