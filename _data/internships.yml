@@ -1,5 +1,6 @@
 calls:
   - id: c-2023-09
+    year: 2023
     applicationStart: "2023-09-14 00:00"
     applicationEnd: "2023-09-27 23:59"
     applicationForm: https://forms.gle/s7DbDUCGAMtDCQ3y5

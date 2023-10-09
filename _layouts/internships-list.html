@@ -11,7 +11,7 @@ show_sidebar: false
     <div class="column is-12">
         {% assign todayDate = "now" | date: "%Y-%m-%d %H:%M" %}
         {% if page.year %}
-            {% assign internships = site.data.internships.calls | where_exp: "call", "call.year == page.year" %}
+            {% assign internships = site.data.internships.calls | where_exp: "call", "call.year == page.year" | where_exp: "call", "call.applicationEnd < todayDate" %}
         {% else %}
             {% assign internships = site.data.internships.calls | where_exp: "call", "call.applicationStart <= todayDate" | where_exp: "call", "call.applicationEnd >= todayDate" %}
             {% unless internships and internships.size > 0 %}
