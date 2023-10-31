@@ -12,7 +12,7 @@
 #   email:                    # Email (optional)
 #   image:                    # External URL of a picture (optional)
 #   phone:                    # Phone number as a string (optional)
-#   website                   # External website of the person (optional)
+#   website:                  # External website of the person (optional)
 
 - id: AdamJLee
   name: Adam J.
@@ -185,6 +185,20 @@
   phone: "+390461314192"
   website: https://st.fbk.eu/people/silvio-ranise
   image: https://cs.fbk.eu/assets/areas/people/cs/SilvioRanise.jpg
+
+- id: SimoneBrunello
+  name: Simone
+  surname: Brunello
+  affiliations:
+    - role: Intern
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: Bachelor Student
+      unit: DISI
+      institution: University of Trento
+      place: Trento, Italy
+  email: sbrunello@fbk.eu
 
 - id: StefanoBerlato
   name: Stefano
