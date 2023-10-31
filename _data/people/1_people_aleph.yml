@@ -189,15 +189,6 @@
 - id: SimoneBrunello
   name: Simone
   surname: Brunello
-  affiliations:
-    - role: Intern
-      unit: Applied Cryptography
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-    - role: Bachelor Student
-      unit: DISI
-      institution: University of Trento
-      place: Trento, Italy
   email: sbrunello@fbk.eu
 
 - id: StefanoBerlato
