@@ -10,7 +10,7 @@ $('a').each(function() {
 });
 
 function setDefaultUserPicture(picture) {
-    //picture.src = "/assets/images/no-user.jpg";
+    picture.src = "/assets/images/no-user.jpg";
     return true;
 }
 

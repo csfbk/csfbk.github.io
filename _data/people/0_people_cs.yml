@@ -24,7 +24,10 @@
 - id: PietroDeMatteis
   name: Pietro
   surname: De Matteis
-  email: pietro.dematteis@dedagroup.it
+  affiliations:
+    - institution: Deda Group
+      place: Trento, Italy
+  email: pdematteis@fbk.eu
 
 - id: SilvioRanise
   name: Silvio
