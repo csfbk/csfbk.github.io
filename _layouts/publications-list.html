@@ -19,8 +19,16 @@ layout: page
         {% assign publicationsByYear = publicationsList | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
 
         {% for year in publicationsByYear %}
-            <h1>{{ year.name }}</h1>
+            <h1 class="year">{{ year.name }} <small>(<span id="number-publications-{{ year.name }}"></span>)</small></h1>
             {% include list-publications.html source=year.items sort="title" %}
         {% endfor %}
     </div>
 </div>
+
+<script>
+    $("h1.year").each(function() {
+        var year = $(this).clone().children().remove().end().text().trim();
+        var numberPublications = $(this).next("ul.publications").children("li").length;
+        $("#number-publications-" + year).text(numberPublications);
+    });
+</script>
