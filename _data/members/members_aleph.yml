@@ -6,6 +6,7 @@ current:
     - StefanoBerlato
     - RiccardoLongo
     - ZahraEbadiAnsaroudi
+    - IonAndyDitu
 
   collaborators:
     # -   # ID of the person
@@ -53,7 +54,7 @@ former:
     #   thesisId:       # ID of the thesis
   
   students:
-    - personId: IonAndyDitu
+    - personId: IonAndyDitu_BA
       type: B
       topic: Trusted Execution Environments for Advanced Data Protection
       institution: University of Trento
