@@ -17,9 +17,17 @@ current:
     #   institution:    # e.g., University of Trento
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
+
     - personId:       SimoneBrunello
       type:           B
       topic:          Enhancing Cryptographic Access Control with Predicates and Negative Permissions
+      institution:    University of Trento
+      yearFrom:       2023
+      # yearTo:         # e.g., 2023
+
+    - personId:       Marcosoldera
+      type:           B
+      topic:          Multi-Objective Microservice Orchestration
       institution:    University of Trento
       yearFrom:       2023
       # yearTo:         # e.g., 2023
