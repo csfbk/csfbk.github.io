@@ -104,7 +104,17 @@
 - id: IonAndyDitu
   name: Ion Andy
   surname: Ditu
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: iditu@fbk.eu
 
+- id: IonAndyDitu_BA
+  name: Ion Andy
+  surname: Ditu
+  
 - id: MarcoCentenaro
   name: Marco
   surname: Centenaro
