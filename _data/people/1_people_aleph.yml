@@ -109,6 +109,11 @@
   name: Marco
   surname: Centenaro
 
+- id: MarcoSoldera
+  name: Marco
+  surname: Soldera
+  email: msoldera@fbk.eu
+
 - id: MarianoCeccato
   name: Mariano
   surname: Ceccato
