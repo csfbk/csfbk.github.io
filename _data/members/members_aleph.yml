@@ -25,7 +25,7 @@ current:
       yearFrom:       2023
       # yearTo:         # e.g., 2023
 
-    - personId:       Marcosoldera
+    - personId:       MarcoSoldera
       type:           B
       topic:          Multi-Objective Microservice Orchestration
       institution:    University of Trento
