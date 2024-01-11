@@ -241,12 +241,12 @@
                                                 [{{ reference.id }}]
                                             {% else %}
                                                 [{{ refCounter }}]
+                                                {% assign refCounter = refCounter | plus: 1 %}
                                             {% endif %}
                                             {{ reference.text }}
                                             {% if linksString %}
                                                 • {{ linksString }}
                                             {% endif %}
-                                            {% assign counter = counter ! plus: 1 %}
                                         </li>
                                     {% endfor %}
                                 </ul>

@@ -17,7 +17,7 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu/en) (F
 # Organization
 ## Director
 {% assign details = "picture, email, phone, personalPage" | split: ", " %}
-{% include list-people.html source=site.data.members.members_cs.current.head style="card" details=details cols=4 %}
+{% include list-people.html source=site.data.members.members_cs.current.head style="card" details=details cols=3 %}
 
 ## Research Units
-{% include list-units.html source=site.data.units %}
+{% include list-units.html source=site.data.units cols=3 %}
