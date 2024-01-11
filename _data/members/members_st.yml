@@ -19,9 +19,9 @@ current:
     - RiccardoGermenia
     - CeciliaPasquini
     - GianlucaSassetti
+    - AndreaBisegna
 
   collaborators:
-    - AndreaBisegna
       
   students:
     - personId: MarioScuro
@@ -64,6 +64,20 @@ current:
       topic: Adversarial Attacks in AI and their Consequences
       institution: University of Trento
       yearFrom: 2023
+      yearTo: 2024
+
+    - personId: PierGuidoSeno
+      type: B
+      topic: Automatic Security Testing Tool for Identity Management Protocols
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2024
+
+    - personId: AgnieszkaKowalska
+      type: B
+      topic: Automatic Security Testing Tool for Identity Management Protocols
+      institution: University of Trento
+      yearFrom: 2024
       yearTo: 2024
 
   junior:    
