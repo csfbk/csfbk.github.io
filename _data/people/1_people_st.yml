@@ -17,6 +17,11 @@
   name: Adrien
   surname: Beaugendre
 
+- id: AgnieszkaKowalska
+  name: Agnieszka
+  surname: Kowalska
+  usernameFBK: akowalska
+
 - id: AlbertoCalvi
   name: Alberto
   surname: Calvi
@@ -103,8 +108,10 @@
   name: Andrea
   surname: Bisegna
   affiliations:
-    - role: Employee
-      institution: "Futuro & Conoscenza"
+    - role: Technologist
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
   email: a.bisegna@fbk.eu
 
 - id: AndreaBrandolini
@@ -766,6 +773,11 @@
 - id: PaoloPrem
   name: Paolo
   surname: Prem
+
+- id: PierGuidoSeno
+  name: Pier Guido
+  surname: Seno
+  usernameFBK: pseno
 
 - id: RayhanaTaoufik
   name: Rayhana
