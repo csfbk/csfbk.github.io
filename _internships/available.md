@@ -17,6 +17,4 @@ This page lists the internship projects currently available in the Center for Cy
     <p>For general information, you can write an email to <b><a href="mailto:internships-cs@fbk.eu">internships-cs@fbk.eu</a></b>; please note that applications sent via email will <u>not</u> be taken into consideration.</p>
 </blockquote>
 
-<b>The next call will take place in January 2024.</b>
-
 {% include toc.md %}

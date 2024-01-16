@@ -745,3 +745,629 @@ calls:
           - Software Development Life Cycle (SDLC)
           - Container and orchestrator
         notes: Multiple positions available.
+
+  - id: c-2024-01
+    year: 2024
+    applicationStart: "2024-01-16 00:00"
+    applicationEnd: "2024-01-31 23:59"
+    applicationForm: https://forms.gle/RVPjphUuTz5GMGHd6
+    projects:
+      # ALEPH
+      - id: p-2024-01-aleph-1
+        title: Access Control for BPMN — Implementation, Constraints, and Resilience        
+        description: >
+          Workflows represent a series of activities that need to be executed in a specific order to achieve a certain goal. Business Process Model and Notation (BPMN) is the standard most widely adopted by organizations to model business processes as workflows. Within this context, the FBK's Center for Cybersecurity developed a methodology for deriving role-based access control policies from BPMN workflows automatically based on their syntax and that of BPMN symbols [1, 2]. The main goal of this project revolves around the implementation of the aforementioned methodology in a programming language of choice (e.g., Python, Kotlin, Rust). The project then seeks to enhance the capabilities of the aforementioned methodology to include the specification of constraints such as (dynamic and static) separation of duty. Finally — according to the time available — the project aims to investigate the relationship between the access control policies derived from BPMN workflows and the concepts of policy resiliency, workflow satisfiability, and policy change impact analysis.
+        level:
+          - BSc
+          - MSc
+        unit:
+          - ALEPH
+          - ST
+        supervisor:
+          - StefanoBerlato
+          - RobertoCarbone
+          - AlessandroTomasi
+        prerequisites:
+          - Basic knowledge of IT security.
+          - Basic knowledge of object-oriented programming languages (i.e., Kotlin).
+          - Knowledge of access control models and BPMN (although not required) would be advantageous.
+        objectives:
+          - Familiarization and study of the context (i.e., BPMN workflows, RBAC) and the methodology proposed by the FBK's Center for Cybersecurity.
+          - Enhancement of the aforementioned methodology to support the specification of further constraints.
+          - Implementation of the methodology and (optional) investigation of the concepts of policy resiliency, workflow satisfiability, and policy change impact analysis.
+        topics:
+          - Access Control
+          - Workflows
+          - BPMN
+        references:
+          - text: ACE
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/tools/ACE
+          - text: ANNA
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/tools/ANNA
+        notes: >
+          The objectives may be weighted differently according to interest, availability, and the chosen topic.
+
+      - id: p-2024-01-aleph-2
+        title: Cryptographic Access Control for Blockchain-based Applications       
+        description: >
+          Given the limited trust and inherently centralized nature of Cloud-based applications, the blockchain emerges as the ideal solution to guarantee the integrity and the confidentiality of sensitive data in cross-organizational scenarios. However, the basic security properties offered by the blockchain should be coupled with fine-grained access control policies (e.g., role- and attribute-based access control) enforced through cryptography (e.g., hybrid cryptography, multi-authority attribute-based encryption) for best security. The main goal of this project is to investigate how cryptographic access control is and can be used in blockchain-based applications to enforce access control policies in complex cross-organizational scenarios.
+        level:
+          - BSc
+          - MSc
+        unit:
+          - ALEPH
+          - ST
+        supervisor:
+          - StefanoBerlato
+          - RobertoCarbone
+          - RiccardoLongo
+        prerequisites:
+          - Basic knowledge of IT security.
+          - Basic knowledge of cryptography from cryptography-related courses.
+          - Basic knowledge of object-oriented programming languages (i.e., Kotlin).
+        objectives:
+          - Familiarization and study of the state of the art in the use of the Blockchain for advanced data protection.
+          - Evaluation of available techniques and design of a solution joining cryptographic access control with the Blockchain for high assurance of data integrity and confidentiality.
+          - Implementation of the proposed approach in a tool developed and actively maintained by the FBK's Center for Cybersecurity [1].
+        topics:
+          - Access Control
+          - Cryptography
+          - Blockchain
+        references:
+          - text: CryptoAC
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/tools/CryptoAC
+
+      - id: p-2024-01-aleph-3
+        title: Cryptographic Revocation
+        description: >
+          There is a strong interest in privacy-enhancing technologies to satisfy the complex requirements of digital identity, in particular minimizing the personal data shared at each presentation and preventing others from correlating the activity of digital identity credential holders between presentations. Important use cases are the Mobile Driver's License (ISO 18013-5) and the European Digital Identity Wallet.<br />
+          Cryptographic accumulators, e.g., [BdM93, N05, LLX07, BBF18, VB20] are efficient protocols to prove set (non-)membership that have been proposed as privacy-enhancing credential revocation mechanisms for digital credentials, e.g., [CL02].<br />
+          During the internship, you will have an opportunity to consider theoretical and practical aspects of these technologies, to be agreed upon based on your interest and prior knowledge. We are particularly interested in a performance comparison of algorithms of interest, possibly using existing libraries (e.g., accumulator-rs).
+        level: MSc
+        unit: ALEPH
+        supervisor:
+          - AlessandroTomasi
+        prerequisites:
+          - An undergraduate course in cryptography is required for basic notions.
+          - "Knowledge of one or more of the following would be highly advantageous: RSA, elliptic curve cryptography, zero-knowledge proofs, programming in Python or Rust."
+          - Knowledge of programming languages (i.e., Python, Rust) would be highly advantageous.
+        objectives:
+          - Summary of chosen technologies.
+          - Comparison of technologies on metrics of interest for the chosen scenario, e.g., complexity (number of operations), proof size, and offline functionality.
+          - Exploration of alternatives for cryptographic agility, e.g., other elliptic curves or hash functions.
+        topics:
+          - Digital Identity
+          - Cryptography
+          - Privacy Enhancing Technologies
+        references:
+          - id: BBF18
+            text: "\"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains\". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/978-3-030-26948-7_20
+              - name: Video
+                url: https://www.youtube.com/watch?v=gui-D_Og61w"
+          - id: BdM93
+            text: "\"One-way accumulators: a decentralized alternative to digital signatures.\" J C Benaloh, M de Mare, Eurocrypt 93."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/3-540-48285-7_24
+          - id: CL02
+            text: "\"Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials.\" J Camenisch, A Lysyanskaya, CRYPTO 2002."
+            links:
+              - name: DOI
+                url: https://10.1007/3-540-45708-9_5"
+          - id: LLX07
+            text: "\"Universal Accumulators with Efficient Nonmembership Proofs\". Li, J., Li, N., Xue, R., 2007."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/978-3-540-72738-5_17
+          - id: N05
+            text: "\"Accumulators from Bilinear Pairings and Applications.\" L Nguyen, CT-RSA 2005."
+            links:
+            - name: DOI
+              url: https://doi.org/10.1007/978-3-540-30574-3_19
+          - id: VB20
+            text: "\"Dynamic Universal Accumulator with Batch Update over Bilinear Groups\". G. Vitto, A. Biryukov, IACR 2020, CT-RSA 2022."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/978-3-030-95312-6_17
+              - name: Video
+                url: https://www.youtube.com/watch?v=Zi9pJpZKHX0
+          - id: CHAHC22
+            text: "\"Curve Trees: Practical and Transparent Zero-Knowledge Accumulators.\" M Campanelli, M Hall-Andersen, S Holmgaard Kamp."
+            links:
+              - name: Link
+                url: https://ia.cr/2022/756
+        notes: >
+          The objectives may be weighted differently according to interest, availability, and the chosen topic.
+
+      - id: p-2024-01-aleph-4
+        title: Key Recovery
+        description: >
+          Safeguarding private keys presents many issues, especially for the general public. Private keys can be easily lost or forgotten, leading to the inaccessibility of the assets which they control.
+          On the other hand, delegating full control of the keys to a third party for safekeeping is risky and may not be viable.
+          We would like to implement and test a recently proposed cryptographic key recovery scheme [BLM22] based on a distributed secret sharing that allows some parties to be offline during the key-generation process.
+        level: MSc
+        unit: ALEPH
+        supervisor:
+          - RiccardoLongo
+          - AlessandroTomasi
+        prerequisites:
+          - Knowledge of secret sharing and Elliptic Curve Cryptography.
+          - Programming experience in Rust, C, Python, or equivalent.
+          - Knowledge of Pedersen commitment is not required but would be beneficial.
+        objectives:
+          - Development of a cryptographic proof of concept software.
+          - Performance evaluation and comparison.
+        topics:
+          - Secret Sharing
+          - Decentralization
+        references:
+          - text: "Aleph: e-voting"
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/projects/e-voting
+          - id: BLM22
+            text: "M Battagliola, R Longo, A Meneghetti: Extensible Decentralized Secret Sharing and Application to Schnorr Signatures."
+            links:
+              - name : Link
+                url: https://eprint.iacr.org/2022/1551
+
+      - id: p-2024-01-aleph-5
+        title: Machine Learning Insights into Cryptographic Unlinkability for Digital Identity Protection
+        description: >
+          Studying unlinkability in the world of digital identity holds significant importance. It helps create strong and privacy-preserving digital identity systems, allowing people to protect their privacy, by preventing others from linking their actions and building profiles. A good example use case of this study is the European Digital Identity Wallet, which stores information such as IDs and mobile driving licenses.<br />
+          Cryptographic techniques such as selective disclosure and zero-knowledge mechanisms [1,2,3] can ensure that digital identity systems provide only the necessary information, contributing to unlikability of identity credentials and user privacy in regards.  However, it's imperative to question the reliability of these techniques.<br />
+          Machine learning, with its proficiency in pattern recognition and data analysis, is  a powerful tool in this context. It possesses the capability to uncover hidden links and vulnerabilities within identity systems, enabling the detection and mitigation of re-identification and profiling [4]. During your internship, you'll get a chance to explore both the theory and practical aspects of these techniques, based on your interests and prior knowledge. Our primary focus will be on investigating the key factors that contribute to the unlinkability of identity credentials, with a special emphasis on the implementation of unlinkability techniques, particularly in the context of identity creation and presentation within relevant use cases. We'll also use machine learning to see how any of these key factors can make it easier or harder to stay anonymous. 
+        level: MSc
+        unit: ALEPH
+        supervisor:
+          - AlessandroTomasi
+          - ZahraEbadiAnsaroudi
+        prerequisites:
+          - An undergraduate course in cryptography is required for basic notions.
+          - "Having expertise in the following areas would provide a significant advantage: An understanding of selective disclosure and zero-knowledge proofs; Knowledge of machine learning, covering algorithms, frameworks (e.g., https://scikit-learn.org/), data preprocessing, model evaluation, and deployment; Proficiency in programming languages, specifically Python or R."
+        objectives:
+          - State-of-the-art study on available cryptographic unlinkability techniques, 
+          - Comparison of the unlinkability techniques on metrics of interest for the chosen unlikability scenarios and case studies. This could be employing machine-learning-based analysis and proving whether the unlinkability is violated for chosen case studies or not.
+        topics:
+          - Digital Identity (Verifiable Credentials)
+          - Cryptography and Privacy Enhancing Technologies
+          - Machine Learning
+        references:
+          - text: "Alpár, G., Jacobs, B.: Credential design in attribute-based identity management (2013)."
+          - text: "Camenisch, J., Lysyanskaya, A.: An efficient system for non-transferable anonymous credentials with optional anonymity revocation. In: Advances in Cryptology—EUROCRYPT 2001: International Conference on the Theory and Application of Cryptographic Techniques Innsbruck, Austria, May 6–10, 2001 Proceedings 20. pp. 93–118. Springer (2001)."
+          - text: "Ringers, S., Verheul, E., Hoepman, J.H.: An efficient self-blindable attribute-based credential scheme. In: Financial Cryptography and Data Security: 21st International Conference, FC 2017, Sliema, Malta, April 3-7, 2017, Revised Selected Papers 21. pp. 3–20. Springer (2017)."
+          - text: "Van Otterlo, M.: A machine learning view on profiling. Privacy, Due Process and the Computational Turn-Philosophers of Law Meet Philosophers of Technology. Abingdon: Routledge pp. 41–64 (2013)."
+        notes: >
+          The objectives can be tailored according to the intern's interests and the focus of the project.
+
+      - id: p-2024-01-aleph-6
+        title: Revocation Scalability
+        description: >
+          Revocation of X.509 certificates on the web is commonly addressed by Certificate Revocation Lists [CRL] and Online Certificate Status Protocol [OCSP]. The most common scenario is one in which the certificate Holder is a web server, the certificate Verifier is a desktop-run web browser, and the revocation Responder is also a web server. Scalability of this model to large numbers of Verifiers may be handled by content delivery networks.<br />
+          New scenarios of interest are emerging, including the Mobile Driving License [ISO18013-5], in which both Holder and Verifier may be edge devices, either or both of which may be offline for significant periods of time, and both have fewer resources than the web-based client-server scenario. New mechanisms are also being considered, e.g. [JCSL], as well as cryptographic revocation. It is not obvious in all possible scenarios what the best balance would be between frequency of revocation status requests, frequency of issuance (signature) of attestations and revocation information, and bandwidth consumed, given the different options available for implementing technologies, while at the same time guaranteeing the greatest degree of security and privacy for all participants.<br />
+          During the internship, you will have an opportunity to consider theoretical and practical aspects of these technologies, to be agreed based on your interest and prior knowledge.
+        level:
+          - BSc
+          - MSc
+        unit:
+          - ALEPH
+          - RiSING
+        supervisor:
+          - AlessandroTomasi
+          - DomenicoSiracusa
+        prerequisites:
+          - Basic knowledge of PKI would be beneficial.
+          - "Knowledge of the following would be advantageous: Public Key Infrastructure (PKI), CRL and OCSP."
+        objectives:
+          - Summary of technologies under consideration
+          - Comparison of technologies on metrics of interest for the chosen scenario - a mobile wallet and edge device reader
+          - Implementation and performance evaluation of a Proof of Concept
+          - Exploration of alternatives for cryptographic agility, e.g., other elliptic curves or hash functions
+        topics:
+          - Digital Identity
+          - Revocation
+        references:
+          - id: CRL
+            text: "\"Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile\". RFC 5280."
+            links:
+              - name: Link
+                url: https://datatracker.ietf.org/doc/rfc5280/
+          - id: ISO18013-5
+            text: "ISO/IEC 18013-5, Personal identification — ISO-compliant driving licence — Part 5: Mobile driving licence (mDL) application, First edition, 2021-09."
+          - id: JCSL
+            text: "\"WT and CWT Status List\". T, Looker et al., 10 July 2023."
+            links:
+              - name: Link
+                url: https://datatracker.ietf.org/doc/draft-looker-oauth-jwt-cwt-status-list/"
+          - id: OCSP
+            text: "\"X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP\". RFC 6960."
+            links:
+              - name: Link
+                url: https://datatracker.ietf.org/doc/html/rfc6960
+        notes: >
+          The objectives may be weighted differently according to interest, availability, and the chosen topic.
+
+      - id: p-2024-01-aleph-7
+        title: Rust E-voting Cryptographic Library
+        description: >
+          Electronic voting (e-voting) includes processes in whole or in part executed by electronic means, such as by using voting machines to cast ballots, using scanners to digitize paper ballots, or casting votes remotely over the internet (i-voting).<br />
+          Cryptography is at the heart of end-to-end verifiable protocols, including additively homomorphic encryption to tally votes without decrypting each one, secure multi-party computation to avoid a single authority from having all private keys, and zero-knowledge proofs to prove ballot correctness, among other properties.<br />
+          During a recent e-voting project, we developed a library for cryptographic functions in Python based on the MIRACL core library and the protocol summarized in [LMST22]. The successful applicant will have the opportunity to assist in performing the same task in the more secure and performant Rust language.
+        level: MSc
+        unit: ALEPH
+        supervisor:
+          - RiccardoLongo
+          - AlessandroTomasi
+        prerequisites:
+          - Knowledge of ElGamal, secret sharing, and Elliptic Curve Cryptography.
+          - Programming experience in Rust, C, Python, or equivalent.
+        objectives:
+          - Development of a cryptographic library.
+          - Performance evaluation and comparison.
+        topics:
+          - Electronic voting
+          - Zero-knowledge
+          - Secure multi-party cryptography
+        references:
+          - text: "Aleph: e-voting"
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/projects/e-voting
+          - text: The MIRACL Core Cryptographic Library
+            links:
+              - name: Link
+                url: https://github.com/miracl/core"
+          - id: LMST22
+            text: "Riccardo Longo, Umberto Morelli, Chiara Spadafora, Alessandro Tomasi. Adaptation of an i-voting scheme to Italian Elections for Citizens Abroad. In: Seventh International Joint Conference on Electronic Voting (E-Vote-ID 2022)."
+            links:
+              - name: DOI
+                url: https://doi.org/10.15157/diss/027
+      
+      # CLEANSE
+      - id: p-2024-01-cil-1
+        title: DevSecOps for Cloud Native Applications
+        description: >
+          "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."<br />
+          DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.<br />
+          For Cloud Native Applications, security regards multiple levels (code, container, deployment, orchestrator, etc.) and the approach to introduce security should consider all of them.
+        level:
+          - BSc
+          - MSc
+        unit: CIL_DG
+        supervisor:
+          - PietroDeMatteis
+        prerequisites:
+          - Knowledge base of Software Development Life Cycle (optional).
+          - Basic Knowledge with Kubernetes, DevOps or DevSecOps tools (optional).
+        objectives: >
+          The main target is related cloud native application development life cicle, based on micriservices and distribuited deployment (for example Docker and Kubernetes).<br />
+          Additional:
+          <ul>
+            <li>analyze scenarios and use cases</li>
+            <li>evaluate guidelines, best practices and tools</li>
+            <li>analyze SAST, DAST and SCA tools to use in a CI/CD pipeline</li>
+          </ul>
+        topics:
+          - Cloud Native Applications
+          - Secure coding
+          - Software Development Life Cycle (SDLC)
+          - DevSecOps
+          - Container and orchestrator
+        notes: Multiple positions available.
+
+      - id: p-2024-01-cil-2
+        title: Enforcing policy based control for cloud native applications
+        description: >
+          Created as an extension of the DevOps methodology, DevSecOps adds security constraints to the cloud-native applications deployment and lifecycle maintenance [1]. By fostering teamwork and automating checks, it speeds up delivery while keeping software safer, ensuring the use of security best practices in each part of the software development.
+        level:
+          - BSc
+        unit:
+          - CIL_DG
+          - RiSING
+        supervisor:
+          - PietroDeMatteis
+          - LuisAugustoDiasKnob
+        prerequisites:
+          - Knowledge of Computer Networking and Cloud Computing.
+          - Basic Knowledge with Kubernetes, DevOps or DevSecOps tools.
+        objectives: >
+          In this project, we are interested in exploring the validation and assurance of a set of security constraints in the container lifecycle, since its container image creation through the execution phase using a policy-based control framework, e.g. OPA[2]. We also want to implement an automated system trigger if some of the constraints fails, recreating the container image or reconfiguring it, if necessary.
+        topics:
+          - Cloud Computing
+          - Security Policy-based Controls
+          - DevSecOps
+        notes: Multiple positions available.
+        references:
+          - text: "Myrbakken, H., & Colomo-Palacios, R. (2017). DevSecOps: a multivocal literature review. In Software Process Improvement and Capability Determination: 17th International Conference, SPICE 2017, Palma de Mallorca, Spain, October 4–5, 2017, Proceedings (pp. 17-29). Springer International Publishing."
+          - text: https://www.openpolicyagent.org/
+            links:
+              - name: Link
+                url: https://www.openpolicyagent.org/
+
+      # RiSING
+      - id: p-2024-01-rising-1
+        title: Creating a testing enviroment in Kubernetes Orchestration with KWOK
+        description: >
+          Kubernetes Without Kubelet (KWOK) [1][2] is an experimental tool that is able to simulate large Kubernetes clusters with a very limited footprint on the system. While setting up regular Kubernetes clusters --- even for testing and educational purposes --- requires time, resources and even an innocent mistake may require a full redeployment, KWOK allows the provisioning of multiple clusters, each with hundreds of nodes, with no overhead and full compatibility with all the Kubernetes ecosystem. Workloads that are deployed will be transparently simulated on the system, reflecting any configuration provided by users (redundancy, quotas, labels) and reacting accordingly, just like a real cluster.<br />
+          The objective of this internship project is twofold. First, candidates will get acquainted with container orchestration and how to the Kubernetes works, the interactions between all the modules, and the configuratgions needed to run custom schedulers, CRDs, proxies and tools. Second, the candidate will learn more about CRDs and custom projects using K8s, testing in the KWOK a custom scheduler.
+        level:
+          - BSc
+        unit: RiSING
+        supervisor:
+          - LuisAugustoDiasKnob
+        prerequisites:
+          - Knowledge of computer networking
+          - Basic Knowledge with Kubernetes
+        topics:
+          - Kubernetes
+          - Cloud orchestration
+        references:
+          - id: 1
+            text: "https://kubernetes.io/blog/2023/03/01/introducing-kwok/"
+            links:
+              - name: Link
+                url: https://kubernetes.io/blog/2023/03/01/introducing-kwok/
+          - id: 2
+            text: https://github.com/kubernetes-sigs/kwok
+            links:
+              - name: Link
+                url: https://github.com/kubernetes-sigs/kwok
+
+      - id: p-2024-01-rising-2
+        title: Robustness of Intrusion Detection Systems against Adversarial Machine Learning attacks
+        description: >
+          A Network Intrusion Detection System (NIDS) serves as the initial line of defence against network attacks that threaten the integrity of data, systems, and networks. Over recent years, Deep Neural Networks (DNNs) have been increasingly used in NIDSs to detect malicious traffic due to their remarkable accuracy in identifying malicious network activity. Nonetheless, DNNs exhibit susceptibility to Adversarial Machine Learning (AML) attacks, where subtle alterations to input data can lead to misclassification by the neural network. This vulnerability has particularly severe consequences, as adversarial attacks pose a substantial threat to overall network security. While the majority of current research in the field of AML has been directed towards computer vision tasks like image classification and object recognition, there has been a notable increase in interest and activity within the cybersecurity domain. Nevertheless, several challenges persist in this domain, encompassing both performance-related issues and the practicality of applying these methods to real-world scenarios. The primary objective of this project is to explore innovative and practical methodologies aimed at enhancing the resilience of NIDSs against AML attacks.
+        level: MSc
+        unit: RiSING
+        supervisor:
+          - RobertoDoriguzziCorin
+        prerequisites:
+          - Basic knowledge of network security
+          - Basic knowledge of computer networking 
+          - Basic knowledge of the Python programming language and Deep Learning libraries
+        objectives:
+          - Familiarization and study of the state-of-the-art related to AML attacks and defenses
+          - Evaluation of available AML techniques against state-of-the-art DL-based NIDS to spot limitations in the existing solutions
+          - Design and implementation of a novel solution
+        topics:
+          - Network security
+          - Deep learning
+          - Adversarial Machine Learning
+        references:
+          - text: 'He, Ke, Dan Dongseong Kim, and Muhammad Rizwan Asghar. "Adversarial machine learning for network intrusion detection systems: a comprehensive survey." IEEE Communications Surveys & Tutorials (2023).'
+          - text: 'Alhajjar, Elie, Paul Maxwell, and Nathaniel Bastian. "Adversarial machine learning in network intrusion detection systems." Expert Systems with Applications 186 (2021): 115782.'
+          - text: 'Jmila, Houda, and Mohamed Ibn Khedher. "Adversarial machine learning for network intrusion detection: A comparative study." Computer Networks 214 (2022): 109073.'
+
+      # ST
+      - id: p-2024-01-st-1
+        title: Automatic Security Testing Tool for Identity Management Protocols
+        description: >
+          Identity Management (IdM) protocols are the protocols supporting Single-Sign On (SSO) which is an authentication schema allowing the user to access different services using the same set of credentials. Two of the most known IdM protocols are SAML 2.0 SSO and OAuth 2.0/OpenID Connect. Several solutions for corporations like Google, Meta (Facebook) and for Public Administration like eIDAS and SPID are based on IdM protocols. We propose improving the tool to extend its capabilities by designing and implementing new features.
+        level:
+          - BSc
+          - MSc
+        unit:
+          - CIL_DG
+          - ST
+        supervisor:
+          - AndreaBisegna
+          - RobertoCarbone
+        prerequisites: Preferably basic knowledge of Java.
+        objectives:
+          - Literature Review (guidelines and best practices)
+          - Ethical analysis
+          - Risk Assessment
+        topics:
+          - Identity Management protocols
+          - Attack patterns
+          - Penetration testing
+        notes: Multiple positions available.
+
+      - id: p-2024-01-st-2
+        title: Automated Privacy Posture Assessment of OpenID Connect Solutions 
+        description: >
+          OpenID Connect (OIDC) has shown to need a set of privacy best current practices (BCPs), since only a handful of guidelines can be found in this regard. In 2023, we provided a set of BCPs to fill that gap (Sassetti et al.), as well as an assessment of the privacy posture of several OIDC Providers (OPs). The results have shown that only a few OPs provide high baseline privacy, whereas many others implement only bare minimum requirements. Though, one of the issues of the analysis was the lack of automation, thus impacting its scale.<br />
+          As a new line of work, we plan on automating the assessment of the privacy posture of OPs and extending it to web applications that are integrating the solutions of identified OPs. This can be done either by using pentesting tools, i.e., Micro-Id-Gym (MIG) (Bisegna et al.), or with autonomously developed scripts; a third hybrid approach can be considered. 
+        level:
+          - MSc
+        unit: ST
+        supervisor:
+          - GianlucaSassetti
+          - AmirSharif
+          - RobertoCarbone
+        prerequisites:
+          - Basic understanding of cybersecurity principles.
+          - Knowledge of the OpenID Connect protocol is a plus (soft-requirement).
+          - Strong analytical and problem-solving skills.
+        objectives: >
+          The main objectives of this internship project are as follows:
+          <ul>
+            <li>Extend the analysis of OPs by designing a way to automate the testing of OPs (MIG or script) and confirming the previous results;</li>
+            <li>Extend the analysis to a larger number of OPs, given the fact that the analysis is now automated;</li>
+            <li>Extend the analysis of the privacy posture to web applications and test a large number of web applications.</li>
+          </ul>
+          The results would give us a better-defined picture of the privacy posture of the OIDC actors. We can derive a more accurate analysis of the OIDC environment; such results can be extremely relevant for both the industry and academia. This can additionally have impacts on real-world applications.
+        topics:
+          - OAuth/OIDC
+          - Privacy
+          - API Testing
+          - GDPR
+
+      - id: p-2024-01-st-3
+        title: Automated Vulnerability Detection for Mobile TLS Deployments
+        description: >
+          TLSAssistant v2 is the latest version of our state-of-the-art analysis tool [1], a modular framework able to perform a wide set of checks and easily extensible with new features. Its main focus is to streamline the mitigation process of known and newly discovered TLS attacks, even for non-expert users, and it has recently gained the ability to assess security compliance against EU and US regulations.<br />
+          The primary objective of this internship is to enhance its analysis capabilities by implementing a novel module able to perform static security assessments of Android and iOS applications. The module will be based on the powerful SEBASTiAn [2] open-source tool, developed by a spin-off company of the University of Genova. Working with a state-of-the-art tool and newly discovered vulnerabilities, the candidate will need determination and a willingness to overcome the challenges he or she is likely to face.
+        level:
+          - BSc
+          - MSc
+        unit: ST
+        supervisor:
+          - SalvatoreManfredi
+          - MatteoRizzi
+        prerequisites:
+          - Experience with Python 3 development
+          - Basic knowledge of the TLS protocol
+          - Problem-solving
+        topics:
+          - Research tool
+          - Android vulnerability detection
+          - Actionable mitigations
+          - TLS misconfiguration
+        timeFrame: Available starting from January 2024
+        notes: Multiple positions available.
+        references:
+          - id: 1
+            text: "TLSAssistant: Fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks"
+            links:
+              - name: Link
+                url: https://github.com/stfbk/tlsassistant
+          - id: 2
+            text: SEBASTiAn
+            links:
+              - name: Link
+                url: https://github.com/talos-security/SEBASTiAn
+
+      - id: p-2024-01-st-4
+        title: BAS tools - Analysis of state-of-the-art techniques and their impact
+        description: >
+          A Breach and Attack Simulation (BAS) tool is a cybersecurity solution designed to assess and improve the security posture of an organization's IT infrastructure. BAS tools simulate TTP (Tactics, Techniques, and Procedures) of advanced real-world cyberattacks and security breaches in a controlled environment to evaluate the effectiveness of an organization's security defenses. The primary goal of a BAS is to identify vulnerabilities, misconfigurations, and weaknesses in security controls before real attackers can exploit them.<br />
+          The primary objective of this internship is to perform a literature review on the state-of-the-art, comparing the capabilities of existing tools, their features, and how they can be replicated.
+        level:
+          - BSc
+        unit:
+          - CIL_DG
+          - ST
+        supervisor:
+          - MatteoRizzi
+          - SalvatoreManfredi
+          - PietroDeMatteis
+        prerequisites:
+          - Knowledge of common attacks (e.g. phishing, sniffing), the more the better
+          - Knowledge of virtualization techniques
+          - Problem-solving
+          - Researching topics with a critical eye
+        objectives:
+          - Perform a literature review on the state-of-the-art in terms of tools and techniques, listing their features, applicability and scope
+          - Analyze and propose scenarios and use cases, along with their limitations, impact and feasibility
+        topics:
+          - Research tool
+          - Security posture
+          - Attack patterns
+        notes: Only available as an Internship+thesis pair
+        references:
+          - text: https://capec.mitre.org
+            links:
+              - name: Link
+                url: https://capec.mitre.org
+          - text: https://attack.mitre.org
+            links:
+              - name: Link
+                url: https://attack.mitre.org
+          - text: https://d3fend.mitre.org
+            links:
+              - name: Link
+                url: https://d3fend.mitre.org
+          - text: https://ransomfeed.it
+            links:
+              - name: Link
+                url: https://ransomfeed.it
+          - text: https://caldera.mitre.org
+            links:
+              - name: Link
+                url: https://caldera.mitre.org
+          - text: https://www.akamai.com/infectionmonkey
+            links:
+              - name: Link
+                url: https://www.akamai.com/infectionmonkey
+
+      - id: p-2024-01-st-5
+        title: BAS tools - Implementation of an attack pattern to mimic a threat actor
+        description: >
+          A Breach and Attack Simulation (BAS) tool is a cybersecurity solution designed to assess and improve the security posture of an organization's IT infrastructure. BAS tools simulate TTP (Tactics, Techniques, and Procedures) of advanced real-world cyberattacks and security breaches in a controlled environment to evaluate the effectiveness of an organization's security defenses. The primary goal of a BAS is to identify vulnerabilities, misconfigurations, and weaknesses in security controls before real attackers can exploit them.<br />
+          Focusing on the future replicability of the task performed, the principal aim of this internship is to implement a proposed use-case utilizing a fully functional open-source BAS/Adversary Emulation tool.  By the end of the internship, the intern should have developed a thorough comprehension of the present state of threats and will have successfully simulated a highly consequential one, ultimately offering mitigation strategies. It would be ideal if the intern devised a method for constructing payloads that simulate advanced cyberattacks with ease, thereby establishing a modular and replicable approach.
+        level:
+          - BSc
+          - MSc
+        unit:
+          - CIL_DG
+          - ST
+        supervisor:
+          - MatteoRizzi
+          - SalvatoreManfredi
+          - PietroDeMatteis
+        prerequisites:
+          - Being able to work with YAML files 
+          - Experience with a programming language at your choice (better if Python or rustlang)
+          - Knowledge of common attacks (e.g. phishing, sniffing), the more the better
+          - Knowledge of virtualization techniques
+          - Problem-solving
+        objectives:
+          - Implement a proposed use-case utilizing a fully functional open-source Breach and Attack Simulation (BAS) or Adversary Emulation tool. 
+          - Gain a comprehensive understanding of the current threat landscape and the most significant threats organizations face.
+          - Ensure the work is well-documented and the attack simulations are replicable. 
+          - Identify vulnerabilities, gaps in security controls, and other weaknesses revealed by the attack simulations. Provide actionable recommendations for improving defenses against the simulated threat.
+        topics:
+          - Research tool
+          - Security posture
+          - Attack patterns
+        timeFrame: Only available as an Internship+thesis pair
+        references:
+          - text: https://capec.mitre.org
+            links:
+              - name: Link
+                url: https://capec.mitre.org
+          - text: https://attack.mitre.org
+            links:
+              - name: Link
+                url: https://attack.mitre.org
+          - text: https://d3fend.mitre.org
+            links:
+              - name: Link
+                url: https://d3fend.mitre.org
+          - text: https://ransomfeed.it
+            links:
+              - name: Link
+                url: https://ransomfeed.it
+          - text: https://caldera.mitre.org
+            links:
+              - name: Link
+                url: https://caldera.mitre.org
+
+      - id: p-2024-01-st-6
+        title: Threat Modeling for Digital Identity Wallet
+        description: >
+          In an increasingly digital world, the security of personal and sensitive information is paramount. Digital identity wallets have emerged as a convenient and secure solution for individuals to manage and control their personal identity data, enabling seamless interactions across various online services. However, ensuring the robust security of these wallets is of utmost importance to prevent potential breaches and unauthorized access. This internship project focuses on:
+          <ul>
+            <li>applying threat modeling procedures (e.g., OWASP and STRIDE) to enhance the security posture of a digital identity wallet system;</li>
+            <li>Performing a security analysis on the available Wallet Solutions in the wild to check their   implementation against the set of identified threats using both manual (static source code analysis) and automatic tools.</li>
+          </ul>
+        level:
+          - MSc
+        unit: ST
+        supervisor:
+          - AmirSharif
+          - GiadaSciarretta
+        prerequisites:
+          - Basic understanding of cybersecurity principles.
+          - Pre-knowledge of the OpenID Connect protocol is a plus.
+          - Strong analytical and problem-solving skills.
+          - Knowledge of OWASP threat modeling procedures (prior experience is a plus).
+          - Pre-knowledge of Android OS and Android application development is a plus.
+          - Ability to review code for security vulnerabilities, understanding how certain coding practices might introduce security risks
+        objectives:
+          - To extend the threat analysis for a digital identity wallet system considering the underlying technologies (Blockchain-based and OpenID-based) and by utilizing d the OWASP (Open Web Application Security Project) threat modeling procedures. Therefore at the end of this phase, we identify potential vulnerabilities, assess associated risks, and propose effective mitigation strategies.
+          - Performing a security analysis on the available Wallet Solutions in the wild to check their implementation against the set of identified threats. This provides us with a general overview of the adoption of potential mitigations and identifies the missing ones.          
+        topics:
+          - Identity Management
+          - Digital Identity Wallet
+          - Threat Modelling
