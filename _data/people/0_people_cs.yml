@@ -1,16 +1,5 @@
 # Please keep alphabetical order
 
-- id: ElioSalvadori
-  name: Elio
-  surname: Salvadori
-  affiliations:
-    - role: Researcher
-      unit: Center for Cybersecurity
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: esalvadori@fbk.eu
-  phone: "+390461312423"
-  
 - id: LauraCristiano
   name: Laura
   surname: Cristiano
