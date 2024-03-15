@@ -7,6 +7,7 @@ current:
     - RiccardoLongo
     - ZahraEbadiAnsaroudi
     - IonAndyDitu
+    - SimoneBrunello
 
   collaborators:
     # -   # ID of the person
@@ -19,19 +20,19 @@ current:
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
 
-    - personId:       SimoneBrunello
-      type:           B
-      topic:          Enhancing Cryptographic Access Control with Predicates and Negative Permissions
-      institution:    University of Trento
-      yearFrom:       2023
-      # yearTo:         # e.g., 2023
-
     - personId:       MarcoSoldera
       type:           B
       topic:          Multi-Objective Microservice Orchestration
       institution:    University of Trento
       yearFrom:       2023
-      # yearTo:         # e.g., 2023
+      yearTo:         2024
+
+    - personId:       LucaClaus
+      type:           B
+      topic:          Cryptographic Access Control for Blockchain-based Applications
+      institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:       2023
 
   junior:
     # -   # ID of the person
@@ -54,6 +55,13 @@ former:
     #   thesisId:       # ID of the thesis
   
   students:
+    - personId: SimoneBrunello_BA
+      type: B
+      topic: Enhancing Cryptographic Access Control with Predicates and Negative Permissions
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
+
     - personId: IonAndyDitu_BA
       type: B
       topic: Trusted Execution Environments for Advanced Data Protection
