@@ -8,6 +8,7 @@ current:
     - ZahraEbadiAnsaroudi
     - IonAndyDitu
     - SimoneBrunello
+    - MarioScuro
 
   collaborators:
     # -   # ID of the person
@@ -25,14 +26,28 @@ current:
       topic:          Multi-Objective Microservice Orchestration
       institution:    University of Trento
       yearFrom:       2023
-      yearTo:         2024
+      # yearTo:         2024
 
     - personId:       LucaClaus
       type:           B
       topic:          Cryptographic Access Control for Blockchain-based Applications
       institution:    University of Trento
       yearFrom:       2024
-      # yearTo:       2023
+      # yearTo:         2023
+
+    - personId:       NicolaSmaniotto
+      type:           M
+      topic:          Cryptographic Revocation
+      institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:         2023
+
+    - personId:       SaraMontanari
+      type:           M
+      topic:          Key Recovery
+      institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:         2024
 
   junior:
     # -   # ID of the person
@@ -55,19 +70,19 @@ former:
     #   thesisId:       # ID of the thesis
   
   students:
-    - personId: SimoneBrunello_BA
-      type: B
-      topic: Enhancing Cryptographic Access Control with Predicates and Negative Permissions
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2024
-
     - personId: IonAndyDitu_BA
       type: B
       topic: Trusted Execution Environments for Advanced Data Protection
       institution: University of Trento
       yearFrom: 2023
       yearTo: 2023
+
+    - personId: SimoneBrunello_BA
+      type: B
+      topic: Enhancing Cryptographic Access Control with Predicates and Negative Permissions
+      institution: University of Trento
+      yearFrom: 2023
+      yearTo: 2024
 
   junior:
     # - personId:       # ID of the person
