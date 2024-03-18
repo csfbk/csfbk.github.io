@@ -13,8 +13,23 @@
 #   institution:        # Insitution (e.g., University of Trento)
 
 
+## 2024
+- id: SimoneBrunello_Thesis_Bachelor
+  author: SimoneBrunello_BA
+  title: "Hybrid Enforcement for Role-based Cryptographic Access Control"
+  type: B     # B for bachelor, M for master, P for PhD, PG for Postgraduate Thesis
+  abstract: >
+    Numerous companies are currently migrating (or have already migrated) their technological infrastructure along with their data and their customers' data to the cloud for, e.g., enhanced scalability, greater flexibility, and monetary cost savings. However, it is well-known that outsourcing the storage of (possibly sensitive) data to the cloud poses significant challenges to the confidentiality and integrity of the data themselves. Indeed, cloud-hosted data are exposed to a wide array of threats including external attackers, malicious insiders, and honest-but-curious cloud service providers (CSPs). In this context, cryptographic access control (CAC) — which consists in enforcing access control (AC) policies through cryptography — is the natural solution to regulate data sharing among authorized users (e.g., employees) while securing data and preventing unauthorized access. Nonetheless, the use of CAC entails the execution of several cryptographic computations (e.g., encryption and decryption computations), especially when considering dynamic AC policies requiring frequent distribution and revocation of users' privileges. Consequently, CAC is typically computationally demanding and may even result to be impractical in some real-world scenarios. In this thesis, we propose an extended role-based access control (RBAC) scheme to mitigate the computational overhead of CAC. Our extended RBAC scheme allows for expressing high-level RBAC policies which are automatically compiled into two sub-policies enforced in a hybrid fashion by a (computationally-light) centralized traditional RBAC enforcement mechanism and a (computationally-demanding) CAC scheme. The automatic compilation is controlled by a customizable security model defining the levels of trust assumed on, e.g., users and CSPs, an approach which allows to determine whether the execution of certain cryptographic computations is necessary or superfluous on a case-by-case basis. Moreover, we apply our extended RBAC scheme to a concrete CAC scheme and provide a proof-of-concept implementation in the Prolog language. Finally, we provide a practical application of our proof-of-concept implementation on a concrete scenario and analyze the cryptographic computational costs incurred.
+  supervisor: SilvioRanise
+  co-supervisor:
+    - RobertoCarbone
+    - StefanoBerlato
+  year: 2024
+  awards: 
+  institution: University of Trento
+
 ## 2023
-- id: IonAndyDitu_M
+- id: IonAndyDitu_Thesis_Bachelor
   author: IonAndyDitu_BA
   title: "Leveraging Trusted Execution Environment for Efficient Revocation and Security in Cryptographic Access Control"
   type: B     # B for bachelor, M for master, P for PhD, PG for Postgraduate Thesis
