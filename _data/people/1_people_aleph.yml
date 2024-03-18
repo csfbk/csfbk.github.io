@@ -111,10 +111,24 @@
       place: Trento, Italy
   email: iditu@fbk.eu
 
+- id: SimoneBrunello
+  name: Simone
+  surname: Brunello
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: sbrunello@fbk.eu
+
 - id: IonAndyDitu_BA
   name: Ion Andy
   surname: Ditu
-  
+
+- id: LucaClaus
+  name: Luca
+  surname: Claus
+
 - id: MarcoCentenaro
   name: Marco
   surname: Centenaro
@@ -131,7 +145,13 @@
 - id: MarioScuro
   name: Mario
   surname: Scuro
-  
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mscuro@fbk.eu
+
 - id: MatteoBitussi
   name: Matteo
   surname: Bitussi
@@ -139,7 +159,11 @@
     - unit: Security & Trust
       institution: Fondazione Bruno Kessler
   email: mbitussi@fbk.eu
-  
+
+- id: NicolaSmaniotto
+  name: Nicola
+  surname: Smaniotto
+
 - id: PaoloD'Arco
   name: Paolo
   surname: D'Arco
@@ -183,6 +207,10 @@
   phone: "+390461314193"
   website: https://st.fbk.eu/people/salvatore-manfredi
   image: https://st.fbk.eu/assets/areas/people/SalvatoreManfredi.jpg
+  
+- id: SaraMontanari
+  name: Sara
+  surname: Montanari
 
 - id: SilvioRanise
   name: Silvio
@@ -201,10 +229,9 @@
   website: https://st.fbk.eu/people/silvio-ranise
   image: https://cs.fbk.eu/assets/areas/people/cs/SilvioRanise.jpg
 
-- id: SimoneBrunello
+- id: SimoneBrunello_BA
   name: Simone
   surname: Brunello
-  email: sbrunello@fbk.eu
 
 - id: StefanoBerlato
   name: Stefano
@@ -214,10 +241,6 @@
       unit: Applied Cryptography
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-    - role: PhD Student
-      unit: DIBRIS
-      institution: University of Genoa
-      place: Genoa, Italy
   email: sberlato@fbk.eu
 
 - id: UmbertoMorelli
