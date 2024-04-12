@@ -3,6 +3,18 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
+- id: iris_9999_4db794cde946eac6762f
+  id_iris: 346387,
+  title: "Multi-Objective Microservice Orchestration: Balancing Security and Performance in CCAM"
+  authors:
+    - StefanoBerlato
+    - SilvioCretti
+    - DomenicoSiracusa
+    - SilvioRanise
+  destination: 27thconferenceoninnovationincloudsinternetandnetworksandworkshopsicin
+  year: 9999
+
+
 - id: iris_2024_d45205ca2a42377728aa
   id_iris: 343267,
   title: "FLAD: Adaptive Federated Learning for DDoS Attack Detection"
@@ -2021,14 +2033,11 @@
 
 
 - id: iris_2013_046ab87dae9e1692c668
-  id_iris: 313675,
+  id_iris: 313950,
   title: "Cognitive dynamic optical networks"
   authors:
-    - I.DeMiguel
+    - I.DMiguel
     - R.J.Duran
-    - T.Jimenez
-    - N.Fernandez
-    - J.C.Aguado
     - R.M.Lorenzo
     - A.Caballero
     - I.T.Monroy
@@ -2040,9 +2049,9 @@
     - A.Francescon
     - DomenicoSiracusa
     - ElioSalvadori
-  destination: journalofopticalcommunicationsandnetworking
+  destination: opticalfibercommunicationconferenceofc2013
   year: 2013
-  doi: 10.1364/JOCN.5.00A107
+  doi: 10.1364/OFC.2013.OW1H.1
 
 
 - id: iris_2013_01a34cfd543e78327a46
