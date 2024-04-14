@@ -159,6 +159,7 @@
 - id: 2023ieeeinternationalconferenceonbigdatabigdata
   name: 2023 IEEE International Conference on Big Data (BigData)
   type: conference
+  proceedings: Proceedings of 2023 IEEE International Conference on Big Data (BigData)
 
 - id: 21stinternationalconferenceoninformationandcommunicationssecurityicics2019
   name: 21st International Conference on Information and Communications Security (ICICS 2019)
@@ -456,6 +457,11 @@
   name: Optical Fiber Communication Conference, 2018
   type: conference
   proceedings: Proceedings of Optical Fiber Communication Conference, 2018
+
+- id: opticalfibercommunicationconferenceofc2013
+  name: Optical Fiber Communication Conference, Ofc 2013
+  type: conference
+  proceedings: Proceedings of Optical Fiber Communication Conference, Ofc 2013
 
 - id: opticalfibercommunicationconferenceofc2019osapublishing
   name: Optical Fiber Communication Conference (OFC) 2019, OSAPUBLISHING
