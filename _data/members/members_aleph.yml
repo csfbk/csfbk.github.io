@@ -26,12 +26,12 @@ current:
     #   yearFrom:       2024
     #   # yearTo:         2023
 
-    # - personId:       LucaClaus
-    #   type:           B
-    #   topic:          Cryptographic Access Control for Blockchain-based Applications
-    #   institution:    University of Trento
-    #   yearFrom:       2024
-    #   # yearTo:         2023
+    - personId:       LucaClaus
+      type:           B
+      topic:          Cryptographic Access Control for Blockchain-based Applications
+      institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:         2023
 
     - personId:       MarcoSoldera
       type:           B
@@ -40,12 +40,12 @@ current:
       yearFrom:       2023
       # yearTo:         2024
 
-    # - personId:       NicolaSmaniotto
-    #   type:           M
-    #   topic:          Cryptographic Revocation
-    #   institution:    University of Trento
-    #   yearFrom:       2024
-    #   # yearTo:         2023
+    - personId:       NicolaSmaniotto
+      type:           M
+      topic:          Cryptographic Revocation
+      institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:         2023
 
     - personId:       SaraMontanari
       type:           M
