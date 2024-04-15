@@ -62,6 +62,16 @@
       place: Trento, Italy
   email: andrea.flamini@unitn.it
   
+- id: DomenicoSiracusa
+  name: Domenico
+  surname: Siracusa
+  affiliations:
+    - role: Head of Unit
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: dsiracusa@fbk.eu
+  
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
@@ -101,14 +111,13 @@
   website: https://st.fbk.eu/people/giada-sciarretta
   image: https://st.fbk.eu/assets/areas/people/GiadaSciarretta.jpg
 
+- id: GiorgiaGabardi
+  name: Giorgia
+  surname: Gabardi
+
 - id: IonAndyDitu
   name: Ion Andy
   surname: Ditu
-  affiliations:
-    - role: Research Assistant
-      unit: Applied Cryptography
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
   email: iditu@fbk.eu
 
 - id: IonAndyDitu_BA
@@ -218,6 +227,16 @@
   phone: "+390461314192"
   website: https://st.fbk.eu/people/silvio-ranise
   image: https://cs.fbk.eu/assets/areas/people/cs/SilvioRanise.jpg
+
+- id: SilvioCretti
+  name: Silvio
+  surname: Cretti
+  affiliations:
+    - role: Developer
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: scretti@fbk.eu
 
 - id: SimoneBrunello_BA
   name: Simone
