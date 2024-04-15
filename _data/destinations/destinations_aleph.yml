@@ -199,6 +199,16 @@
   endDate: "2023-07-12"
 
 ## 2024
+- id: ICIN2024
+  name: 27th Conference on Innovation in Clouds, Internet and Networks
+  acronym: ICIN 2024
+  url: https://www.icin-conference.org/2024/
+  type: conference
+  location: Paris, France
+  startDate: "2024-03-11"
+  endDate: "2024-03-14"
+
+## 2025
 # ...
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
