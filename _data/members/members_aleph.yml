@@ -19,12 +19,12 @@ current:
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
 
-    # - personId:       GiorgiaGabardi
-    #   type:           B
-    #   topic:          Cryptographic Revocation
-    #   institution:    University of Trento
-    #   yearFrom:       2024
-    #   # yearTo:         2023
+    - personId:       GiorgiaGabardi
+      type:           B
+      topic:          Cryptographic Revocation
+      institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:         2023
 
     - personId:       LucaClaus
       type:           B
