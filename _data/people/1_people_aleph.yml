@@ -124,9 +124,19 @@
   name: Ion Andy
   surname: Ditu
 
+- id: IreneVilla
+  name: Irene
+  surname: Villa
+  orcid: 0000-0001-6381-4712
+  
 - id: LucaClaus
   name: Luca
   surname: Claus
+
+- id: MarcoCalderini
+  name: Marco
+  surname: Calderini
+  orcid: 0000-0002-6817-3421
 
 - id: MarcoCentenaro
   name: Marco
@@ -150,6 +160,11 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: mscuro@fbk.eu
+
+- id: MassimilianoSala
+  name: Massimiliano
+  surname: Sala
+  orcid: 0000-0002-7266-5146
 
 - id: MatteoBitussi
   name: Matteo
