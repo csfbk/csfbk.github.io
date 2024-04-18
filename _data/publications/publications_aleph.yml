@@ -219,7 +219,7 @@
   destination: JMC
   year: 2024
   doi: 10.1515/jmc-2023-0029
-  isALEPH: false
+  isALEPH: true
   abstract: "<jats:title>Abstract</jats:title>\n               <jats:p>The notion\
     \ of public-key encryption with keyword search (PEKS) was introduced to search\
     \ over encrypted data without performing any decryption. In this article, we propose\
