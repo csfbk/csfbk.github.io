@@ -7,6 +7,7 @@ current:
     - RiccardoLongo
     - ZahraEbadiAnsaroudi
     - MarioScuro
+    - EnricoSorbera
 
   collaborators:
     # -   # ID of the person
@@ -51,6 +52,13 @@ current:
       type:           M
       topic:          Key Recovery
       institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:         2024
+
+    - personId:       ValeriaVicard
+      type:           M
+      topic:          Pairin based Cryptography for Searchable and Attribute-based Encryption
+      institution:    University of Udine
       yearFrom:       2024
       # yearTo:         2024
 
