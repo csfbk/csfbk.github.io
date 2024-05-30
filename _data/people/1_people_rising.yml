@@ -93,6 +93,7 @@
   name: Marco
   surname: Zambianco
   email: mzambianco@fbk.eu
+  iris_id: rp24978
   affiliations:
     - role: Researcher
       unit: Robust and Secure Distributed Computing
@@ -232,6 +233,12 @@
   surname: Bregola
   usernameFBK: mbregola
   email: mbregola@fbk.eu
+
+- id: SamueleBouveret
+  name: Samuele
+  surname: Bouveret
+  usernameFBK: mbouveret
+  email: mbouveret@fbk.eu
 
 # Former
 - id: FrancescoTomasselli
@@ -532,7 +539,7 @@
   surname: Andres
 
 - id: BehnamShariati
-  name: Behnam
+  name:  Behnam
   surname: Shariati
 
 - id: Bogdan-MihaiAndrus
@@ -1032,8 +1039,8 @@
   surname: Rodríguez
 
 - id: JoseManuelRivas-Moscoso
-  name: Jose Manuel
-  surname: Rivas-Moscoso
+  name:  Jose
+  surname: Manuel Rivas-Moscoso
 
 - id: JoseSanchez
   name:  José
@@ -1539,6 +1546,10 @@
   name:  Shikhmanter
   surname: Yona
 
+- id: SilvioRanise
+  name:  Silvio
+  surname: Ranise
+
 - id: SkoldstromPontus
   name:  Sköldström
   surname: Pontus
@@ -1546,6 +1557,10 @@
 - id: StefanGuna
   name:  Stefan
   surname: Gună
+
+- id: StefanoBerlato
+  name:  Stefano
+  surname: Berlato
 
 - id: StefanoBraghin
   name:  Stefano
