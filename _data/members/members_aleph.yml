@@ -1,8 +1,12 @@
 current:
   head:
+    # -   # ID of the person
+    
     - AlessandroTomasi
 
   members:
+    # -   # ID of the person
+
     - StefanoBerlato
     - RiccardoLongo
     - ZahraEbadiAnsaroudi
@@ -85,22 +89,30 @@ former:
 
   phdStudents:
     # - personId:       # ID of the person
-    #   thesisId:       # ID of the thesis
+    #   thesisId:       # ID of the 
+    
+    - personId: StefanoBerlato
+      thesisId: StefanoBerlato_PHD
   
   students:
+    # 2 options:
+    # for former students who did just the internship
+    # - personId:       # ID of the person
+    #   type:           # B for bachelor, M for master
+    #   topic:          # title of the internship proposal
+    #   institution:    # e.g., University of Trento
+    #   yearFrom:       # e.g., 2022
+    #   yearTo:         # e.g., 2023
+    #
+    # for former students who did (the internship and) the thesis
+    # - personId:       # ID of the person
+    #   thesisId:       # ID of the thesis
+
     - personId: IonAndyDitu_BA
-      type: B
-      topic: Trusted Execution Environments for Advanced Data Protection
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2023
+      thesisId: IonAndyDitu_BA
 
     - personId: SimoneBrunello_BA
-      type: B
-      topic: Enhancing Cryptographic Access Control with Predicates and Negative Permissions
-      institution: University of Trento
-      yearFrom: 2023
-      yearTo: 2024
+      thesisId: SimoneBrunello_BA
 
   junior:
     # - personId:       # ID of the person
