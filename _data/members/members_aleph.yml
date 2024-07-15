@@ -38,13 +38,6 @@ current:
       yearFrom:       2024
       # yearTo:         2023
 
-    - personId:       MarcoSoldera
-      type:           B
-      topic:          Multi-Objective Microservice Orchestration
-      institution:    University of Trento
-      yearFrom:       2023
-      # yearTo:         2024
-
     - personId:       NicolaSmaniotto
       type:           M
       topic:          Cryptographic Revocation
@@ -107,6 +100,9 @@ former:
     # for former students who did (the internship and) the thesis
     # - personId:       # ID of the person
     #   thesisId:       # ID of the thesis
+
+    - personId: MarcoSoldera_BA
+      thesisId: MarcoSoldera_BA
 
     - personId: IonAndyDitu_BA
       thesisId: IonAndyDitu_BA
