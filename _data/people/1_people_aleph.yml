@@ -28,6 +28,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: altomasi@fbk.eu
+  orcid: 0000-0002-3518-9400
 
 - id: AmirSharif
   name: Amir
@@ -81,6 +82,7 @@
       institution: University of Trento
       place: Trento, Italy
   email: chiara.spadafora@unitn.it
+  orcid: 0000-0003-3352-9210
 
 - id: EnricoSorbera
   name: Enrico
@@ -120,6 +122,7 @@
   phone: "+390461312378"
   website: https://st.fbk.eu/people/giada-sciarretta
   image: https://st.fbk.eu/assets/areas/people/GiadaSciarretta.jpg
+  orcid: 0000-0001-7567-4526
 
 - id: GiorgiaGabardi
   name: Giorgia
@@ -183,6 +186,17 @@
       institution: Fondazione Bruno Kessler
   email: mbitussi@fbk.eu
 
+- id: MatteoRizzi
+  name: Matteo
+  surname: Rizzi
+  affiliations:
+    - role: Security Specialist Officer
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mrizzi@fbk.eu
+  orcid: 0000-0002-5288-3031
+
 - id: NicolaSmaniotto
   name: Nicola
   surname: Smaniotto
@@ -200,6 +214,18 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: rlongo@fbk.eu
+  orcid: 0000-0002-8739-3091
+
+- id: RiccardoGermenia
+  name: Riccardo
+  surname: Germenia
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rgermenia@fbk.eu
+  orcid: 0009-0009-9283-8030
 
 - id: RobertoCarbone
   name: Roberto
@@ -230,6 +256,7 @@
   phone: "+390461314193"
   website: https://st.fbk.eu/people/salvatore-manfredi
   image: https://st.fbk.eu/assets/areas/people/SalvatoreManfredi.jpg
+  orcid: 0000-0001-9645-6034
   
 - id: SaraMontanari
   name: Sara
@@ -251,6 +278,7 @@
   phone: "+390461314192"
   website: https://st.fbk.eu/people/silvio-ranise
   image: https://cs.fbk.eu/assets/areas/people/cs/SilvioRanise.jpg
+  orcid: 0000-0001-7269-9285
 
 - id: SilvioCretti
   name: Silvio
