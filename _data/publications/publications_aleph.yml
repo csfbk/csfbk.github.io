@@ -252,6 +252,33 @@
   - CloudComputing
   - PrivacyEnhancingCryptography
 
+- id: SECRYPT2024 RiccardoGermenia
+  title: 'Automating Compliance for Improving TLS Security Postures: An Assessment of Public Administration Endpoints'
+  authors:
+  - RiccardoGermenia
+  - SalvatoreManfredi
+  - MatteoRizzi
+  - GiadaSciarretta
+  - AlessandroTomasi
+  - SilvioRanise
+  destination: SECRYPT2024
+  year: 2024
+  doi: 10.5220/0012764700003767
+  isALEPH: false
+
+- id: SECRYPT2024 RiccardoLongo
+  title: 'Amun: Securing E-Voting Against Over-the-Shoulder Coercion'
+  authors:
+  - RiccardoLongo
+  - ChiaraSpadafora
+  destination: SECRYPT2024
+  year: 2024
+  doi: 10.5220/0012786800003767
+  isALEPH: true
+  tags:
+  - PrivacyEnhancingCryptography
+  - ZKP
+
 ## 2025
 # ...
 
