@@ -281,7 +281,7 @@
 
 - id: OSVS2024CRYPTOAC
   id_iris: 350627
-  title: Work-in-Progress: "A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
+  title: "Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
   authors:
     - StefanoBerlato
     - MatteoRizzi
