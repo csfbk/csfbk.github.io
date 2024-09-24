@@ -142,7 +142,7 @@
   surname: Villa
   orcid: 0000-0001-6381-4712
   
-- id: LucaClaus
+- id: LucaClaus_BA
   name: Luca
   surname: Claus
 
@@ -186,6 +186,16 @@
       institution: Fondazione Bruno Kessler
   email: mbitussi@fbk.eu
 
+- id: MatteoFranzil
+  name: Matteo
+  surname: Franzil
+  affiliations:
+    - role: Researcher
+      unit: Robust and Secure Distributed Computing
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mfranzil@fbk.eu
+
 - id: MatteoRizzi
   name: Matteo
   surname: Rizzi
@@ -205,6 +215,16 @@
   name: Paolo
   surname: D'Arco
   
+- id: PietroDeMatteis
+  name: Pietro
+  surname: De Matteis
+  affiliations:
+    - role: Researcher
+      unit: Co-Innovation Lab
+      institution: Dedagroup SpA
+      place: Trento, Italy
+  email: pietro.dematteis@dedagroup.it
+
 - id: RiccardoLongo
   name: Riccardo
   surname: Longo
