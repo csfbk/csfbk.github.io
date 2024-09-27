@@ -13,24 +13,28 @@
 
 {% assign publicationsList = "" | split: "" %}
 {% for file in site.data.publications %}
-    {% for publication in file[1] %}
-        {% assign publicationsList = publicationsList | push: publication %}
-    {% endfor %}
+{% for publication in file[1] %}
+{% assign publicationsList = publicationsList | push: publication %}
+{% endfor %}
 {% endfor %}
 
 {% assign destinationsList = "" | split: "" %}
 {% for file in site.data.destinations %}
-    {% for destination in file[1] %}
-        {% assign destinationsList = destinationsList | push: destination %}
-    {% endfor %}
+{% for destination in file[1] %}
+{% assign destinationsList = destinationsList | push: destination %}
+{% endfor %}
 {% endfor %}
 
 {% if source.size > 0 %}
 <ul class="publications">
     {% assign publicationListID = "" | split: "" %}
+    {% assign publicationListTitles = "" | split: "" %}
     {% for publication in source %}
         {% if publication.id %}
-            {% assign publicationListID = publicationListID | push: publication.id %}
+            {% unless publicationListTitles contains publication.title %}
+                {% assign publicationListID = publicationListID | push: publication.id %}
+                {% assign publicationListTitles = publicationListTitles | push: publication.title %}
+            {% endunless %}
         {% else %}
             {% assign publicationListID = publicationListID | push: publication %}
         {% endif %}
