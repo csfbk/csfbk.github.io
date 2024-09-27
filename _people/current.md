@@ -10,7 +10,7 @@ permalink: /people/
 {% include list-people.html source=site.data.members.members_cs.current.head style="card" details=details sort="none" %}
 
 <h2>Members</h2>
-{% assign details = "picture, role, email, phone, personalPage" | split: ", " %}
+{% assign details = "picture, internalRole, email, phone, personalPage" | split: ", " %}
 {% include list-people.html source=site.data.members.members_cs.current.members style="card" details=details %}
 
 <h1>Research Units</h1>
@@ -27,7 +27,7 @@ permalink: /people/
 {% include list-people.html source=unitHeads style="card" details=details %}
 
 <h2>Members</h2>
-{% assign details = "picture, role, internalUnit, email, phone" | split: ", " %}
+{% assign details = "picture, internalRole, internalUnit, email, phone" | split: ", " %}
 {% assign unitMembers = "" | split: "" %}
 {% for file in site.data.members %}
     {% if file[0] != "members_cs" %}
