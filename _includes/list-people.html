@@ -31,9 +31,19 @@
         {% assign personFromId = peopleList | where: "id", person %}
         {% assign personFromIdLabel = peopleList | where: "id", person.personId %}
         {% if personFromId.size > 0 %}
+            {% assign personFromIdWithAffiliation = personFromId | where_exp: "person", "person.affiliations.size > 0" %}
+            {% if personFromIdWithAffiliation.size > 0 %}
+                {% assign peopleFromId = peopleFromId | push: personFromIdWithAffiliation[0] %}
+            {% else %}
             {% assign peopleFromId = peopleFromId | push: personFromId[0] %}
+            {% endif %}
         {% elsif personFromIdLabel.size > 0 %}
+            {% assign personFromIdLabelWithAffiliation = personFromIdLabel | where_exp: "person", "person.affiliations.size > 0" %}
+            {% if personFromIdLabelWithAffiliation.size > 0 %}
+                {% assign peopleFromId = peopleFromId | push: personFromIdLabelWithAffiliation[0] %}
+            {% else %}
             {% assign peopleFromId = peopleFromId | push: personFromIdLabel[0] %}
+        {% endif %}
         {% endif %}
     {% endfor %}
 
