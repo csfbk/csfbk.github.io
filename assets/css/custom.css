@@ -385,14 +385,14 @@ ul.no-bullet {
 }
 
 .university-projects .university-project:first {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .university-projects .university-project +
 .university-project {
-  border-top: 1px solid #c7c7c7;
-  margin-top: 30px;
-  padding-top: 30px;
+  border-top: 2px solid #c7c7c7;
+  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .university-projects-call +
@@ -522,6 +522,14 @@ section.page-top {
   color: #0068b4;
 }
 
+.university-project .information {
+  border: 1px solid #c7c7c7;
+  font-size: small;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.university-project .information p:not(:last-child),
 .university-project .description p:not(:last-child) {
   margin-bottom: 5px;
 }

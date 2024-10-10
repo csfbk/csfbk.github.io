@@ -10,11 +10,14 @@ This page lists the internship projects currently available in the Center for Cy
 <blockquote>
     <h1 class="no-toc">Procedure</h1>
     <ol class="mt-0">
-        <li><b>Application</b>: apply to the internship projects you are interested in (up to 3) through the online form related to the specific call, by providing the requested data. Ensure you comply with the application deadline.</li>
-        <li><b>Selection</b>: a selection committee reviews the applications for every project and, if needed, asks for an interview.</li>
-        <li><b>Results</b>: after the selection process, all the applicants (also those who have not been selected) are informed of the selection results. Please note that the selection process is performed gradually; this means that acceptance notifications for some projects could be sent before others. In any case, each applicant will receive a notification (either of acceptance or rejection) by the end of the procedure.</li>
+        <li><b>Application</b>: submit your application for the internship project you are interested in using the <b><a href="https://forms.gle/woK1EtSbHPcrVohu8">designated online form</a></b> and providing the required information. Make sure to apply before the specified deadline. You are advised <u>not</u> to apply to more than two projects at the same time.</li>
+        <li><b>Selection</b>: project supervisors will review the applications and choose the most suitable candidate. If needed, they may request an oral interview during the selection process. Each project is evaluated independently.</li>
+        <li><b>Results</b>: once the selection process is complete, all applicants (both selected and not selected) will be notified of the outcome for the specific project.</li>
     </ol>
-    <p>For general information, you can write an email to <b><a href="mailto:internships-cs@fbk.eu">internships-cs@fbk.eu</a></b>; please note that applications sent via email will <u>not</u> be taken into consideration.</p>
+    <p>For general inquiries, you can email <b><a href="mailto:internships-cs@fbk.eu">internships-cs@fbk.eu</a></b>. If you have specific questions about a project, please reach out to the project supervisor directly.</p>
+    <p>Please note that applications sent via email will <u>not</u> be considered.</p>
 </blockquote>
+
+<p>Projects are listed starting with those that have the earliest submission deadlines.</p>
 
 {% include toc.md %}

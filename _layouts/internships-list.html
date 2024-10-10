@@ -11,14 +11,15 @@ show_sidebar: false
     <div class="column is-12">
         {% assign todayDate = "now" | date: "%Y-%m-%d %H:%M" %}
         {% if page.year %}
-            {% assign internships = site.data.internships.calls | where_exp: "call", "call.year == page.year" | where_exp: "call", "call.applicationEnd < todayDate" %}
+            {% assign internships = site.data.internships.projects | where_exp: "project", "project.year == page.year" | where_exp: "project", "project.applicationEnd < todayDate" %}
+            {% include list-internships.html source=internships sort="title" %}
         {% else %}
-            {% assign internships = site.data.internships.calls | where_exp: "call", "call.applicationStart <= todayDate" | where_exp: "call", "call.applicationEnd >= todayDate" %}
-            {% unless internships and internships.size > 0 %}
-                <p><i>No open calls are currently available.</i></p>
-            {% endunless %}
+            {% assign internships = site.data.internships.projects | where_exp: "project", "project.applicationEnd >= todayDate" %}
+            {% if internships and internships.size > 0 %}
+                {% include list-internships.html source=internships %}
+            {% else %}
+                <p><i>No opportunities currently available.</i></p>
+            {% endif %}
         {% endif %}
-
-        {% include list-internships.html source=internships %}    
     </div>
 </div>
