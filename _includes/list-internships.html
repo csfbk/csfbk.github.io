@@ -35,6 +35,17 @@
             {% assign units = unitsFromId | sort_natural: "name" %}
 
 
+            {% assign typeString = nil %}
+            {% case project.type %}
+                {% when "I" %}
+                    {% assign typeString = "Only Internship" %}
+                {% when "T" %}
+                    {% assign typeString = "Only Thesis" %}
+                {% when "IT" %}
+                    {% assign typeString = "Internship + Thesis" %}
+            {% endcase %}
+            
+
             {% assign levels = "" | split: "" %}
             {% if project.level %}
                 {% if project.level | first %}
@@ -272,6 +283,7 @@
                         {{ descriptionString }}
                     </div>
                 {% endif %}
+                {% if typeString %}<p><b>Type:</b> {{ typeString }}</p>{% endif %}
                 {% if levelsString %}<p><b>Level{% if levels.size > 1 %}s{% endif %}:</b> {{ levelsString }}</p>{% endif %}
                 {% if unitsString %}<p><b>Research Unit{% if units.size > 1 %}s{% endif %}:</b> {{ unitsString }}</p>{% endif %}
                 {% if supervisorsString %}<p><b>Supervisor{% if supervisorsFromId.size > 1 %}s{% endif %}:</b> {{ supervisorsString }}</p>{% endif %}
