@@ -1523,3 +1523,39 @@ projects:
       - Dynamic code analysis
       - Compliance
     timeFrame: We would like the applicant to start as soon as possible with the internship; the period for the thesis is then negotiateable.
+
+  - id: p-2024-aleph-8
+    title: Course Development with the European Cybercrime Training and Education Group
+    published: "2024-10-11"
+    applicationEnd: "2024-11-04 23:59"
+    year: 2024
+    description: >
+      The Center for Cybersecurity (CS) of FBK has recently become a partner of the European Cybercrime Training and Education Group (ECTEG). In detail, CS joined an initiative [1] aiming to develop a course on blockchain technology to train and educate law enforcement agents and Judicial authorities fighting criminal activities that exploit blockchain-related resources, such as cryptocurrencies. In this context, the main goal of this project is to assist in the development of the course materials by, for instance, designing and testing serious games and capture-the-flag simulations. While allowing to investigate and explore cutting-edge and relevant topics in an European context, it is important to note that this project mainly focuses on didactics and pedagogy.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit: ALEPH
+    supervisor:
+      - StefanoBerlato
+      - RiccardoLongo
+    prerequisites:
+      - Basic understanding of cybersecurity principles.
+      - Basic knowledge of cryptography and blockchain technology from cryptography-related courses.
+      - Basic knowledge or experience in the use of cryptocurrencies and development of serious games and capture-the-flag simulations would be advantageous.
+    objectives:
+      - Familiarization and study of the context (e.g., blockchain, cryptocurrencies).
+      - Design and testing of serious games and capture-the-flag simulations.
+    topics:
+      - Blockchain
+      - Didactics and pedagogy
+      - Serious games
+      - Capture-the-flag simulations
+    timeFrame: We would like the applicant to start as soon as possible with the internship; the period for the thesis is then negotiateable.
+    notes: Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+    references:
+      - id: 1
+        text: ECTEG Blockchain Project
+        links:
+          - name: Link
+            url: https://www.ecteg.eu/running/blockchain-project/
