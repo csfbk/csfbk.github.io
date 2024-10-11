@@ -1,5 +1,6 @@
 projects:
-  # ALEPH
+  # SEPTEMBER 2023
+  ## ALEPH
   - id: p-2023-09-aleph-1
     title: Cryptographic Revocation
     published: "2023-09-14"
@@ -340,7 +341,7 @@ projects:
     notes: >
       The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
-  # RiSING
+  ## RiSING
   - id: p-2023-09-rising-1
     title: Identifying Anomaly Behavior in Container Orchestrator Auditing Logs
     published: "2023-09-14"
@@ -463,7 +464,7 @@ projects:
           - name: DOI
             url: https.//doi.org/10.1109/NOMS47738.2020.9110434.
 
-  # ST
+  ## ST
   - id: p-2023-09-st-1
     title: Adversarial Attacks in AI and their Consequences
     published: "2023-09-14"
@@ -782,7 +783,7 @@ projects:
       - Threat Modeling
       - Identity Wallet
 
-  # Co-Innovation Lab
+  ## Co-Innovation Lab
   - id: p-2023-09-cil-1
     title: DevSecOps for Cloud Native Applications
     published: "2023-09-14"
@@ -812,7 +813,8 @@ projects:
       - Container and orchestrator
     notes: Multiple positions available.
 
-  # ALEPH
+  # APRIL 2024
+  ## ALEPH
   - id: p-2024-01-aleph-1
     title: Access Control for BPMN — Implementation, Constraints, and Resilience
     published: "2024-01-16"
@@ -1113,7 +1115,7 @@ projects:
           - name: DOI
             url: https://doi.org/10.15157/diss/027
   
-  # CLEANSE
+  ## CLEANSE
   - id: p-2024-01-cil-1
     title: DevSecOps for Cloud Native Applications
     published: "2024-01-16"
@@ -1180,7 +1182,7 @@ projects:
           - name: Link
             url: https://www.openpolicyagent.org/
 
-  # RiSING
+  ## RiSING
   - id: p-2024-01-rising-1
     title: Creating a testing enviroment in Kubernetes Orchestration with KWOK
     published: "2024-01-16"
@@ -1240,7 +1242,7 @@ projects:
       - text: 'Alhajjar, Elie, Paul Maxwell, and Nathaniel Bastian. "Adversarial machine learning in network intrusion detection systems." Expert Systems with Applications 186 (2021): 115782.'
       - text: 'Jmila, Houda, and Mohamed Ibn Khedher. "Adversarial machine learning for network intrusion detection: A comparative study." Computer Networks 214 (2022): 109073.'
 
-  # ST
+  ## ST
   - id: p-2024-01-st-1
     title: Automatic Security Testing Tool for Identity Management Protocols
     published: "2024-01-16"
@@ -1482,3 +1484,42 @@ projects:
       - Identity Management
       - Digital Identity Wallet
       - Threat Modelling
+
+  # OCTOBER 2024
+  - id: p-2024-st-7
+    title: Digital Identity Wallet Solution Threat Analysis and Compliance Review
+    published: "2024-10-11"
+    applicationEnd: "2024-11-11 23:59"
+    year: 2024
+    description: >
+      In an increasingly digital world, the security of personal and sensitive information is paramount. Digital identity wallets have emerged as a convenient and secure solution for individuals to manage and control their personal identity data, enabling seamless interactions across various online services. However, ensuring the robust security of these wallets is of utmost importance to prevent potential breaches and unauthorized access. This internship project focuses on:
+      <ul>
+        <li>Extending a set of already identified threats using well-known threat modeling frameworks (e.g., OWASP and STRIDE).</li>
+        <li>Performing a security analysis on the available open-source Wallet Solutions in the wild to check their implementation against the set of identified threats using both manual (static source code analysis) and automatic tools.</li>
+      </ul>
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit: ST
+    supervisor:
+      - AmirSharif
+      - GiadaSciarretta
+    prerequisites:
+      - Basic understanding of cybersecurity principles.
+      - Pre-knowledge of the OpenID Connect protocol is a plus.
+      - Strong analytical and problem-solving skills.
+      - Knowledge of STRIDE framework and OWASP threat modeling procedures (prior experience is a plus).
+      - Pre-knowledge of Android OS and Android application development is a plus.
+      - Ability to review code for security vulnerabilities, understanding how certain coding practices might introduce security risks.
+    objectives:
+      - To extend the current threat analysis for a digital identity wallet system considering the newly introduced sources by the European Commission and/or in state of the art by utilizing the STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) framework and the OWASP (Open Web Application Security Project) threat modeling procedures. Therefore at the end of this phase, you will provide a more complete list that is updated with the latest literature.
+      - Performing a security analysis on the available open-source Wallet Solutions in the wild to check their implementation against the set of identified threats. This provides us with a general overview of adopting potential mitigations, identifies the missing ones and additionally provides an overview of their solution compliance with the eIDAS 2.0 regulations.
+    topics:
+      - Digital Identity Wallet
+      - Threat Modeling
+      - Security Analysis
+      - Static code analysis
+      - Dynamic code analysis
+      - Compliance
+    timeFrame: We would like the applicant to start as soon as possible with the internship; the period for the thesis is then negotiateable.
