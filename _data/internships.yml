@@ -1559,3 +1559,48 @@ projects:
         links:
           - name: Link
             url: https://www.ecteg.eu/running/blockchain-project/
+
+  - id: p-2024-aleph-9
+    title: Cryptographic Access Control for Cloud Native Applications
+    published: "2024-10-11"
+    applicationEnd: "2024-11-04 23:59"
+    year: 2024
+    description: >
+      "The characteristics of cloud native applications — like the inherent decentralization, the intricate threat model, and the presence of highly dynamic and interconnected microservices — bring forth a number of challenges to data security. In a recently published article [1], the Center for Cybersecurity (CS) of FBK has investigated the use of CryptoAC [2] to provide end-to-end protection of sensitive data in cloud native applications through cryptographic enforcement of access control policies. CryptoAC (short for Cryptographic Access Control) is an open-source tool written in the (multiplatform) Kotlin language, and potentially available as programming library, plugin, or microservice (Docker container). In this context, applicants may choose one of the following 2 activities: collaborate on extending the work in [1] by refining and evaluting the use of CryptoAC for data security in cloud native applications or extend the capabilities of CryptoAC in one or more of the following areas: user authentication with OpenID Connect and FIDO, integration of CryptoAC with Trusted Execution Environments (TEEs), cryptographic key management, strategies and tools for cryptographic bill of materials management. This project provides the opportunity to acquire the fundamentals of scientific research, investigate and explore cutting-edge and relevant research topics, and engage in software engineering and development while allowing applicants to design, propose, and implement their own ideas."
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ALEPH
+      - ST
+    supervisor:
+      - StefanoBerlato
+      - RobertoCarbone
+    prerequisites:
+      - Basic understanding of cybersecurity principles.
+      - Basic knowledge of cryptography from cryptography-related courses.
+      - Basic knowledge of object-oriented programming languages (i.e., Kotlin).
+      - Knowledge of containers technologies (i.e., Docker) may be advantageous.
+    objectives:
+      - Familiarization and study of the context (i.e., cryptographic access control, cloud native applications).
+      - Investigation of possible extensions to the solution proposed in [1] and CryptoAC.
+      - Implementation and evaluation of the chosen extensions.
+    topics:
+      - Access Control
+      - Applied Cryptography
+      - Cloud Native Applications
+      - Software Development
+    timeFrame: We would like the applicant to start as soon as possible with the internship; the period for the thesis is then negotiateable.
+    notes: Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+    references:
+      - id: 1
+        text: "Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
+        links:
+          - name: Link
+            url: https://stefanoberlato.it/publications/OSVS2024.pdf
+      - id: 2
+        text: CryptoAC
+        links:
+          - name: Link
+            url: https://aleph.fbk.eu/tools/CryptoAC
