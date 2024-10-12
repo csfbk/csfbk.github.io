@@ -1604,3 +1604,34 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
+
+  - id: p-2024-cleanse-3
+    title: DevSecOps for Cloud Native Applications
+    published: "2024-10-12"
+    applicationEnd: "2024-11-12 23:59"
+    year: 2024
+    description: >
+      "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."<br />
+      DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.<br />
+      For Cloud Native Applications, security regards multiple levels (code, container, deployment, orchestrator, etc.) and the approach to introduce security should consider all of them.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit: CIL_DG
+    supervisor:
+      - PietroDeMatteis
+    objectives: >
+      In this context, multiple topics are available to explore:
+      <ul>
+        <li>Software Supply Chain</li>
+        <li>Threat Modeling</li>
+        <li>AI applied to the DevSecOps (as tool, as support for configuration or for diagnosing and resolving problems)</li>
+      </ul>
+    topics:
+      - Cloud Native Applications
+      - DevSecOps
+      - Software Supply Chain
+      - Threat Modeling
+      - AI
+    notes: Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
