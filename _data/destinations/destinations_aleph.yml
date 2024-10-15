@@ -213,6 +213,16 @@
   startDate: "2024-03-11"
   endDate: "2024-03-14"
 
+- id: OSVS2024
+  name: 1st Workshop on Operating Systems and Virtualization Security (OSVS)
+  proceedings: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  acronym: OSVS
+  url: https://osvs.pages.dev/
+  type: conference 
+  location: Vienna, Austria
+  startDate: "2024-07-12"
+  endDate: "2024-07-12"
+
 - id: SECRYPT2024
   name: 21th International Conference on Security and Cryptography
   acronym: SECRYPT 2024
@@ -221,6 +231,15 @@
   location: Dijon, France
   startDate: "2024-07-8"
   endDate: "2024-07-10"
+
+- id: CRISIS2024
+  name: 19th International Conference on Risks and Security of Internet and Systems
+  acronym: CRISIS 2024
+  url: https://crisis2024.univ-gustave-eiffel.fr/
+  type: conference
+  location: Aix-en-provence, France
+  startDate: "2024-11-26"
+  endDate: "2024-11-28"
 
 ## 2025
 # ...
