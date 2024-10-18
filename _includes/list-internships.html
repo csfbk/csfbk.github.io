@@ -68,11 +68,11 @@
             {% if project.supervisor %}
                 {% if project.supervisor | first %}
                     {% for supervisor in project.supervisor %}
-                        {% assign supervisorFromId = peopleList | where: "id", supervisor %}
+                        {% assign supervisorFromId = peopleList | where: "id", supervisor | where_exp: "supervisor", "supervisor.affiliations.size > 0" %}
                         {% assign supervisorsFromId = supervisorsFromId | push: supervisorFromId[0] %}
                     {% endfor %}
                 {% else %}
-                    {% assign supervisorFromId = peopleList | where: "id", project.supervisor %}
+                    {% assign supervisorFromId = peopleList | where: "id", project.supervisor | where_exp: "supervisor", "supervisor.affiliations.size > 0" %}
                     {% assign supervisorsFromId = supervisorsFromId | concat: supervisorFromId[0] %}
                 {% endif %}
             {% endif %}
