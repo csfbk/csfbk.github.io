@@ -80,7 +80,17 @@
   name: Francesco
   orcid: 0000-0001-9860-7297
   surname: Mogavero
-  
+
+- id: GiacomoBrandi
+  name: Giacomo
+  surname: Brandi
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: gbrandi@fbk.eu
+
 - id: GiacomoZanolli
   name: Giacomo
   surname: Zanolli
