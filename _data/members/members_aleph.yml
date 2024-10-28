@@ -25,34 +25,6 @@ current:
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
 
-    - personId:       GiorgiaGabardi
-      type:           B
-      topic:          Cryptographic Revocation
-      institution:    University of Trento
-      yearFrom:       2024
-      # yearTo:         2023
-
-    - personId:       NicolaSmaniotto
-      type:           M
-      topic:          Cryptographic Revocation
-      institution:    University of Trento
-      yearFrom:       2024
-      # yearTo:         2023
-
-    - personId:       SaraMontanari
-      type:           M
-      topic:          Key Recovery
-      institution:    University of Trento
-      yearFrom:       2024
-      # yearTo:         2024
-
-    - personId:       ValeriaVicard
-      type:           M
-      topic:          Pairin based Cryptography for Searchable and Attribute-based Encryption
-      institution:    University of Udine
-      yearFrom:       2024
-      # yearTo:         2024
-
   junior:
     # -   # ID of the person
       
@@ -95,17 +67,34 @@ former:
     # - personId:       # ID of the person
     #   thesisId:       # ID of the thesis
 
-    - personId: MarcoSoldera_BA
-      thesisId: MarcoSoldera_BA
 
+    - personId: GiorgiaGabardi_BA
+      thesisId: GiorgiaGabardi_BA
+      
     - personId: IonAndyDitu_BA
       thesisId: IonAndyDitu_BA
 
     - personId: LucaClaus_BA
       thesisId: LucaClaus_BA
 
+    - personId: MarcoSoldera_BA
+      thesisId: MarcoSoldera_BA
+
+    - personId:       NicolaSmaniotto
+      type:           M
+      topic:          Cryptographic Revocation
+      institution:    University of Trento
+      yearFrom:       2024
+      yearTo:         2024
+
+    - personId: SaraMontanari_MA
+      thesisId: SaraMontanari_MA
+
     - personId: SimoneBrunello_BA
       thesisId: SimoneBrunello_BA
+
+    - personId: ValeriaVicard_MA
+      thesisId: ValeriaVicard_MA
 
   junior:
     # - personId:       # ID of the person
