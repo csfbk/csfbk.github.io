@@ -17,7 +17,6 @@
 - id: AdamJLee
   name: Adam J.
   surname: Lee
-  email: adamlee@cs.pitt.edu
 
 - id: AlessandroTomasi
   name: Alessandro
@@ -33,33 +32,22 @@
 - id: AmirSharif
   name: Amir
   surname: Sharif
-  email: asharif@fbk.eu
-  website: https://st.fbk.eu/people/amir-sharif
-  image: https://st.fbk.eu/assets/areas/people/AmirSharif.jpg
 
 - id: AndreaBisegna
   name: Andrea
   surname: Bisegna
-  email: a.bisegna@futuroeconoscenza.it
-  usernameFBK: a.bisegna
-  website: https://st.fbk.eu/people/andrea-bisegna
-  image: https://st.fbk.eu/assets/areas/people/AndreaBisegna.jpg
 
 - id: AndreaFlamini
   name: Andrea
   surname: Flamini
-  email: andrea.flamini@unitn.it
   
 - id: DomenicoSiracusa
   name: Domenico
   surname: Siracusa
-  email: dsiracusa@fbk.eu
   
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
-  email: chiara.spadafora@unitn.it
-  orcid: 0000-0003-3352-9210
 
 - id: EnricoSorbera
   name: Enrico
@@ -74,11 +62,9 @@
 - id: FrancescoAntonioMarino
   name: Francesco Antonio
   surname: Marino
-  email: fa.marino@ipzs.it
 
 - id: FrancescoMogavero
   name: Francesco
-  orcid: 0000-0001-9860-7297
   surname: Mogavero
 
 - id: GiacomoBrandi
@@ -98,20 +84,14 @@
 - id: GiadaSciarretta
   name: Giada
   surname: Sciarretta
-  email: g.sciarretta@fbk.eu
-  phone: "+390461312378"
-  website: https://st.fbk.eu/people/giada-sciarretta
-  image: https://st.fbk.eu/assets/areas/people/GiadaSciarretta.jpg
-  orcid: 0000-0001-7567-4526
 
-- id: GiorgiaGabardi
+- id: GiorgiaGabardi_BA
   name: Giorgia
   surname: Gabardi
 
 - id: IonAndyDitu
   name: Ion Andy
   surname: Ditu
-  email: iditu@fbk.eu
 
 - id: IonAndyDitu_BA
   name: Ion Andy
@@ -120,7 +100,6 @@
 - id: IreneVilla
   name: Irene
   surname: Villa
-  orcid: 0000-0001-6381-4712
   
 - id: LucaClaus_BA
   name: Luca
@@ -129,16 +108,10 @@
 - id: MajidMollaeefar
   name: Majid
   surname: Mollaeefar
-  email: mmollaeefar@fbk.eu 
-  usernameFBK: mmollaeefar 
-  website: https://st.fbk.eu/people/majid-mollaeefar
-  image: https://st.fbk.eu/assets/areas/people/MajidMollaeefar.jpg
-  orcid: 0000-0002-0277-3029
 
 - id: MarcoCalderini
   name: Marco
   surname: Calderini
-  orcid: 0000-0002-6817-3421
 
 - id: MarcoCentenaro
   name: Marco
@@ -162,26 +135,25 @@
       place: Trento, Italy
   email: mscuro@fbk.eu
 
+- id: MarinoMiculan
+  name: Marino
+  surname: Miculan
+
 - id: MassimilianoSala
   name: Massimiliano
   surname: Sala
-  orcid: 0000-0002-7266-5146
 
 - id: MatteoBitussi
   name: Matteo
   surname: Bitussi
-  email: mbitussi@fbk.eu
 
 - id: MatteoFranzil
   name: Matteo
   surname: Franzil
-  email: mfranzil@fbk.eu
 
 - id: MatteoRizzi
   name: Matteo
   surname: Rizzi
-  email: mrizzi@fbk.eu
-  orcid: 0000-0002-5288-3031
 
 - id: NicolaSmaniotto
   name: Nicola
@@ -194,7 +166,6 @@
 - id: PietroDeMatteis
   name: Pietro
   surname: De Matteis
-  email: pietro.dematteis@dedagroup.it
 
 - id: RiccardoLongo
   name: Riccardo
@@ -210,16 +181,10 @@
 - id: RiccardoGermenia
   name: Riccardo
   surname: Germenia
-  email: rgermenia@fbk.eu
-  orcid: 0009-0009-9283-8030
 
 - id: RobertoCarbone
   name: Roberto
   surname: Carbone
-  email: carbone@fbk.eu
-  phone: "+390461314185"
-  website: https://st.fbk.eu/people/roberto-carbone
-  image: https://st.fbk.eu/assets/areas/people/RobertoCarbone.jpg
 
 - id: RoccoZaccagnino
   name: Rocco
@@ -228,24 +193,14 @@
 - id: SalvatoreManfredi
   name: Salvatore
   surname: Manfredi
-  email: smanfredi@fbk.eu
-  phone: "+390461314193"
-  website: https://st.fbk.eu/people/salvatore-manfredi
-  image: https://st.fbk.eu/assets/areas/people/SalvatoreManfredi.jpg
-  orcid: 0000-0001-9645-6034
   
-- id: SaraMontanari
+- id: SaraMontanari_BA
   name: Sara
   surname: Montanari
 
 - id: SilvioRanise
   name: Silvio
   surname: Ranise
-  email: ranise@fbk.eu
-  phone: "+390461314192"
-  website: https://st.fbk.eu/people/silvio-ranise
-  image: https://cs.fbk.eu/assets/areas/people/cs/SilvioRanise.jpg
-  orcid: 0000-0001-7269-9285
 
 - id: SilvioCretti
   name: Silvio
@@ -269,13 +224,8 @@
 - id: UmbertoMorelli
   name: Umberto
   surname: Morelli
-  email: umorelli@fbk.eu
-  usernameFBK: umorelli
-  website: https://st.fbk.eu/people/umberto-morelli
-  image: https://st.fbk.eu/assets/areas/people/UmbertoMorelli.jpg
-  orcid: 0000-0003-2899-2227
 
-- id: ValeriaVicard
+- id: ValeriaVicard_MA
   name: Valeria
   surname: Vicard
 
