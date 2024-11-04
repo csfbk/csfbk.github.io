@@ -14,11 +14,24 @@ current:
     - MarcoZambianco
     - MatteoFranzil
     - MatteoManfrin
+    - MichaelKevinNtakoKoungni
     - RobertoDoriguzziCorin
     - SilvioCretti
     - ValentinoArmani
 
   students:
+    - personId: PetrSabel
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+    - personId: AlessiaPivotto
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
+    - personId: FrancescoMarchetto
+      type: B
+      institution: University of Trento
+      yearFrom: 2024
     - personId: MarcoZani 
       type: B
       institution: University of Trento
@@ -44,7 +57,7 @@ current:
       institution: University of Trento
       yearFrom: 2024
       yearTo: 2024
-    - personId: MatteoBregola
+    - personId: DennisOrlando
       type: B
       institution: University of Trento
       yearFrom: 2024
@@ -56,10 +69,12 @@ current:
 
 former:
   head:
-    - DomenicoSiracusa
+    - personId: DomenicoSiracusa
+      yearTo: 2024
 
   phdStudents:
     - personId: ArslanRafi
+      yearTo: 2024
 
     - personId: SimoneMagnani
       thesisId: SimoneMagnani_P
@@ -146,6 +161,9 @@ former:
       yearTo: 2020
 
   students:
+    - personId: MatteoBregola
+      thesisId: MatteoBregola_B
+      
     - personId: SamueleBouveret
       type: B
       institution: University of Trento
