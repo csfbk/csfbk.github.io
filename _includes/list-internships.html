@@ -275,7 +275,7 @@
                     {% if project.id %}<p><b>ID:</b> <tt>{{ project.id }}</tt></p>{% endif %}
                     {% if project.published %}<p><b>Published on:</b> {{ project.published | date: "%A, %e %B %Y" }}</p>{% endif %}
                     {% if project.applicationStart %}<p><b>Start of Applications:</b> {{ project.applicationStart | date: "%A, %e %B %Y at %H:%M" }}</p>{% endif %}
-                    {% if project.applicationEnd %}<p><b>Deadline for Applications:</b> {{ project.applicationEnd | date: "%A, %e %B %Y at %H:%M" }}</p>{% endif %}
+                    {% if project.applicationEnd %}<p><b>Deadline for Applications:</b> {% if project.applicationPreviousEnd %}<s>{{ project.applicationPreviousEnd | date: "%A, %e %B %Y at %H:%M"}}</s> {{ project.applicationEnd | date: "%A, %e %B %Y at %H:%M" }} (<b>extended</b>){% else %}{{ project.applicationEnd | date: "%A, %e %B %Y at %H:%M" }}{% endif %}</p>{% endif %}
                 </div>
                 {% if project.description %}
                     <div class="description">

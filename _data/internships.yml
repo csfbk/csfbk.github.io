@@ -1489,7 +1489,8 @@ projects:
   - id: p-2024-st-7
     title: Digital Identity Wallet Solution Threat Analysis and Compliance Review
     published: "2024-10-11"
-    applicationEnd: "2024-11-11 23:59"
+    applicationEnd: "2024-11-25 23:59"
+    applicationPreviousEnd: "2024-11-11 23:59"
     year: 2024
     description: >
       In an increasingly digital world, the security of personal and sensitive information is paramount. Digital identity wallets have emerged as a convenient and secure solution for individuals to manage and control their personal identity data, enabling seamless interactions across various online services. However, ensuring the robust security of these wallets is of utmost importance to prevent potential breaches and unauthorized access. This internship project focuses on:
@@ -1608,7 +1609,8 @@ projects:
   - id: p-2024-cleanse-3
     title: DevSecOps for Cloud Native Applications
     published: "2024-10-12"
-    applicationEnd: "2024-11-12 23:59"
+    applicationEnd: "2024-12-12 23:59"
+    applicationPreviousEnd: "2024-11-12 23:59"
     year: 2024
     description: >
       "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."<br />
