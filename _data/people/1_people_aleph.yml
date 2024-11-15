@@ -215,6 +215,10 @@
   name: Simone
   surname: Brunello
 
+- id: SimoneBrunello
+  name: Simone
+  surname: Brunello
+
 - id: StefanoBerlato
   name: Stefano
   surname: Berlato
