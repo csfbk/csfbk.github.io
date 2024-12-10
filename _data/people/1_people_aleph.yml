@@ -44,15 +44,19 @@
 - id: AndreaFlamini
   name: Andrea
   surname: Flamini
+
+- id: ChiaraSpadafora
+  name: Chiara
+  surname: Spadafora
   
+- id: DavidIoanHangu_BA
+  name: David Ioan
+  surname: Hangu
+
 - id: DomenicoSiracusa
   name: Domenico
   surname: Siracusa
   
-- id: ChiaraSpadafora
-  name: Chiara
-  surname: Spadafora
-
 - id: EnricoSorbera
   name: Enrico
   surname: Sorbera
