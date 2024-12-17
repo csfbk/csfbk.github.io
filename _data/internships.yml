@@ -1665,3 +1665,73 @@ projects:
       - Attack patterns
       - Penetration testing
     notes: Multiple positions available.
+
+  - id: p-2024-cleanse-4
+    title: Cryptography Bill of Materials (CBOM)
+    published: "2024-12-17"
+    applicationEnd: "2025-01-16 23:59"
+    year: 2024
+    description: >
+      Discovering, managing, and reporting on cryptographic assets is a critical step for the transition to quantum-safe systems and applications [0]. 
+      The Open Worldwide Application Security Project (OWASP) [1] proposes a standard to represent Cryptography Bill of Materials (CBOM) [2], useful to describe cryptographic assets and their dependencies in a Software Supply Chain Security (SSCS) context.
+      A CBOM is useful to understand the assets, their dependencies and the compliance with regulations, and a key enabler of cryptographic agility to secure critical systems against quantum computing threats.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ALEPH
+      - CIL_DG
+    supervisor:
+      - AlessandroTomasi
+      - PietroDeMatteis
+    prerequisites: >
+      <ul>
+        <li>Practical knowledge of Java is essential; practical knowledge of docker would be useful.</li>
+        <li>Basic understanding of cybersecurity principles.</li>
+        <li>Basic knowledge of cryptography from cryptography-related courses.</li>
+      </ul>
+    objectives: >
+      The research questions to cover with the internship are:
+      <ul>
+        <li>CBOM Compliance: starting from an open-source tool proposed by IBM for compliance [3], study how the tool works, what are the policies used to evaluate the compliance, and how to extend these compliance policies.</li>
+        <li>CBOM Creation: study how a CBOM is created for proprietary software and Third-Party dependencies.</li>
+        <li>CBOM Composition: study how the CBOM is composed and how to use and integrate a Third-Party CBOM.</li>
+      </ul>
+      The tools analyzed could be tested and evaluated with open-source projects such as IT-Wallet [4] and AAC [5].
+    topics:
+      - Cryptography Bill of Materials
+      - Cryptographic compliance
+      - Quantum-resistant cryptography
+    notes: Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+    references:
+      - id: 0
+        text: Transition to Post-Quantum Cryptography Standards (NIST IR 8547)
+        links:
+          - name: Link
+            url: https://csrc.nist.gov/pubs/ir/8547/ipd
+      - id: 1
+        text: OWASP
+        links:
+          - name: Link
+            url: https://owasp.org/
+      - id: 2
+        text: Authoritative Guide to CBOM
+        links:
+          - name: Link
+            url: https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-CBOM-en.pdf
+      - id: 3
+        text: Cryptography Bill of Materials
+        links:
+          - name: Link
+            url: https://github.com/IBM/CBOM
+      - id: 4
+        text: IO Wallet
+        links:
+          - name: Link
+            url: https://github.com/pagopa/io-wallet
+      - id: 5
+        text: AAC
+        links:
+          - name: Link
+            url: https://github.com/scc-digitalhub/AAC
