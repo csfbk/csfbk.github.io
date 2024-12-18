@@ -132,7 +132,7 @@
   abstract: >
     This paper presents an architecture for an OAuth 2.0-based i-voting solution using a mobile native client in a variant of the Araújo-Traoré protocol. We follow a systematic approach by identifying relevant OAuth 2.0 specifications and best practices. Having defined our framework, we identify threats applicable to our proposed methodology and detail how our design mitigates them to provide a safer i-voting process.
   destination: EVOTEID2023
-  #doi: 10.
+  doi: 10.18420/e-vote-id2023_04
   tags:                     
     - ThresholdCryptography
     - ZKP
