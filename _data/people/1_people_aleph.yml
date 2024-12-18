@@ -48,7 +48,13 @@
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
-  
+  affiliations:
+    - role: PhD Student
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: cspadafora@fbk.eu
+
 - id: DavidIoanHangu_BA
   name: David Ioan
   surname: Hangu
