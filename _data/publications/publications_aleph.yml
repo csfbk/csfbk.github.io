@@ -118,7 +118,7 @@
     - Cryptanalysis
   
 - id: EVOTEID2023
-  isALEPH: false
+  isALEPH: true
   year: 2023
   title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
   authors:
