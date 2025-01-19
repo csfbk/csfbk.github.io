@@ -81,6 +81,16 @@
   name: Francesco
   surname: Mogavero
 
+- id: FedericaZanetti
+  name: Federica
+  surname: Zanetti
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: fzanetti@fbk.eu
+
 - id: GiacomoBrandi
   name: Giacomo
   surname: Brandi
