@@ -1735,3 +1735,56 @@ projects:
         links:
           - name: Link
             url: https://github.com/scc-digitalhub/AAC
+
+  - id: p-2025-st-1
+    title: Packet stream analysis for TLS compliance
+    published: "2025-01-20"
+    applicationEnd: "2025-02-20 23:59"
+    year: 2024
+    description: >
+      Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their compliance with the RFCs they are based on.<br />
+      To ensure that a TLS deployment is configured correctly, (inter)national cybersecurity agencies such as US’ NIST and Italian’s AgID/ACN periodically issue technical guidelines that describe a set of requirements able to mitigate known vulnerabilities and ensure an adequate security level. These guidelines presume that security issues are only due to an incorrect configuration while, in reality, problems may also arise from an incorrectly developed TLS libraries that generate messages which do not comply with the related RFCs.<br />
+      The primary objective of this internship is to perform a technical review of the available software able to analyze raw network packets, validate their content and which structure is used by the protocol. The results will be employed in a process that aims to develop a new tool that can verify, analyze, and execute TLS connections. This tool will be used to assess the compliance of TLS libraries and related deployments.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - SalvatoreManfredi
+      - RiccardoGermenia
+    prerequisites:
+      - Basic knowledge of the TLS protocol
+      - Basic knowledge of network analysis tools (e.g., Wireshark)
+      - Basic knowledge of design patterns and software engineering
+      - Basic experience with JavaScript
+      - Experience with Python 3 development
+      - Experience with formal grammars 
+    objectives:
+      - Study of the TLS protocol and its inner workings
+      - Perform a literature review on the state-of-the-art in terms of tools, listing their features, applicability and scope
+      - Creation of a CFG (context-free grammar) for TLS 1.3
+    topics:
+      - Research tool
+      - Compliance analysis
+      - Packet analysis
+      - TLS misconfiguration
+    notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
+    references:
+      - text: https://github.com/tlsfuzzer/tlslite-ng
+        links:
+          - name: Link
+            url: https://github.com/tlsfuzzer/tlslite-ng
+      - text: https://www.wireshark.org/
+        links:
+          - name: Link
+            url: https://www.wireshark.org/
+      - text: https://lapo.it/asn1js
+        links:
+          - name: Link
+            url: https://lapo.it/asn1js
+      - text: https://github.com/tls-attacker/TLS-Attacker
+        links:
+          - name: Link
+            url: https://github.com/tls-attacker/TLS-Attacker
