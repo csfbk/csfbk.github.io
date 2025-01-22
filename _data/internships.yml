@@ -1740,7 +1740,7 @@ projects:
     title: Packet stream analysis for TLS compliance
     published: "2025-01-20"
     applicationEnd: "2025-02-20 23:59"
-    year: 2024
+    year: 2025
     description: >
       Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their compliance with the RFCs they are based on.<br />
       To ensure that a TLS deployment is configured correctly, (inter)national cybersecurity agencies such as US’ NIST and Italian’s AgID/ACN periodically issue technical guidelines that describe a set of requirements able to mitigate known vulnerabilities and ensure an adequate security level. These guidelines presume that security issues are only due to an incorrect configuration while, in reality, problems may also arise from an incorrectly developed TLS libraries that generate messages which do not comply with the related RFCs.<br />
@@ -1788,3 +1788,50 @@ projects:
         links:
           - name: Link
             url: https://github.com/tls-attacker/TLS-Attacker
+
+  - id: p-2025-st-2
+    title: AI-Powered Threat Modeling
+    published: "2025-01-22"
+    applicationEnd: "2025-02-07 23:59"
+    year: 2025
+    description: >
+      As modern systems become increasingly complex, ensuring their security, privacy and resilience requires more advanced approaches to threat modeling.  Artificial Intelligence (AI) has emerged as a powerful enabler to automate, enhance, and refine manual security and privacy assessments. By leveraging AI-driven techniques, organizations can identify the threats, vulnerabilities, potential attack vectors and mitigations more efficiently and with higher accuracy. However, the trustworthiness of AI-based threat modeling solutions must also be ensured—both to validate their findings and to mitigate any risks introduced by the AI systems themselves. This internship focuses on developing and evaluating AI-powered methodologies for automated threat modeling in cutting-edge systems such as Digital Identity Wallet and e-voting.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - UmbertoMorelli
+      - GiadaSciarretta
+      - AmirSharif
+    prerequisites:
+      - "Basic Cybersecurity Knowledge: A foundational understanding of security and privacy principles, threats, and common vulnerabilities."
+      - "Familiarity with Threat Modeling: Prior knowledge of frameworks like STRIDE or LINDDUN is advantageous."
+      - "AI/ML Background: Basic understanding of machine learning or data analysis methods; prior experience with ML libraries (e.g., TensorFlow, PyTorch) is a plus."
+      - "Programming Skills: Comfort with at least one programming language (e.g., Python, Java) for AI model development or integration."
+    objectives: >
+      <p>The main objectives of this internship project are as follows:</p>
+      <ul>
+        <li>
+          Extend Traditional Threat Modeling
+          <ul>
+            <li>Investigate how AI can augment well-known frameworks (e.g., STRIDE, LINDDUN) by automatically discovering threats, analyzing complex data, and flagging potential vulnerabilities.</li>
+            <li>Investigate and propose mechanisms to mitigate potential biases or errors introduced by the AI in identifying threats.</li>
+          </ul>
+        </li>
+
+        <li>
+          Implementation and Tooling
+          <ul>
+            <li>Investigate available AI-based security tools and evaluate their performance in realistic scenarios.</li>
+            <li>Integrate or prototype new AI modules, focusing on trustworthiness, accuracy, and usability in real-world environments.</li>
+          </ul>
+        </li>
+      </ul>
+    topics:
+      - Threat Modeling
+      - LLMs
+      - STRIDE
+      - LINDDUN
