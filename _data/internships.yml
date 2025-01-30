@@ -1809,8 +1809,7 @@ projects:
     prerequisites:
       - "Basic Cybersecurity Knowledge: A foundational understanding of security and privacy principles, threats, and common vulnerabilities."
       - "Familiarity with Threat Modeling: Prior knowledge of frameworks like STRIDE or LINDDUN is advantageous."
-      - "AI/ML Background: Basic understanding of machine learning or data analysis methods; prior experience with ML libraries (e.g., TensorFlow, PyTorch) is a plus."
-      - "Programming Skills: Comfort with at least one programming language (e.g., Python, Java) for AI model development or integration."
+      - "Programming Skills: Comfort with Python programming language for AI model development or integration."
     objectives: >
       <p>The main objectives of this internship project are as follows:</p>
       <ul>
