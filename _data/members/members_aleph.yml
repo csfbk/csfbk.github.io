@@ -27,6 +27,13 @@ current:
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
 
+    - personId: RiccardoGennaro_BA
+      type: M
+      topic: Cryptographic Access Control Based on Attribute-Based Encryption for Cloud Native Applications
+      institution: University of Twente
+      yearFrom: 2025
+      yearTo: 2025
+
     - personId: DavidIoanHangu_BA
       type: B
       topic: Development of Serious Games and Capture-the-Flags Competitions on Applied Cryptography
