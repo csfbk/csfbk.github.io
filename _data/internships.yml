@@ -1834,3 +1834,48 @@ projects:
       - LLMs
       - STRIDE
       - LINDDUN
+
+  - id: p-2025-st-3
+    title: LLM-powered Privacy Threat Modeling
+    published: "2025-02-20"
+    applicationEnd: "2025-03-20 23:59"
+    year: 2025
+    description: >
+      The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, potential threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information—making the process time-intensive and reliant on thorough analysis. To address these challenges, at Security and Trust unit of the Center for Cybersecurity, we introduced and developed PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization.<br />
+      The primary objective of this internship is to conduct state-of-the-art research on privacy threat modeling, in particular, LLM-based approaches emphasizing how LLMs can be leveraged to automate and enhance these processes. The results will be employed to integrate AI agent concepts into PILLAR.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - Majid Mollaeefar
+    prerequisites:
+      - Cybersecurity knowledge
+      - Basic knowledge of Large Language Models and Agentic AI
+      - Experience with Python 
+      - English Language
+    objectives:
+      - Extending PILLAR's capabilities
+      - Integrating AI Agent concept within the threat modeling process
+      - Add new features to PILLAR
+    topics:
+      - Threat Modeling
+      - Privacy Engineering
+      - Large Language Models
+      - AI Agents
+    timeFrame: Preferably from April
+    references:
+      - text: PILLAR's repository
+        links:
+          - name: Link
+            url: https://github.com/stfbk/PILLAR
+      - text: STRIDE GPT tool
+        links:
+          - name: Link
+            url: https://github.com/mrwadams/stride-gpt
+      - text: LINDDUN
+        links:
+          - name: Link
+            url: https://linddun.org/
