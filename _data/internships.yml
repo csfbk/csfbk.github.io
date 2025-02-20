@@ -1739,7 +1739,8 @@ projects:
   - id: p-2025-st-1
     title: Packet stream analysis for TLS compliance
     published: "2025-01-20"
-    applicationEnd: "2025-02-20 23:59"
+    applicationEnd: "2025-02-28 23:59"
+    applicationPreviousEnd: "2025-02-20 23:59"
     year: 2025
     description: >
       Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their compliance with the RFCs they are based on.<br />
@@ -1850,7 +1851,7 @@ projects:
     unit:
       - ST
     supervisor:
-      - Majid Mollaeefar
+      - MajidMollaeefar
     prerequisites:
       - Cybersecurity knowledge
       - Basic knowledge of Large Language Models and Agentic AI
