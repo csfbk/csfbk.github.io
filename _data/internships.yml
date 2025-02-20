@@ -1793,7 +1793,8 @@ projects:
   - id: p-2025-st-2
     title: AI-Powered Threat Modeling
     published: "2025-01-22"
-    applicationEnd: "2025-02-07 23:59"
+    applicationEnd: "2025-03-14 23:59"
+    applicationPreviousEnd: "2025-02-07 23:59"
     year: 2025
     description: >
       As modern systems become increasingly complex, ensuring their security, privacy and resilience requires more advanced approaches to threat modeling.  Artificial Intelligence (AI) has emerged as a powerful enabler to automate, enhance, and refine manual security and privacy assessments. By leveraging AI-driven techniques, organizations can identify the threats, vulnerabilities, potential attack vectors and mitigations more efficiently and with higher accuracy. However, the trustworthiness of AI-based threat modeling solutions must also be ensured—both to validate their findings and to mitigate any risks introduced by the AI systems themselves. This internship focuses on developing and evaluating AI-powered methodologies for automated threat modeling in cutting-edge systems such as Digital Identity Wallet and e-voting.
