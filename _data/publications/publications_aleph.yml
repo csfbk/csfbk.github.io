@@ -192,6 +192,48 @@
   - DecentralizationOfTrust
 
 ## 2024
+
+- id: CRISIS2024EVOTE
+  #id_iris: 
+  title: "Modeling and Assessing Coercion Threats in Electronic Voting"
+  authors:
+    - RiccardoLongo
+    - MajidMollaeefar
+    - UmbertoMorelli
+    - ChiaraSpadafora
+    - AlessandroTomasi
+    - SilvioRanise
+  tags:
+    #- ThresholdCryptography
+    #- ZKP
+    #- SMPC
+    #- PrivacyEnhancingCryptography
+    - EVoting
+    - DecentralizationOfTrust
+    - ThreatModelling
+    - RiskAnalysis
+  abstract: >
+    Electronic voting holds the potential to increase voter participation and streamline election processes, but its broad use is limited by many challenges, e.g., ensuring system security and usability. One of the most difficult threats to counter is coercion; i.e., the ability to monitor and force voters' actions. This paper proposes a methodology to assess an e-voting system's resistance to coercion by gathering the security properties that an e-voting solution should offer from both academia and regulation, and adapting the Microsoft STRIDE and LINDDUN threats and the OWASP Risk Rating Technologies to the e-voting scenario.
+  destination: CRISIS2024
+  isALEPH: true
+  year: 2024
+  urlComplementary: /complementary/CRISIS2024EVOTE/CRISIS2024EVOTE
+  
+- id: EVOTEID2024
+  isALEPH: true
+  year: 2024
+  title: "Click and Cast - Assessing the Usability of Vote App"
+  authors:
+    - LauraCristiano
+    - RiccardoLongo
+    - ChiaraSpadafora
+  abstract: >
+    This article provides a comprehensive examination, from the usability perspective, of Vote App, a coercion-resistant electronic voting system. We report on the results of the usability tests conducted, where participants had to cast a vote in an artificial election while using the anti-coercion mechanisms of Vote App. To evaluate the results, we follow the three usability metrics of effectiveness, efficiency and satisfaction.
+  destination: EVOTEID2024
+  doi: 10.18420/e-vote-id2023_04
+  tags:
+    - EVoting
+
 - id: ICIN2024MOMO
   id_iris: 346387
   title: "Multi-Objective Microservice Orchestration: Balancing Security and Performance in CCAM"
@@ -268,19 +310,6 @@
   doi: 10.5220/0012764700003767
   isALEPH: false
 
-- id: SECRYPT2024 RiccardoLongo
-  title: 'Amun: Securing E-Voting Against Over-the-Shoulder Coercion'
-  authors:
-  - RiccardoLongo
-  - ChiaraSpadafora
-  destination: SECRYPT2024
-  year: 2024
-  doi: 10.5220/0012786800003767
-  isALEPH: true
-  tags:
-  - PrivacyEnhancingCryptography
-  - ZKP
-
 - id: OSVS2024CRYPTOAC
   id_iris: 350627
   title: "Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
@@ -302,32 +331,20 @@
   isALEPH: true
   year: 2024
   doi: 10.1109/EuroSPW61312.2024.00086
-
-- id: CRISIS2024EVOTE
-  #id_iris: 
-  title: "Modeling and Assessing Coercion Threats in Electronic Voting"
+  
+- id: SECRYPT2024 RiccardoLongo
+  title: 'Amun: Securing E-Voting Against Over-the-Shoulder Coercion'
   authors:
-    - RiccardoLongo
-    - MajidMollaeefar
-    - UmbertoMorelli
-    - ChiaraSpadafora
-    - AlessandroTomasi
-    - SilvioRanise
-  tags:
-    #- ThresholdCryptography
-    #- ZKP
-    #- SMPC
-    #- PrivacyEnhancingCryptography
-    - EVoting
-    - DecentralizationOfTrust
-    - ThreatModelling
-    - RiskAnalysis
-  abstract: >
-    Electronic voting holds the potential to increase voter participation and streamline election processes, but its broad use is limited by many challenges, e.g., ensuring system security and usability. One of the most difficult threats to counter is coercion; i.e., the ability to monitor and force voters' actions. This paper proposes a methodology to assess an e-voting system's resistance to coercion by gathering the security properties that an e-voting solution should offer from both academia and regulation, and adapting the Microsoft STRIDE and LINDDUN threats and the OWASP Risk Rating Technologies to the e-voting scenario.
-  destination: CRISIS2024
-  isALEPH: true
+  - RiccardoLongo
+  - ChiaraSpadafora
+  destination: SECRYPT2024
   year: 2024
-  urlComplementary: /complementary/CRISIS2024EVOTE/CRISIS2024EVOTE
+  doi: 10.5220/0012786800003767
+  isALEPH: true
+  tags:
+  - PrivacyEnhancingCryptography
+  - ZKP
+
 
 ## 2025
 # ...
