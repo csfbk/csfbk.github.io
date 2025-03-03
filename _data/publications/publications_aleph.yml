@@ -230,7 +230,7 @@
   abstract: >
     This article provides a comprehensive examination, from the usability perspective, of Vote App, a coercion-resistant electronic voting system. We report on the results of the usability tests conducted, where participants had to cast a vote in an artificial election while using the anti-coercion mechanisms of Vote App. To evaluate the results, we follow the three usability metrics of effectiveness, efficiency and satisfaction.
   destination: EVOTEID2024
-  doi: 10.18420/e-vote-id2023_04
+  doi: 10.18420/e-vote-id2024_05
   tags:
     - EVoting
 
