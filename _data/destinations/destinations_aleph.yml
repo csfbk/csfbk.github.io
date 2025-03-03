@@ -15,7 +15,12 @@
   acronym: Appl. Sci.
   url: https://www.mdpi.com/journal/applsci
   type: journal
-
+  
+- id: EURASIP J. on Info. Security
+  name: EURASIP Journal on Information Security
+  acronym: EURASIP J. on Info. Security
+  type: journal
+  
 - id: JISA
   name: Journal of Information Security and Applications
   acronym: JISA
@@ -253,10 +258,7 @@
 
 ## 2025
 
-- id: EURASIP J. on Info. Security
-  name: EURASIP Journal on Information Security
-  acronym: EURASIP J. on Info. Security
-  type: journal
+
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
 
