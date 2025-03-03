@@ -41,6 +41,11 @@
   name: Andrea
   surname: Bisegna
 
+- id: AndreaDeMaria
+  name: Andrea
+  surname: "De Maria"
+  orcid: null
+
 - id: AndreaFlamini
   name: Andrea
   surname: Flamini
@@ -282,3 +287,4 @@
   orcid: 0000-0002-8921-4480
   
 # Please keep alphabetical order
+
