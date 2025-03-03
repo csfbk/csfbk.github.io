@@ -55,6 +55,10 @@
       place: Trento, Italy
   email: cspadafora@fbk.eu
 
+- id: ClaudioForoncelli
+  name: Claudio
+  surname: Foroncelli
+  
 - id: DavidIoanHangu_BA
   name: David Ioan
   surname: Hangu
@@ -124,6 +128,11 @@
 - id: IreneVilla
   name: Irene
   surname: Villa
+  
+- id: LauraCristiano
+  name: Laura
+  surname: Cristiano
+  email: l.cristiano@fbk.eu
   
 - id: LucaClaus_BA
   name: Luca
