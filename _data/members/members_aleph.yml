@@ -33,6 +33,13 @@ current:
       institution: University of Twente
       yearFrom: 2025
       yearTo: 2025
+      
+    - personId: ClaudioForoncelli
+      type: B
+      topic: Cryptography Bill of Materials
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
 
     - personId: DavidIoanHangu_BA
       type: B
