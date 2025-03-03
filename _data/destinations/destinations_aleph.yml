@@ -204,6 +204,25 @@
   endDate: "2023-07-12"
 
 ## 2024
+
+- id: CRISIS2024
+  name: 19th International Conference on Risks and Security of Internet and Systems
+  acronym: CRISIS 2024
+  url: https://crisis2024.univ-gustave-eiffel.fr/
+  type: conference
+  location: Aix-en-provence, France
+  startDate: "2024-11-26"
+  endDate: "2024-11-28"
+  
+- id: EVOTEID2024
+  name: Ninth International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2024
+  url: https://e-vote-id.org/e-vote-id-2024/
+  type: conference
+  location: Tarragona, Spain
+  startDate: "2022-10-02"
+  endDate: "2022-10-04"
+  
 - id: ICIN2024
   name: 27th Conference on Innovation in Clouds, Internet and Networks
   acronym: ICIN 2024
@@ -231,15 +250,6 @@
   location: Dijon, France
   startDate: "2024-07-8"
   endDate: "2024-07-10"
-
-- id: CRISIS2024
-  name: 19th International Conference on Risks and Security of Internet and Systems
-  acronym: CRISIS 2024
-  url: https://crisis2024.univ-gustave-eiffel.fr/
-  type: conference
-  location: Aix-en-provence, France
-  startDate: "2024-11-26"
-  endDate: "2024-11-28"
 
 ## 2025
 # ...
