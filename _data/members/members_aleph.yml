@@ -34,6 +34,13 @@ current:
       yearFrom: 2025
       yearTo: 2025
       
+    - personId: LucaBortolotti_BA
+      type: B
+      topic: Enhancing Cryptographic Access Control
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
     - personId: ClaudioForoncelli
       type: B
       topic: Cryptography Bill of Materials
