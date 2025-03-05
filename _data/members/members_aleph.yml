@@ -15,6 +15,7 @@ current:
     - EnricoSorbera
     - ChiaraSpadafora
     - FedericaZanetti
+    - LiviaMarini_MA
 
   collaborators:
     # -   # ID of the person
@@ -33,7 +34,14 @@ current:
       institution: University of Twente
       yearFrom: 2025
       yearTo: 2025
-      
+    
+    - personId: LiviaMarini_MA
+      type: M
+      topic: Post-Quantum Cryptography Transition
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
     - personId: LucaBortolotti_BA
       type: B
       topic: Enhancing Cryptographic Access Control
