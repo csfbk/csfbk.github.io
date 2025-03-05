@@ -138,7 +138,11 @@
   name: Laura
   surname: Cristiano
   email: l.cristiano@fbk.eu
-  
+
+- id: LiviaMarini_MA
+  name: Livia
+  surname: Marini
+
 - id: LucaBortolotti_BA
   name: Luca
   surname: Bortolotti
@@ -278,6 +282,10 @@
 - id: ValeriaVicard_MA
   name: Valeria
   surname: Vicard
+
+- id: VincenzoDesantis
+  name: Vincenzo
+  surname: Desantis
 
 - id: ZahraEbadiAnsaroudi
   name: Zahra
