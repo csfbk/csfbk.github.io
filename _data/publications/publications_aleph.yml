@@ -325,8 +325,10 @@
   destination: SECRYPT2024
   year: 2024
   doi: 10.5220/0012764700003767
-  isALEPH: false
-
+  isALEPH: true
+  tags:
+  - CloudComputing
+  
 - id: OSVS2024CRYPTOAC
   id_iris: 350627
   title: "Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
