@@ -70,7 +70,6 @@
 - id: DavidIoanHangu_BA
   name: David Ioan
   surname: Hangu
-  usernameFBK: dhangu
   
 - id: DomenicoSiracusa
   name: Domenico
@@ -149,7 +148,6 @@
 - id: LiviaMarini_MA
   name: Livia
   surname: Marini
-  usernameFBK: lmarini
 
 - id: AlessandroColombo_BA
   name: Alessandro
