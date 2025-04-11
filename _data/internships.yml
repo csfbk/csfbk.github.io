@@ -1909,3 +1909,49 @@ projects:
       - Packet analysis
       - TLS vulnerabilities
     notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
+
+  - id: p-2025-st-5
+    title: Validation of post-quantum algorithms in OpenSSL
+    published: "2025-04-11"
+    applicationEnd: "2025-05-09 23:59"
+    year: 2025
+    description: >
+      OpenSSL is a software library initially released in 1998 that implements SSL and TLS protocols. Its usage provides secure communications over networks, and it has steadily become the de facto standard for the integration of TLS in webservers. With its latest release (v3.5), OpenSSL has deployed three PQC algorithms: ML-KEM (FIPS 203) for key exchange, ML-DSA (FIPS 204) and SLH-DSA (FIPS 205) as signature methods.<br />
+      The primary objective of this internship is to compare the algorithms’ implementation and validate the design choices performed during the design phase, investigating for common implementation flaws and possible side-channel attacks.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+      - ST
+    supervisor:
+      - RiccardoLongo
+      - SalvatoreManfredi
+    prerequisites:
+      - Experience with C
+      - Basic knowledge of the TLS protocol (e.g. Intro2CNS or Networking course)
+      - Advanced Programming of Cryptographic Methods course (or equivalent)
+    objectives: Use the NIST reference implementations to validate the PQC algorithms implemented in OpenSSL
+    topics:
+      - Post-quantum cryptography
+      - OpenSSL
+      - TLS
+      - Implementation validation
+    timeFrame: The internship period will begin in the middle of July, or later if preferred.
+    references:
+      - text: "OpenSSL 3.5: Upcoming Release Announcement"
+        links:
+          - name: Link
+            url: https://openssl-library.org/post/2025-02-04-release-announcement-3.5/
+      - text: Module-Lattice-Based Key-Encapsulation Mechanism Standard (FIPS 203)
+        links:
+          - name: Link
+            url: https://csrc.nist.gov/pubs/fips/203/final
+      - text: Module-Lattice-Based Digital Signature Standard (FIPS 204)
+        links:
+          - name: Link
+            url: https://csrc.nist.gov/pubs/fips/204/final
+      - text: Stateless Hash-Based Digital Signature Standard (FIPS 205)
+        links:
+          - name: Link
+            url: https://csrc.nist.gov/pubs/fips/205/final
