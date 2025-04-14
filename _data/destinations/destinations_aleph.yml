@@ -258,6 +258,15 @@
 
 ## 2025
 
+- id: OSVS2025
+  name: 2nd Workshop on Operating Systems and Virtualization Security (OSVS)
+  proceedings: 2025 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  acronym: OSVS
+  url: https://osvs.pages.dev/
+  type: conference 
+  location: Venice, Italy
+  startDate: "2024-07-04"
+  endDate: "2024-07-04"
 
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
