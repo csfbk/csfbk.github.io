@@ -391,6 +391,28 @@
   tags:
   - ThreatModelling
 
+- id: OSVS2025CRYPTOAC
+  #id_iris: 350627
+  title: "Work-in-Progress: Optimizing Performance of User Revocation in Cryptographic Access Control with Trusted Execution Environments"
+  authors:
+    - IonAndyDitu
+    - StefanoBerlato
+    - MatteoBusi
+    - RobertoCarbone
+    - SilvioRanise
+  tags:
+    - AccessControl
+    - CAC
+    - CloudComputing
+    - CloudNative
+    - HardwareBasedSecuritys
+  abstract: >
+    The possibility (and convenience) of storing and sharing data through the cloud entails a set of concerns to data security, such as the presence of external attackers, malicious insiders, and honest-but-curious cloud providers. Cryptographic Access Control (CAC) addresses these concerns but presents practical limitations, primarily due to the computational overhead of key management. In particular, user revocation (that is, revoking a user’s access to encrypted data) often requires rotating those Data Encryption Keys (DEKs) to which the revoked user lost access — lest the revoked user might have cached them for future use. Moreover, new DEKs must be distributed to remaining authorized users and data re-encrypted. In this work-in-progress paper, we explore how Trusted Execution Environments (TEEs) may conceal cryptographic keys from users in CAC and improve efficiency in key management during user revocation.
+  destination: OSVS2025
+  isALEPH: true
+  year: 2025
+  # doi: 10.1109/EuroSPW61312.2024.00086
+  
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
 
