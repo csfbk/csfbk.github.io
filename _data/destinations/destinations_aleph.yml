@@ -265,9 +265,18 @@
   url: https://osvs.pages.dev/
   type: conference 
   location: Venice, Italy
-  startDate: "2024-07-04"
-  endDate: "2024-07-04"
-
+  startDate: "2025-07-04"
+  endDate: "2025-07-04"
+  
+- id: SACMAT2025
+  name: 30th ACM Symposium on Access Control Models and Technologies (SACMAT)
+  proceedings: 2025 ACM Symposium on Access Control Models and Technologies (SACMAT)
+  acronym: SACMAT
+  url: https://www.sacmat.org/2025/index.php
+  type: conference 
+  location: Stony Brook, NY, USA
+  startDate: "2025-07-08"
+  endDate: "2025-07-10"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
 
