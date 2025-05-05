@@ -407,12 +407,30 @@
     - CloudNative
     - HardwareBasedSecurity
   abstract: >
-    The possibility (and convenience) of storing and sharing data through the cloud entails a set of concerns to data security, such as the presence of external attackers, malicious insiders, and honest-but-curious cloud providers. Cryptographic Access Control (CAC) addresses these concerns but presents practical limitations, primarily due to the computational overhead of key management. In particular, user revocation (that is, revoking a user’s access to encrypted data) often requires rotating those Data Encryption Keys (DEKs) to which the revoked user lost access — lest the revoked user might have cached them for future use. Moreover, new DEKs must be distributed to remaining authorized users and data re-encrypted. In this work-in-progress paper, we explore how Trusted Execution Environments (TEEs) may conceal cryptographic keys from users in CAC and improve efficiency in key management during user revocation.
+    The possibility (and convenience) of storing and sharing data through the cloud entails a set of concerns to data security, such as the presence of external attackers, malicious insiders, and honest-but-curious cloud providers. Cryptographic Access Control (CAC) addresses these concerns but presents practical limitations, primarily due to the computational overhead of key management. In particular, user revocation (that is, revoking a user's access to encrypted data) often requires rotating those Data Encryption Keys (DEKs) to which the revoked user lost access — lest the revoked user might have cached them for future use. Moreover, new DEKs must be distributed to remaining authorized users and data re-encrypted. In this work-in-progress paper, we explore how Trusted Execution Environments (TEEs) may conceal cryptographic keys from users in CAC and improve efficiency in key management during user revocation.
   destination: OSVS2025
   isALEPH: true
   year: 2025
   # doi: 10.1109/EuroSPW61312.2024.00086
+
+- id: SACMAT2025CRYPTOAC
+  #id_iris: 350627
+  title: "Relying on Trust to Balance Protection and Performance in Cryptographic Access Control"
+  authors:
+    - SimoneBrunello
+    - StefanoBerlato
+    - RobertoCarbone
+    - AdamJLee
+    - SilvioRanise
+  tags:
+    - AccessControl
+    - CAC
+    - CloudComputing
+  abstract: >
+    Cryptographic Access Control (CAC) allows organizations to control cloud-hosted data sharing among users while preventing external attackers, malicious insiders, and honest-but-curious cloud providers from accessing the data. However, CAC entails an overhead often impractical for real-world scenarios due to the many cryptographic computations involved. Hence, we put forth a hybrid Access Control (AC) scheme — combining CAC and (traditional) centralized AC — that considers trust assumptions (e.g., on users) and data protection requirements of the underlying scenario on a case-by-case basis to reduce the number of cryptographic computations to execute in CAC. Besides, we design a consistency check to ensure the correctness and safety properties of the enforcement of the hybrid AC scheme, provide a proof-of-concept implementation in Prolog, and conduct a preliminary experimental evaluation.
+  destination: SACMAT2025
+  isALEPH: true
+  year: 2025
+  # doi: 10.1109/EuroSPW61312.2024.00086
   
-
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
-
