@@ -145,6 +145,17 @@
   email: l.cristiano@fbk.eu
   usernameFBK: l.cristiano
 
+- id: LauraMattiuz
+  name: Laura
+  surname: Mattiuz
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: lmattiuz@fbk.eu
+  usernameFBK: lmattiuz
+
 - id: LiviaMarini_MA
   name: Livia
   surname: Marini
