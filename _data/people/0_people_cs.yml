@@ -33,4 +33,15 @@
   email: ranise@fbk.eu
   phone: "+390461314192"
 
+# Temp (until SaFEWaRe website is created)
+- id: LucaPiras
+  name: Luca
+  surname: Piras
+  affiliations:
+    - role: Researcher
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: l.piras@fbk.eu
+
 # Please keep alphabetical order
