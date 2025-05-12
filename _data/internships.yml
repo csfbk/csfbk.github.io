@@ -1955,3 +1955,58 @@ projects:
         links:
           - name: Link
             url: https://csrc.nist.gov/pubs/fips/205/final
+
+  - id: p-2025-safeware-1
+    title: AI, Secure Software Engineering and DevSecOps for Cloud Native Applications
+    published: "2025-05-12"
+    applicationEnd: "2025-06-12 23:59"
+    year: 2025
+    description: >
+      Software Systems are continuously and rapidly evolving, requiring engineers to address increasingly new complex and multi-dimensional aspects. These include for example the integration of Artificial Intelligence (AI), compliance with new and evolving EU Regulations (e.g., EU AI Act, NIS2, GDPR, etc.), and ensuring that systems are secure, ethical and trustworthy.<br />
+      To meet these demands, current practices in Secure Software Engineering and DevSecOps (Development, Security, and Operations) must be extended to address these new challenges. Especially when considering DevSecOps for Cloud Native Applications, where the attack surface spans multiple layers (e.g., code, container, deployment, orchestrator, etc.). "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required", describes Shannon Lietz, co-author of the "DevSecOps Manifesto".<br />
+      DevSecOps is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security. For Cloud Native Applications, security regards multiple levels (code, container, deployment, orchestrator, etc.) and the approach to introduce security should consider all of them.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - CLEANSE
+      - SaFEWaRe
+    supervisor:
+      - PietroDeMatteis
+      - LucaPiras
+    prerequisites: >
+      At least two of the following:
+      <ul>
+        <li>Programming Languages (e.g., Java, C++, Rust)</li>
+        <li>Programming Frameworks (e.g., Spring, Ionic)</li>
+        <li>Software security background</li>
+        <li>Configuration and Administration of Systems</li>
+        <li>Cloud-Native Applications</li>
+        <li>Cloud Computing Services (e.g., AWS, Azure)</li>
+        <li>Service Oriented Architectures</li>
+        <li>Service Orchestration</li>
+        <li>Dockers and Kubernetes</li>
+      </ul>
+    objectives: >
+      In this context, one or more of the following activities can be carried on:
+      <ul>
+        <li>Securing and Monitoring Software Supply Chain in SDLC</li>
+        <li>Development of novel techniques for Secure Software Engineering</li>
+        <li>Application of AI to DevSecOps as a support for configuration, diagnosing, resolving problems or compliance with Regulations (EU AI Act, NIS2, GDPR, NIST, etc.)</li>
+        <li>Development of Trustworthy and Transparent Software Systems</li>
+      </ul>
+    topics:
+      - Cloud Native Applications
+      - DevSecOps
+      - Software Supply Chain
+      - Threat Modeling
+      - AI
+      - Secure Software Engineering
+      - Privacy
+      - Security
+      - Trust
+    notes:
+      - We offer curricular internship (no allowance).
+      - Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+      - Exceptional work may lead to co-authored publications in International Conferences or Journals, with support and guidance from academic supervisors.
