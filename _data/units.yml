@@ -1,18 +1,26 @@
 # Research Units
 - id: ALEPH
-  name: Applied Cryptography
+  name: AppLiEd cryptograPHy
   acronym: ALEPH
   logo: ALEPH_symbol.png
   head: AlessandroTomasi
   website: https://aleph.fbk.eu
   visible: true
 
-- id: RiSING
-  name: Robust and Secure Distributed Computing
-  acronym: RiSING
-  logo: RiSING_symbol.png
-  head: SilvioRanise
-  website: https://rising.fbk.eu
+- id: DAISY
+  name: Distributed AI for dependable cyberSecuritY
+  acronym: DAISY
+  logo: DAISY_symbol.png
+  head: RobertoDoriguzziCorin
+  website: https://daisy.fbk.eu
+  visible: true
+
+- id: SaFEWaRe
+  name: Secure code liFEcycle for applications and netWoRking
+  acronym: SaFEWaRe
+  logo: CS.png
+  head: LorenzoGalvagni
+  website: 
   visible: true
 
 - id: ST
@@ -24,8 +32,17 @@
   visible: true
 
 # Other organizations (for internship projects)
-- id: CIL_DG
+- id: CLEANSE
   name: CLEANSE Joint Lab
   acronym: CLEANSE
   website: https://www.deda.group/deda/innovazione/co-innovation-lab
+  visible: false
+
+# Former units
+- id: RiSING
+  name: Robust and Secure Distributed Computing
+  acronym: RiSING
+  logo: RiSING_symbol.png
+  head: SilvioRanise
+  website: https://rising.fbk.eu
   visible: false

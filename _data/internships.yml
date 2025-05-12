@@ -796,7 +796,7 @@ projects:
     level:
       - BSc
       - MSc
-    unit: CIL_DG
+    unit: CLEANSE
     supervisor:
       - PietroDeMatteis
     objectives: >
@@ -1128,7 +1128,7 @@ projects:
     level:
       - BSc
       - MSc
-    unit: CIL_DG
+    unit: CLEANSE
     supervisor:
       - PietroDeMatteis
     prerequisites:
@@ -1160,7 +1160,7 @@ projects:
     level:
       - BSc
     unit:
-      - CIL_DG
+      - CLEANSE
       - RiSING
     supervisor:
       - PietroDeMatteis
@@ -1254,7 +1254,7 @@ projects:
       - BSc
       - MSc
     unit:
-      - CIL_DG
+      - CLEANSE
       - ST
     supervisor:
       - AndreaBisegna
@@ -1352,7 +1352,7 @@ projects:
     level:
       - BSc
     unit:
-      - CIL_DG
+      - CLEANSE
       - ST
     supervisor:
       - MatteoRizzi
@@ -1409,7 +1409,7 @@ projects:
       - BSc
       - MSc
     unit:
-      - CIL_DG
+      - CLEANSE
       - ST
     supervisor:
       - MatteoRizzi
@@ -1620,7 +1620,7 @@ projects:
     level:
       - BSc
       - MSc
-    unit: CIL_DG
+    unit: CLEANSE
     supervisor:
       - PietroDeMatteis
     objectives: >
@@ -1650,7 +1650,7 @@ projects:
       - BSc
       - MSc
     unit:
-      - CIL_DG
+      - CLEANSE
       - ST
     supervisor:
       - AndreaBisegna
@@ -1681,7 +1681,7 @@ projects:
       - MSc
     unit:
       - ALEPH
-      - CIL_DG
+      - CLEANSE
     supervisor:
       - AlessandroTomasi
       - PietroDeMatteis
