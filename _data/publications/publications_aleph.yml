@@ -459,12 +459,15 @@
   title: 'Enhancing E-Voting with Multiparty Class Group Encryption'
   authors:
     - MicheleBattagliola
+    - GiuseppeD'Alconzo
+    - AndreaGangemi
     - ChiaraSpadafora
-  destination: HCII25
+  destination: PrivCrypt25
   year: 2025
 #  doi: 
   isALEPH: true
-#  abstract: ""
+  abstract: >
+    CHide is one of the most prominent e-voting protocols, which, while combining security and efficiency, suffers from having very long encrypted credentials. In this paper, starting from CHide, we propose a new protocol, based on multiparty Class Group Encryption (CGE) instead of discrete logarithm cryptography over known order groups, achieving a computational complexity of O(nr), for n votes and r voters, and using a single MixNet. The homomorphic properties of CGE allow for more compact credentials while maintaining the same level of security at the cost of a small slowdown in efficiency.
   tags:
   - EVoting
 
