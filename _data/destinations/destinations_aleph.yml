@@ -258,6 +258,15 @@
 
 ## 2025
 
+- id: HCII25
+  name: 27th International Conference on Human-Computer Interaction (HCII)
+  acronym: HCII
+  url: https://2025.hci.international/
+  type: conference 
+  location: Gothenburg, Sweden
+  startDate: "2025-06-22"
+  endDate: "2025-06-27"
+
 - id: OSVS2025
   name: 2nd Workshop on Operating Systems and Virtualization Security (OSVS)
   proceedings: 2025 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
@@ -268,6 +277,16 @@
   startDate: "2025-07-04"
   endDate: "2025-07-04"
   
+- id: PrivCrypt25
+  name: International Workshop on Foundations and Applications of Privacy-Enhancing Cryptography (PrivCrypt)
+  proceedings: Workshops of the 23rd International Conference on Applied Cryptography and Network Security (ACNS 2025)
+  acronym: PrivCrypt
+  url: https://privcryptworkshop.github.io/
+  type: conference 
+  location: Munich, Germany
+  startDate: "2025-06-23"
+  endDate: "2025-06-26"
+
 - id: SACMAT2025
   name: 30th ACM Symposium on Access Control Models and Technologies (SACMAT)
   proceedings: 2025 ACM Symposium on Access Control Models and Technologies (SACMAT)
