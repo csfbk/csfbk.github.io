@@ -17,7 +17,7 @@
 
 - id: ChiaraSpadafora_PhD
   author: ChiaraSpadafora
-  title: "[Combining cryptography, risk assessment and usability for secure e-voting systems](https://iris.unitn.it/retrieve/handle/11572/451451/1031735/PhD_riassunto%20FINALE%20FINALE.pdf)"
+  title: "Combining cryptography, risk assessment and usability for secure e-voting systems"
   type: P
   abstract: >
      Remote electronic voting is a multi-faceted subject that cannot be fully addressed from a single perspective. The design of a secure and effective e-voting system requires a careful balance of mathematical rigor, robust information security measures, and usability considerations. In this thesis, I explore these interconnected dimensions to propose a comprehensive solution, which was called Vote App, that ensures both security and usability. In addition, this thesis introduces the Amun voting protocol, an improved voting protocol derived from the one developed during my master's thesis.
@@ -26,6 +26,7 @@
   year: 2025
   awards:             # Eventual awards (e.g., CLUSIT)
   institution: University of Trento
+  link: https://iris.unitn.it/retrieve/handle/11572/451451/1031735/
 
 ## 2024
 - id: GiorgiaGabardi_BA
