@@ -393,6 +393,21 @@
   tags:
   - ThreatModelling
 
+- id: HCII25
+  title: 'E-Voting with Confidence: Usability Challenges in Manual Integrity Checks'
+  authors:
+    - SimoneBrunello
+    - LauraCristiano
+    - RiccardoLongo
+    - ChiaraSpadafora
+  destination: HCII25
+  year: 2025
+#  doi: 
+  isALEPH: true
+#  abstract: ""
+  tags:
+  - EVoting
+
 - id: OSVS2025CRYPTOAC
   #id_iris: 350627
   title: "Work-in-Progress: Optimizing Performance of User Revocation in Cryptographic Access Control with Trusted Execution Environments"
@@ -414,6 +429,44 @@
   isALEPH: true
   year: 2025
   # doi: 10.1109/EuroSPW61312.2024.00086
+
+- id: EURASIP J. on Info. Security 2025 ZahraEbadiAnsaroudi
+  title: 'Navigating secure storage requirements for EUDI Wallets: a review paper'
+  authors:
+  - ZahraEbadiAnsaroudi
+  - GiadaSciarretta
+  - AndreaDeMaria
+  - SilvioRanise
+  destination: EURASIP J. on Info. Security
+  year: 2025
+  doi: 10.1186/s13635-025-00187-6
+  isALEPH: true
+  abstract: "The European Digital\
+    \ Identity Wallet (EUDI Wallet) plays a pivotal role in shaping digital identity\
+    \ across the EU, necessitating a secure storage solution compliant with eIDAS2\
+    \ regulation. In this study, we first analyze mobile secure storage solutions\
+    \ for the EUDI Wallet, identifying any gaps between current offerings and the\
+    \ EUDI Wallet's requirements. Our analysis indicates a significant shortfall\
+    \ in the availability of mobile native solutions, with only approximately 10.5%\
+    \ of mobile phones in the Italian market currently adhering to the stringent requirements\
+    \ mandated by eIDAS2. Consequently, we explore and evaluate alternative design\
+    \ solutions in terms of their feasibility and integration potential."
+  destinationAddon: Volume 2025, Issue 1
+  tags:
+  - ThreatModelling
+
+- id: PrivCrypt25
+  title: 'Enhancing E-Voting with Multiparty Class Group Encryption'
+  authors:
+    - MicheleBattagliola
+    - ChiaraSpadafora
+  destination: HCII25
+  year: 2025
+#  doi: 
+  isALEPH: true
+#  abstract: ""
+  tags:
+  - EVoting
 
 - id: SACMAT2025CRYPTOAC
   #id_iris: 350627
