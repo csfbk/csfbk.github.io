@@ -52,6 +52,10 @@
   name: Andrea
   surname: Flamini
 
+- id: AndreaGangemi
+  name: Andrea
+  surname: Gangemi
+ 
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
@@ -126,6 +130,10 @@
 - id: GiorgiaGabardi_BA
   name: Giorgia
   surname: Gabardi
+
+- id: GiuseppeD'Alconzo
+  name: Giuseppe
+  surname: D'Alconzo
 
 - id: IonAndyDitu
   name: Ion Andy
