@@ -1913,7 +1913,8 @@ projects:
   - id: p-2025-st-5
     title: Validation of post-quantum algorithms in OpenSSL
     published: "2025-04-11"
-    applicationEnd: "2025-05-09 23:59"
+    applicationEnd: "2025-06-15 23:59"
+    applicationPreviousEnd: "2025-05-09 23:59"
     year: 2025
     description: >
       OpenSSL is a software library initially released in 1998 that implements SSL and TLS protocols. Its usage provides secure communications over networks, and it has steadily become the de facto standard for the integration of TLS in webservers. With its latest release (v3.5), OpenSSL has deployed three PQC algorithms: ML-KEM (FIPS 203) for key exchange, ML-DSA (FIPS 204) and SLH-DSA (FIPS 205) as signature methods.<br />
