@@ -338,13 +338,5 @@
 - id: ZahraEbadiAnsaroudi
   name: Zahra
   surname: Ebadi Ansaroudi
-  affiliations:
-    - role: Researcher
-      unit: Applied Cryptography
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: zebadiansaroudi@fbk.eu
-  orcid: 0000-0002-8921-4480
   
 # Please keep alphabetical order
-
