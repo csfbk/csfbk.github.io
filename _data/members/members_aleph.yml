@@ -9,7 +9,6 @@ current:
 
     - StefanoBerlato
     - RiccardoLongo
-    - ZahraEbadiAnsaroudi
     - MarioScuro
     - GiacomoBrandi
     - EnricoSorbera
@@ -74,6 +73,12 @@ former:
     #   yearTo:         # e.g., 2016
 
   members:
+
+    - personId: ZahraEbadiAnsaroudi
+      formerRole: Researcher
+      yearFrom: 2023
+      yearTo: 2025
+
     - personId: IonAndyDitu
       formerRole: Research Assistant
       yearFrom: 2023
