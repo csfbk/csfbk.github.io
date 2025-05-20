@@ -10,7 +10,8 @@
 #     -
 #   year:               # Year of the thesis ("YYYY")
 #   awards:             # Eventual awards (e.g., CLUSIT)
-#   institution:        # Insitution (e.g., University of Trento)
+#   institution:        # Institution (e.g., University of Trento)
+#   link:               # Link to the thesis, if present (e.g., IRIS handle)
 
 
 ## 2025
@@ -108,6 +109,7 @@
   year: 2024
   awards: 
   institution: University of Genoa
+  link: https://iris.unige.it/handle/11567/1174596
 
 - id: ValeriaVicard_MA
   author: ValeriaVicard_MA
