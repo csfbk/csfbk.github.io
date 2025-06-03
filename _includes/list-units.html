@@ -1,4 +1,5 @@
 {% assign source = include.source %}
+{% assign details = include.details %}
 {% assign sort = include.sort %}
 {% assign cols = include.cols %}
 
@@ -43,7 +44,7 @@
                 <a href="{{ unit.website }}">
                     {% endif %}
                     <div class="card unit">
-                        {% if unit.logo %}
+                        {% if details contains "logo" and unit.logo %}
                             <div class="card-image">
                                 <figure class="image">
                                     <img src="/assets/images/logos/{{ unit.logo }}" alt="{{ unit.name }}" />
@@ -51,9 +52,9 @@
                             </div>
                         {% endif %}
                         <div class="card-content">
-                            {% if unit.name %}<p class="title is-spaced is-5">{{ unit.name }}</p>{% endif %}
-                            {% if unit.acronym %}<p class="subtitle acronym is-4">{{ unit.acronym }}</p>{% endif %}
-                            {% if head %}<p class="subtitle head is-4 mt-3">Head: {{ head }}</p>{% endif %}
+                            {% if details contains "name" and unit.name %}<p class="title is-spaced is-5">{{ unit.name }}</p>{% endif %}
+                            {% if details contains "acronym" and unit.acronym %}<p class="subtitle acronym is-4">{{ unit.acronym }}</p>{% endif %}
+                            {% if details contains "head" and head %}<p class="subtitle head is-4 mt-3">Head: {{ head }}</p>{% endif %}
                         </div>
                     </div>
                     {% if unit.website %}
