@@ -1,0 +1,53 @@
+# Temporarily generated manually
+
+- id: AndreaZanardi
+  name: Andrea
+  surname: Zanardi
+  email: azanardi@fbk.eu
+  phone: "+390461312450"
+  affiliations:
+    - role: Developer
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
+- id: GiancarloVallazza
+  name: Giancarlo
+  surname: Vallazza
+  email: gvallazza@fbk.eu
+  affiliations:
+    - role: Developer
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
+- id: LorenzoGalvagni
+  name: Lorenzo
+  surname: Galvagni
+  email: lgalvagni@fbk.eu
+  phone: "+390461312427"
+  affiliations:
+    - role: Head of Unit
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
+- id: LucaPiras
+  name: Luca
+  surname: Piras
+  affiliations:
+    - role: Researcher
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: l.piras@fbk.eu
+
+- id: ValentinoArmani
+  name: Valentino
+  surname: Armani
+  email: varmani@fbk.eu
+  affiliations:
+    - role: Developer 
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy

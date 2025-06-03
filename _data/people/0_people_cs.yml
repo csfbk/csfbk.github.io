@@ -10,6 +10,26 @@
       place: Trento, Italy
   email: l.cristiano@fbk.eu
 
+- id: MartinaCicaloni
+  name: Martina
+  surname: Cicaloni
+  affiliations:
+    - role: 
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mcicaloni@fbk.eu
+
+- id: MatteoBrosolo
+  name: Matteo
+  surname: Brosolo
+  affiliations:
+    - role: 
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: mbrosolo@fbk.eu
+
 - id: PietroDeMatteis
   name: Pietro
   surname: De Matteis
@@ -32,16 +52,5 @@
       place: Trento, Italy
   email: ranise@fbk.eu
   phone: "+390461314192"
-
-# Temp (until SaFEWaRe website is created)
-- id: LucaPiras
-  name: Luca
-  surname: Piras
-  affiliations:
-    - role: Researcher
-      unit: Secure code liFEcycle for applications and netWoRking
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: l.piras@fbk.eu
 
 # Please keep alphabetical order
