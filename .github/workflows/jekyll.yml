@@ -46,18 +46,43 @@ jobs:
           mkdir -p _data
           for dir in _data/single/*/ ; do
             foldername=$(basename "$dir")
-            output="_data/${foldername}.yml"
-            echo "FILE ${output}"
-            echo "Auto-merged from _data/single/${foldername}/*.yml"
-            echo "# Auto-merged from _data/single/${foldername}/*.yml" > "$output"
-            for file in "$dir"*.yml; do
-              filename=$(basename "$file")
+            if [ "$foldername" = "members" ]; then
+              output="_data/members_units.yml"
+              echo "FILE ${output}"
+              echo "Auto-merged from _data/single/${foldername}/*.yml"
+              echo "# Auto-merged from _data/single/${foldername}/*.yml" > "$output"
+
+              echo "units:" > "$output"
+              
+              for file in "$dir"*.yml; do
+                filename=$(basename "$file")
+                echo "" >> "$output"
+                echo "From file: $filename"  
+                echo "## From file: $filename" >> "$output"
+                echo "  -" >> "$output"
+                
+                # Indent each line by 2 spaces and append to output
+                sed 's/^/    /' "$file" >> "$output"
+                
+                echo "" >> "$output"
+                ((count++))
+              done
+
+            else
+              output="_data/${foldername}.yml"
+              echo "FILE ${output}"
+              echo "Auto-merged from _data/single/${foldername}/*.yml"
+              echo "# Auto-merged from _data/single/${foldername}/*.yml" > "$output"
+
+              for file in "$dir"*.yml; do
+                filename=$(basename "$file")
+                echo "" >> "$output"
+                echo "From file: $filename"
+                echo "## From file: $filename" >> "$output"
+                cat "$file" >> "$output"
+              done
               echo "" >> "$output"
-              echo "From file: $filename"
-              echo "## From file: $filename" >> "$output"
-              cat "$file" >> "$output"
-            done
-            echo "" >> "$output"
+            fi
           done
       - name: Setup Pages
         id: pages
