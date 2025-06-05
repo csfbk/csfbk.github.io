@@ -4,21 +4,6 @@
 {% assign style = include.style %}
 {% assign cols = include.cols %}
 
-{% assign peopleList = "" | split: "" %}
-{% assign peopleFilesList = site.data.people | sort %}
-{% for file in peopleFilesList %}
-    {% for person in file[1] %}
-        {% assign peopleList = peopleList | push: person %}
-    {% endfor %}
-{% endfor %}
-
-{% assign thesesList = "" | split: "" %}
-{% for file in site.data.theses %}
-    {% for thesis in file[1] %}
-        {% assign thesesList = thesesList | push: thesis %}
-    {% endfor %}
-{% endfor %}
-
 {% if source.size > 0 %}
 <div class="columns is-multiline">
     {% if style == "list" %}    
@@ -28,8 +13,8 @@
 
     {% assign peopleFromId = "" | split: "" %}
     {% for person in source %}
-        {% assign personFromId = peopleList | where: "id", person %}
-        {% assign personFromIdLabel = peopleList | where: "id", person.personId %}
+        {% assign personFromId = site.data.people | where: "id", person %}
+        {% assign personFromIdLabel = site.data.people | where: "id", person.personId %}
         {% if personFromId.size > 0 %}
             {% assign personFromIdWithAffiliation = personFromId | where_exp: "person", "person.affiliations.size > 0" %}
             {% if personFromIdWithAffiliation.size > 0 %}
@@ -82,7 +67,7 @@
         {% assign yearArray = "" | split: "" %}
         {% assign cycleArray = "" | split: "" %}
         {% for thesisId in thesesId %}
-            {% assign thesis = thesesList | where: "id", thesisId %}
+            {% assign thesis = site.data.theses | where: "id", thesisId %}
 
             {% if thesis.size == 1 %}
                 {% assign thesis = thesis | first %}

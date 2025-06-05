@@ -2,27 +2,12 @@
     {% assign source = include.source %}
 {% endif %}
 
-{% assign peopleList = "" | split: "" %}
-{% assign peopleFilesList = site.data.people | sort %}
-{% for file in peopleFilesList %}
-    {% for person in file[1] %}
-        {% assign peopleList = peopleList | push: person %}
-    {% endfor %}
-{% endfor %}
-
-{% assign thesesList = "" | split: "" %}
-{% for file in site.data.theses %}
-    {% for thesis in file[1] %}
-        {% assign thesesList = thesesList | push: thesis %}
-    {% endfor %}
-{% endfor %}
-
 {% if source.size > 0 %}
     <ul class="publications theses">
         {% assign publicationsFromId = "" | split: "" %}
         {% for publication in source %}
-            {% assign publicationFromId = thesesList | where: "id", publication %}
-            {% assign publicationFromIdLabel = thesesList | where: "id", publication.id %}
+            {% assign publicationFromId = site.data.theses | where: "id", publication %}
+            {% assign publicationFromIdLabel = site.data.theses | where: "id", publication.id %}
             {% if publicationFromId.size > 0 %}
                 {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
             {% elsif publicationFromIdLabel.size > 0 %}
@@ -32,7 +17,7 @@
         {% assign publicationsSorted = publicationsFromId | sort: "year" | reverse %}
         {%- for publication in publicationsSorted -%}
             {%- if publication.author -%}
-                {%- assign author = peopleList | where: "id", publication.author -%}
+                {%- assign author = site.data.people | where: "id", publication.author -%}
                 {%- if author.size > 0 -%}
                     {% assign author = author[0] -%}
                 {%- else -%}
@@ -44,12 +29,12 @@
             {%- if publication.supervisor -%}
                 {%- if publication.supervisor | first -%}
                     {% for sup in publication.supervisor %}
-                        {% assign supervisorFromId = peopleList | where: "id", sup %}
+                        {% assign supervisorFromId = site.data.people | where: "id", sup %}
                         {% assign supervisorName = supervisorFromId[0]["name"] | append: " " | append: supervisorFromId[0]["surname"] %}
                         {%- assign supervisors = supervisors | push: supervisorName -%}
                     {% endfor %}
                 {% else %}
-                    {% assign supervisorFromId = peopleList | where: "id", publication.supervisor %}
+                    {% assign supervisorFromId = site.data.people | where: "id", publication.supervisor %}
                     {% assign supervisorName = supervisorFromId[0]["name"] | append: " " | append: supervisorFromId[0]["surname"] %}
                     {%- assign supervisors = supervisors | push: supervisorName -%}
                 {% endif %}
@@ -65,12 +50,12 @@
             {%- if publication.co-supervisor -%}
                 {%- if publication.co-supervisor | first -%}
                     {% for cosup in publication.co-supervisor %}
-                        {% assign cosupervisorFromId = peopleList | where: "id", cosup %}
+                        {% assign cosupervisorFromId = site.data.people | where: "id", cosup %}
                         {% assign cosupervisorName = cosupervisorFromId[0]["name"] | append: " " | append: cosupervisorFromId[0]["surname"] %}
                         {%- assign cosupervisors = cosupervisors | push: cosupervisorName -%}
                     {% endfor %}
                 {% else %}
-                    {% assign cosupervisorFromId = peopleList | where: "id", publication.co-supervisor %}
+                    {% assign cosupervisorFromId = site.data.people | where: "id", publication.co-supervisor %}
                     {% assign cosupervisorName = cosupervisorFromId[0]["name"] | append: " " | append: cosupervisorFromId[0]["surname"] %}
                     {%- assign cosupervisors = cosupervisors | push: cosupervisorName -%}
                 {% endif %}
