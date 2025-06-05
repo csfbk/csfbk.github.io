@@ -47,6 +47,7 @@ jobs:
           for dir in _data/single/*/ ; do
             foldername=$(basename "$dir")
             output="_data/${foldername}.yml"
+            echo "# In file ${output}"
             echo "# Auto-merged from _data/single/${foldername}/*.yml"
             echo "# Auto-merged from _data/single/${foldername}/*.yml" > "$output"
             for file in "$dir"*.yml; do
