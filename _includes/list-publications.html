@@ -3,28 +3,6 @@
     {% assign source = include.source %}
 {% endif %}
 
-{% assign peopleList = "" | split: "" %}
-{% assign peopleFilesList = site.data.people | sort %}
-{% for file in peopleFilesList %}
-    {% for person in file[1] %}
-        {% assign peopleList = peopleList | push: person %}
-    {% endfor %}
-{% endfor %}
-
-{% assign publicationsList = "" | split: "" %}
-{% for file in site.data.publications %}
-{% for publication in file[1] %}
-{% assign publicationsList = publicationsList | push: publication %}
-{% endfor %}
-{% endfor %}
-
-{% assign destinationsList = "" | split: "" %}
-{% for file in site.data.destinations %}
-{% for destination in file[1] %}
-{% assign destinationsList = destinationsList | push: destination %}
-{% endfor %}
-{% endfor %}
-
 {% if source.size > 0 %}
 <ul class="publications">
     {% assign publicationListID = "" | split: "" %}
@@ -43,7 +21,7 @@
 
     {% assign publicationsFromId = "" | split: "" %}
     {% for publication in publicationListIDUnique %}
-        {% assign publicationFromId = publicationsList | where: "id", publication %}
+        {% assign publicationFromId = site.data.publications | where: "id", publication %}
         {% assign publicationsFromId = publicationsFromId | push: publicationFromId[0] %}
     {% endfor %}
 
@@ -62,12 +40,12 @@
         {%- if publication.authors -%}
             {%- if publication.authors | first -%}
                 {% for author in publication.authors %}
-                    {% assign authorFromId = peopleList | where: "id", author %}
+                    {% assign authorFromId = site.data.people | where: "id", author %}
                     {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
                     {%- assign authors = authors | push: authorName -%}
                 {% endfor %}
             {% else %}
-                {% assign authorFromId = peopleList | where: "id", publication.authors %}
+                {% assign authorFromId = site.data.people | where: "id", publication.authors %}
                 {% assign authorName = authorFromId[0]["name"] | append: " " | append: authorFromId[0]["surname"] %}
                 {%- assign authors = authors | push: authorName -%}
             {% endif %}
@@ -80,7 +58,7 @@
         {%- endif -%}
 
         {%- if publication.destination -%}
-            {%- assign destinationFromId = destinationsList | where: "id", publication.destination -%}
+            {%- assign destinationFromId = site.data.destinations | where: "id", publication.destination -%}
             {%- if destinationFromId.size > 0 -%}
                 {% assign destination = destinationFromId[0] -%}
             {%- else -%}
