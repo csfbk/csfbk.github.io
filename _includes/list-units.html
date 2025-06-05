@@ -2,14 +2,6 @@
 {% assign sort = include.sort %}
 {% assign cols = include.cols %}
 
-{% assign peopleList = "" | split: "" %}
-{% assign peopleFilesList = site.data.people | sort %}
-{% for file in peopleFilesList %}
-    {% for person in file[1] %}
-        {% assign peopleList = peopleList | push: person %}
-    {% endfor %}
-{% endfor %}
-
 {% if source.size > 0 %}
 <div class="columns is-multiline">
     {% assign units = "" | split: "" %}
@@ -32,7 +24,7 @@
     {% for unit in units %}
         {% assign head = nil %}
         {%- if unit.head -%}
-            {% assign headFromId = peopleList | where: "id", unit.head %}
+            {% assign headFromId = site.data.people | where: "id", unit.head %}
             {% if headFromId %}
                 {% assign head = headFromId[0]["name"] | append: " " | append: headFromId[0]["surname"] %}
             {% endif %}
