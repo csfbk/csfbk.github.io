@@ -2,29 +2,7 @@
 layout: default
 ---
 
-{% assign peopleList = "" | split: "" %}
-{% assign peopleFilesList = site.data.people | sort %}
-{% for file in peopleFilesList %}
-    {% for person in file[1] %}
-        {% assign peopleList = peopleList | push: person %}
-    {% endfor %}
-{% endfor %}
-
-{% assign publicationsList = "" | split: "" %}
-{% for file in site.data.publications %}
-    {% for publication in file[1] %}
-        {% assign publicationsList = publicationsList | push: publication %}
-    {% endfor %}
-{% endfor %}
-
-{% assign thesesList = "" | split: "" %}
-{% for file in site.data.theses %}
-    {% for thesis in file[1] %}
-        {% assign thesesList = thesesList | push: thesis %}
-    {% endfor %}
-{% endfor %}
-
-{% assign personFromId = peopleList | where: "id", page.person %}
+{% assign personFromId = site.data.people | where: "id", page.person %}
 {% if personFromId.size > 0 %}
     {% assign person = personFromId[0] %}
 {% else %}
@@ -90,7 +68,7 @@ layout: default
             <div id="toc"></div>
 
             <!-- PUBLICATIONS -->
-            {% assign publicationsByYear = publicationsList | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
+            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
             {% if publicationsByYear.size > 0 %}
                 <section class="contains-publications">
                     <h1>Publications</h1>
@@ -102,7 +80,7 @@ layout: default
             {% endif %}
 
             <!-- THESES -->
-            {% assign theses = thesesList | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
+            {% assign theses = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
             {% if theses.size > 0 %}
                 <section class="contains-theses">
                     <h1>Theses</h1>
@@ -112,7 +90,7 @@ layout: default
 
             <!-- SUPERVISED THESES -->
             {% assign handledThesesByYear = "" | split: "," %}
-            {% for thesis in thesesList %}
+            {% for thesis in site.data.theses %}
                 {% if thesis.supervisor contains page.person or thesis.co-supervisor contains page.person %}
                     {% assign handledThesesByYear = handledThesesByYear | push: thesis %}
                 {% endif %}
