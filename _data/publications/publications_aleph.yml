@@ -264,6 +264,7 @@
   tags:
     - CAC
     - CloudComputing
+    - IoT
     - PrivacyEnhancingCryptography
   abstract: >               # Abstract (optional)
     We (devise and) demonstrate the benefits of a methodology and a toolset for orchestrating Cloud-native applications to balance the minimization of risks due to the presence of security threats and the achievement of service performance requirements — expressed on, e.g., computational resources, network throughput and latency. The demo proves the effectiveness of the methodology in orchestrating a set of microservices implementing a prominent Cooperative, Connected and Automated Mobility (CCAM) service.    
@@ -466,4 +467,25 @@
   year: 2025
   # doi: 10.1109/EuroSPW61312.2024.00086
   
+- id: JNCA2025CRYPTOAC
+  #id_iris:
+  title: A Secure and Quality of Service-Aware Solution for the End to End Protection of IoT Applications
+  authors:
+    - StefanoBerlato
+    - UmbertoMorelli
+    - RobertoCarbone
+    - SilvioRanise
+  tags:
+    - AccessControl
+    - CAC
+    - CloudComputing
+    - DecentralizationOfTrust
+    - IoT
+  abstract: >
+    Internet of Things (IoT) applications increasingly rely on lightweight publish-subscribe protocols (e.g., MQTT) to exchange a considerable amount of sensitive data. However, such data are often threatened by external attackers, malicious insiders, and honest but curious Edge and Cloud providers. Typical security mechanisms — such as Transport Layer Security (TLS) or centralized data authorization management — may expose messages to intermediate nodes and fail to enforce Access Control (AC) policies without relying on (sometimes missing) fully trusted agents. Furthermore, when security mechanisms are in place, they should consider the trust assumptions (e.g., on the presence of certain attackers) and meet the performance goals (e.g., low latency, high scalability) relevant to the underlying scenario. In this paper, we propose a security mechanism based Cryptographic Access Control (CAC) that integrates decentralized AC enforcement with end-to-end protection (in terms of data confidentiality and integrity) for IoT applications employing publish-subscribe protocols. By building on previous work, we also formalize an optimization problem to strike the best possible balance between security and quality of service by fine-tuning the deployment of our security mechanism accordingly. We showcase the benefits of the optimization problem in three different scenarios for IoT applications: Remote Patient Monitoring, Cooperative Maneuvering, and Smart Lock. Finally, our open-source proof-of-concept named CryptoAC demonstrates the feasibility of our security mechanism: a thorough performance evaluation reveals that CryptoAC achieves higher scalability than TLS under multi-publisher workloads and a practical level of overhead for key management and policy updates.    
+  destination: JNCA
+  isALEPH: true
+  year: 2025
+  # doi:                # doi (e.g., 10.1145/3320269.3384767)
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
