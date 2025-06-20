@@ -218,7 +218,7 @@
   isALEPH: true
   year: 2024
   doi: 10.1007/978-3-031-89350-6_30
-  urlComplementary: /complementary/CRISIS2024EVOTE/CRISIS2024EVOTE
+  urlComplementary: https://github.com/stfbk/A-Secure-and-Quality-of-Service-Aware-Solution-for-the-End-to-End-Protection-of-IoT-Applications/
   
 - id: CRISIS2024Wallet
   #id_iris: 
