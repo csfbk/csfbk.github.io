@@ -468,7 +468,7 @@
   # doi: 10.1109/EuroSPW61312.2024.00086
   
 - id: JNCA2025CRYPTOAC
-  #id_iris:
+  id_iris: 360827
   title: A Secure and Quality of Service-Aware Solution for the End to End Protection of IoT Applications
   authors:
     - StefanoBerlato
@@ -486,6 +486,6 @@
   destination: JNCA
   isALEPH: true
   year: 2025
-  # doi:                # doi (e.g., 10.1145/3320269.3384767)
+  doi: 10.1016/j.jnca.2025.104246
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
