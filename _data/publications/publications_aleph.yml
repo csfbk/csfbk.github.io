@@ -488,4 +488,20 @@
   year: 2025
   doi: 10.1016/j.jnca.2025.104246
 
+- id: JISA2025CRYPTOAC
+  #id_iris: 360827
+  title: A Methodology for the Experimental Performance Evaluation of Access Control Enforcement Mechanisms based on Business Processes
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - SilvioRanise
+  tags:
+    - AccessControl
+  abstract: >
+    While the security analysis of Access Control (AC) policies has received a lot of attention, the same cannot be said for their enforcement. As applications become more distributed, centralized services a bottleneck, and legal compliance constraints stricter (e.g., the problem of honest but curious Cloud providers in the light of privacy regulations), the fine-tuning of AC enforcement mechanisms is likely to become more and more important. This is especially true in scenarios where the quality of service may suffer from computationally heavy security mechanisms and low latency is a prominent requirement. As a first step towards a principled approach to fine-tune AC enforcement mechanisms, this paper introduces a methodology providing the means to measure the performance of such mechanisms through the simulation of realistic scenarios. To do so, we base our methodology on Business Process Model and Notation (BPMN) workflows — that provide for an appropriate abstraction of the sequences of requests (e.g., access a resource, revoke a permission) sent toward AC enforcement mechanisms — to evaluate and compare the performance of different mechanisms. We implement our methodology and use it to evaluate three AC enforcement mechanisms representative of both traditional centralized — i.e., the Open Policy Agent (OPA) and the eXtensible Access Control Markup Language (XACML) — and decentralized AC — i.e., the CryptoAC tool.    
+  destination: JISA
+  isALEPH: true
+  year: 2025
+  #doi: 10.1016/j.jnca.2025.104246
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
