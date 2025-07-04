@@ -448,7 +448,7 @@
   - EVoting
 
 - id: SACMAT2025CRYPTOAC
-  #id_iris: 350627
+  id_iris: 361127
   title: "Relying on Trust to Balance Protection and Performance in Cryptographic Access Control"
   authors:
     - SimoneBrunello
@@ -465,7 +465,7 @@
   destination: SACMAT2025
   isALEPH: true
   year: 2025
-  # doi: 10.1109/EuroSPW61312.2024.00086
+  doi: 10.1145/3734436.3734452
   
 - id: JNCA2025CRYPTOAC
   id_iris: 360827
