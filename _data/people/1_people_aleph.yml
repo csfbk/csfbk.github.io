@@ -80,6 +80,11 @@
   surname: Siracusa
   usernameFBK: dsiracusa
 
+- id: EdoardoSignorini
+  name: Edoardo
+  surname: Signorini
+  orcid: 0000-0002-1224-6732
+  
 - id: EnricoSorbera
   name: Enrico
   surname: Sorbera
@@ -89,6 +94,11 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: esorbera@fbk.eu
+
+- id: FedericoPintore
+  name: Federico
+  surname: Pintore
+  orcid: 0000-0002-7985-3131
 
 - id: FrancescoAntonioMarino
   name: Francesco Antonio
@@ -130,6 +140,11 @@
 - id: GiorgiaGabardi_BA
   name: Giorgia
   surname: Gabardi
+
+- id: GiovanniTognolini
+  name: Giovanni
+  surname: Tognolini
+  orcid: 0009-0003-5762-8253
 
 - id: GiuseppeD'Alconzo
   name: Giuseppe
@@ -340,3 +355,4 @@
   surname: Ebadi Ansaroudi
   
 # Please keep alphabetical order
+
