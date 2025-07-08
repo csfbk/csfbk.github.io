@@ -382,6 +382,8 @@
   year: 2025
   doi: 10.1007/s10623-025-01686-w
   isALEPH: true
+  tags:
+  - ZKP
 
 - id: EURASIP J. on Info. Security 2025 ZahraEbadiAnsaroudi
   title: 'Navigating secure storage requirements for EUDI Wallets: a review paper'
