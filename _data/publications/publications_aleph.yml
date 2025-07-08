@@ -369,6 +369,20 @@
 
 ## 2025
 
+- id: DCC 2025 MicheleBattagliola
+  title: Security of fixed-weight repetitions of special-sound multi-round interactive
+    proofs
+  authors:
+  - MicheleBattagliola
+  - RiccardoLongo
+  - FedericoPintore
+  - EdoardoSignorini
+  - GiovanniTognolini
+  destination: DCC
+  year: 2025
+  doi: 10.1007/s10623-025-01686-w
+  isALEPH: true
+
 - id: EURASIP J. on Info. Security 2025 ZahraEbadiAnsaroudi
   title: 'Navigating secure storage requirements for EUDI Wallets: a review paper'
   authors:
@@ -408,6 +422,43 @@
 #  abstract: ""
   tags:
   - EVoting
+
+- id: JISA2025CRYPTOAC
+  #id_iris: 360827
+  title: A Methodology for the Experimental Performance Evaluation of Access Control Enforcement Mechanisms based on Business Processes
+  authors:
+    - StefanoBerlato
+    - RobertoCarbone
+    - SilvioRanise
+  tags:
+    - AccessControl
+  abstract: >
+    While the security analysis of Access Control (AC) policies has received a lot of attention, the same cannot be said for their enforcement. As applications become more distributed, centralized services a bottleneck, and legal compliance constraints stricter (e.g., the problem of honest but curious Cloud providers in the light of privacy regulations), the fine-tuning of AC enforcement mechanisms is likely to become more and more important. This is especially true in scenarios where the quality of service may suffer from computationally heavy security mechanisms and low latency is a prominent requirement. As a first step towards a principled approach to fine-tune AC enforcement mechanisms, this paper introduces a methodology providing the means to measure the performance of such mechanisms through the simulation of realistic scenarios. To do so, we base our methodology on Business Process Model and Notation (BPMN) workflows — that provide for an appropriate abstraction of the sequences of requests (e.g., access a resource, revoke a permission) sent toward AC enforcement mechanisms — to evaluate and compare the performance of different mechanisms. We implement our methodology and use it to evaluate three AC enforcement mechanisms representative of both traditional centralized — i.e., the Open Policy Agent (OPA) and the eXtensible Access Control Markup Language (XACML) — and decentralized AC — i.e., the CryptoAC tool.    
+  destination: JISA
+  isALEPH: true
+  year: 2025
+  #doi: 10.1016/j.jnca.2025.104246
+
+- id: JNCA2025CRYPTOAC
+  id_iris: 360827
+  title: A Secure and Quality of Service-Aware Solution for the End to End Protection of IoT Applications
+  authors:
+    - StefanoBerlato
+    - UmbertoMorelli
+    - RobertoCarbone
+    - SilvioRanise
+  tags:
+    - AccessControl
+    - CAC
+    - CloudComputing
+    - DecentralizationOfTrust
+    - IoT
+  abstract: >
+    Internet of Things (IoT) applications increasingly rely on lightweight publish-subscribe protocols (e.g., MQTT) to exchange a considerable amount of sensitive data. However, such data are often threatened by external attackers, malicious insiders, and honest but curious Edge and Cloud providers. Typical security mechanisms — such as Transport Layer Security (TLS) or centralized data authorization management — may expose messages to intermediate nodes and fail to enforce Access Control (AC) policies without relying on (sometimes missing) fully trusted agents. Furthermore, when security mechanisms are in place, they should consider the trust assumptions (e.g., on the presence of certain attackers) and meet the performance goals (e.g., low latency, high scalability) relevant to the underlying scenario. In this paper, we propose a security mechanism based Cryptographic Access Control (CAC) that integrates decentralized AC enforcement with end-to-end protection (in terms of data confidentiality and integrity) for IoT applications employing publish-subscribe protocols. By building on previous work, we also formalize an optimization problem to strike the best possible balance between security and quality of service by fine-tuning the deployment of our security mechanism accordingly. We showcase the benefits of the optimization problem in three different scenarios for IoT applications: Remote Patient Monitoring, Cooperative Maneuvering, and Smart Lock. Finally, our open-source proof-of-concept named CryptoAC demonstrates the feasibility of our security mechanism: a thorough performance evaluation reveals that CryptoAC achieves higher scalability than TLS under multi-publisher workloads and a practical level of overhead for key management and policy updates.    
+  destination: JNCA
+  isALEPH: true
+  year: 2025
+  doi: 10.1016/j.jnca.2025.104246
 
 - id: OSVS2025CRYPTOAC
   #id_iris: 350627
@@ -467,41 +518,4 @@
   year: 2025
   doi: 10.1145/3734436.3734452
   
-- id: JNCA2025CRYPTOAC
-  id_iris: 360827
-  title: A Secure and Quality of Service-Aware Solution for the End to End Protection of IoT Applications
-  authors:
-    - StefanoBerlato
-    - UmbertoMorelli
-    - RobertoCarbone
-    - SilvioRanise
-  tags:
-    - AccessControl
-    - CAC
-    - CloudComputing
-    - DecentralizationOfTrust
-    - IoT
-  abstract: >
-    Internet of Things (IoT) applications increasingly rely on lightweight publish-subscribe protocols (e.g., MQTT) to exchange a considerable amount of sensitive data. However, such data are often threatened by external attackers, malicious insiders, and honest but curious Edge and Cloud providers. Typical security mechanisms — such as Transport Layer Security (TLS) or centralized data authorization management — may expose messages to intermediate nodes and fail to enforce Access Control (AC) policies without relying on (sometimes missing) fully trusted agents. Furthermore, when security mechanisms are in place, they should consider the trust assumptions (e.g., on the presence of certain attackers) and meet the performance goals (e.g., low latency, high scalability) relevant to the underlying scenario. In this paper, we propose a security mechanism based Cryptographic Access Control (CAC) that integrates decentralized AC enforcement with end-to-end protection (in terms of data confidentiality and integrity) for IoT applications employing publish-subscribe protocols. By building on previous work, we also formalize an optimization problem to strike the best possible balance between security and quality of service by fine-tuning the deployment of our security mechanism accordingly. We showcase the benefits of the optimization problem in three different scenarios for IoT applications: Remote Patient Monitoring, Cooperative Maneuvering, and Smart Lock. Finally, our open-source proof-of-concept named CryptoAC demonstrates the feasibility of our security mechanism: a thorough performance evaluation reveals that CryptoAC achieves higher scalability than TLS under multi-publisher workloads and a practical level of overhead for key management and policy updates.    
-  destination: JNCA
-  isALEPH: true
-  year: 2025
-  doi: 10.1016/j.jnca.2025.104246
-
-- id: JISA2025CRYPTOAC
-  #id_iris: 360827
-  title: A Methodology for the Experimental Performance Evaluation of Access Control Enforcement Mechanisms based on Business Processes
-  authors:
-    - StefanoBerlato
-    - RobertoCarbone
-    - SilvioRanise
-  tags:
-    - AccessControl
-  abstract: >
-    While the security analysis of Access Control (AC) policies has received a lot of attention, the same cannot be said for their enforcement. As applications become more distributed, centralized services a bottleneck, and legal compliance constraints stricter (e.g., the problem of honest but curious Cloud providers in the light of privacy regulations), the fine-tuning of AC enforcement mechanisms is likely to become more and more important. This is especially true in scenarios where the quality of service may suffer from computationally heavy security mechanisms and low latency is a prominent requirement. As a first step towards a principled approach to fine-tune AC enforcement mechanisms, this paper introduces a methodology providing the means to measure the performance of such mechanisms through the simulation of realistic scenarios. To do so, we base our methodology on Business Process Model and Notation (BPMN) workflows — that provide for an appropriate abstraction of the sequences of requests (e.g., access a resource, revoke a permission) sent toward AC enforcement mechanisms — to evaluate and compare the performance of different mechanisms. We implement our methodology and use it to evaluate three AC enforcement mechanisms representative of both traditional centralized — i.e., the Open Policy Agent (OPA) and the eXtensible Access Control Markup Language (XACML) — and decentralized AC — i.e., the CryptoAC tool.    
-  destination: JISA
-  isALEPH: true
-  year: 2025
-  #doi: 10.1016/j.jnca.2025.104246
-
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
