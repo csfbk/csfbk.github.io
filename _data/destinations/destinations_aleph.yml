@@ -15,7 +15,12 @@
   acronym: Appl. Sci.
   url: https://www.mdpi.com/journal/applsci
   type: journal
-  
+
+- id: DCC
+  name: Designs, Codes and Cryptography
+  acronym: DCC
+  type: journal
+
 - id: EURASIP J. on Info. Security
   name: EURASIP Journal on Information Security
   acronym: EURASIP J. on Info. Security
@@ -313,4 +318,3 @@
   endDate: "2025-06-13"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
-
