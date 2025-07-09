@@ -2052,6 +2052,7 @@ projects:
       - MSc
     unit:
       - ALEPH
+      - CLEANSE
       - DAISY
       - SaFEWaRe
     supervisor:
