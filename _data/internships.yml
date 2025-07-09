@@ -2011,3 +2011,91 @@ projects:
       - We offer curricular internship (no allowance).
       - Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
       - Exceptional work may lead to co-authored publications in International Conferences or Journals, with support and guidance from academic supervisors.
+
+  - id: p-2025-st-6
+    title: Automatic Security Testing Tool for Identity Management Protocols
+    published: "2025-07-09"
+    applicationEnd: "2025-08-09 23:59"
+    year: 2025
+    description: >
+      Identity Management (IdM) protocols are the protocols supporting Single-Sign On (SSO) which is an authentication schema allowing the user to access different services using the same set of credentials. Two of the most known IdM protocols are SAML 2.0 SSO and OAuth 2.0/OpenID Connect. Several solutions for corporations like Google and Meta (Facebook), as well as for Public Administration—such as eIDAS, SPID, CIE, and the upcoming IT-Wallet—are based on IdM protocols. We propose improving an existing security testing tool to extend its capabilities by designing and implementing new features.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - CLEANSE
+      - ST
+    supervisor:
+      - AndreaBisegna
+      - LauraCristiano
+    objectives:
+      - Literature Review (guidelines and best practices)
+      - Ethical analysis
+      - Risk Assessment
+    topics:
+      - Identity Management protocols
+      - Attack patterns
+      - Security testing
+
+  - id: p-2025-aleph-1
+    title: Automated CBOM inventory through LLMs
+    published: "2025-07-09"
+    applicationEnd: "2025-08-09 23:59"
+    year: 2025
+    description: >
+      Software systems are increasingly embedding diverse cryptographic functions to ensure the safe and secure implementation of code. At the same time, regulatory demands, such as those outlined in the Cryptographic Bill of Materials (CBOM)[1-2-3], require complete visibility into cryptography's use, including algorithms, parameters, modes of operation, and other relevant details. However, current solutions using static analysis and manual audits to enumerate and document these primitives are only available for a very small selection of libraries, such as Java and Python [4].<br />
+      This research aims to explore how large language models (LLMs) fine-tuned on code, such as [5-6], can automatically detect calls to standard crypto-libraries, e.g., OpenSSL, Bouncy Castle, and custom routines, extract metadata (algorithm, mode, key size), and create the necessary CBOM inventory. This can be done by directly working with the codebase or extending existing analyzers [7].<br />
+      The student will survey related techniques, design LLM prompts and training strategies for reliable crypto‑function recognition, implement a prototype that processes repositories end-to-end, and evaluate its accuracy and performance against conventional static analyzers. Finally, the student must deliver a prototype that evaluates code for distinct languages (preferably C++, Go, JavaScript, or Rust) and assemble a structured crypto-inventory compliant with CBOM schemas.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+      - DAISY
+      - SaFEWaRe
+    supervisor:
+      - AlessandroTomasi
+      - LuisAugustoDiasKnob
+      - LucaPiras
+      - PietroDeMatteis
+    prerequisites:
+      - Basic knowledge of Large Language Models
+      - Knowledge of programming languages (i.e., Python, Go, Java) would be highly advantageous.
+    objectives:
+      - Design LLM prompts and training strategies for reliable crypto-function recognition
+      - Implement a prototype that processes repositories end-to-end, and evaluate its accuracy and performance against conventional static analyzers
+      - Deliver a prototype that evaluates code for distinct languages (preferably C++, Go, JavaScript, or Rust) and assemble a structured crypto-inventory compliant with CBOM schemas
+    topics:
+      - LLM
+      - AI
+      - CBOM
+    references:
+      - text: "Cryptography Bill of Materials (CBOM)"
+        links:
+          - name: Link
+            url: https://cyclonedx.org/capabilities/cbom/
+      - text: Cryptography Bill of Materials
+        links:
+          - name: Link
+            url: https://github.com/IBM/CBOM
+      - text: Authoritative Guide to CBOM
+        links:
+          - name: Link
+            url: https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-CBOM-en.pdf
+      - text: Sonar Cryptography Plugin (CBOMkit-hyperion)
+        links:
+          - name: Link
+            url: https://github.com/PQCA/sonar-cryptography
+      - text: CodeBERT-base
+        links:
+          - name: Link
+            url: https://huggingface.co/microsoft/codebert-base
+      - text: Qwen2.5-Coder Series
+        links:
+          - name: Link
+            url: https://github.com/QwenLM/Qwen2.5-Coder
+      - text: Extending the Sonar Cryptography Plugin to add support for another language or cryptography library
+        links:
+          - name: Link
+            url: https://github.com/PQCA/sonar-cryptography/blob/main/docs/LANGUAGE_SUPPORT.md
