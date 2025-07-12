@@ -420,7 +420,7 @@
     - ChiaraSpadafora
   destination: HCII25
   year: 2025
-#  doi: 
+  doi: 10.1007/978-3-031-92840-6_9
   isALEPH: true
 #  abstract: ""
   tags:
@@ -521,4 +521,19 @@
   year: 2025
   doi: 10.1145/3734436.3734452
   
+- id: SECRYPT2025 RiccardoGermenia
+  title: Comparison of Credential Status Mechanisms for the Digital Wallet Ecosystem
+  authors:
+  - RiccardoGermenia
+  - SalvatoreManfredi
+  - GiadaSciarretta
+  - MarioScuro
+  - AlessandroTomasi
+  destination: SECRYPT2025
+  year: 2025
+  doi: 10.5220/0013635500003979
+  isALEPH: true
+  tags:
+  - CloudComputing
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
