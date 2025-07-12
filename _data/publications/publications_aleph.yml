@@ -536,4 +536,21 @@
   tags:
   - CloudComputing
 
+- id: SECRYPT2025 RiccardoLongo
+  title: 'MK-SEAC: Multi-Keyword Searchable Encryption with Access Control'
+  authors:
+  - RiccardoLongo
+  - EnricoSorbera
+  - ValeriaVicard_MA
+  destination: SECRYPT2025
+  year: 2025
+  doi: 10.5220/0013529200003979
+  isALEPH: true
+  tags:
+  - AccessControl
+  - CAC
+  - CloudComputing
+  - PrivacyEnhancingCryptography
+  
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
+
