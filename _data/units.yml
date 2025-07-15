@@ -5,6 +5,7 @@
   logo: ALEPH_symbol.png
   head: AlessandroTomasi
   website: https://aleph.fbk.eu
+  color: "#b2d1bf"
   visible: true
 
 - id: DAISY
@@ -13,14 +14,16 @@
   logo: DAISY_symbol.png
   head: RobertoDoriguzziCorin
   website: https://daisy.fbk.eu
+  color: "#bfb7f6"
   visible: true
 
 - id: SaFEWaRe
   name: Secure code liFEcycle for applications and netWoRking
   acronym: SaFEWaRe
-  logo: CS.png
+  logo: SaFEWaRe_symbol.png
   head: LorenzoGalvagni
   website: 
+  color: "#eccecc"
   visible: true
 
 - id: ST
@@ -29,6 +32,7 @@
   logo: ST_symbol.png
   head: RobertoCarbone
   website: https://st.fbk.eu
+  color: "#99bfd8"
   visible: true
 
 # Other organizations (for internship projects)
@@ -45,4 +49,5 @@
   logo: RiSING_symbol.png
   head: SilvioRanise
   website: https://rising.fbk.eu
+  color: "#f9d38a"
   visible: false
