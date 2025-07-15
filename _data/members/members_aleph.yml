@@ -1,0 +1,147 @@
+current:
+  head:
+    # -   # ID of the person
+    
+    - AlessandroTomasi
+
+  members:
+    # -   # ID of the person
+
+    - StefanoBerlato
+    - RiccardoLongo
+    - MarioScuro
+    - GiacomoBrandi
+    - EnricoSorbera
+    - ChiaraSpadafora
+    - FedericaZanetti
+    - LauraMattiuz
+    
+  collaborators:
+    # -   # ID of the person
+      
+  students:
+    # - personId:       # ID of the person
+    #   type:           # B for bachelor, M for master
+    #   topic:          # title of the topic/thesis/internship proposal
+    #   institution:    # e.g., University of Trento
+    #   yearFrom:       # e.g., 2022
+    #   yearTo:         # e.g., 2023
+
+    - personId: RiccardoGennaro_BA
+      type: M
+      topic: Cryptographic Access Control Based on Attribute-Based Encryption for Cloud Native Applications
+      institution: University of Twente
+      yearFrom: 2025
+      yearTo: 2025
+    
+    - personId: LiviaMarini_MA
+      type: M
+      topic: Post-Quantum Cryptography Transition
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
+    - personId: LucaBortolotti_BA
+      type: B
+      topic: Enhancing Cryptographic Access Control
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
+    - personId: ClaudioForoncelli
+      type: B
+      topic: Cryptography Bill of Materials
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
+    - personId: DavidIoanHangu_BA
+      type: B
+      topic: Development of Serious Games and Capture-the-Flags Competitions on Applied Cryptography
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2025
+
+  junior:
+    # -   # ID of the person
+      
+former:
+  head:
+    # - personId:       # ID of the person
+    #   formerRole:     # former role (textual)
+    #   yearFrom:       # e.g., 2010
+    #   yearTo:         # e.g., 2016
+
+  members:
+
+    - personId: ZahraEbadiAnsaroudi
+      formerRole: Researcher
+      yearFrom: 2023
+      yearTo: 2025
+
+    - personId: IonAndyDitu
+      formerRole: Research Assistant
+      yearFrom: 2023
+      yearTo: 2024
+
+    - personId: GiacomoZanolli
+      formerRole: Junior Researcher
+      yearFrom: 2023
+      yearTo: 2023
+
+  phdStudents:
+    # - personId:       # ID of the person
+    #   thesisId:       # ID of the 
+    
+    - personId: StefanoBerlato
+      thesisId: StefanoBerlato_PHD
+  
+  students:
+    # 2 options:
+    # for former students who did just the internship
+    # - personId:       # ID of the person
+    #   type:           # B for bachelor, M for master
+    #   topic:          # title of the internship proposal
+    #   institution:    # e.g., University of Trento
+    #   yearFrom:       # e.g., 2022
+    #   yearTo:         # e.g., 2023
+    #
+    # for former students who did (the internship and) the thesis
+    # - personId:       # ID of the person
+    #   thesisId:       # ID of the thesis
+
+
+    - personId: GiorgiaGabardi_BA
+      thesisId: GiorgiaGabardi_BA
+      
+    - personId: IonAndyDitu_BA
+      thesisId: IonAndyDitu_BA
+
+    - personId: LucaClaus_BA
+      thesisId: LucaClaus_BA
+
+    - personId: MarcoSoldera_BA
+      thesisId: MarcoSoldera_BA
+
+    - personId:       NicolaSmaniotto
+      type:           M
+      topic:          Cryptographic Revocation
+      institution:    University of Trento
+      yearFrom:       2024
+      yearTo:         2024
+
+    - personId: SaraMontanari_MA
+      thesisId: SaraMontanari_MA
+
+    - personId: SimoneBrunello_BA
+      thesisId: SimoneBrunello_BA
+
+    - personId: ValeriaVicard_MA
+      thesisId: ValeriaVicard_MA
+
+  junior:
+    # - personId:       # ID of the person
+    #   topic:          # title of the topic/thesis/internship proposal
+    #   institution:    # e.g., Istituto Tecnico Tecnologico "Michelangelo Buonarroti", Trento
+    #   yearFrom:       # e.g., 2022
+    #   yearTo:         # e.g., 2023

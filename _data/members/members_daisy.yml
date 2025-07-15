@@ -1,0 +1,39 @@
+current:
+  head:
+    - RobertoDoriguzziCorin
+
+  members:
+    - AndreaDipace
+    - ClaudioFacchinetti
+    - DanieleSantoro
+    - HenriqueBeckerBrum
+    - LorenzoFasol
+    - LorysMutti
+    - LuisAugustoDiasKnob
+    - MarceloDarioRodasBritez
+    - MarcoZambianco
+    - MatteoFranzil
+    - MichaelKevinNtakoKoungni
+    - SilvioCretti
+
+  collaborators:
+    - DomenicoSiracusa
+
+former:
+  members:
+    - personId: DomenicoSiracusa
+      yearTo: 2024
+       
+    - personId: PietroDeMatteis
+      formerRole: Developer
+      yearTo: 2023
+
+  students:
+    - personId: LorysMutti
+      thesisId: LorysMutti_B
+
+    - personId: ClaudioFacchinetti
+      thesisId: ClaudioFacchinetti_M
+
+    - personId: MatteoFranzil
+      thesisId: MatteoFranzil_M
