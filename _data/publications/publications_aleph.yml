@@ -463,6 +463,24 @@
   year: 2025
   doi: 10.1016/j.jnca.2025.104246
 
+- id: MJM 2025 MicheleBattagliola
+  title: "A Revision of CROSS Security: Proofs and Attacks for Multi-Round Fiat\u2013\
+    Shamir Signatures"
+  authors:
+  - MicheleBattagliola
+  - RiccardoLongo
+  - FedericoPintore
+  - EdoardoSignorini
+  - GiovanniTognolini
+  destination: MJM
+  year: 2025
+  doi: 10.1007/s00009-025-02882-7
+  isALEPH: true
+  destinationAddon: ', Issue 5'
+  tags:
+  - Cryptanalysis
+  - PostQuantumCryptography
+
 - id: OSVS2025CRYPTOAC
   #id_iris: 350627
   title: "Work-in-Progress: Optimizing Performance of User Revocation in Cryptographic Access Control with Trusted Execution Environments"
@@ -553,4 +571,3 @@
   - PrivacyEnhancingCryptography
   
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
-
