@@ -476,7 +476,7 @@
   year: 2025
   doi: 10.1007/s00009-025-02882-7
   isALEPH: true
-  destinationAddon: ', Issue 5'
+  destinationAddon: 'Volume 22, Issue 5'
   tags:
   - Cryptanalysis
   - PostQuantumCryptography
