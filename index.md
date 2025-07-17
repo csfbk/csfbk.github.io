@@ -2,7 +2,7 @@
 title: Center for Cybersecurity
 subtitle: Research Center in Fondazione Bruno Kessler
 layout: page
-heroImageRight: /assets/images/logos/CS_white.png
+show_logos: true
 ---
 
 # Who we are
@@ -17,7 +17,7 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu/en) (F
 # Organization
 ## Director
 {% assign details = "picture, email, phone, personalPage" | split: ", " %}
-{% include list-people.html source=site.data.members.members_cs.current.head style="card" details=details cols=3 %}
+{% include list-people.html source=site.data.members_cs.current.head style="card" details=details cols=3 %}
 
 ## Research Units
 {% assign details = "logo, name, acronym, head" | split: ", " %}
