@@ -44,6 +44,11 @@ jobs:
       - name: Merge YAML lists from _data/single/*/*.yml into _data/*.yml
         run: |
           mkdir -p _data
+
+          echo "Current working directory: $(pwd)"
+          echo "Files in _data/single/members:"
+          ls -l _data/single/members
+          
           for dir in _data/single/*/ ; do
             foldername=$(basename "$dir")
             shopt -s nullglob
