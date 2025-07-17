@@ -6,10 +6,14 @@ filter_units: true
 ---
 
 {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
+{% assign currentProjects = "" | split: "" %}
 {% assign currentProjectsWithoutEnd = site.data.projects | where_exp: "project", "project.endDate == nil" %}
 {% assign currentProjectsWithEnd = site.data.projects | where_exp: "project", "project.endDate >= todayDate" %}
-{% if currentProjectsWithoutEnd.size > 0 and currentProjectsWithEnd.size > 0 %}
-  {% assign currentProjects = currentProjectsWithoutEnd | concat: currentProjectsWithEnd %}
+{% if currentProjectsWithoutEnd.size > 0 %}
+  {% assign currentProjects = currentProjects | concat: currentProjectsWithoutEnd %}
+{% endif %}
+{% if currentProjectsWithEnd.size > 0 %}
+  {% assign currentProjects = currentProjects | concat: currentProjectsWithEnd %}
 {% endif %}
 {% assign formerProjects = site.data.projects | where_exp: "project", "project.endDate < todayDate" %}
 
