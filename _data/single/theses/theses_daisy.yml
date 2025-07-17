@@ -1,3 +1,34 @@
+- id: NicolaLovo_B
+  author: NicolaLovo
+  type: B
+  institution: University of Trento
+  year: 2025
+  title: "Cloud Infrastructure Management for Online Development Environments"
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - MatteoFranzil
+
+- id: MarcoZani_B
+  author: MarcoZani
+  type: B
+  institution: University of Trento
+  year: 2025
+  title: "LogGraphModel - Improving log visualization in Kubernetes"
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - MatteoFranzil
+    - LuisAugustoDiasKnob
+
+- id: LorysMutti_B
+  author: LorysMutti
+  type: B
+  institution: University of Trento
+  year: 2024
+  title: "Programmable Scenario Simulation for Kubernetes-Related Testing"
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - LuisAugustoDiasKnob
+
 - id: SimoneVigasio_B
   author: SimoneVigasio
   type: B

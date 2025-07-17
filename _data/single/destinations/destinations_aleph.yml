@@ -42,7 +42,12 @@
   name: Journal of Mathematical Cryptology
   acronym: JMC
   type: journal
-  
+
+- id: MJM
+  name: Mediterranean Journal of Mathematics
+  acronym: MJM
+  type: journal
+
 - id: TCS
   name: Theoretical Computer Science
   acronym: TCS
