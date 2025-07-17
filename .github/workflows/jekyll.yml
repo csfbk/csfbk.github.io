@@ -48,7 +48,7 @@ jobs:
           echo "Current working directory: $(pwd)"
           echo "Files in _data/single/members:"
           ls -l _data/single/members
-          
+
           for dir in _data/single/*/ ; do
             foldername=$(basename "$dir")
             shopt -s nullglob
@@ -74,7 +74,13 @@ jobs:
 
                 filename=$(basename "$file")
                 echo "" >> "$output"
-                echo "From file: $filename"  
+                echo "From file: $filename"
+
+                echo "Processing file: $file"
+                file "$file"
+                cat "$file"
+                sed 's/^/    /' "$file"
+
                 echo "## From file: $filename" >> "$output"
                 echo "  -" >> "$output"
 
