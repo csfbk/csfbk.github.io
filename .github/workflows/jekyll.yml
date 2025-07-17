@@ -52,7 +52,7 @@ jobs:
               echo "No YAML files found in $dir, skipping."
               continue
             fi
-            
+
             if [ "$foldername" = "members" ]; then
               output="_data/members_units.yml"
               echo "FILE ${output}"
@@ -62,15 +62,22 @@ jobs:
               echo "units:" > "$output"
               
               for file in "$dir"*.yml; do
+                if [ ! -f "$file" ]; then
+                  echo "WARNING: $file is not a valid file, skipping."
+                  continue
+                fi
+
                 filename=$(basename "$file")
                 echo "" >> "$output"
                 echo "From file: $filename"  
                 echo "## From file: $filename" >> "$output"
                 echo "  -" >> "$output"
-                
-                # Indent each line by 2 spaces and append to output
-                sed 's/^/    /' "$file" >> "$output"
-                
+
+                if ! sed 's/^/    /' "$file" >> "$output"; then
+                  echo "ERROR: Failed to process file $file"
+                  exit 1
+                fi
+
                 echo "" >> "$output"
                 ((count++))
               done
