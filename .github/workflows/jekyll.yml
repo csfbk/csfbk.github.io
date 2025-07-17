@@ -69,7 +69,6 @@ jobs:
                 echo "  -" >> "$output"
                 
                 # Indent each line by 2 spaces and append to output
-                sed 's/^/    /' "$file"
                 sed 's/^/    /' "$file" >> "$output"
                 
                 echo "" >> "$output"
