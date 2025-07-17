@@ -46,6 +46,13 @@ jobs:
           mkdir -p _data
           for dir in _data/single/*/ ; do
             foldername=$(basename "$dir")
+            shopt -s nullglob
+            files=("$dir"*.yml)
+            if [ "${#files[@]}" -eq 0 ]; then
+              echo "No YAML files found in $dir, skipping."
+              continue
+            fi
+            
             if [ "$foldername" = "members" ]; then
               output="_data/members_units.yml"
               echo "FILE ${output}"
