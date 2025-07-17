@@ -44,11 +44,7 @@ jobs:
       - name: Merge YAML lists from _data/single/*/*.yml into _data/*.yml
         run: |
           mkdir -p _data
-
-          echo "Current working directory: $(pwd)"
-          echo "Files in _data/single/members:"
-          ls -l _data/single/members
-
+          count=0
           for dir in _data/single/*/ ; do
             foldername=$(basename "$dir")
             shopt -s nullglob
@@ -75,12 +71,6 @@ jobs:
                 filename=$(basename "$file")
                 echo "" >> "$output"
                 echo "From file: $filename"
-
-                echo "Processing file: $file"
-                file "$file"
-                cat "$file"
-                sed 's/^/    /' "$file"
-
                 echo "## From file: $filename" >> "$output"
                 echo "  -" >> "$output"
 
