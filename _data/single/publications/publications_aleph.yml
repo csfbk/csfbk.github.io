@@ -427,7 +427,7 @@
   - EVoting
 
 - id: JISA2025CRYPTOAC
-  #id_iris: 360827
+  id_iris: 361527
   title: A Methodology for the Experimental Performance Evaluation of Access Control Enforcement Mechanisms based on Business Processes
   authors:
     - StefanoBerlato
@@ -440,7 +440,7 @@
   destination: JISA
   isALEPH: true
   year: 2025
-  #doi: 10.1016/j.jnca.2025.104246
+  doi: 10.1016/j.jisa.2025.104158
 
 - id: JNCA2025CRYPTOAC
   id_iris: 360827
