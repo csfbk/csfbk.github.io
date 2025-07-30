@@ -1606,7 +1606,7 @@
     - SilvioRanise
     - GiadaSciarretta
   abstract: >
-    With more systems becoming digitized, enterprises are adopting cloud technologies and outsourcing non-critical services to reduce the pressure on IT departments. In this process, it is crucial to achieving the right balance between costs, usability and security; prioritizing security over the rest when handling sensitive data. Considering the print management, often off-premise, many enterprises report at least one print-related security incident that led to data loss in the past year. This problem can damage the enterprise business, in particular considering the fines prescribed by current regulations or its reputation. Focusing on securing enterprise printing, pull printing is the set of technologies and processes that allow the release of print jobs according to specific conditions; typically user authentication and proximity to a printer. We design a software-oriented pull printing infrastructure that supports a print release mechanism using QR codes and electronic IDentity cards as a second-factor authenticator. Our solution addresses the costs, as any medium-size organization can adopt our open-source solution without additional devices or access badges; and the user experience, as we offer a driverless print environment and a user-friendly mobile application.
+    With more systems becoming digitized, enterprises are adopting cloud technologies and outsourcing non-critical services to reduce the pressure on IT departments. In this process, it is crucial to achieving the right balance between costs, usability and security; prioritizing security over the rest when handling sensitive data. Considering the print management, often off-premise, many enterprises report at least one print-related security incident that led to data loss in the past year. This problem can damage the enterprise business, in particular considering the fines prescribed by current regulations or its reputation. Focusing on securing enterprise printing, pull printing is the set of technologies and processes that allow the release of print jobs according to specific conditions; typically user authentication and proximity to a printer. We design a software-oriented pull printing infrastructure that supports a print release mechanism using QR codes and electronic IDentity cards as a second-factor authenticator. Our solution addresses the costs, as any medium-size organization can adopt our open-source solution without additional devices or access badges; and the user experience, as we offer a driverless print environment and a user-friendly mobile application.
   destination: CODASPY2021
   year: 2021
   doi: 10.1145/3422337.3447847
@@ -2412,5 +2412,20 @@
   year: 2025
   doi:
   urlNews: /news/2025/04/29/papers-accepted-at-secrypt-2025/
+
+- id: STM2025
+  id_iris: 361667
+  title: "Toward Secure and Trustworthy Identity Management Systems: A Knowledge-base Driven Approach"
+  authors:
+    - GianlucaSassetti
+    - AmirSharif
+    - RobertoCarbone
+    - SilvioRanise
+  abstract: >
+    Identity Management systems (IdMs) provide digital identities to billions of internet users. They are the foundation of modern information systems and key enablers of access control, security, and privacy. However, IdMs are complex socio-technical systems that require the orchestration of technical, organizational, legal, and human factors to ensure their security, privacy, and resilience. Achieving this is easier said than done, since IdM designers need to navigate the multitude of possible system designs, analyzing their trade-offs and shortcomings. In this context, the lack of a comprehensive body of knowledge on IdMs constitutes a key challenge for IdM design and analysis. We address this issue with a systematic review of the literature to build a comprehensive knowledge base that encompasses technical, organizational, and legal aspects of IdMs. The knowledge base is built on an ontology representing information systems with a focus on entities relevant for threat modeling. We propose a prototype tool that enables the exploration of the knowledge base to help IdM designers analyze their solutions and visualize possible alternative design choices. By connecting design goals and requirements to mitigations and threats, the tool provides practitioners with actionable solutions to harden the system and achieve their security and privacy goals through a threat modeling workflow. This research paper provides academia and industry with a significant contribution through an IdM Knowledge Base to support policymakers, IdM designers, and researchers in creating secure, robust, and privacy-preserving IdMs.
+  destination: STM2025
+  year: 2025
+  doi: 
+  urlNews: 
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
