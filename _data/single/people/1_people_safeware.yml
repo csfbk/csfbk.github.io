@@ -1,10 +1,11 @@
-# Temporarily generated manually
+# Please keep alphabetical order
 
 - id: AndreaZanardi
   name: Andrea
   surname: Zanardi
   email: azanardi@fbk.eu
   phone: "+390461312450"
+  iris_id: rp01724
   affiliations:
     - role: Developer
       unit: Secure code liFEcycle for applications and netWoRking
@@ -35,13 +36,30 @@
 - id: LucaPiras
   name: Luca
   surname: Piras
+  email: l.piras@fbk.eu
+  iris_id: rp01945
   affiliations:
     - role: Researcher
       unit: Secure code liFEcycle for applications and netWoRking
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: l.piras@fbk.eu
 
+- id: PietroDeMatteis
+  name: Pietro
+  surname: De Matteis
+  iris_id: rp08445
+  affiliations:
+    # order is important do not invert roles
+    - role: Developer
+      institution: Deda Group
+      place: Trento, Italy
+    - formerRole: Developer
+      role: CLEANSE Lab Coordinator
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: pietro.dematteis@dedagroup.it
+  
 - id: ValentinoArmani
   name: Valentino
   surname: Armani
@@ -51,3 +69,299 @@
       unit: Secure code liFEcycle for applications and netWoRking
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+
+
+# Related
+- id: DomenicoSiracusa
+  name: Domenico
+  surname: Siracusa
+  email: domenico.siracusa@unitn.it
+  affiliations:
+    # order is important do not invert roles
+    - role: Associate Professor
+      unit: Department of Information Engineering and Computer Science
+      institution: University of Trento
+      place: Trento, Italy
+    - formerRole: Head of the Research Unit
+      role: Affiliated Fellow
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
+- id: SilvioRanise
+  name: Silvio
+  surname: Ranise
+  affiliations:
+    - role: Director of Center, Interim Head of Unit
+      unit: Center for Cybersecurity
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: Full Professor
+      unit: Department of Mathematics
+      institution: University of Trento
+      place: Trento, Italy
+  email: ranise@fbk.eu
+  phone: "+390461314192"
+
+- id: FrancescomariaFaticanti
+  name: Francescomaria
+  surname: Faticanti
+
+- id: SalvatoreManfredi
+  name: Salvatore
+  surname: Manfredi
+
+# The following string is a separator used by the parser to trim away generated content
+# Please, please, please, keep this here!
+#--#--#--#--#--#
+- id: A.Carena
+  name:  A.
+  surname: Carena
+
+- id: A.Francescon
+  name:  A.
+  surname: Francescon
+
+- id: A.Tanzi
+  name:  A.
+  surname: Tanzi
+
+- id: AnnapaolaMarconi
+  name:  Annapaola
+  surname: Marconi
+
+- id: AntonioFrancescon
+  name:  Antonio
+  surname: Francescon
+
+- id: AttilioBroglio
+  name:  Attilio
+  surname: Broglio
+
+- id: D.Klonidis
+  name:  D.
+  surname: Klonidis
+
+- id: D.LaFauci
+  name:  D.
+  surname: La Fauci
+
+- id: D.Sanchez
+  name:  D.
+  surname: Sanchez
+
+- id: DanieleMiorandi
+  name:  Daniele
+  surname: Miorandi
+
+- id: DeMiguel
+  name:  De
+  surname: Miguel
+
+- id: DomenicoLaFauci
+  name: 
+  surname: Domenico La Fauci
+
+- id: E.Self
+  name:  E.
+  surname: Self
+
+- id: ElianaSilviaVercelli
+  name: 
+  surname: Eliana Silvia Vercelli
+
+- id: ElioSalvadori
+  name:  Elio
+  surname: Salvadori
+
+- id: F.Forghieri
+  name:  F.
+  surname: Forghieri
+
+- id: F.Jan
+  name:  F.
+  surname: Jan
+
+- id: FedericoPederzolli
+  name:  Federico
+  surname: Pederzolli
+
+- id: FrancescoAvesani
+  name:  Francesco
+  surname: Avesani
+
+- id: G.Bosco
+  name:  G.
+  surname: Bosco
+
+- id: G.Calabretta
+  name:  G.
+  surname: Calabretta
+
+- id: G.Galimberti
+  name:  G.
+  surname: Galimberti
+
+- id: G.Martinelli
+  name:  G.
+  surname: Martinelli
+
+- id: GabrieleGalimberti
+  name:  Gabriele
+  surname: Galimberti
+
+- id: GabrieleMariaGalimberti
+  name: 
+  surname: Gabriele Maria Galimberti
+
+- id: GalimbertiGabriele
+  name:  Galimberti
+  surname: Gabriele
+
+- id: GerstelOri
+  name:  Gerstel
+  surname: Ori
+
+- id: GiovanniMartinelli
+  name:  Giovanni
+  surname: Martinelli
+
+- id: GiuseppeValetto
+  name:  Giuseppe
+  surname: Valetto
+
+- id: I.Tomkos
+  name:  I.
+  surname: Tomkos
+
+- id: IacopoCarreras
+  name:  Iacopo
+  surname: Carreras
+
+- id: J.F.Ferran
+  name:  J. F.
+  surname: Ferran
+
+- id: J.Ferran
+  name:  J.
+  surname: Ferran
+
+- id: M.Angelou
+  name:  M.
+  surname: Angelou
+
+- id: M.Brunella
+  name:  M.
+  surname: Brunella
+
+- id: MarcoPistore
+  name:  Marco
+  surname: Pistore
+
+- id: MartinelliGiovanni
+  name:  Martinelli
+  surname: Giovanni
+
+- id: MatteoFranzil
+  name:  Matteo
+  surname: Franzil
+
+- id: MatteoGerola
+  name:  Matteo
+  surname: Gerola
+
+- id: MatteoRizzi
+  name:  Matteo
+  surname: Rizzi
+
+- id: MirkoPerillo
+  name:  Mirko
+  surname: Perillo
+
+- id: NicolaPerri
+  name:  Nicola
+  surname: Perri
+
+- id: O.Gerstel
+  name:  O.
+  surname: Gerstel
+
+- id: OriGerstel
+  name:  Ori
+  surname: Gerstel
+
+- id: P.Poggiolini
+  name:  P.
+  surname: Poggiolini
+
+- id: PastorelliRosanna
+  name:  Pastorelli
+  surname: Rosanna
+
+- id: R.J.Duran
+  name:  R. J.
+  surname: Duran
+
+- id: R.Pastorelli
+  name:  R.
+  surname: Pastorelli
+
+- id: RamanKazhamiakin
+  name:  Raman
+  surname: Kazhamiakin
+
+- id: RiccardoFedrizzi
+  name:  Riccardo
+  surname: Fedrizzi
+
+- id: RobertoCarbone
+  name:  Roberto
+  surname: Carbone
+
+- id: RobertoRiggio
+  name:  Roberto
+  surname: Riggio
+
+- id: S.Dalsass
+  name:  S.
+  surname: Dalsass
+
+- id: S.Piciaccia
+  name:  S.
+  surname: Piciaccia
+
+- id: SergioDalsass
+  name:  Sergio
+  surname: Dalsass
+
+- id: SilvioCretti
+  name:  Silvio
+  surname: Cretti
+
+- id: StefanoBerlato
+  name:  Stefano
+  surname: Berlato
+
+- id: T.Rasheed
+  name:  T.
+  surname: Rasheed
+
+- id: TanziAlberto
+  name:  Tanzi
+  surname: Alberto
+
+- id: V.Curri
+  name:  V.
+  surname: Curri
+
+- id: V.S.Chava
+  name:  V. S.
+  surname: Chava
+
+- id: VijayaSaradhiChava
+  name:  Vijaya Saradhi
+  surname: Chava
+
+- id: X.Forns
+  name:  X.
+  surname: Forns

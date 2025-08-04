@@ -5,8 +5,8 @@ current:
   members:
     - AndreaZanardi
     - GiancarloVallazza
-    - LucaPiras
     - ValentinoArmani
+    - LucaPiras
 
   students:
 
@@ -14,3 +14,25 @@ current:
     - PietroDeMatteis
 
 former:
+  head:
+    - personId: DomenicoSiracusa
+      yearTo: 2024
+
+  phdStudents:
+#    - personId: SimoneMagnani
+#      thesisId: SimoneMagnani_P
+
+  members:
+    - personId: PietroDeMatteis
+      formerRole: Developer
+      yearTo: 2023
+
+  students:    
+#    - personId: MarcoZani
+#      type: B
+#      institution: University of Trento
+#      yearFrom: 2023
+#      yearTo: 2024
+
+    - personId: ValentinoArmani
+      thesisId: ValentinoArmani_M

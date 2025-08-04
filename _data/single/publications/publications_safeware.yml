@@ -1,0 +1,331 @@
+
+
+# The following string is a separator used by the parser to trim away generated content
+# Please, please, please, keep this here!
+#--#--#--#--#--#
+- id: iris_2024_c56690dc40cba80c3529
+  id_iris: 350627,
+  title: "Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications"
+  authors:
+    - StefanoBerlato
+    - MatteoRizzi
+    - MatteoFranzil
+    - SilvioCretti
+    - PietroDeMatteis
+    - RobertoCarbone
+  destination: 2024ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  year: 2024
+  doi: 10.1109/eurospw61312.2024.00086
+
+
+- id: iris_2019_77e50a1e7565bc452514
+  id_iris: 317083,
+  title: "Path-based Fragmentation Metric and RSA Algorithms for Elastic Optical Networks"
+  authors:
+    - FedericoPederzolli
+    - DomenicoSiracusa
+    - AndreaZanardi
+    - GabrieleGalimberti
+    - DomenicoLaFauci
+    - GiovanniMartinelli
+  destination: journalofopticalcommunicationsandnetworking
+  year: 2019
+  doi: 10.1364/JOCN.11.000015
+
+
+- id: iris_2017_e7c9cdc8e933e053d3e8
+  id_iris: 310528,
+  title: "YAMATO: The First SDN Control Plane for Independent, Joint, and Fractional-Joint Switched SDM Optical Networks"
+  authors:
+    - FedericoPederzolli
+    - MatteoGerola
+    - AndreaZanardi
+    - X.Forns
+    - J.F.Ferran
+    - DomenicoSiracusa
+  destination: journaloflightwavetechnology
+  year: 2017
+  doi: 10.1109/JLT.2017.2656382
+
+
+- id: iris_2016_4f73a79ccae6f6ee2911
+  id_iris: 310662,
+  title: "Demonstration of a Hybrid SDN/GMPLS Control Plane for Optical Virtual Private Networks with Restoration Capabilities"
+  authors:
+    - DomenicoSiracusa
+    - FedericoPederzolli
+    - MatteoGerola
+    - AndreaZanardi
+    - D.LaFauci
+    - G.Galimberti
+  destination: 42ndeuropeanconferenceonopticalcommunicationecoc2016
+  year: 2016
+
+
+- id: iris_2016_061ff17ed68ea0c801ce
+  id_iris: 310664,
+  title: "Experimental Evaluation of YAMATO, a SDN Control Plane for Joint and Fractional-Joint Switched SDM Optical Networks"
+  authors:
+    - FedericoPederzolli
+    - MatteoGerola
+    - AndreaZanardi
+    - X.Forns
+    - J.Ferran
+    - DomenicoSiracusa
+  destination: 42ndeuropeanconferenceonopticalcommunicationecoc2016
+  year: 2016
+
+
+- id: iris_2015_fd91011c9ec1329eced5
+  id_iris: 301781,
+  title: "Virtual Coaches for Mission–Based Gamified Smart Communities"
+  authors:
+    - LucaPiras
+    - GiuseppeValetto
+    - AnnapaolaMarconi
+    - MarcoPistore
+  abstract: >
+    We propose a Virtual Coach for the gamification of participatory applications in complex socio-technical systems like Smart Cities and Smart Communities. In such participatory applications, the user community is an active and essential component. Users must voluntarily take up some tasks, in order to ensure the correct operation of the application according to its requirements and goals, which, in turn, delivers collective benefits to the community. In order to facilitate users, and support their sustained engagement in a participatory application, we use a Missions metaphor to describe those volunteering tasks. Our Virtual Coach is then responsible for selecting and recommending missions to users, based on a variety of factors, including the criticality of the corresponding tasks for the application purposes, the importance of the task for the individual user that should take it up, user profile characteristics, like personal preferences and skills, and the in-game incentives the user would earn by completing the mission.
+  destination: chiplayworkshoponpersonalizationinseriousandpersuasivegamesandgamifiedinteractions
+  year: 2015
+
+
+- id: iris_2015_2ec50c75ae2176ad664c
+  id_iris: 301779,
+  title: "Using Gamification to Incentivize Sustainable Urban Mobility"
+  authors:
+    - RamanKazhamiakin
+    - AnnapaolaMarconi
+    - MirkoPerillo
+    - MarcoPistore
+    - GiuseppeValetto
+    - LucaPiras
+    - FrancescoAvesani
+    - NicolaPerri
+  destination: 1stieeeinternationalsmartcitiesconference
+  year: 2015
+
+
+- id: iris_2013_f9881cf4e3e38228dba6
+  id_iris: 313966,
+  title: "Toward a control and management system enabling cognitive optical networks"
+  authors:
+    - DomenicoSiracusa
+    - AttilioBroglio
+    - AntonioFrancescon
+    - AndreaZanardi
+    - ElioSalvadori
+  destination: 201318theuropeanconferenceonnetworkandopticalcommunicationsnoc2013
+  year: 2013
+  doi: 10.1109/NOC-OCI.2013.6582895
+
+
+- id: iris_2013_e89e163b4c9168635bf5
+  id_iris: 315096,
+  title: "Impairment-aware Control Plane Architectures to Handle Optical Networks of the Future"
+  authors:
+    - ElioSalvadori
+    - AndreaZanardi
+    - VijayaSaradhiChava
+  destination: crosslayerdesigninopticalnetworks
+  year: 2013
+
+
+- id: iris_2013_3eea01c1e817beacf4be
+  id_iris: 313962,
+  title: "Hitless network re-optimization to reduce spectrum fragmentation in distributed GMPLS flexible optical networks"
+  authors:
+    - DomenicoSiracusa
+    - AttilioBroglio
+    - AndreaZanardi
+    - ElioSalvadori
+    - GabrieleGalimberti
+    - DomenicoLaFauci
+  destination: 39theuropeanconferenceandexhibitiononopticalcommunicationecoc2013
+  year: 2013
+  doi: 10.1049/cp.2013.1655
+
+
+- id: iris_2013_2091c88956ea3421598b
+  id_iris: 313956,
+  title: "Optical control plane based on an analytical model of non-linear transmission effects in a self-optimized network"
+  authors:
+    - R.Pastorelli
+    - S.Piciaccia
+    - G.Galimberti
+    - E.Self
+    - M.Brunella
+    - G.Calabretta
+    - F.Forghieri
+    - DomenicoSiracusa
+    - AndreaZanardi
+    - ElioSalvadori
+    - G.Bosco
+    - A.Carena
+    - V.Curri
+    - P.Poggiolini
+  destination: 39theuropeanconferenceandexhibitiononopticalcommunicationecoc2013
+  year: 2013
+  doi: 10.1049/cp.2013.1458
+
+
+- id: iris_2013_0ead4d68fabda83ae019
+  id_iris: 313701,
+  title: "Distributed optical control plane for dynamic lightpath establishment in translucent optical networks based on reachability graph"
+  authors:
+    - ElioSalvadori
+    - V.S.Chava
+    - AndreaZanardi
+    - DomenicoSiracusa
+    - G.Galimberti
+    - A.Tanzi
+    - G.Martinelli
+    - O.Gerstel
+  destination: opticalswitchingandnetworking
+  year: 2013
+  doi: 10.1016/j.osn.2012.07.006
+
+
+- id: iris_2012_bbc9b410dfb13e1179dc
+  id_iris: 313721,
+  title: "A control plane framework for future cognitive heterogeneous optical networks"
+  authors:
+    - DomenicoSiracusa
+    - ElioSalvadori
+    - A.Francescon
+    - AndreaZanardi
+    - M.Angelou
+    - D.Klonidis
+    - I.Tomkos
+    - D.Sanchez
+    - R.J.Duran
+    - DeMiguel
+  destination: 14thinternationalconferenceontransparentopticalnetworksicton2012
+  year: 2012
+  doi: 10.1109/ICTON.2012.6253766
+
+
+- id: iris_2012_41d4001af1accf556d72
+  id_iris: 313946,
+  title: "NICER: A distributed dynamic shared-backup path-allocation procedure for transmission-impaired WDM optical networks"
+  authors:
+    - ElioSalvadori
+    - AndreaZanardi
+    - DomenicoSiracusa
+    - GabrieleGalimberti
+    - GiovanniMartinelli
+    - OriGerstel
+  destination: 20124thinternationalcongressonultramoderntelecommunicationsandcontrolsystemsicumt2012
+  year: 2012
+  doi: 10.1109/ICUMT.2012.6459756
+
+
+- id: iris_2011_d4149a446ffe737fe5eb
+  id_iris: 315463,
+  title: "Network topology visualization and monitoring for multi-hop wireless networks"
+  authors:
+    - RobertoRiggio
+    - MatteoGerola
+    - A.Francescon
+    - AndreaZanardi
+    - T.Rasheed
+    - F.Jan
+  destination: 12thifipieeeinternationalsymposiumonintegratednetworkmanagementim2011andworkshops
+  year: 2011
+  doi: 10.1109/INM.2011.5990494
+
+
+- id: iris_2011_b6deca2a4b00122bc59e
+  id_iris: 314016,
+  title: "Impairment and regenerator aware lightpath setup using distributed reachability graphs"
+  authors:
+    - V.S.Chava
+    - ElioSalvadori
+    - AndreaZanardi
+    - S.Dalsass
+    - G.Galimberti
+    - A.Tanzi
+    - G.Martinelli
+    - O.Gerstel
+  destination: 2011ieeeconferenceoncomputercommunicationsworkshopsinfocomwkshps2011
+  year: 2011
+  doi: 10.1109/INFCOMW.2011.5928800
+
+
+- id: iris_2011_a8f5aa1291c830bea35d
+  id_iris: 315492,
+  title: "A Distributed Monitoring Framework for Opportunistic Communication Systems: an Experimental Approach"
+  authors:
+    - IacopoCarreras
+    - AndreaZanardi
+    - ElioSalvadori
+    - DanieleMiorandi
+  abstract: >
+    Opportunistic communication systems aim at producing and sharing digital resources by means of localized wireless data exchanges among mobile nodes. The design and evaluation of systems able to exploit this emerging communication paradigm is a challenging problem. This paper presents the authors' experience in developing U-Hopper, a middleware running over widely diffused mobile handsets and supporting the development of context-aware services based on opportunistic communications. The authors present the design of the platform, and describe the distributed monitoring framework that was set up in order to monitor and dynamically reconfigure it at run time. The paper concludes with an experimental evaluation of the framework, showing its practical utilization when monitoring an operational opportunistic communication system.
+  destination: internationaljournalofadaptiveresilientandautonomicsystems
+  year: 2011
+  doi: 10.4018/jaras.2011070104
+
+
+- id: iris_2011_8ae9cc2c190665b3fd96
+  id_iris: 315441,
+  title: "Effect of Impairment Modeling Errors on Reachability Graph Based Lightpath Setup in Translucent Optical Networks"
+  authors:
+    - VijayaSaradhiChava
+    - ElioSalvadori
+    - AndreaZanardi
+    - GalimbertiGabriele
+    - SergioDalsass
+    - GalimbertiGabriele
+    - TanziAlberto
+    - MartinelliGiovanni
+    - O.Gerstel
+  destination: 15thinternationalconferenceonopticalnetworkdesignandmodelingondm2011
+  year: 2011
+
+
+- id: iris_2011_89caae2af25eddf5a37f
+  id_iris: 314012,
+  title: "Regenerator sites selection based on multiple paths considering impairments and protection requirements"
+  authors:
+    - VijayaSaradhiChava
+    - RiccardoFedrizzi
+    - AndreaZanardi
+    - ElioSalvadori
+    - GabrieleMariaGalimberti
+    - TanziAlberto
+    - MartinelliGiovanni
+    - GerstelOri
+  destination: 16theuropeanconferenceonnetworksandopticalcommunicationsnoc2011
+  year: 2011
+
+
+- id: iris_2011_6a21a70308e7efb13ddd
+  id_iris: 314014,
+  title: "Techniques to handle potential active lightpath(s) disruption due to crosstalk introduced by setup of new lightpath"
+  authors:
+    - VijayaSaradhiChava
+    - AndreaZanardi
+    - ElioSalvadori
+    - GabrieleMariaGalimberti
+    - TanziAlberto
+    - PastorelliRosanna
+    - ElianaSilviaVercelli
+    - MartinelliGiovanni
+    - DomenicoLaFauci
+  destination: 16theuropeanconferenceonnetworksandopticalcommunicationsnoc2011
+  year: 2011
+
+
+- id: iris_2011_0895df1cb7609a177b72
+  id_iris: 315439,
+  title: "A Distributed Network Monitoring Framework for Wireless Networks"
+  authors:
+    - RobertoRiggio
+    - MatteoGerola
+    - DanieleMiorandi
+    - AndreaZanardi
+    - F.Jan
+  destination: proceedginsof12thifipieeeinternationalsymposiumonintegratednetworkmanagementim2011
+  year: 2011
+  doi: 10.1109/INM.2011.5990567

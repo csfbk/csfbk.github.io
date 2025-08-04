@@ -1,0 +1,87 @@
+
+# The following string is a separator used by the parser to trim away generated content
+# Please, please, please, keep this here!
+#--#--#--#--#--#
+- id: 12thifipieeeinternationalsymposiumonintegratednetworkmanagementim2011andworkshops
+  name: 12th Ifip/ieee International Symposium on Integrated Network Management (IM 2011) and Workshops
+  type: conference
+  proceedings: Proceedings of 12th Ifip/ieee International Symposium on Integrated Network Management (IM 2011) and Workshops
+
+- id: 14thinternationalconferenceontransparentopticalnetworksicton2012
+  name: 14th International Conference on Transparent Optical Networks (ICTON), 2012
+  type: conference
+  proceedings: Proceedings of 14th International Conference on Transparent Optical Networks (ICTON), 2012
+
+- id: 15thinternationalconferenceonopticalnetworkdesignandmodelingondm2011
+  name: 15th International Conference on Optical Network Design and Modeling - Ondm 2011
+  type: conference
+  proceedings: Proceedings of 15th International Conference on Optical Network Design and Modeling - Ondm 2011
+
+- id: 16theuropeanconferenceonnetworksandopticalcommunicationsnoc2011
+  name: 16th European Conference on Networks and Optical Communications, Noc 2011
+  type: conference
+  proceedings: Proceedings of 16th European Conference on Networks and Optical Communications, Noc 2011
+
+- id: 1stieeeinternationalsmartcitiesconference
+  name: 1st IEEE International Smart Cities Conference
+  type: conference
+  proceedings: Proceedings of 1st IEEE International Smart Cities Conference
+
+- id: 2011ieeeconferenceoncomputercommunicationsworkshopsinfocomwkshps2011
+  name: 2011 IEEE Conference on Computer Communications Workshops, Infocom Wkshps 2011
+  type: conference
+  proceedings: Proceedings of 2011 IEEE Conference on Computer Communications Workshops, Infocom Wkshps 2011
+
+- id: 20124thinternationalcongressonultramoderntelecommunicationsandcontrolsystemsicumt2012
+  name: 2012 4th International Congress on Ultra Modern Telecommunications and Control Systems, Icumt 2012
+  type: conference
+  proceedings: Proceedings of 2012 4th International Congress on Ultra Modern Telecommunications and Control Systems, Icumt 2012
+
+- id: 201318theuropeanconferenceonnetworkandopticalcommunicationsnoc2013
+  name: 2013 18th European Conference on Network and Optical Communications, Noc 2013
+  type: conference
+  proceedings: Proceedings of 2013 18th European Conference on Network and Optical Communications, Noc 2013
+
+- id: 2024ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  name: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  type: conference
+  proceedings: Proceedings of 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+
+- id: 39theuropeanconferenceandexhibitiononopticalcommunicationecoc2013
+  name: 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
+  type: conference
+  proceedings: Proceedings of 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
+
+- id: 42ndeuropeanconferenceonopticalcommunicationecoc2016
+  name: 42nd European Conference on Optical Communication, Ecoc 2016
+  type: conference
+  proceedings: Proceedings of 42nd European Conference on Optical Communication, Ecoc 2016
+
+- id: chiplayworkshoponpersonalizationinseriousandpersuasivegamesandgamifiedinteractions
+  name: Chi Play Workshop on Personalization in Serious and Persuasive Games and Gamified Interactions
+  type: conference
+  proceedings: Proceedings of Chi Play Workshop on Personalization in Serious and Persuasive Games and Gamified Interactions
+
+- id: crosslayerdesigninopticalnetworks
+  name: Cross-layer Design in Optical Networks
+  type: conference
+
+- id: internationaljournalofadaptiveresilientandautonomicsystems
+  name: International Journal of Adaptive, Resilient and Autonomic Systems
+  type: journal
+
+- id: journaloflightwavetechnology
+  name: Journal of Lightwave Technology
+  type: journal
+
+- id: journalofopticalcommunicationsandnetworking
+  name: Journal of Optical Communications and Networking
+  type: journal
+
+- id: opticalswitchingandnetworking
+  name: Optical Switching and Networking
+  type: journal
+
+- id: proceedginsof12thifipieeeinternationalsymposiumonintegratednetworkmanagementim2011
+  name: Proceedgins of 12th Ifip/ieee International Symposium on Integrated Network Management (IM 2011)
+  type: conference
