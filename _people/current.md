@@ -7,7 +7,7 @@ permalink: /people/
 <h1>Research Center</h1>
 <h2>Director</h2>
 {% assign details = "picture, email, phone, personalPage" | split: ", " %}
-{% include list-people.html source=site.data.members_cs.current.head style="card" details=details sort="none" %}
+{% include list-people.html source=site.data.members_cs.current.head style="card" details=details sort_by="none" %}
 
 <h2>Members</h2>
 {% assign details = "picture, internalRole, email, phone, personalPage" | split: ", " %}
