@@ -2100,3 +2100,41 @@ projects:
         links:
           - name: Link
             url: https://github.com/PQCA/sonar-cryptography/blob/main/docs/LANGUAGE_SUPPORT.md
+
+  - id: p-2025-aleph-2
+    title: On the Implementation of Cryptographic Mechanisms for Access Control in Rust
+    published: "2025-08-06"
+    applicationEnd: "2025-08-20 23:59"
+    year: 2025
+    description: >
+      Cryptographic Access Control (CAC) is often employed to protect the confidentiality of cloud-hosted sensitive data from both external attackers and curious service providers while enforcing access control policies. In CAC, the sensitive data is encrypted, and the permission to access the encrypted data is embodied by the (secret) decrypting key. The Center for Cybersecurity (CS) of FBK has been working on an implementation of CAC in a tool called CryptoAC (short for Cryptographic Access Control) [1] applicable to diverse scenarios, such as the cloud-IoT continuum and cloud native applications. CryptoAC is an open-source tool written in the (multiplatform) Kotlin language, and potentially available as programming library, plugin, or microservice (Docker container). Unfortunately, CryptoAC is currently a research proof-of-concept and ignores many aspects relevant to the development and operation of cryptographic mechanisms. In this context, applicants would collaborate on improving the technology readiness level (TRL) of CryptoAC by choosing among the following activities:
+      1) surveying generic guidelines, best practices, and specific reccomendations concerning the development of cryptographic mechanisms;
+      2) re-implementing the core modules of CryptoAC using the (more secure and performant) Rust programming language;
+      3) extend the capabilities of CryptoAC in one or more of the following areas: user authentication with OpenID Connect and FIDO, cryptographic key management, strategies and tools for cryptographic bill of materials management. 
+      This project provides the opportunity to acquire the fundamentals of scientific research, investigate and explore cutting-edge and relevant research topics, and engage in software engineering and development while allowing applicants to design, propose, and implement their own ideas.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ALEPH
+    supervisor:
+      - StefanoBerlato
+    prerequisites:
+      - Basic understanding of cybersecurity principles.
+      - Basic knowledge of applied cryptography.
+      - Knowledge of programming in Rust.
+      - Knowledge of containers technologies (i.e., Docker) and trusted execution environments may be advantageous.
+    objectives:
+      - Familiarization and study of the context (i.e., cryptographic access control, CryptoAC).
+      - Investigation of possible improvements to the TRL of CryptoAC.
+      - Implementation and evaluation of the chosen improvements.
+    topics:
+      - Access Control
+      - Applied Cryptography
+      - Rust
+    references:
+      - text: "CryptoAC"
+        links:
+          - name: Link
+            url: https://aleph.fbk.eu/tools/CryptoAC
