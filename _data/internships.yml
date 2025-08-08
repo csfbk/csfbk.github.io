@@ -2138,3 +2138,69 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
+
+  - id: p-2025-cleanse-1
+    title: xBOM based approach for Software Supply Chain Security in SDLC
+    published: "2025-08-08"
+    applicationEnd: "2025-09-08 23:59"
+    year: 2025
+    description: >
+      According to a Gartner research [1], Software Supply Chain attacks present serious security, compliance, and operational challenges for organizations, with estimated costs expected to rise from $46 billion in 2023 to $138 billion by 2031.<br />
+      A Software Bill of Materials (SBOM) is a critical component in modern software supply chain security. It provides a detailed inventory of all software components, libraries, and dependencies used in an application. By integrating SBOMs throughout the Software Development Life Cycle (SDLC), organizations can proactively identify vulnerabilities, ensure compliance, and enhance transparency [2].<br />
+      One of the standard to describe a bill of material in a machine-readable format is CycloneDX (CDX) [3], developed by the Open Worldwide Application Security Project(OWASP) [4] community. CycloneDX extends the concept of Bill of Material also to other components (xBOM) [5]: Cryptography, Configuration and Deployment, AI/Machine Learning and so on.<br />
+      The focus of the Internship (and Thesis) is to explore the xBOM approach in SDLC phases to improve Security linked to the Software Supply Chain.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - CLEANSE
+      - SaFEWaRe
+    supervisor:
+      - PietroDeMatteis
+      - LucaPiras
+    prerequisites:
+      - Knowledge of programming languages (i.e., Python, Typescript, Java) would be highly advantageous.
+      - Basic knowledge of LLM, Generative AI, AI Agents, Agentic AI would be a plus.
+    objectives: >
+      Multiple topics, for multiple positions, are available to explore the xBOM approach for Security:
+      <ul>
+        <li>Software Bill Of Material (SBOM)</li>
+        <li>Software as a Service Bill of Materials (SaaSBOM)</li>
+        <li>Cryptography Bill of Materials (CBOM)</li>
+        <li>Vulnerability Exploitability Exchange (VEX)</li>
+        <li>AI/Machine Learning Bill of Materials (AI/ML-BOM)</li>
+      </ul>
+      The objectives will be declined and detailed to the specific topic.
+    topics:
+      - Bill Of Material
+      - SBOM
+      - SaaSBOM
+      - CBOM
+      - VEX
+      - AI/ML-BOM
+      - Software Supply Chain Security
+      - SDLC
+      - CI/CD
+    notes: Multiple positions available.
+    references:
+      - text: "Leader's Guide to Software Supply Chain Security"
+        links:
+          - name: Link
+            url: https://www.gartner.com/en/documents/5524495
+      - text: "A First Appraisal of NIS2 and CRA Compliance Leveraging Open Source Tools"
+        links:
+          - name: Link
+            url: https://cris.fbk.eu/handle/11582/361187
+      - text: "CycloneDX Generator (cdxgen)"
+        links:
+          - name: Link
+            url: https://cyclonedx.github.io/cdxgen/
+      - text: "OWASP"
+        links:
+          - name: Link
+            url: https://owasp.org/
+      - text: "CycloneDX v1.6: Now an Ecma International Standard"
+        links:
+          - name: Link
+            url: https://cyclonedx.org/news/cyclonedx-v1.6-now-an-ecma-international-standard/
