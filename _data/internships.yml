@@ -2192,10 +2192,10 @@ projects:
         links:
           - name: Link
             url: https://cris.fbk.eu/handle/11582/361187
-      - text: "CycloneDX Generator (cdxgen)"
+      - text: "CycloneDX: The International Standard for Bill of Materials (ECMA-424)"
         links:
           - name: Link
-            url: https://cyclonedx.github.io/cdxgen/
+            url: https://cyclonedx.org/
       - text: "OWASP"
         links:
           - name: Link
