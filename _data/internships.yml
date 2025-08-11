@@ -2041,7 +2041,8 @@ projects:
   - id: p-2025-aleph-1
     title: Automated CBOM inventory through LLMs
     published: "2025-07-09"
-    applicationEnd: "2025-08-09 23:59"
+    applicationEnd: "2025-09-09 23:59"
+    applicationPreviousEnd: "2025-08-09 23:59"
     year: 2025
     description: >
       Software systems are increasingly embedding diverse cryptographic functions to ensure the safe and secure implementation of code. At the same time, regulatory demands, such as those outlined in the Cryptographic Bill of Materials (CBOM)[1-2-3], require complete visibility into cryptography's use, including algorithms, parameters, modes of operation, and other relevant details. However, current solutions using static analysis and manual audits to enumerate and document these primitives are only available for a very small selection of libraries, such as Java and Python [4].<br />
