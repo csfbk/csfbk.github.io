@@ -111,6 +111,10 @@
   name: Salvatore
   surname: Manfredi
 
+- id: LuisAugustoDiasKnob
+  name: Luis Augusto
+  surname: Dias Knob
+
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
@@ -125,6 +129,14 @@
 - id: A.Tanzi
   name:  A.
   surname: Tanzi
+
+- id: AmirSharif
+  name:  Amir
+  surname: Sharif
+
+- id: AndreaBisegna
+  name:  Andrea
+  surname: Bisegna
 
 - id: AnnapaolaMarconi
   name:  Annapaola
@@ -171,7 +183,7 @@
   surname: Eliana Silvia Vercelli
 
 - id: ElioSalvadori
-  name:  Elio
+  name: Elio
   surname: Salvadori
 
 - id: F.Forghieri
@@ -185,6 +197,10 @@
 - id: FedericoPederzolli
   name:  Federico
   surname: Pederzolli
+
+- id: FilippoDeGrandi
+  name: Filippo
+  surname: De Grandi
 
 - id: FrancescoAvesani
   name:  Francesco
@@ -222,6 +238,14 @@
   name:  Gerstel
   surname: Ori
 
+- id: GianlucaSassetti
+  name:  Gianluca
+  surname: Sassetti
+
+- id: GiovanniCorti
+  name:  Giovanni
+  surname: Corti
+
 - id: GiovanniMartinelli
   name:  Giovanni
   surname: Martinelli
@@ -238,6 +262,10 @@
   name:  Iacopo
   surname: Carreras
 
+- id: IsaiaTonini
+  name:  Isaia
+  surname: Tonini
+
 - id: J.F.Ferran
   name:  J. F.
   surname: Ferran
@@ -245,6 +273,10 @@
 - id: J.Ferran
   name:  J.
   surname: Ferran
+
+- id: LauraCristiano
+  name:  Laura
+  surname: Cristiano
 
 - id: M.Angelou
   name:  M.
@@ -258,9 +290,17 @@
   name:  Marco
   surname: Pistore
 
+- id: MattiaMaramotti
+  name: Mattia
+  surname: Maramotti
+
 - id: MartinelliGiovanni
   name:  Martinelli
   surname: Giovanni
+
+- id: MatteoBregola
+  name: Matteo
+  surname: Bregola
 
 - id: MatteoFranzil
   name:  Matteo
@@ -277,6 +317,10 @@
 - id: MirkoPerillo
   name:  Mirko
   surname: Perillo
+
+- id: NiccolòLechthaler
+  name: Niccolò
+  surname: Lechthaler
 
 - id: NicolaPerri
   name:  Nicola
@@ -322,6 +366,10 @@
   name:  Roberto
   surname: Riggio
 
+- id: RobertoSavi
+  name: Roberto
+  surname: Savi
+
 - id: S.Dalsass
   name:  S.
   surname: Dalsass
@@ -329,6 +377,10 @@
 - id: S.Piciaccia
   name:  S.
   surname: Piciaccia
+
+- id: SerenaElisaPonta
+  name:  Serena Elisa
+  surname: Ponta
 
 - id: SergioDalsass
   name:  Sergio
@@ -338,9 +390,17 @@
   name:  Silvio
   surname: Cretti
 
+- id: SimoneVigasio
+  name:  Simone
+  surname: Vigasio
+
 - id: StefanoBerlato
   name:  Stefano
   surname: Berlato
+
+- id: CarloSorrentino
+  name:  Carlo
+  surname: Sorrentino
 
 - id: T.Rasheed
   name:  T.
@@ -365,3 +425,4 @@
 - id: X.Forns
   name:  X.
   surname: Forns
+
