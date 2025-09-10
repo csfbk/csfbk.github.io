@@ -2205,3 +2205,63 @@ projects:
         links:
           - name: Link
             url: https://cyclonedx.org/news/cyclonedx-v1.6-now-an-ecma-international-standard/
+
+  - id: p-2025-st-7
+    title: Evaluating and Enhancing Data Anonymization Techniques for Sensitive Data
+    published: "2025-09-10"
+    applicationEnd: "2025-10-10 23:59"
+    year: 2025
+    description: >
+      This internship and thesis project focuses on the study, development, and evaluation of data anonymization techniques applied to sensitive datasets intended for artificial intelligence (AI) applications. The work will address the dual challenge of preserving privacy while ensuring data remains sufficiently rich for AI model training [1, 2], in strict compliance with European regulations such as the GDPR [3]. The activity will involve surveying and classifying existing anonymization libraries and tools, such as [4, 5], both open-source and proprietary, based on their privacy models, technical features, and suitability for AI pipelines. Depending on the student’s interests, the project can be customized to emphasize:
+      <ol>
+        <li>Research: investigating novel privacy-preserving methods or metrics;</li>
+        <li>Development: integrating anonymization workflows into AI data preparation pipelines;</li>
+        <li>Evaluation: designing and executing rigorous test scenarios to measure anonymity and data utility in AI contexts.</li>
+      </ol>
+      This project provides the opportunity to acquire hands-on experience in privacy technologies, AI data engineering, and regulatory compliance.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ST
+      - SaFEWaRe
+    supervisor:
+      - RobertoCarbone
+      - EleonoraMarchesini
+      - LucaPiras
+    prerequisites:
+      - Knowledge of programming languages (i.e., Python, Typescript, Java) would be highly advantageous.
+      - Basic knowledge of AI, Large Language Models (LLMs), and Machine Learning (ML).
+    objectives:
+      - Survey and classify anonymization libraries suitable for data used in AI, distinguishing open-source and proprietary solutions.
+      - Analyze GDPR requirements and other applicable privacy regulations for compliance in AI data processing.
+      - Implement anonymization workflows tailored to the needs of AI training datasets.
+      - Develop test protocols to evaluate re-identification risk, privacy metrics, and data utility for AI performance.
+      - Run experiments on synthetic or de-identified datasets to compare methods.
+      - Produce recommendations for best practices, tool selection, and workflow integration.
+    topics:
+      - Data Anonymization
+      - AI Data Preparation
+      - GDPR Compliance
+    references:
+      - text: "Senanayake, J., Kalutarage, H., Petrovski, A., Piras, L. and Al-Kadri, M.O., 2024. Defendroid: Real-time Android code vulnerability detection via blockchain federated neural network with XAI. Journal of Information Security and Applications, 82, p.103741."
+        links:
+          - name: Link
+            url: https://doi.org/10.1016/j.jisa.2024.103741
+      - text: "Im, E., Kim, H., Lee, H., Jiang, X., & Kim, J. H. (2024). Exploring the tradeoff between data privacy and utility with a clinical data analysis use case. BMC medical informatics and decision making, 24(1), 147."
+        links:
+          - name: Link
+            url: https://doi.org/10.1186/s12911-024-02545-9
+      - text: "Piras, L. et al. DEFeND DSM: A Data Scope Management Service for Model-Based Privacy by Design GDPR Compliance. In Int. Conf. on Trust, Privacy and Security in Digital Business (TrustBus). Springer, 2020."
+        links:
+          - name: Link
+            url: https://doi.org/10.1007/978-3-030-58986-8_13
+      - text: "Satori"
+        links:
+          - name: Link
+            url: https://satoricyber.com/
+      - text: "SecuPi"
+        links:
+          - name: Link
+            url: https://secupi.com/
