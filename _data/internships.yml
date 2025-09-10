@@ -2213,11 +2213,11 @@ projects:
     year: 2025
     description: >
       This internship and thesis project focuses on the study, development, and evaluation of data anonymization techniques applied to sensitive datasets intended for artificial intelligence (AI) applications. The work will address the dual challenge of preserving privacy while ensuring data remains sufficiently rich for AI model training [1, 2], in strict compliance with European regulations such as the GDPR [3]. The activity will involve surveying and classifying existing anonymization libraries and tools, such as [4, 5], both open-source and proprietary, based on their privacy models, technical features, and suitability for AI pipelines. Depending on the student’s interests, the project can be customized to emphasize:
-      <ol>
+      <ul>
         <li>Research: investigating novel privacy-preserving methods or metrics;</li>
         <li>Development: integrating anonymization workflows into AI data preparation pipelines;</li>
         <li>Evaluation: designing and executing rigorous test scenarios to measure anonymity and data utility in AI contexts.</li>
-      </ol>
+      </ul>
       This project provides the opportunity to acquire hands-on experience in privacy technologies, AI data engineering, and regulatory compliance.
     type: IT
     level:
