@@ -482,7 +482,7 @@
   - PostQuantumCryptography
 
 - id: OSVS2025CRYPTOAC
-  #id_iris: 350627
+  id_iris: 362647
   title: "Work-in-Progress: Optimizing Performance of User Revocation in Cryptographic Access Control with Trusted Execution Environments"
   authors:
     - IonAndyDitu
@@ -501,7 +501,7 @@
   destination: OSVS2025
   isALEPH: true
   year: 2025
-  # doi: 10.1109/EuroSPW61312.2024.00086
+  doi: 10.1109/EuroSPW67616.2025.00076
 
 - id: PrivCrypt25
   title: 'Enhancing E-Voting with Multiparty Class Group Encryption'
