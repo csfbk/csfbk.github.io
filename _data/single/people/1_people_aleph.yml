@@ -243,6 +243,12 @@
 - id: MatteoBusi
   name: Matteo
   surname: Busi
+  affiliations:
+    - role: Researcher
+      unit: Department of Environmental Sciences, Informatics and Statistics
+      institution: Ca' Foscari University of Venice
+      place: Venice, Italy
+  email: matteo.busi@unive.it
 
 - id: MatteoFranzil
   name: Matteo
