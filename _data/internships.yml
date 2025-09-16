@@ -2140,6 +2140,51 @@ projects:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
 
+  - id: p-2025-aleph-3
+    title: Trusted Execution Environments for Cryptographic Access Control
+    published: "2025-09-16"
+    applicationEnd: "2025-12-31 23:59"
+    year: 2025
+    description: >
+      The possibility (and convenience) of storing and sharing data through the cloud entails a set of concerns to data security, such as the presence of external attackers, malicious insiders, and honest-but-curious cloud providers. Cryptographic Access Control (CAC) addresses these concerns but presents practical limitations, primarily due to the computational overhead of key management and user revocation.
+      Stemming from a collaboration between the Center for Cybersecurity (CS) of FBK and the Ca' Foscari University of Venice (UniVE), a recently published article [1] proposes an abstract methodology to integrate Trusted Execution Environments (TEEs) with CAC and relieve such overhead.
+      In this context, applicants would collaborate on extending the work in [1] by choosing one or more of the following activities:
+      <ol>
+        <li>review the methodology in [1] and investigate its security. This activity may include the use of formal methods;</li>
+        <li>implement and experimentally evaluate the performance of the methodology. This activity may include coding, interfacing with TEEs, and integration with tools implementing CAC such as CryptoAC [2].</li>
+      </ol>
+      This project provides the opportunity to acquire the fundamentals of scientific research, investigate and explore cutting-edge and relevant research topics, and engage in software engineering and development while allowing applicants to design, propose, and implement their own ideas.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ALEPH
+    supervisor:
+      - StefanoBerlato
+      - MatteoBusi
+    prerequisites:
+      - Basic understanding of cybersecurity principles.
+      - Basic knowledge of programming and applied cryptography.
+      - Knowledge of trusted execution environments and formal methods may be advantageous.
+    objectives:
+      - Familiarization and study of the context (i.e., cryptographic access control, trusted execution environments).
+      - Investigation of possible extensions to the solution proposed in [1].
+      - Implementation and evaluation of the chosen extensions.
+    topics:
+      - Access Control
+      - Applied Cryptography
+      - Trusted Execution Environments
+    references:
+      - text: "Work-in-Progress: Optimizing Performance of User Revocation in Cryptographic Access Control with Trusted Execution Environments"
+        links:
+          - name: Link
+            url: https://stefano.berlato.it/publications/OSVS2025.pdf
+      - text: "CryptoAC"
+        links:
+          - name: Link
+            url: https://aleph.fbk.eu/tools/CryptoAC
+
   - id: p-2025-cleanse-1
     title: xBOM based approach for Software Supply Chain Security in SDLC
     published: "2025-08-08"
