@@ -27,7 +27,14 @@ current:
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
 
-    - personId: RiccardoGennaro_BA
+    - personId: MatteoSantAnaCasarotto_BA
+      type: B
+      topic: On the Implementation of Cryptographic Mechanisms for Access Control in Rust
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2026
+    
+    - personId: RiccardoGennaro_MA
       type: M
       topic: Cryptographic Access Control Based on Attribute-Based Encryption for Cloud Native Applications
       institution: University of Twente
