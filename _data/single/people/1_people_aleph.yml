@@ -254,6 +254,10 @@
   name: Matteo
   surname: Franzil
 
+- id: MatteoSantAnaCasarotto_BA
+  name: Matteo Sant'Ana
+  surname: Casarotto
+
 - id: MatteoRizzi
   name: Matteo
   surname: Rizzi
@@ -274,7 +278,7 @@
   name: Pietro
   surname: De Matteis
 
-- id: RiccardoGennaro_BA
+- id: RiccardoGennaro_MA
   name: Riccardo
   surname: Gennaro
 
