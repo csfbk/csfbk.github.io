@@ -2143,7 +2143,8 @@ projects:
   - id: p-2025-cleanse-1
     title: xBOM based approach for Software Supply Chain Security in SDLC
     published: "2025-08-08"
-    applicationEnd: "2025-09-08 23:59"
+    applicationEnd: "2025-10-29 23:59"
+    applicationPreviousEnd: "2025-09-08 23:59"
     year: 2025
     description: >
       According to a Gartner research [1], Software Supply Chain attacks present serious security, compliance, and operational challenges for organizations, with estimated costs expected to rise from $46 billion in 2023 to $138 billion by 2031.<br />
