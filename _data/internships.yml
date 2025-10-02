@@ -2266,3 +2266,36 @@ projects:
         links:
           - name: Link
             url: https://secupi.com/
+
+  - id: p-2025-st-8
+    title: Validating TLS Implementations via Bytestream Parsing
+    published: "2025-10-02"
+    applicationEnd: "2025-10-15 23:59"
+    year: 2025
+    description: >
+      Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their conformance with the RFCs they are based on, nor to verify whether an actual stream of traffic is behaving in an anomalous way.<br />
+      The primary objective of this internship is to elevate the TRL (Technology Readiness Level) of an internal, and still unpublished, open-source tool able to parse and validate TLS 1.3 bytestreams. The tool will serve as the baseline for future researches, so its ongoing development and the required effort will be adjusted depending on the profile of the candidate (e.g., bachelor/master and inclination on specific topics).<br />
+      At the end of the internship (and thesis) period, the selected candidate will possess an in-depth knowledge on bytestream analysis techniques, on a related network security protocol, and on applied research methodologies.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - SalvatoreManfredi
+      - RiccardoGermenia
+    prerequisites:
+      - Knowledge of network protocol (e.g. Intro2CNS or Networking courses)
+      - Experience with Python 3 development
+      - Optional experience with traffic interception and analysis
+    objectives:
+      - Improvement of the current state of an unpublished research tool
+      - Familiarization and study of network security protocols functioning and their structure
+      - Leverage the finalized tool to perform a conformance analysis against established libraries
+    topics:
+      - Research tool
+      - Bytestream analysis
+      - Conformance tests
+      - Network anomalies
+    notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
