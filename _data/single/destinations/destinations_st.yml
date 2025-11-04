@@ -1192,8 +1192,8 @@
   url: https://cybersecurity.bournemouth.ac.uk/espre2025/
   type: workshop
   location: Valencia, Spain
-  startDate: "2023-09-01"
-  endDate: "2023-09-05"
+  startDate: "2025-09-01"
+  endDate: "2025-09-05"
 
 - id: IWBF2025
   name: 13th International Workshop on Biometrics and Forensics
@@ -1230,6 +1230,15 @@
   location: Bilbao, Spain
   startDate: "2025-06-11"
   endDate: "2025-06-13"
+
+- id: SSR2025
+  name: 10th International Conference on Security Standardisation Research
+  acronym: SSR 2025
+  url: https://www.uni-passau.de/ssr2025
+  type: conference
+  location: Passau, Germany
+  startDate: "2025-12-04"
+  endDate: "2025-12-05"  
 
 - id: STM2025
   name: 21st International Workshop on Security and Trust Management
