@@ -59,12 +59,6 @@
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
-  affiliations:
-    - role: PhD Student
-      unit: Applied Cryptography
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: cspadafora@fbk.eu
 
 - id: ClaudioForoncelli
   name: Claudio
@@ -112,7 +106,7 @@
   name: Federica
   surname: Zanetti
   affiliations:
-    - role: Research Assistant
+    - role: PhD Student
       unit: Applied Cryptography
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -171,13 +165,6 @@
 - id: LauraMattiuz
   name: Laura
   surname: Mattiuz
-  affiliations:
-    - role: Research Assistant
-      unit: Applied Cryptography
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: lmattiuz@fbk.eu
-  usernameFBK: lmattiuz
 
 - id: LiviaMarini_MA
   name: Livia
