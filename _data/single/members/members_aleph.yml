@@ -12,9 +12,7 @@ current:
     - MarioScuro
     - GiacomoBrandi
     - EnricoSorbera
-    - ChiaraSpadafora
     - FedericaZanetti
-    - LauraMattiuz
     
   collaborators:
     # -   # ID of the person
@@ -80,6 +78,16 @@ former:
     #   yearTo:         # e.g., 2016
 
   members:
+
+    - personId: ChiaraSpadafora
+      formerRole: PhD Student
+      yearFrom: 2024
+      yearTo: 2025
+
+    - personId: LauraMattiuz
+      formerRole: Research Assistant
+      yearFrom: 2024
+      yearTo: 2025
 
     - personId: ZahraEbadiAnsaroudi
       formerRole: Researcher
