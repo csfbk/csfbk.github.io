@@ -54,6 +54,10 @@
   name: Alessandro
   surname: Colombo
 
+- id: AlessandroDeToffoli
+  name: Alessandro
+  surname: De Toffoli
+
 - id: AlessandroFontana
   name: Alessandro
   surname: Fontana
@@ -575,6 +579,16 @@
 - id: LeonardoXompero
   name: Leonardo
   surname: Xompero
+
+- id: LiviaMarini
+  name: Livia
+  surname: Marini
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: lmarini@fbk.eu
 
 - id: LorenzoBellesso
   name: Lorenzo
