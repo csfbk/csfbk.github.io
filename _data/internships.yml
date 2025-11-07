@@ -2344,3 +2344,37 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
+
+  - id: p-2025-aleph-4
+    title: Transparency logs as bulletin boards
+    published: "2025-11-07"
+    applicationEnd: "2025-12-07 23:59"
+    year: 2025
+    description: >
+      Bulletin Boards (BB) are a commonly resorted to, but not well specified, notion in cryptography, such as secure multiparty computation protocols. The main properties expected of a bulletin board are cryptographic verifiability, ability to be written to by several participants, and immutability - or at least, tamper-evidence.<br />
+      Many BB design goals are reminiscent of Certificate Transparency (CT) logs -- publicly verifiable, tamper-proof, append-only logs of issued PKI certificates.<br />
+      A use case of particular interest is e-voting protocols, especially cast ballot verifiability in the voting phase.<br />
+      This internship is focused on the potential for CT log technologies as implementations of BBs, and research on possible enhancements of particular interest for the chosen use case.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+    supervisor:
+      - RiccardoLongo
+      - AlessandroTomasi
+    prerequisites:
+      - An undergraduate course in cryptography is required for basic notions.
+      - Programming experience and willingness to produce working code is required. Experience of go would be highly advantageous, but similar high-level languages such as python or java would also be sufficient.
+    objectives: >
+      The following objectives may be weighted differently according to interest, availability, and the chosen topic:
+      <ol>
+        <li>State of the art in CT logs and cryptographic primitives of interest</li>
+        <li>Familiarity with tools used for CT (trillian, sunlight)</li>
+        <li>Application of trillian for chosen use case (e-voting)</li>
+        <li>Research: cryptographic countermeasures against split views of the same log</li>
+      </ol>
+    topics:
+      - Bulletin board
+      - Certificate transparency
+    timeFrame: Available immediately or from March 2026
