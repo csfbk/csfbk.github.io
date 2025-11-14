@@ -5,7 +5,7 @@ layout: internships-list
 permalink: /internships/
 ---
 
-This page lists the internship projects currently available in the Center for Cybersecurity of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK).
+This page lists the internship projects currently available in the Center for Cybersecurity of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK). Please note that these are curricular internship projects intended for university students and are not employment contracts (hence, they are not paid). Please refer to [jobs.fbk.eu/](https://jobs.fbk.eu/) for job offers and open positions.
 
 <blockquote>
     <h1 class="no-toc">Procedure</h1>
