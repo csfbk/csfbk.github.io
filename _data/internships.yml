@@ -2378,3 +2378,45 @@ projects:
       - Bulletin board
       - Certificate transparency
     timeFrame: Available immediately or from March 2026
+
+  - id: p-2025-aleph-5
+    title: Formalizing a Trust-based Key Management System
+    published: "2025-11-18"
+    applicationEnd: "2025-12-31 23:59"
+    year: 2025
+    description: >
+      A recent paper presented at SACMAT 2025 [1] introduces a methodology for mediating access to cloud-hosted data using trust predicates that determine whether access control should be enforced cryptographically or delegated to trusted (centralized) infrastructure to reduce computational cost.
+      This project aims to provide a mathematical foundation for that methodology and apply it to the more generic lifecycle of cryptographic keys. The objective is to design and analyze a predicate-driven key management system that determines when to generate, rotate, re-encrypt, or distribute keys according to both traditional best practices (e.g., NIST SP 800-57) and trust predicates as well.
+      <u>Possible</u> activities include:
+      <ol>
+        <li>familiarize and study of the context;</li>
+        <li>formalize key management operations (e.g., generation, rotation, re-encryption, revocation) using suitably-designed state-transition rules, defining then how trust predicates influence such operations;</li>
+        <li>identify invariants on state-transition rules that guarantee safe key management;</li>
+        <li>introduce a cost function for expensive operations (e.g., rotation, re-encryption) and formulate an optimization problem to balance security and computational cost and find the optimal trade-off;</li>
+        <li>verify the predicate-driven key management system with formal tools (e.g., ProVerif, Tamarin, Coq, or an SMT solver);</li>
+        <li>implement the aforementioned predicate-driven key management system, possibly integrating it with the tool described in [1];</li>
+        <li>extend the model to support crypto-agility (e.g., algorithm migration with minimal overhead).</li>
+      </ol>
+      This project provides the opportunity to acquire the fundamentals of scientific research and explore cutting-edge and relevant research topics while allowing applicants to design, propose, and implement their own ideas.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+    supervisor:
+      - StefanoBerlato
+    prerequisites:
+      - Background in mathematics and cryptography.
+      - Familiarity with logic, formal methods, and optimization techniques.
+      - Basic knowledge of programming (for modeling or simulation) and knowledge of formal verification tools is useful but not required.
+    topics:
+      - Formal Methods
+      - Applied Cryptography
+      - Key Management
+    references:
+      - text: "Relying on Trust to Balance Protection and Performance in Cryptographic Access Control"
+        links:
+          - name: Link
+            url: https://stefano.berlato.it/publications/SACMAT2025.pdf
+    notes: >
+      The above list comprises all possible activities; actual activities will likely be a subset defined according to interests and time availability.
