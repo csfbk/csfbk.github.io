@@ -2420,3 +2420,52 @@ projects:
             url: https://stefano.berlato.it/publications/SACMAT2025.pdf
     notes: >
       The above list comprises all possible activities; actual activities will likely be a subset defined according to interests and time availability.
+
+  - id: p-2025-aleph-6
+    title: Gaussian sampling and constant-time cryptography
+    published: "2025-11-19"
+    applicationEnd: "2025-12-10 23:59"
+    year: 2025
+    description: >
+      Lattice-based cryptography is one of the main families of post-quantum cryptography, and among the first to have been officially standardized. A fundamental building block in many lattice-based schemes is the discrete Gaussian sampler. Significant research has been conducted in recent years, resulting in a lot of proposed schemes; however, designing a sampler that is both secure and efficient remains a challenging task.<br />
+      One of the most important security requirements is running in constant time to avoid side-channel attacks.<br />
+      The samplers that were recently proposed are based on different paradigms. Some of them use the Knuth-Yao random walk [KRRVV18], others the Cumulative Distribution Table [EGRZ25], or rejection sampling [HPRR20].<br />
+      This internship focuses on the study of these samplers, analyzing the strengths and weaknesses of each approach, and evaluating their security properties as well as their efficiency, since sampling is a significant proportion of the computational effort required in these schemes. This analysis aims to enable a choice for the scenarios in which each sampler is most suitable.<br />
+      Furthermore, some properties such as runtime performance, will be evaluated practically through benchmarking.<br />
+      The candidate will also explore the implementation of a constant-time Gaussian sampler in rust, analyzing how the various operations should be designed to be resistant against timing attacks.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+    supervisor:
+      - MarioScuro
+      - FedericaZanetti
+    prerequisites:
+      - Basic knowledge of cryptography, in particular post-quantum cryptography
+      - Basic understanding of Statistics
+      - Some programming skills (C and Rust)
+    objectives:
+      - Selection of several discrete Gaussian samplers and study of the underlying paradigms
+      - Examination of the characteristics of each sampler, including strengths, weaknesses, and appropriate use cases
+      - Practical comparison through benchmarking
+      - Investigation of potential improvements
+    topics:
+      - Lattice-based cryptography
+      - Constant-time algorithms
+    references:
+      - id: KRRVV18
+        text: "A. Karmakar, S. S. Roy, O. Reparaz, F. Vercauteren and I. Verbauwhede, \"Constant-Time Discrete Gaussian Sampling,\" in IEEE Transactions on Computers, vol. 67, no. 11, pp. 1561-1571, 1 Nov. 2018"
+        links:
+          - name: Link
+            url: https://doi.org/10.1109/TC.2018.2814587
+      - id: EGRZ25
+        text: "E. Eid, A. Greuet, N Reboud, R Zeitoun, \"Efficient High-Order Masking of FrodoKEM's CDT-Based Gaussian Sampler\". Cryptology {ePrint} Archive, Paper 2025/1308"
+        links:
+          - name: Link
+            url: https://eprint.iacr.org/2025/1308
+      - id: HPRR20
+        text: "Howe, J., Prest, T., Ricosset, T., Rossi, M. (2020). \"Isochronous Gaussian Sampling: From Inception to Implementation\". PQCrypto 2020. LNCS vol 12100"
+        links:
+          - name: Link
+            url: https://doi.org/10.1007/978-3-030-44223-1_4
