@@ -59,6 +59,7 @@
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
+  usernameFBK: cspadafora
 
 - id: ClaudioForoncelli
   name: Claudio
@@ -169,6 +170,7 @@
 - id: LiviaMarini_MA
   name: Livia
   surname: Marini
+  usernameFBK: lmarini
 
 - id: AlessandroColombo_BA
   name: Alessandro
@@ -182,6 +184,28 @@
 - id: LucaClaus_BA
   name: Luca
   surname: Claus
+
+- id: LucaPiras
+  name: Luca
+  surname: Piras
+  email: l.piras@fbk.eu
+  iris_id: rp01945
+  affiliations:
+    - role: Researcher
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
+- id: LuisAugustoDiasKnob
+  name: Luis Augusto
+  surname: Dias Knob
+  email: l.diasknob@fbk.eu
+  iris_id: rp17578 
+  affiliations:
+    - role: Researcher
+      unit: Distributed AI for dependable cyberSecuritY
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
 
 - id: MajidMollaeefar
   name: Majid
@@ -350,6 +374,7 @@
 - id: ZahraEbadiAnsaroudi
   name: Zahra
   surname: Ebadi Ansaroudi
+  usernameFBK: zebadiansaroudi
   
 # Please keep alphabetical order
 
