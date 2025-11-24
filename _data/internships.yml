@@ -2469,3 +2469,48 @@ projects:
         links:
           - name: Link
             url: https://doi.org/10.1007/978-3-030-44223-1_4
+
+  - id: p-2025-aleph-7
+    title: Zero-Knowledge Proof Systems for Machine-Learning
+    published: "2025-11-24"
+    applicationEnd: "2025-12-10 23:59"
+    year: 2025
+    description: >
+      Machine-learning systems are increasingly required to provide trustworthy, privacy-preserving, and verifiable outputs, especially in regulated or adversarial environments [1]. Zero-knowledge proofs (ZKPs), a staple of cryptographic privacy, have emerged as a promising technique to enable verifiable inference without revealing model weights or input data. Recent frameworks built on proof systems such as Halo2 [2, 3] aim to automate the transformation of neural networks into ZK circuits. However, current zkML solutions are difficult to deploy in practice due to their heavy computational overhead.<br />
+      This research aims to investigate how modern proving systems support machine-learning inference, analyze the design choices behind zkML frameworks, and evaluate whether circuit-level improvements or the adoption of different schemes can make zkML more practical. The study will consider both the cryptographic foundations (e.g., constraint systems, lookup arguments, commitment schemes) and the challenges of encoding neural-network computation into ZK circuits.<br />
+      The student will survey related work, study the architectural principles of Halo2 and alternative proving systems, and experiment with existing zkML frameworks on small, representative models to assert their strengths and weaknesses. Lastly, given the time and interest, the student will attempt to extend an existing protocol or circuit to prove additional information.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+      - ST
+    supervisor:
+      - MarioScuro
+      - CeciliaPasquini
+    prerequisites:
+      - Solid programming experience (Python, Rust).
+      - Solid knowledge of cryptography (hashes, commitments, public-key cryptography, elliptic-curves).
+      - Understanding of Zero-Knowledge Proofs, and advanced proof systems (optional).
+      - Basic understanding of machine learning-inference (optional).
+    objectives:
+      - Survey existing literature on zkML.
+      - Experiment with a selection of zkML tools.
+      - Identify performance bottlenecks and possible trade-offs.
+      - Attempt an extension of an existing protocol (optional).
+    topics:
+      - Zero-Knowledge Proofs
+      - Machine Learning
+    references:
+      - text: "A Framework for Cryptographic Verifiability of End-to-End AI Pipelines"
+        links:
+          - name: Link
+            url: https://arxiv.org/pdf/2503.22573v1
+      - text: "The halo2 book"
+        links:
+          - name: Link
+            url: https://zcash.github.io/halo2/
+      - text: "EZKL"
+        links:
+          - name: Link
+            url: https://docs.ezkl.xyz/
