@@ -16,6 +16,23 @@
 
 ## 2025
 
+- id: ClaudioForoncelli_BA
+  author: ClaudioForoncelli
+  title: "Cryptography Bill of Materials: Inventory, Analysis and Risk Assessment of Cryptographic Components in Software"
+  type: B
+  abstract: >
+     This thesis explores the role of Cryptography Bills of Materials (CBOMs) as a foundation for systematic cryptographic risk management, compliance verification, and preparation for the post-quantum cryptography (PQC) transition. A CBOM is a structured, machine-readable inventory that enumerates the algorithms, keys, certificates, and protocols used in a software system, providing the visibility needed to detect deprecated components and ensure alignment with regulatory guidelines. The research began with a survey of CBOM standards and related tools, identifying the software CBOMkit, originally developed by IBM, as the most complete open-source solution for cryptographic inventories. Building on this foundation, the thesis introduces a policy-driven evaluation engine, implemented in Java, capable of assessing CBOMs against customizable compliance policies expressed in a TOML format. The engine defines compliance and assessment levels to classify individual assets and aggregate them into an overall system posture. The extended framework is validated through experiments on a test CBOM and on the CBOM generated from Keycloak, a widely used open-source identity and access management platform. The results show that the system reliably identifies deprecated and disallowed primitives such as SHA-1, 3DES, and AES in ECB mode, and communicates these findings through compliance reports. These contributions demonstrate that CBOM inventories, coupled with automated evaluation, are important for compliance, security, and PQC migration. In particular, they highlight a key principle: organizations cannot effectively replace cryptography for the quantum era unless they first know precisely what is already in use.
+  supervisor:
+    - SilvioRanise
+  co-supervisor:
+    - Alessandro Tomasi
+    - PietroDeMatteis
+    - LucaPiras
+    - LuisAugustoDiasKnob
+  year: 2025
+  awards:             # Eventual awards (e.g., CLUSIT)
+  institution: University of Trento
+
 - id: ChiaraSpadafora_PhD
   author: ChiaraSpadafora
   title: "Combining cryptography, risk assessment and usability for secure e-voting systems"
