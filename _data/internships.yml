@@ -2580,5 +2580,5 @@ projects:
           <li>Enhanced Sanitizable Public-Key Encryption (sPKE). Components: ElGamal encryption, NIZK proofs (with extractability and one-time simulation soundness), signature schemes, pseudorandom functions (PRF). Required libraries: Implementations for ElGamal, zero-knowledge proof systems, and digital signatures;</li>
           <li>ACE Layer. Additional components: Role management, policy enforcement, modification detection algorithm (DMod). Integration: Combining sPKE with ACE-specific logic for access control</li>
           <li>CR-ACE Extension. Additional components: ABKEM (Attribute-Based Key Encapsulation Mechanism), DEM (Data Encapsulation Mechanism). Required libraries: Attribute-based encryption implementations.</li>
-        <\ol>
+        </ol>
       </details>
