@@ -2514,3 +2514,71 @@ projects:
         links:
           - name: Link
             url: https://docs.ezkl.xyz/
+
+  - id: p-2025-aleph-8
+    title: On the Implementation and Evaluation of Contextual Reading Access Control Encryption
+    published: "2025-12-01"
+    applicationEnd: "2025-12-31 23:59"
+    year: 2025
+    description: >
+      Access Control Encryption (ACE) [1] enforces both read and write access control directly at the encryption layer. In ACE, all messages are transmitted in encrypted form and mediated by a sanitizer, a component that ensures only policy-compliant ciphertexts are forwarded and removes any subliminal channels, without ever learning the plaintext or the identities of the communicating parties. 
+      Contextual Reading ACE (CR-ACE) extends ACE by enabling context-dependent read access to encrypted data. In CR-ACE, decryption succeeds only if both the global access policy and contextual conditions (such as workflow stage, location, or emergency status) are satisfied. The underlying construction combines ACE with an Attribute-Based Key Encapsulation Mechanism (ABKEM) and a Data Encapsulation Mechanism (DEM).
+      This project aims to implement and experimentally evaluate a first prototype implementation of CR-ACE, focusing on the public-context scenario, i.e., when contextual attributes are non-sensitive and can be attached in clear to sanitized ciphertexts.
+      
+      <u>Possible</u> activities include:
+      <ol>
+        <li>study of the CR-ACE model and its formal security guarantees;</li>
+        <li>assessment of whether the disjunction of equalities policy is sufficient to express access control (potentially with context) for realistic, small-scale scenarios, providing a qualitative analysis;</li>
+        <li>implementation of a proof-of-concept prototype of CR-ACE based on the strengthened ACE construction by Badertscher et al. [2] (e.g., implementations for ElGamal, zero-knowledge proof systems, and digital signatures);</li>
+        <li>development of minimal case studies illustrating CR-ACE's contextual policies (e.g., workflow-stage in supply chain scenarios);</li>
+        <li>evaluation of the real-world applicability and scalability of CR-ACE through quantitative performance analysis, overheads measurements, and potential optimizations.</li>
+      </ol>
+
+      The above list comprises all possible activities; actual activities will likely be a subset defined according to interests and time availability.
+
+      Please see the "Additional Information" below.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+    supervisor:
+      - RobertaCimorelliBelfiore_PHD
+      - StefanoBerlato
+    prerequisites:
+      - Basic knowledge of applied cryptography and use of cryptographic libraries.
+      - Experience with programming (preferably Rust and Go, otherwise Kotlin/Java and C/C++).
+      - Familiarity with access control concepts.
+    topics:
+      - Applied Cryptography
+      - Access Control Encryption
+    references:
+      - text: "Access control encryption: Enforcing information flow with cryptography"
+        links:
+          - name: Link
+            url: https://eprint.iacr.org/2016/106.pdf
+      - text: "Strengthening access control encryption"
+        links:
+          - name: Link
+            url: https://eprint.iacr.org/2017/429.pdf
+    notes: >
+      <details>
+        <summary>Additional Information</summary>
+        
+        The project encourages exploration of original research directions beyond implementation, allowing candidates the opportunity to contribute with novel insights (e.g., on side-channel resistance, post-quantum adaptations, or other emerging aspects). Should the work produce results suitable for publication, candidates will naturally be involved according to their contribution.
+
+        Possible project phases:
+        <ol>
+          <li>study phase: understand ACE [1] , CR-ACE, and the strengthened security model by Badertscher et al. [2];</li>
+          <li>core implementation: develop the ACE prototype (sPKE + ACE logic) and integrate ABKEM/DEM for contextual policies;</li>
+          <li>experimental evaluation: implement a minimal case study and evaluate correctness, sanitization effectiveness, decryption time, and ciphertext size;</li>
+          <li>extension (if time permits): support for more complex policies, and additional case studies.</li>
+        <\ol>
+
+        The ACE construction by Badertscher et al. [2] is built on the following cryptographic components:
+        <ol>
+          <li>Enhanced Sanitizable Public-Key Encryption (sPKE). Components: ElGamal encryption, NIZK proofs (with extractability and one-time simulation soundness), signature schemes, pseudorandom functions (PRF). Required libraries: Implementations for ElGamal, zero-knowledge proof systems, and digital signatures;</li>
+          <li>ACE Layer. Additional components: Role management, policy enforcement, modification detection algorithm (DMod). Integration: Combining sPKE with ACE-specific logic for access control</li>
+          <li>CR-ACE Extension. Additional components: ABKEM (Attribute-Based Key Encapsulation Mechanism), DEM (Data Encapsulation Mechanism). Required libraries: Attribute-based encryption implementations.</li>
+        <\ol>
+      </details>
