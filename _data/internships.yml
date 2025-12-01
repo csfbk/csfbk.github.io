@@ -2573,7 +2573,7 @@ projects:
           <li>core implementation: develop the ACE prototype (sPKE + ACE logic) and integrate ABKEM/DEM for contextual policies;</li>
           <li>experimental evaluation: implement a minimal case study and evaluate correctness, sanitization effectiveness, decryption time, and ciphertext size;</li>
           <li>extension (if time permits): support for more complex policies, and additional case studies.</li>
-        <\ol>
+        </ol>
 
         The ACE construction by Badertscher et al. [2] is built on the following cryptographic components:
         <ol>
