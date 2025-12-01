@@ -309,6 +309,16 @@
   email: rlongo@fbk.eu
   orcid: 0000-0002-8739-3091
 
+- id: RobertaCimorelliBelfiore_PHD
+  name: Roberta
+  surname: Cimorelli Belfiore
+  affiliations:
+    - role: PhD Student
+      unit: PhD program in Applied Sciences
+      institution: University of Molise
+      place: Molise, Italy
+  email: r.cimorellibelfio@studenti.unimol.it
+
 - id: RobertoCarbone
   name: Roberto
   surname: Carbone
