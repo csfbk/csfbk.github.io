@@ -13,6 +13,7 @@ current:
     - GiacomoBrandi
     - EnricoSorbera
     - FedericaZanetti
+    - RobertaCimorelliBelfiore_PHD
     
   collaborators:
     # -   # ID of the person
@@ -44,11 +45,18 @@ current:
       topic: Post-Quantum Cryptography Transition
       institution: University of Trento
       yearFrom: 2025
-      yearTo: 2026
+      yearTo: 2025
 
     - personId: LucaBortolotti_BA
       type: B
       topic: Enhancing Cryptographic Access Control
+      institution: University of Trento
+      yearFrom: 2025
+      yearTo: 2025
+
+    - personId: ClaudioForoncelli
+      type: B
+      topic: Cryptography Bill of Materials
       institution: University of Trento
       yearFrom: 2025
       yearTo: 2025
@@ -73,7 +81,7 @@ former:
   members:
 
     - personId: ChiaraSpadafora
-      formerRole: Research Fellow
+      formerRole: PhD Student
       yearFrom: 2024
       yearTo: 2025
 
@@ -101,12 +109,6 @@ former:
     # - personId:       # ID of the person
     #   thesisId:       # ID of the 
     
-    - personId: ChiaraSpadafora
-      formerRole: Research Fellow
-      yearFrom: 2024
-      yearTo: 2025
-      thesisId: ChiaraSpadafora_PhD
-
     - personId: StefanoBerlato
       thesisId: StefanoBerlato_PHD
   
@@ -124,14 +126,6 @@ former:
     # - personId:       # ID of the person
     #   thesisId:       # ID of the thesis
 
-
-    - personId: ClaudioForoncelli
-      type: B
-      topic: Cryptography Bill of Materials
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-      thesisId: ClaudioForoncelli_BA
 
     - personId: GiorgiaGabardi_BA
       thesisId: GiorgiaGabardi_BA
