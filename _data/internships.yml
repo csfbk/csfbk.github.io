@@ -2582,3 +2582,67 @@ projects:
           <li>CR-ACE Extension. Additional components: ABKEM (Attribute-Based Key Encapsulation Mechanism), DEM (Data Encapsulation Mechanism). Required libraries: Attribute-based encryption implementations.</li>
         </ol>
       </details>
+
+  - id: p-2025-st-9
+    title: Large Vision-Language Models for face-swapping detection
+    published: "2025-12-15"
+    applicationEnd: "2026-01-23 23:59"
+    year: 2025
+    description: >
+      The generation and manipulation of facial images and videos have achieved increasingly hyper-realistic results in recent years. Modern face-swapping techniques can operate in real time and produce highly convincing results, making them one of the most diffused attack vectors for perpetrating impersonation-based scams and frauds online [1,2]. Technical means allowing for an early detection of compromised video evidence are therefore essential, and now required by technical standards for sensitive applications like remote identity proofing (see [3, Sec. 8.4.2]). A large body of research on face manipulation detection has led to the development of numerous dataset and detection approaches. Despite these efforts, deep-learning based detectors often struggle to generalize to real-world scenarios that differ from the data distributions seen during training. This generalization problem remains one of the primary challenges in deploying reliable detection systems in real-world scenarios [4].<br />
+      A recent research direction explores the use of Large Vision-Language Models (LVLMs) for deepfake detection. These models possess strong generalization capabilities and the ability to provide natural language explanations of the model’s predictions that enhance interpretability [5]. Such properties make LVLMs compelling candidates for robust and explainable face-swap detection.<br />
+      This research aims to investigate the performance of LVLMs in detecting facial deepfakes on two novel datasets [6,7], assessing both their visual prediction and the textual explanation. Particular focus will be placed on the ability of the model to identify and localize different levels of face-swapping artifacts, from clearly visible artifacts to more subtle, high-fidelity manipulations.<br />
+      The student will survey related work, become familiar with LVLMs architecture, and experiment with selected models on two novel deepfake detection datasets. Depending on time and interest, this analysis may also be extended from static images to videos, allowing the evaluation of LVLMs performance in more dynamic scenarios.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - RiccardoZiglio
+      - CeciliaPasquini
+    prerequisites:
+      - Proficiency in Python
+      - Experience with PyTorch or other deep learning frameworks [preferred]
+      - Basic knowledge of LLMs architectures and related practical tools (e.g., LM Studio) [preferred]
+    objectives:
+      - Survey on existing literature on LVLMs for deepfake detection
+      - Experimenting with a selection of LVLMs models
+      - Investigating the generalization capabilities of LVLMs on novel datasets [6,7] in the visual and textual domains.
+    topics:
+      - Artificial Intelligence
+      - Large Language Models
+      - Face Manipulation Detection
+    timeFrame: Starting in February/March 2026.
+    notes: Depending on the student's needs, the activity may be carried out solely as a Thesis.
+    references:
+      - text: "Threat Intelligence Report 2025: Remote Identity Under Attack"
+        links:
+          - name: Link
+            url: https://www.iproov.com/reports/threat-intelligence-report-2025-remote-identity-attack/
+      - text: "Finance worker pays out $25 million after video call with deepfake 'chief financial officer'"
+        links:
+          - name: Link
+            url: https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html 
+      - text: "ETSI Technical Standard 119 461 \"Electronic Signatures and Trust Infrastructures (ESI); Policy and security requirements for trust service components providing identity proofing of trust service subjects\""
+        links:
+          - name: Link
+            url: 
+      - text: "I. Amerini et al., \"Deepfake Media Forensics: State of the Art and Challenges Ahead\". arXiv:2408.00388, 2024."
+        links:
+          - name: Link
+            url: https://arxiv.org/abs/2408.00388
+      - text: "Z. Huang, B. Xia, Z. Lin, Z. Mou, W. Yang, and J. Jia, \"FFAA: Multimodal Large Language Model based Explainable Open-World Face Forgery Analysis Assistant\", arXiv [cs.CV]. 2024."
+        links:
+          - name: Link
+            url: https://arxiv.org/abs/2408.10072
+      - text: "C. Hegde, G. Mittal and N. Memon. \"Gotcha: Real-time video deepfake detection via challenge-response\". In IEEE European Symposium on Security and Privacy (EuroS&P), 2024."
+        links:
+          - name: Link
+            url: https://github.com/mittalgovind/GOTCHA-Deepfakes
+      - text: "R. Ziglio, C. Pasquini and S. Ranise, \"Spotting Tell-Tale Visual Artifacts in Face Swapping Videos: Strengths and Pitfalls of CNN Detectors,\" 2025 13th International Workshop on Biometrics and Forensics (IWBF), Munich, Germany, 2025, pp. 01-06."
+        links:
+          - name: DOI
+            url: https://10.1109/IWBF63717.2025.11113429
+          - name: Complementary material
+            url: https://st.fbk.eu/complementary/IWBF2025/
