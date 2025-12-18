@@ -368,7 +368,7 @@
   - ZKP
 
 ## 2025
-
+  
 - id: DCC 2025 MicheleBattagliola
   title: Security of fixed-weight repetitions of special-sound multi-round interactive
     proofs
@@ -386,6 +386,21 @@
   - PostQuantumCryptography
   - ZKP
 
+- id: DCC 2025 MicheleBattagliola_2
+  title: Extensible decentralized secret sharing and application to Schnorr signatures
+  authors:
+  - MicheleBattagliola
+  - RiccardoLongo
+  - AlessioMeneghetti
+  destination: DCC
+  destinationAddon: Volume 94, Issue 1
+  year: 2025
+  doi: 10.1007/s10623-025-01746-1
+  isALEPH: true
+  abstract: "Starting from links between Coding Theory and Secret Sharing Schemes, we develop an extensible and decentralized version of Shamir Secret Sharing, that allows the addition of new users after the initial share distribution. On top of it we design a totally decentralized (t,n)-threshold Schnorr signature scheme that needs only t users online during the key generation phase, while the others join later. Under standard assumptions we prove our scheme secure against adaptive malicious adversaries. Furthermore, we show how our security notion can be strengthened when considering a rushing adversary. Using a classical game-based argument, we prove that if there is an adversary capable of forging the scheme with non-negligible probability, then we can build a forger for the centralized Schnorr scheme with non-negligible probability."
+  tags:
+  - ThresholdCryptography
+  
 - id: EURASIP J. on Info. Security 2025 ZahraEbadiAnsaroudi
   title: 'Navigating secure storage requirements for EUDI Wallets: a review paper'
   authors:
@@ -571,3 +586,4 @@
   - PrivacyEnhancingCryptography
   
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
+
