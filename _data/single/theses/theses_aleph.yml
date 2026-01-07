@@ -16,6 +16,21 @@
 
 ## 2025
 
+- id: RiccardoGennaro_MA
+  author: RiccardoGennaro_MA
+  title: "Revisiting the ETSI C-ITS Lifecycle with Cerificateless Authorization Based on Group Signatures"
+  type: M
+  abstract: >
+    The current standards for Intelligent Transport Systems (ITSs) by the European Telecommunications Standards Institute (ETSI) rely heavily on Public Key Infrastructures (PKIs) and pseudonym-based digital certificates to provide message authenticity and user privacy in vehicular communications. Although effective, this approach introduces substantial complexity due to heavy certificate management and network overhead, particularly in cases of dense traffic. To simplify certificate management without sacrificing interoperability, this paper proposes a standard-compatible redesign of (part of) ETSI's authentication and authorization lifecycle that replaces pseudonym-based certificates with Group Signatures (GSs). Our redesign preserves the separation of duties between Enrollment Authorities (EAs) and Authorization Authorities (AAs), balancing authenticity, unlinkability, non-repudiation, and limited anonymity. Also, we implement a proof-of-concept within the open-source C2C-Common platform using IBM's libgroupsig library. Our benchmarks show that our redesign introduces substantial yet improvable signing and verification overheads — 3.7x and 10x, respectively — while maintaining comparable message sizes. Finally, we discuss a further ETSI-compatible extension with Attribute-Based Encryption (ABE) to introduce fine-grained access control aligned with ETSI's permission codes and C-Roads use cases.
+  supervisor:
+    - FlorianHahn
+  co-supervisor:
+    - AlessandroTomasi
+    - StefanoBerlato
+  year: 2025
+  awards:             # Eventual awards (e.g., CLUSIT)
+  institution: University of Trento and Twente
+
 - id: ClaudioForoncelli_BA
   author: ClaudioForoncelli
   title: "Cryptography Bill of Materials: Inventory, Analysis and Risk Assessment of Cryptographic Components in Software"
@@ -25,7 +40,7 @@
   supervisor:
     - SilvioRanise
   co-supervisor:
-    - Alessandro Tomasi
+    - AlessandroTomasi
     - PietroDeMatteis
     - LucaPiras
     - LuisAugustoDiasKnob
