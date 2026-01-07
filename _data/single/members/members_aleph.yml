@@ -33,13 +33,6 @@ current:
       yearFrom: 2025
       yearTo: 2026
     
-    - personId: RiccardoGennaro_MA
-      type: M
-      topic: Cryptographic Access Control Based on Attribute-Based Encryption for Cloud Native Applications
-      institution: University of Twente
-      yearFrom: 2025
-      yearTo: 2025
-    
     - personId: LiviaMarini_MA
       type: M
       topic: Post-Quantum Cryptography Transition
@@ -126,7 +119,9 @@ former:
     # - personId:       # ID of the person
     #   thesisId:       # ID of the thesis
 
-
+    - personId: RiccardoGennaro_MA
+      thesisId: RiccardoGennaro_MA
+    
     - personId: GiorgiaGabardi_BA
       thesisId: GiorgiaGabardi_BA
       
