@@ -1,5 +1,5 @@
 ---
-title: Internships
+title: Curricular Internships
 subtitle: Open Calls
 layout: internships-list
 permalink: /internships/
