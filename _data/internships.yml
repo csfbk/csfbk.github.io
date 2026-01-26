@@ -2586,7 +2586,8 @@ projects:
   - id: p-2025-st-9
     title: Large Vision-Language Models for face-swapping detection
     published: "2025-12-15"
-    applicationEnd: "2026-01-23 23:59"
+    applicationEnd: "2026-02-25 23:59"
+    applicationPreviousEnd: "2026-01-23 23:59"
     year: 2025
     description: >
       The generation and manipulation of facial images and videos have achieved increasingly hyper-realistic results in recent years. Modern face-swapping techniques can operate in real time and produce highly convincing results, making them one of the most diffused attack vectors for perpetrating impersonation-based scams and frauds online [1,2]. Technical means allowing for an early detection of compromised video evidence are therefore essential, and now required by technical standards for sensitive applications like remote identity proofing (see [3, Sec. 8.4.2]). A large body of research on face manipulation detection has led to the development of numerous dataset and detection approaches. Despite these efforts, deep-learning based detectors often struggle to generalize to real-world scenarios that differ from the data distributions seen during training. This generalization problem remains one of the primary challenges in deploying reliable detection systems in real-world scenarios [4].<br />
@@ -2646,3 +2647,32 @@ projects:
             url: https://10.1109/IWBF63717.2025.11113429
           - name: Complementary material
             url: https://st.fbk.eu/complementary/IWBF2025/
+
+  - id: p-2026-st-1
+    title: Automatic Security Testing Tool for Identity Management Protocols
+    published: "2026-01-21"
+    applicationEnd: "2026-02-20 23:59"
+    year: 2026
+    description: >
+      Identity Management (IdM) protocols are the protocols supporting Single-Sign On (SSO) which is an authentication schema allowing the user to access different services using the same set of credentials. Two of the most known IdM protocols are SAML 2.0 SSO and OAuth 2.0/OpenID Connect. Several solutions for corporations like Google, Facebook and for Public Administration like eIDAS and SPID are based on IdM protocols. We propose to investigate and develop methodologies and tools for assessing the security and robustness of IdM implementations. This activity may include the definition of reusable testing patterns, the design and implementation of extensions or plugins for existing security testing tools—such as Micro-Id-Gym (MIG)—and the execution of automated security and conformance tests on IdM implementations.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - CLEANSE
+      - DAISY
+      - ST
+    supervisor:
+      - AndreaBisegna
+      - LauraCristiano
+    prerequisites: Basic knowledge of Python
+    objectives:
+      - Assess the security and robustness of IdM implementations, with a focus on SSO protocols such as SAML 2.0 and OAuth 2.0/OpenID Connect;
+      - Develop methodologies and automated tools for security and conformance testing of IdM implementations, including extensions of MIG;
+      - Identify vulnerabilities, misconfigurations, and non-conformities in real IdM implementations, providing actionable hints for their security.
+    topics:
+      - Security testing
+      - Identity management protocols
+      - Security testing tools
+      - Conformance testing
