@@ -1,0 +1,12 @@
+# PLEASE FOLLOW ALPHABETICAL ORDER
+# BEFORE ADDING A NEW PROJECT, PLEASE CHECK IF IT ALREADY EXISTS
+
+- id: 8ra
+  title: 8ra
+  titleAddon: Europe's Next Generation Cloud Infrastructure and Services
+  startDate: "2024-05-02"
+  endDate: "2028-10-31"
+  logo: 8ra/8ra_RGB_quer.png
+  url:
+    center: /projects/8ra
+    external: https://ipcei-cis.fbk.eu/
