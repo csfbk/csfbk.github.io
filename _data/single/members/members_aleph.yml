@@ -47,13 +47,6 @@ current:
       yearFrom: 2025
       yearTo: 2025
 
-    - personId: ClaudioForoncelli
-      type: B
-      topic: Cryptography Bill of Materials
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
     - personId: DavidIoanHangu_BA
       type: B
       topic: Development of Serious Games and Capture-the-Flags Competitions on Applied Cryptography
@@ -104,6 +97,9 @@ former:
     
     - personId: StefanoBerlato
       thesisId: StefanoBerlato_PHD
+      
+    - personId: ChiaraSpadafora
+      thesisId: ChiaraSpadafora_PHD
   
   students:
     # 2 options:
@@ -118,6 +114,10 @@ former:
     # for former students who did (the internship and) the thesis
     # - personId:       # ID of the person
     #   thesisId:       # ID of the thesis
+
+
+    - personId: ClaudioForoncelli_BA
+      thesisId: ClaudioForoncelli_BA
 
     - personId: RiccardoGennaro_MA
       thesisId: RiccardoGennaro_MA
