@@ -3,7 +3,103 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
-- id: iris_9999_b3d94f254435b378bacd
+- id: iris_2026_ef42f67851780044e79e
+  id_iris: 364967,
+  title: "Sharpening Kubernetes Audit Logs with Context Awareness"
+  authors:
+    - MatteoFranzil
+    - ValentinoArmani
+    - LuisAugustoDiasKnob
+    - DomenicoSiracusa
+  destination: computernetworks
+  year: 2026
+  doi: 10.1016/j.comnet.2025.111890
+
+
+- id: iris_2026_479e9b7a4f2ceb77c588
+  id_iris: 367099,
+  title: "Towards a Systematic Approach to Memory Safety: A Case Study Integrating Techniques and Practices Over the Software Development Life Cycle (SDLC)"
+  authors:
+    - IsaiaTonini
+    - GiacomoNalli
+    - LucaPiras
+    - PietroDeMatteis
+    - SteliosKapetanakis
+    - SilvioRanise
+  destination: advancesonp2pparallelgridcloudandinternetcomputingthe20thinternationalconferenceonp2pparallelgridcloudandinternetcomputing3pgcic2025onlineconference
+  year: 2026
+  doi: 10.1007/978-3-032-10344-4_14
+
+
+- id: iris_2025_b2d500e587c17838a29c
+  id_iris: 367108,
+  title: "A Risk Assessment of Information Security in a Diet Centre Business: A Case Study"
+  authors:
+    - TasneemAnnahdi
+    - DuaaAlkubaisy
+    - LucaPiras
+  destination: 20thinternationalconferenceonevaluationofnovelapproachestosoftwareengineeringenase
+  year: 2025
+  doi: 10.5220/0013488300003928
+
+
+- id: iris_2025_76d49a5207f7de216c06
+  id_iris: 361407,
+  title: "Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments"
+  authors:
+    - AndreaBisegna
+    - RobertoCarbone
+    - LauraCristiano
+    - PietroDeMatteis
+    - SilvioRanise
+  destination: 202510thieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
+  year: 2025
+  doi: 10.1109/EuroSPW67616.2025.00070
+
+
+- id: iris_2025_767cbd2a20e293263041
+  id_iris: 367105,
+  title: "Enhancing Privacy, Censorship Resistance, and User Engagement in a Blockchain-Based Social Network"
+  authors:
+    - MyoThiha
+    - HalilYetgin
+    - LucaPiras
+    - MohammedGhaziAl-Obeidallah
+  destination: 20thinternationalconferenceonevaluationofnovelapproachestosoftwareengineeringenase
+  year: 2025
+  doi: 10.5220/0013238500003928
+
+
+- id: iris_2025_3ad7164518c2190ba65e
+  id_iris: 367095,
+  title: "Assuring Privacy of AI-Powered Community Driven Android Code Vulnerability Detection"
+  authors:
+    - JanakaSenanayake
+    - HarshaKalutarage
+    - LucaPiras
+    - MhdOmarAl-Kadri
+    - AndreiPetrovski
+  destination: computersecurityesorics2024internationalworkshopssecaidisacps4cipandsecassurebydgoszczpolandseptember16202024revisedselectedpaperspartii
+  year: 2025
+  doi: 10.1007/978-3-031-82362-6_27
+
+
+- id: iris_2025_218315a52f10439547e7
+  id_iris: 367109,
+  title: "A Privacy-Preserving Framework Enhancing University Student Engagement Using Machine Learning and Gamification"
+  authors:
+    - KellyAndroutsopoulos
+    - CanBaskent
+    - FlorianKammuller
+    - GiacomoNalli
+    - LucaPiras
+    - HalilYetgin
+  destination: hciinternational2025latebreakingpapers27thinternationalconferenceonhumancomputerinteractionhcii2025gothenburgswedenjune22272025partxiv
+  year: 2025
+  doi: 10.1007/978-3-032-13174-4_21
+
+
+- id: iris_2025_2155e5c0bfe35466f3e3
   id_iris: 361187,
   title: "A First Appraisal of NIS2 and CRA Compliance Leveraging Open Source Tools"
   authors:
@@ -18,19 +114,7 @@
     - SilvioRanise
   destination: ieee33rdinternationalrequirementsengineeringconferenceworkshopsrew
   year: 2025
-
-
-- id: iris_2025_9c717f1e993d917a0dad
-  id_iris: 361407,
-  title: "Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments"
-  authors:
-    - AndreaBisegna
-    - RobertoCarbone
-    - LauraCristiano
-    - PietroDeMatteis
-    - SilvioRanise
-  destination: 202510thieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
-  year: 2025
+  doi: 10.1109/REW66121.2025.00040
 
 
 - id: iris_2024_c56690dc40cba80c3529
@@ -48,6 +132,187 @@
   doi: 10.1109/eurospw61312.2024.00086
 
 
+- id: iris_2024_159c58d78453f4ea15ea
+  id_iris: 367102,
+  title: "Defendroid: Real-time Android code vulnerability detection via blockchain federated neural network with XAI"
+  authors:
+    - JanakaSenanayake
+    - HarshaKalutarage
+    - AndreiPetrovski
+    - LucaPiras
+    - MhdOmarAl-Kadri
+  destination: journalofinformationsecurityandapplications
+  year: 2024
+  doi: 10.1016/j.jisa.2024.103741
+
+
+- id: iris_2024_1361069098ba06138488
+  id_iris: 367098,
+  title: "FedREVAN: Real-time DEtection of Vulnerable Android Source Code Through Federated Neural Network with XAI"
+  authors:
+    - JanakaSenanayake
+    - HarshaKalutarage
+    - AndreiPetrovski
+    - MhdOmarAl-Kadri
+    - LucaPiras
+  destination: computersecurityesorics2023internationalworkshopscps4cipadiotsecassurewasptaurinpristaiandsecaithehaguethenetherlandsseptember25292023revisedselectedpaperspartii
+  year: 2024
+  doi: 10.1007/978-3-031-54129-2_25
+
+
+- id: iris_2023_4016dca27413da69b012
+  id_iris: 367100,
+  title: "Android Source Code Vulnerability Detection: A Systematic Literature Review"
+  authors:
+    - JanakaSenanayake
+    - HarshaKalutarage
+    - MhdOmarAl-Kadri
+    - AndreiPetrovski
+    - LucaPiras
+  destination: acmcomputingsurveys
+  year: 2023
+  doi: 10.1145/3556974
+
+
+- id: iris_2023_286554395c7520d86948
+  id_iris: 367092,
+  title: "Android Code Vulnerabilities Early Detection Using AI-Powered ACVED Plugin"
+  authors:
+    - JanakaSenanayake
+    - HarshaKalutarage
+    - MhdOmarAl-Kadri
+    - AndreiPetrovski
+    - LucaPiras
+  destination: dataandapplicationssecurityandprivacyxxxvii
+  year: 2023
+  doi: 10.1007/978-3-031-37586-6_20
+
+
+- id: iris_2022_ad7c28c5dedb3b31e674
+  id_iris: 367094,
+  title: "Supporting the individuation, analysis and gamification of software components for acceptance requirements fulfilment"
+  authors:
+    - FedericoCalabrese
+    - LucaPiras
+    - PaoloGiorgini
+  abstract: >
+    Abstract. In the last few years, Gamification has proved effective for motivating users in using software systems. Gamification Engineering has been proposed as a systematic way to gamify systems. Goal-Oriented Requirements Engineering (GORE) techniques have been emerging for supporting the gamification of a system from the initial stages. However, the gamification of a system itself proved not effective, unless requirements engineers design the gamification solution being driven by characterising users, the context, and considering factors and strategies coming from Social Sciences (e.g., Psychology, Sociology, Human Behaviour, Organisational Behaviour). GORE Gamification Engineering techniques have been enhanced for supporting such concepts, referred to as Acceptance Requirements, and the Agon Framework, with its systematic Acceptance Requirements Analysis Based on Gamification, has been proven effective in different EU Projects. However, according to engineers we interviewed in our projects, some GORE gamification activities remain difficult and require further support. In this paper, our contributions are: (i) individuating such activities and providing lessons learned, (ii) considering a crucial activity, i.e. individuation of software components to gamify and how to gamify them, and proposing a solution for this. Our solution is called Supporting the individuation, analysis, and GAMification (SiaGAM) algorithm. To evaluate SiaGAM, we considered the gamification results of 5 EU projects, compared them with the results of applying SiaGAM, and we found that SiaGAM is effective in supporting the engineer in individuating software functions to gamify.
+  destination: thepracticeofenterprisemodeling
+  year: 2022
+
+
+- id: iris_2022_a31900b9f85eeca69124
+  id_iris: 367103,
+  title: "Android source code vulnerability detection: a systematic literature review"
+  authors:
+    - JanakaSenanayake
+    - HarshaKalutarage
+    - MhdOmarAl-Kadri
+    - AndreiPetrovski
+    - LucaPiras
+  abstract: >
+    The use of mobile devices is rising daily in this technological era. A continuous and increasing number of mobile applications are constantly offered on mobile marketplaces to fulfil the needs of smartphone users. Many Android applications do not address the security aspects appropriately. This is often due to a lack of automated mechanisms to identify, test, and fix source code vulnerabilities at the early stages of design and development. Therefore, the need to fix such issues at the initial stages rather than providing updates and patches to the published applications is widely recognized. Researchers have proposed several methods to improve the security of applications by detecting source code vulnerabilities and malicious codes. This Systematic Literature Review (SLR) focuses on Android application analysis and source code vulnerability detection methods and tools by critically evaluating 118 carefully selected technical studies published between 2016 and 2022. It highlights the advantages, disadvantages, applicability of the proposed techniques and potential improvements of those studies. Both Machine Learning (ML) based methods and conventional methods related to vulnerability detection are discussed while focusing more on ML-based methods since many recent studies conducted experiments with ML. Therefore, this paper aims to enable researchers to acquire in-depth knowledge in secure mobile application development while minimizing the vulnerabilities by applying ML methods. Furthermore, researchers can use the discussions and findings of this SLR to identify potential future research and development directions.
+  destination: acmcomputingsurveys
+  year: 2022
+
+
+- id: iris_2021_6fa351dab872192c52a0
+  id_iris: 367097,
+  title: "ConfIs: A Tool for Privacy and Security Analysis and Conflict Resolution for Supporting GDPR Compliance through Privacy-by-Design"
+  authors:
+    - DuaaAlkubaisy
+    - LucaPiras
+    - MohammedGhaziAl-Obeidallah
+    - KarlCox
+    - HarisMouratidis
+  abstract: >
+    Privacy and security requirements, and their potential conflicts, are increasingly having more and more importance. It is becoming a necessary part to be considered, starting from the very early stages of requirements engineering, and in the entire software engineering cycle, for the design of any software system. In the last few years, this has been even more emphasized and required by the law. A relevant example is the case of the General Data Protection Regulation (GDPR), which requires organizations, and their software engineers, to enforce and guarantee privacy-by-design to make their platforms compliant with the regulation. In this context, complex activities related to privacy and security requirements elicitation, analysis, mapping and identification of potential conflicts, and the individuation of their resolution, become crucial. In the literature, there is not available a comprehensive requirement engineering oriented tool for supporting the requirements analyst. In this pa per, we propose ConfIs, a tool for supporting the analyst in performing a process covering these phases in a systematic and interactive way. We present ConfIs and its process with a realistic example from DEFeND, an EU project aiming at supporting organizations in achieving GDPR compliance. In this context, we evaluated ConfIs by involving privacy/security requirements experts, which recognized our tool and method as supportive, concerning these complex activities.
+  destination: 16thinternationalconferenceonevaluationofnovelapproachestosoftwareengineering
+  year: 2021
+  doi: 10.5220/0010406100800091
+
+
+- id: iris_2020_c288b909fb178e5403ea
+  id_iris: 367093,
+  title: "Privacy, Security, Legal and Technology Acceptance Requirements for a GDPR Compliance Platform"
+  authors:
+    - AggelikiTsohou
+    - EmmanouilMagkos
+    - HarisMouratidis
+    - GeorgeChrysoloras
+    - LucaPiras
+    - MichalisPavlidis
+    - JulienDebussche
+    - MarcoRotoloni
+    - Gallego-NicasioCrespoBeatriz
+  abstract: >
+    GDPR entered into force in May 2018 for enhancing user data protection. Even though GDPR leads towards a radical change with many advantages for the data subjects it turned out to be a significant challenge. Organizations need to make long and complex changes for the personal data processing activities to become GDPR compliant. Citizens as data subjects are empowered with new rights, which however they need to become aware of and understand. Finally, the role of data protection authorities changes as well as their expectations from organizations. GDPR compliance being a challenging matter for the relevant stakeholders calls for a software platform that can support their needs. The aim of the Data govErnance For supportiNg gDpr (DEFeND) EU Project is to deliver such a platform. To succeed, the platform needs to satisfy legal and privacy requirements, be effective in supporting organizations in GDPR compliance, and provide functionalities that data controllers request for supporting GDPR compliance. Further, it needs to satisfy acceptance requirements, for assuring that its users will embrace and use the platform. In this paper, we describe the process, within the DEFeND EU Project, for eliciting and analyzing requirements for such a complex platform, by involving stakeholders from the banking, energy, health and public administration sectors, and using advanced frameworks for privacy requirements and acceptance requirements. The paper also contributes by providing elicited privacy and acceptance requirements concerning a holistic platform for supporting GDPR compliance.
+  destination: computersecurityesorics2019internationalworkshopscybericpssecpresposeandadiotrevisedselectedpapers
+  year: 2020
+  doi: 10.1007/978-3-030-42048-2\_14
+
+
+- id: iris_2020_8b1fd46d769098b0fb95
+  id_iris: 367104,
+  title: "Privacy, security, legal and technology acceptance elicited and consolidated requirements for a GDPR compliance platform"
+  authors:
+    - AggelikiTsohou
+    - EmmanouilMagkos
+    - HaralambosMouratidis
+    - GeorgeChrysoloras
+    - LucaPiras
+    - MichalisPavlidis
+    - JulienDebussche
+    - MarcoRotoloni
+    - Gallego-NicasioCrespoBeatriz
+  abstract: >
+    Purpose: General data protection regulation (GDPR) entered into force in May 2018 for enhancing personal data protection. Even though GDPR leads toward many advantages for the data subjects it turned out to be a significant challenge. Organizations need to implement long and complex changes to become GDPR compliant. Data subjects are empowered with new rights, which, however, they need to become aware of. GDPR compliance is a challenging matter for the relevant stakeholders calls for a software platform that can support their needs. The aim of data governance for supporting GDPR (DEFeND) EU project is to deliver such a platform. The purpose of this paper is to describe the process, within the DEFeND EU project, for eliciting and analyzing requirements for such a complex platform. Design/methodology/approach: The platform needs to satisfy legal and privacy requirements and provide functionalities that data controllers request for supporting GDPR compliance. Further, it needs to satisfy acceptance requirements, for assuring that its users will embrace and use the platform. In this paper, the authors describe the methodology for eliciting and analyzing requirements for such a complex platform, by analyzing data attained by stakeholders from different sectors. Findings: The findings provide the process for the DEFeND platform requirements’ elicitation and an indicative sample of those. The authors also describe the implementation of a secondary process for consolidating the elicited requirements into a consistent set of platform requirements. Practical implications: The proposed software engineering methodology and data collection tools (i.e. questionnaires) are expected to have a significant impact for software engineers in academia and industry. Social implications: It is reported repeatedly that data controllers face difficulties in complying with the GDPR. The study aims to offer mechanisms and tools that can assist organizations to comply with the GDPR, thus, offering a significant boost toward the European personal data protection objectives. Originality/value: This is the first paper, according to the best of the authors’ knowledge, to provide software requirements for a GDPR compliance platform, including multiple perspectives.
+  destination: informationcomputersecurity
+  year: 2020
+  doi: 10.1108/ICS-01-2020-0002
+
+
+- id: iris_2020_5fdd72a86d9a1f66efa2
+  id_iris: 367091,
+  title: "DEFeND DSM: A Data Scope Management Service for Model-Based Privacy by Design GDPR Compliance"
+  authors:
+    - LucaPiras
+    - MohammedGhaziAl-Obeidallah
+    - MichalisPavlidis
+    - HaralambosMouratidis
+    - AggelikiTsohou
+    - EmmanouilMagkos
+    - AndreaPraitano
+    - AnnaritaIodice
+    - BeatrizGallegoNicasioCrespo
+  abstract: >
+    The introduction of the European General Data Protection Regulation (GDPR) has brought significant benefits to citizens, but it has also created challenges for organisations, which are facing with difficulties interpreting it and properly applying it. An important challenge is compliance with the Privacy by Design and by default (PbD) principles, which require that data protection is integrated into processing activities and business practices from the design stage. Recently, the European Data Protection Board (EDPB) released an official document with PbD guidelines, and there are various efforts to provide approaches to support these. However, organizations are still facing difficulties in identifying a flow for executing, in a coherent, linear and effective way, these activities, and a complete toolkit for supporting this. In this paper, we: (i) identify the most important PbD activities and strategies, (ii) design a coherent, linear and effective flow for them, and (iii) describe our comprehensive supporting toolkit, as part of the DEFeND EU Project platform. Specifically, within DEFeND, we identified candidate tools, fulfilling specific GDPR aspects, and integrated them in a comprehensive toolkit: the DEFeND Data Scope Management service (DSM). The aim of DSM is to support organizations for continuous GDPR compliance through Model-Based Privacy by Design analysis. Here, we present important PbD activities and strategies individuated, then describe DSM, its design, flow, and a preliminary case study and evaluation performed with pilots from the healthcare, banking, public administration and energy sectors.
+  destination: trustprivacyandsecurityindigitalbusiness17thinternationalconferencetrustbus2020
+  year: 2020
+  doi: 10.1007/978-3-030-58986-8\_13
+
+
+- id: iris_2019_f9a41e1ecb9d9e562bdc
+  id_iris: 367101,
+  title: "Goal-oriented requirements engineering: an extended systematic mapping study"
+  authors:
+    - J.Horkoff
+    - F.B.Aydemir
+    - E.Cardoso
+    - T.Li
+    - A.Mat('e)
+    - E.Paja
+    - M.Salnitri
+    - LucaPiras
+    - J.Mylopoulos
+    - PaoloGiorgini
+  abstract: >
+    Over the last two decades, much attention has been paid to the area of goal-oriented requirements engineering (GORE), where goals are used as a useful conceptualization to elicit, model, and analyze requirements, capturing alternatives and conflicts. Goal modeling has been adapted and applied to many sub-topics within requirements engineering (RE) and beyond, such as agent orientation, aspect orientation, business intelligence, model-driven development, and security. Despite extensive efforts in this field, the RE community lacks a recent, general systematic literature review of the area. In this work, we present a systematic mapping study, covering the 246 top-cited GORE-related conference and journal papers, according to Scopus. Our literature map addresses several research questions: we classify the types of papers (e.g., proposals, formalizations, meta-studies), look at the presence of evaluation, the topics covered (e.g., security, agents, scenarios), frameworks used, venues, citations, author networks, and overall publication numbers. For most questions, we evaluate trends over time. Our findings show a proliferation of papers with new ideas and few citations, with a small number of authors and papers dominating citations; however, there is a slight rise in papers which build upon past work (implementations, integrations, and extensions). We see a rise in papers concerning adaptation/variability/evolution and a slight rise in case studies. Overall, interest in GORE has increased. We use our analysis results to make recommendations concerning future GORE research and make our data publicly available.
+  destination: requirementsengineering
+  year: 2019
+  doi: 10.1007/s00766-017-0280-z
+
+
 - id: iris_2019_77e50a1e7565bc452514
   id_iris: 317083,
   title: "Path-based Fragmentation Metric and RSA Algorithms for Elastic Optical Networks"
@@ -63,6 +328,28 @@
   doi: 10.1364/JOCN.11.000015
 
 
+- id: iris_2019_0621735991de7fe27274
+  id_iris: 367088,
+  title: "DEFeND Architecture: A Privacy by Design Platform for GDPR Compliance"
+  authors:
+    - LucaPiras
+    - M.G.Al-Obeidallah
+    - A.Praitano
+    - A.Tsohou
+    - H.Mouratidis
+    - B.Gallego-NicasioCrespo
+    - J.B.Bernard
+    - M.Fiorani
+    - E.Magkos
+    - A.C.Sanz
+    - M.Pavlidis
+    - R.D'addario
+    - G.G.Zorzino
+  destination: trustprivacyandsecurityindigitalbusiness16thinternationalconferencetrustbus2019linzaustriaaugust26292019
+  year: 2019
+  doi: 10.1007/978-3-030-27813-7_6
+
+
 - id: iris_2017_e7c9cdc8e933e053d3e8
   id_iris: 310528,
   title: "YAMATO: The First SDN Control Plane for Independent, Joint, and Fractional-Joint Switched SDM Optical Networks"
@@ -76,6 +363,50 @@
   destination: journaloflightwavetechnology
   year: 2017
   doi: 10.1109/JLT.2017.2656382
+
+
+- id: iris_2017_4fd6b5efd4c86cadcb9c
+  id_iris: 367087,
+  title: "Gamification solutions for software acceptance: A comparative study of Requirements Engineering and Organizational Behavior techniques"
+  authors:
+    - LucaPiras
+    - E.Paja
+    - PaoloGiorgini
+    - J.Mylopoulos
+    - R.Cuel
+    - D.Ponte
+  abstract: >
+    Gamification is a powerful paradigm and a set of best practices used to motivate people carrying out a variety of ICT-mediated tasks. Designing gamification solutions and applying them to a given ICT system is a complex and expensive process (in time, competences and money) as software engineers have to cope with heterogeneous stakeholder requirements on one hand, and Acceptance Requirements on the other, that together ensure effective user participation and a high level of system utilization. As such, gamification solutions require significant analysis and design as well as suitable supporting tools and techniques. In this work, we compare concepts, tools and techniques for gamification design drawn from Software Engineering and Human and Organizational Behaviors. We conduct a comparison by applying both techniques to the specific Meeting Scheduling exemplar used extensively in the Requirements Engineering literature.
+  destination: rcis201711thieeeinternationalconferenceonresearchchallengesininformationscienceconference
+  year: 2017
+  doi: 10.1109/RCIS.2017.7956544
+
+
+- id: iris_2017_1daa61e3eafbd8bd2f1c
+  id_iris: 367089,
+  title: "Goal models for acceptance requirements analysis and gamification design"
+  authors:
+    - LucaPiras
+    - E.Paja
+    - PaoloGiorgini
+    - J.Mylopoulos
+  destination: conceptualmodeling36thinternationalconferenceer2017valenciaspainnovember692017
+  year: 2017
+  doi: 10.1007/978-3-319-69904-2_18
+
+
+- id: iris_2016_a682fa3593022ea836b5
+  id_iris: 367096,
+  title: "Acceptance Requirements and Their Gamification Solutions"
+  authors:
+    - LucaPiras
+    - PaoloGiorgini
+    - J.Mylopoulos
+  abstract: >
+    We live in the days of social software where socialinteractions, from simple notifications to complex business processes, are supported by software platforms such as Facebook and Twitter. But for any social software to be successful, it must beused by a sizeable portion of its intended user community. Usagerequirements are usually referred to as Acceptance Requirementsand they have been studied in the literature both for generaltechnology as well as software. Operationalization techniquesfor such requirements often consist of making a game out ofsoftware usage where users are rewarded/penalized depending onthe degree of their participation. The game may be competitive ornon-competitive, depending on the anticipated personality traitsof intended users. Making a game out of usage is often referredto as Gamification, and gamification has attracted huge attentionin the literature for the past few years because it offers a novelapproach to software technology usage. This paper proposes a generic framework for designinggamified solutions for acceptance requirements. The frameworkconsists of a generic acceptance goal model that characterizes theproblem space by capturing possible refinements for acceptance requirements, and a generic gamification model that capturespossible gamified operationalizations of acceptance requirements. These models have been extracted from the literature and theyare highly dependent on context (cognitive and social) elementsof the intended user community. The proposed framework isillustrated with the Meeting Scheduler exemplar.
+  destination: 2016ieee24thinternationalrequirementsengineeringconferencere2016
+  year: 2016
+  doi: 10.1109/RE.2016.43
 
 
 - id: iris_2016_4f73a79ccae6f6ee2911

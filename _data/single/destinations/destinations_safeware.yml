@@ -22,6 +22,11 @@
   type: conference
   proceedings: Proceedings of 16th European Conference on Networks and Optical Communications, Noc 2011
 
+- id: 16thinternationalconferenceonevaluationofnovelapproachestosoftwareengineering
+  name: 16th International Conference on Evaluation of Novel Approaches to Software Engineering
+  type: conference
+  proceedings: Proceedings of 16th International Conference on Evaluation of Novel Approaches to Software Engineering
+
 - id: 1stieeeinternationalsmartcitiesconference
   name: 1st IEEE International Smart Cities Conference
   type: conference
@@ -42,6 +47,11 @@
   type: conference
   proceedings: Proceedings of 2013 18th European Conference on Network and Optical Communications, Noc 2013
 
+- id: 2016ieee24thinternationalrequirementsengineeringconferencere2016
+  name: 2016 IEEE 24th International Requirements Engineering Conference, Re 2016
+  type: conference
+  proceedings: Proceedings of 2016 IEEE 24th International Requirements Engineering Conference, Re 2016
+
 - id: 2024ieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
   name: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
   type: conference
@@ -50,6 +60,12 @@
 - id: 202510thieeeeuropeansymposiumonsecurityandprivacyworkshopseurospw
   name: 2025 10th IEEE European Symposium on Security and Privacy Workshops (EuroSPW)
   type: conference
+  proceedings: Proceedings of 2025 10th IEEE European Symposium on Security and Privacy Workshops (EuroSPW)
+
+- id: 20thinternationalconferenceonevaluationofnovelapproachestosoftwareengineeringenase
+  name: 20th International Conference on Evaluation of Novel Approaches to Software Engineering - Enase
+  type: conference
+  proceedings: Proceedings of 20th International Conference on Evaluation of Novel Approaches to Software Engineering - Enase
 
 - id: 39theuropeanconferenceandexhibitiononopticalcommunicationecoc2013
   name: 39th European Conference and Exhibition on Optical Communication, Ecoc 2013
@@ -61,21 +77,65 @@
   type: conference
   proceedings: Proceedings of 42nd European Conference on Optical Communication, Ecoc 2016
 
+- id: acmcomputingsurveys
+  name: ACM Computing Surveys
+  type: journal
+
+- id: advancesonp2pparallelgridcloudandinternetcomputingthe20thinternationalconferenceonp2pparallelgridcloudandinternetcomputing3pgcic2025onlineconference
+  name: Advances on P2p, Parallel, Grid, Cloud and Internet Computing the 20th International Conference on P2p, Parallel, Grid, Cloud and Internet Computing (3PGCIC-2025). Online Conference
+  type: conference
+
 - id: chiplayworkshoponpersonalizationinseriousandpersuasivegamesandgamifiedinteractions
   name: Chi Play Workshop on Personalization in Serious and Persuasive Games and Gamified Interactions
   type: conference
   proceedings: Proceedings of Chi Play Workshop on Personalization in Serious and Persuasive Games and Gamified Interactions
 
+- id: computernetworks
+  name: Computer Networks
+  type: journal
+
+- id: computersecurityesorics2019internationalworkshopscybericpssecpresposeandadiotrevisedselectedpapers
+  name: Computer Security - Esorics 2019 International Workshops, Cybericps, Secpre, Spose, and Adiot, Revised Selected Papers
+  type: conference
+
+- id: computersecurityesorics2023internationalworkshopscps4cipadiotsecassurewasptaurinpristaiandsecaithehaguethenetherlandsseptember25292023revisedselectedpaperspartii
+  name: Computer Security. Esorics 2023 International Workshops Cps4cip, Adiot, Secassure, Wasp, Taurin, Prist-ai, and Secai, the Hague, the Netherlands, September 25–29, 2023, Revised Selected Papers, Part Ii
+  type: conference
+
+- id: computersecurityesorics2024internationalworkshopssecaidisacps4cipandsecassurebydgoszczpolandseptember16202024revisedselectedpaperspartii
+  name: Computer Security. Esorics 2024 International Workshops Secai, Disa, Cps4cip, and Secassure, Bydgoszcz, Poland, September 16–20, 2024, Revised Selected Papers, Part Ii
+  type: conference
+
+- id: conceptualmodeling36thinternationalconferenceer2017valenciaspainnovember692017
+  name: Conceptual Modeling 36th International Conference, Er 2017, Valencia, Spain, November 6–9, 2017, Proceedings
+  type: conference
+
 - id: crosslayerdesigninopticalnetworks
   name: Cross-layer Design in Optical Networks
+  type: conference
+
+- id: dataandapplicationssecurityandprivacyxxxvii
+  name: Data and Applications Security and Privacy Xxxvii
+  type: conference
+
+- id: hciinternational2025latebreakingpapers27thinternationalconferenceonhumancomputerinteractionhcii2025gothenburgswedenjune22272025partxiv
+  name: Hci International 2025 – Late Breaking Papers 27th International Conference on Human-computer Interaction, Hcii 2025, Gothenburg, Sweden, June 22–27, 2025, Proceedings, Part Xiv
   type: conference
 
 - id: ieee33rdinternationalrequirementsengineeringconferenceworkshopsrew
   name: IEEE 33rd International Requirements Engineering Conference Workshops (REW)
   type: conference
 
+- id: informationcomputersecurity
+  name: Information & Computer Security
+  type: journal
+
 - id: internationaljournalofadaptiveresilientandautonomicsystems
   name: International Journal of Adaptive, Resilient and Autonomic Systems
+  type: journal
+
+- id: journalofinformationsecurityandapplications
+  name: Journal of Information Security and Applications
   type: journal
 
 - id: journaloflightwavetechnology
@@ -92,5 +152,25 @@
 
 - id: proceedginsof12thifipieeeinternationalsymposiumonintegratednetworkmanagementim2011
   name: Proceedgins of 12th Ifip/ieee International Symposium on Integrated Network Management (IM 2011)
+  type: conference
+
+- id: rcis201711thieeeinternationalconferenceonresearchchallengesininformationscienceconference
+  name: Rcis 2017 - 11th IEEE International Conference on Research Challenges in Information Science - Conference Proceedings
+  type: conference
+
+- id: requirementsengineering
+  name: Requirements Engineering
+  type: journal
+
+- id: thepracticeofenterprisemodeling
+  name: The Practice of Enterprise Modeling
+  type: conference
+
+- id: trustprivacyandsecurityindigitalbusiness16thinternationalconferencetrustbus2019linzaustriaaugust26292019
+  name: Trust, Privacy and Security in Digital Business 16th International Conference, Trustbus 2019, Linz, Austria, August 26–29, 2019, Proceedings
+  type: conference
+
+- id: trustprivacyandsecurityindigitalbusiness17thinternationalconferencetrustbus2020
+  name: Trust, Privacy and Security in Digital Business - 17th International Conference, Trustbus 2020, Proceedings
   type: conference
 

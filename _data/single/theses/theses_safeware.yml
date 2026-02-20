@@ -1,4 +1,40 @@
 # 2025
+- id: IlariaRocchi_M
+  title: "Deriving Compliance Insights from Enriched Software Bills of Materials"
+  type: M
+  author: IlariaRocchi
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - PietroDeMatteis
+    - LucaPiras
+  year: 2025
+  institution: University of Trento
+  
+- id: ClaudioForoncelli_B
+  title: "Cryptography Bill of Materials. Inventory, Analysis and Risk Assessment of Cryptographic Components in Software"
+  type: B
+  author: ClaudioForoncelli
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AlessandroTomasi
+    - PietroDeMatteis
+    - LucaPiras
+    - LuisAugustoDiasKnob
+  year: 2025
+  institution: University of Trento
+  
+- id: LorenzoZarantonello_B
+  title: "Design and Implementation of an AI-Powered Database for Security Testing in IdM Protocols: The MIG-T Case Study"
+  type: B
+  author: LorenzoZarantonello
+  supervisor: SilvioRanise
+  co-supervisor:
+    - AndreaBisegna
+    - LauraCristiano
+    - PietroDeMatteis
+  year: 2025
+  institution: University of Trento
+  
 - id: IsaiaTonini_B
   title: "Memory safety: dalla teoria alla pratica. Guida per una corretta gestione della memoria"
   type: B

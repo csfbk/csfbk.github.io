@@ -64,12 +64,22 @@
   name: Valentino
   surname: Armani
   email: varmani@fbk.eu
+  iris_id: rp18135
   affiliations:
     - role: Developer 
       unit: Secure code liFEcycle for applications and netWoRking
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
+- id: MagdalenaMariaSolitro
+  name: Magdalena Maria
+  surname: Solitro
+  email: msolitro@fbk.eu
+  affiliations:
+    - role: Researcher
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
 
 # Related
 - id: DomenicoSiracusa
@@ -118,6 +128,10 @@
 # The following string is a separator used by the parser to trim away generated content
 # Please, please, please, keep this here!
 #--#--#--#--#--#
+- id: A.C.Sanz
+  name:  A. C.
+  surname: Sanz
+
 - id: A.Carena
   name:  A.
   surname: Carena
@@ -126,9 +140,25 @@
   name:  A.
   surname: Francescon
 
+- id: A.Mat('e)
+  name:  A.
+  surname: Mat('e)
+
+- id: A.Praitano
+  name:  A.
+  surname: Praitano
+
 - id: A.Tanzi
   name:  A.
   surname: Tanzi
+
+- id: A.Tsohou
+  name:  A.
+  surname: Tsohou
+
+- id: AggelikiTsohou
+  name:  Aggeliki
+  surname: Tsohou
 
 - id: AmirSharif
   name:  Amir
@@ -138,9 +168,21 @@
   name:  Andrea
   surname: Bisegna
 
+- id: AndreaPraitano
+  name:  Andrea
+  surname: Praitano
+
+- id: AndreiPetrovski
+  name:  Andrei
+  surname: Petrovski
+
 - id: AnnapaolaMarconi
   name:  Annapaola
   surname: Marconi
+
+- id: AnnaritaIodice
+  name:  Annarita
+  surname: Iodice
 
 - id: AntonioFrancescon
   name:  Antonio
@@ -150,6 +192,22 @@
   name:  Attilio
   surname: Broglio
 
+- id: B.Gallego-NicasioCrespo
+  name:  B.
+  surname: Gallego-Nicasio Crespo
+
+- id: CanBaskent
+  name:  Can
+  surname: Başkent
+
+- id: CarloSorrentino
+  name:  Carlo
+  surname: Sorrentino
+
+- id: ClaudioForoncelli
+  name: Claudio
+  surname: Foroncelli
+
 - id: D.Klonidis
   name:  D.
   surname: Klonidis
@@ -157,6 +215,10 @@
 - id: D.LaFauci
   name:  D.
   surname: La Fauci
+
+- id: D.Ponte
+  name:  D.
+  surname: Ponte
 
 - id: D.Sanchez
   name:  D.
@@ -174,6 +236,22 @@
   name: 
   surname: Domenico La Fauci
 
+- id: DuaaAlkubaisy
+  name:  Duaa
+  surname: Alkubaisy
+
+- id: E.Cardoso
+  name:  E.
+  surname: Cardoso
+
+- id: E.Magkos
+  name:  E.
+  surname: Magkos
+
+- id: E.Paja
+  name:  E.
+  surname: Paja
+
 - id: E.Self
   name:  E.
   surname: Self
@@ -186,6 +264,14 @@
   name: Elio
   surname: Salvadori
 
+- id: EmmanouilMagkos
+  name:  Emmanouil
+  surname: Magkos
+
+- id: F.B.Aydemir
+  name:  F. B.
+  surname: Aydemir
+
 - id: F.Forghieri
   name:  F.
   surname: Forghieri
@@ -194,6 +280,10 @@
   name:  F.
   surname: Jan
 
+- id: FedericoCalabrese
+  name:  Federico
+  surname: Calabrese
+
 - id: FedericoPederzolli
   name:  Federico
   surname: Pederzolli
@@ -201,6 +291,10 @@
 - id: FilippoDeGrandi
   name: Filippo
   surname: De Grandi
+
+- id: FlorianKammuller
+  name:  Florian
+  surname: Kammüller
 
 - id: FrancescoAvesani
   name:  Francesco
@@ -213,6 +307,10 @@
 - id: G.Calabretta
   name:  G.
   surname: Calabretta
+
+- id: G.G.Zorzino
+  name:  G. G.
+  surname: Zorzino
 
 - id: G.Galimberti
   name:  G.
@@ -234,9 +332,21 @@
   name:  Galimberti
   surname: Gabriele
 
+- id: Gallego-NicasioCrespoBeatriz
+  name:  Gallego Nicasio
+  surname: Crespo Beatriz
+
+- id: GeorgeChrysoloras
+  name:  George
+  surname: Chrysoloras
+
 - id: GerstelOri
   name:  Gerstel
   surname: Ori
+
+- id: GiacomoNalli
+  name:  Giacomo
+  surname: Nalli
 
 - id: GianlucaSassetti
   name:  Gianluca
@@ -254,6 +364,26 @@
   name:  Giuseppe
   surname: Valetto
 
+- id: H.Mouratidis
+  name:  H.
+  surname: Mouratidis
+
+- id: HalilYetgin
+  name:  Halil
+  surname: Yetgin
+
+- id: HaralambosMouratidis
+  name:  Haralambos
+  surname: Mouratidis
+
+- id: HarisMouratidis
+  name:  Haris
+  surname: Mouratidis
+
+- id: HarshaKalutarage
+  name:  Harsha
+  surname: Kalutarage
+
 - id: I.Tomkos
   name:  I.
   surname: Tomkos
@@ -262,9 +392,17 @@
   name:  Iacopo
   surname: Carreras
 
+- id: IlariaRocchi
+  name:  Ilaria
+  surname: Rocchi
+
 - id: IsaiaTonini
   name:  Isaia
   surname: Tonini
+
+- id: J.B.Bernard
+  name:  J. B.
+  surname: Bernard
 
 - id: J.F.Ferran
   name:  J. F.
@@ -274,9 +412,37 @@
   name:  J.
   surname: Ferran
 
+- id: J.Horkoff
+  name:  J.
+  surname: Horkoff
+
+- id: J.Mylopoulos
+  name:  J.
+  surname: Mylopoulos
+
+- id: JanakaSenanayake
+  name:  Janaka
+  surname: Senanayake
+
+- id: JulienDebussche
+  name:  Julien
+  surname: Debussche
+
+- id: KarlCox
+  name:  Karl
+  surname: Cox
+
+- id: KellyAndroutsopoulos
+  name:  Kelly
+  surname: Androutsopoulos
+
 - id: LauraCristiano
   name:  Laura
   surname: Cristiano
+
+- id: LorenzoZarantonello
+  name:  Lorenzo
+  surname: Zarantonello
 
 - id: M.Angelou
   name:  M.
@@ -286,6 +452,22 @@
   name:  M.
   surname: Brunella
 
+- id: M.Fiorani
+  name:  M.
+  surname: Fiorani
+
+- id: M.G.Al-Obeidallah
+  name:  M. G.
+  surname: Al-Obeidallah
+
+- id: M.Pavlidis
+  name:  M.
+  surname: Pavlidis
+
+- id: M.Salnitri
+  name:  M.
+  surname: Salnitri
+
 - id: MarcoPistore
   name:  Marco
   surname: Pistore
@@ -293,6 +475,10 @@
 - id: MattiaMaramotti
   name: Mattia
   surname: Maramotti
+
+- id: MarcoRotoloni
+  name:  Marco
+  surname: Rotoloni
 
 - id: MartinelliGiovanni
   name:  Martinelli
@@ -314,6 +500,14 @@
   name:  Matteo
   surname: Rizzi
 
+- id: MhdOmarAl-Kadri
+  name:  Mhd
+  surname: Omar Al-Kadri
+
+- id: MichalisPavlidis
+  name:  Michalis
+  surname: Pavlidis
+
 - id: MirkoPerillo
   name:  Mirko
   surname: Perillo
@@ -321,6 +515,14 @@
 - id: NiccolòLechthaler
   name: Niccolò
   surname: Lechthaler
+
+- id: MohammedGhaziAl-Obeidallah
+  name:  Mohammed Ghazi
+  surname: Al-Obeidallah
+
+- id: MyoThiha
+  name:  Myo
+  surname: Thiha
 
 - id: NicolaPerri
   name:  Nicola
@@ -338,9 +540,21 @@
   name:  P.
   surname: Poggiolini
 
+- id: PaoloGiorgini
+  name:  Paolo
+  surname: Giorgini
+
 - id: PastorelliRosanna
   name:  Pastorelli
   surname: Rosanna
+
+- id: R.Cuel
+  name:  R.
+  surname: Cuel
+
+- id: R.D'addario
+  name:  R.
+  surname: D'addario
 
 - id: R.J.Duran
   name:  R. J.
@@ -379,8 +593,8 @@
   surname: Piciaccia
 
 - id: SerenaElisaPonta
-  name:  Serena Elisa
-  surname: Ponta
+  name:  Serena
+  surname: Elisa Ponta
 
 - id: SergioDalsass
   name:  Sergio
@@ -398,9 +612,13 @@
   name:  Stefano
   surname: Berlato
 
-- id: CarloSorrentino
-  name:  Carlo
-  surname: Sorrentino
+- id: SteliosKapetanakis
+  name:  Stelios
+  surname: Kapetanakis
+
+- id: T.Li
+  name:  T.
+  surname: Li
 
 - id: T.Rasheed
   name:  T.
@@ -409,6 +627,10 @@
 - id: TanziAlberto
   name:  Tanzi
   surname: Alberto
+
+- id: TasneemAnnahdi
+  name:  Tasneem
+  surname: Annahdi
 
 - id: V.Curri
   name:  V.
@@ -425,4 +647,8 @@
 - id: X.Forns
   name:  X.
   surname: Forns
+
+- id: BeatrizGallegoNicasioCrespo
+  name:  Beatriz Gallego Nicasio
+  surname: Crespo
 
