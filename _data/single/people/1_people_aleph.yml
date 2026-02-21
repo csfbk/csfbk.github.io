@@ -89,19 +89,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: esorbera@fbk.eu
-
-- id: FedericoPintore
-  name: Federico
-  surname: Pintore
-  orcid: 0000-0002-7985-3131
-
-- id: FrancescoAntonioMarino
-  name: Francesco Antonio
-  surname: Marino
-
-- id: FrancescoMogavero
-  name: Francesco
-  surname: Mogavero
+  orcid: 0009-0009-0973-512X
 
 - id: FedericaZanetti
   name: Federica
@@ -112,10 +100,24 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: fzanetti@fbk.eu
+  orcid: 0009-0001-2874-5894
+
+- id: FedericoPintore
+  name: Federico
+  surname: Pintore
+  orcid: 0000-0002-7985-3131
 
 - id: FlorianHahn
   name: Florian
   surname: Hahn
+
+- id: FrancescoAntonioMarino
+  name: Francesco Antonio
+  surname: Marino
+
+- id: FrancescoMogavero
+  name: Francesco
+  surname: Mogavero
 
 - id: GiacomoBrandi
   name: Giacomo
@@ -126,6 +128,7 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: gbrandi@fbk.eu
+  orcid: 0009-0004-2362-5940
 
 - id: GiacomoZanolli
   name: Giacomo
@@ -328,6 +331,11 @@
   name: Roberto
   surname: Carbone
 
+- id: RobertoDoriguzzi-Corin
+  name: Roberto
+  surname: Doriguzzi-Corin
+  orcid: 0000-0002-8001-7835
+
 - id: RoccoZaccagnino
   name: Rocco
   surname: Zaccagnino
@@ -346,6 +354,7 @@
   name: Silvio
   surname: Ranise
   usernameFBK: ranise
+  orcid: 0000-0001-7269-9285
 
 - id: SilvioCretti
   name: Silvio
