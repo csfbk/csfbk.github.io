@@ -368,7 +368,25 @@
   - ZKP
 
 ## 2025
-  
+
+- id: AIMS2025 EnricoSorbera
+  title: 'Adaptive Federated Learning with Functional Encryption: A Comparison of
+    Classical and Quantum-safe Options'
+  authors:
+  - EnricoSorbera
+  - FedericaZanetti
+  - GiacomoBrandi
+  - AlessandroTomasi
+  - RobertoDoriguzzi-Corin
+  - SilvioRanise
+  destination: AIMS2025
+  year: 2025
+  doi: 10.1109/fllm67465.2025.11391241
+  isALEPH: true
+  tags:
+  - PostQuantumCryptography
+  - SecAgg
+
 - id: DCC 2025 MicheleBattagliola
   title: Security of fixed-weight repetitions of special-sound multi-round interactive
     proofs
@@ -586,4 +604,3 @@
   - PrivacyEnhancingCryptography
   
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
-
