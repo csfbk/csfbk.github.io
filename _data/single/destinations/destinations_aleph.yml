@@ -274,6 +274,15 @@
 
 ## 2025
 
+- id: AIMS2025
+  name: 2025 Artificial intelligence Models and Systems Symposium
+  acronym: AIMS 2025
+  url: https://aims-conference.ai/2025/
+  type: conference
+  location: Vienna, Austria
+  startDate: '2025-11-25'
+  endDate: '2025-11-28'
+
 - id: HCII25
   name: 27th International Conference on Human-Computer Interaction (HCII)
   acronym: HCII
@@ -323,3 +332,4 @@
   endDate: "2025-06-13"
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
+
