@@ -11,3 +11,4 @@ permalink: /internships/archive/
 - [Year 2023](2023)
 - [Year 2024](2024)
 - [Year 2025](2025)
+- [Year 2026](2026)
