@@ -2676,3 +2676,38 @@ projects:
       - Identity management protocols
       - Security testing tools
       - Conformance testing
+
+  - id: p-2026-aleph-1
+    title: Post-Quantum Byzantine Fault Tolerant Consensus Protocols
+    published: "2026-02-24"
+    applicationEnd: "2026-03-24 23:59"
+    year: 2026
+    description: >
+      The advent of quantum computing poses a serious threat to classical public-key cryptography, including digital signature schemes that are a fundamental building block of modern Byzantine Fault Tolerant (BFT) consensus protocols. State-of-the-art BFT protocols, such as HotStuff and its derivatives, rely heavily on efficient digital signatures and quorum certificates to guarantee safety and liveness in adversarial settings.<br />
+      Post-quantum signature schemes, while offering resistance against quantum adversaries, introduce significant challenges in terms of signature size, verification cost, and communication overhead, which may deeply impact the performance and scalability of consensus protocols.<br />
+      This project aims to investigate the integration of post-quantum signature schemes into BFT consensus protocols. The work will start with a survey of existing post-quantum signature schemes and recent research on post-quantum secure consensus, highlighting different design approaches, including both direct replacement of classical signatures and protocol-level redesigns aimed at reducing or eliminating the reliance on signatures.<br />
+      Building on this analysis, the student will study a state-of-the-art BFT protocol (e.g., HotStuff or related variants) and explore how post-quantum signatures can be incorporated, analyzing the resulting trade-offs in terms of security assumptions, communication complexity, and performance. Depending on time and interest, the work may include a prototype implementation and an experimental evaluation.
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ALEPH
+    supervisor:
+      - RiccardoLongo
+      - AlessandroTomasi
+    prerequisites:
+      - Basic knowledge of cryptography (digital signatures, security models)
+      - Familiarity with distributed systems and consensus protocols
+      - Programming experience (e.g., C/C++, Rust, Go, or Python)
+      - Background in post-quantum cryptography or Byzantine consensus is a plus, but not strictly required
+    objectives:
+      - Survey of post-quantum digital signature schemes and their properties
+      - Study of Byzantine Fault Tolerant consensus protocols and their cryptographic building blocks
+      - Analysis of the impact of post-quantum signatures on consensus efficiency and scalability
+      - Design and/or evaluation of a post-quantum-aware BFT consensus solution
+    topics:
+      - Post-Quantum Cryptography
+      - Byzantine Fault Tolerant Consensus
+      - Distributed Systems
+      - Blockchain Protocols
+    notes: Work in collaboration with the division "research on advanced technologies" of the Bank of Italy.
