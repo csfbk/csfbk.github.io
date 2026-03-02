@@ -400,6 +400,11 @@
   name: Vincenzo
   surname: Desantis
 
+- id: VivianaMaruccia_MA
+  name: Viviana
+  surname: Maruccia
+  usernameFBK: vmaruccia
+
 - id: ZahraEbadiAnsaroudi
   name: Zahra
   surname: Ebadi Ansaroudi
