@@ -123,7 +123,7 @@
   name: Giacomo
   surname: Brandi
   affiliations:
-    - role: Research Assistant
+    - role: Researcher
       unit: Applied Cryptography
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -147,6 +147,18 @@
   name: Giovanni
   surname: Tognolini
   orcid: 0009-0003-5762-8253
+
+- id: GiuliaCavicchioni
+  name: Giulia
+  surname: Cavicchioni
+  affiliations:
+    - role: Researcher
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: gcavicchioni@fbk.eu
+  usernameFBK: gcavicchioni
+  orcid: 0009-0004-6249-0989
 
 - id: GiuseppeD'Alconzo
   name: Giuseppe
