@@ -2711,3 +2711,59 @@ projects:
       - Distributed Systems
       - Blockchain Protocols
     notes: Work in collaboration with the division "research on advanced technologies" of the Bank of Italy.
+
+  - id: p-2026-st-2
+    title: "Automating Risk Assessment for Identity Management Solutions: A Knowledge-Base Approach"
+    published: "2026-03-04"
+    applicationEnd: "2026-03-27 23:59"
+    year: 2026
+    description: >
+      Identity Management systems, and especially National Digital Identity systems (NDIDs), are complex socio-technical infrastructures that must satisfy security, privacy, usability, trust, organizational, and legal requirements at the same time. To support designers in exploring design choices, linking requirements to mitigations, and deriving possible threats through a semi-automated workflow, we have developed an IdM Knowledge Base (IdM-KB) — a comprehensive repository of design goals, requirements, mitigations, threats, and attacks derived from a systematic review of over 186 academic and gray-literature sources. The IdM-KB is grounded in a purpose-built ontology and paired with a prototype tool that supports threat modeling workflows for IdM designers. The approach is promising, but it also has several limitations such as the knowledge base is still largely technology- and use-case-neutral, and it contains few use-case-specific entries. This internship project aims to address the current limitations by extending the current tool and evaluating it on a well-known NDID use case.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - GianlucaSassetti
+      - AmirSharif
+    objectives:
+      - Extend the knowledge base with use-case-specific entries for prominent NDID systems (e.g., digital identity wallets, eCard-based systems, mobile-first NDIDs), addressing the current scarcity of protocol- and architecture-specific data.
+      - Validate the updated tool and knowledge base through structured threat modeling case studies on real-world NDID deployments, to assess whether it can support analysts and system designers in practice and highlight its usefulness in action.
+      - Use the knowledge base to perform risk assessment according to state-of-the-art frameworks (ISO 27001, PASTA, FAIR).
+    topics:
+      - Identity Management
+      - Threat Modeling
+      - Knowledge Base
+
+  - id: p-2026-st-3
+    title: Automated Privacy Assessment of OpenID Connect Parties
+    published: "2026-03-04"
+    applicationEnd: "2026-04-03 23:59"
+    year: 2026
+    description: >
+      OpenID Connect (OIDC) has shown to need a set of privacy best current practices (BCPs), since only a handful of guidelines can be found in this regard. In 2023 and 2026, we provided a set of BCPs to fill that gap (Sassetti et al.), as well as an assessment of the privacy posture of several OIDC Providers (OPs). The results have shown that only a few OPs provide high baseline privacy, whereas many others implement only bare minimum requirements. Currently, the privacy posture checks are limited to OPs. As a result, the privacy practices of RPs and users remain uninvestigated.<br />
+      As a new line of work, we plan on extending the automated assessment of the privacy posture of OPs to RPs and users. First, we are going to develop a browser plugin that automatically draws a privacy profile of RPs based on the BCPs that are put in use. Then, we are going to set up an experiment with normal users to survey their privacy practices.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - GianlucaSassetti
+      - AmirSharif
+    prerequisites:
+      - Basic understanding of cybersecurity and privacy principles
+      - Basic coding skills
+      - Knowledge of the OpenID Connect protocol is a plus (soft-requirement)
+      - Strong analytical and problem-solving skills
+    objectives:
+      - Extend the survey to RPs, and possibly to a large enough number of RPs that it can provide a meaningful snapshot of the state of the art for OIDC parties.
+      - Extend the survey to users to understand their behaviour when presented with indicators of privacy posture.
+      - Draw a set of lessons learned that can tell us what is the optimal way to implement privacy indicators. We plan on providing feedback to OPs and RPs so that they can include those considerations in their software development lifecycle and improve the overall privacy of the OIDC ecosystem.
+    topics:
+      - OpenID Connect
+      - Privacy
+      - Best Current Practices
