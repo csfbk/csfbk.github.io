@@ -2767,3 +2767,70 @@ projects:
       - OpenID Connect
       - Privacy
       - Best Current Practices
+
+  - id: p-2026-cleanse-1
+    title: Failure Points and Mitigation Strategies in Software Bill of Materials (SBOM) Workflows
+    published: "2026-03-05"
+    applicationEnd: "2026-03-30 23:59"
+    year: 2026
+    description: >
+      The increasing adoption of Software Bills of Materials (SBOMs) within modern software supply chains introduces new opportunities for transparency [1], but often we need to trust in third-party tools. This research project aims to systematically map the end-to-end SBOM lifecycle, identify the most critical technical and procedural failure points, and develop practical mitigation strategies, including automation, verification pipelines, standards compliance, and security controls. The outcome will be a validated framework and set of best practices for strengthening SBOM workflows in enterprise environments.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - CLEANSE
+      - SaFEWaRe
+    supervisor:
+      - PietroDeMatteis
+      - LucaPiras
+    prerequisites:
+      - Knowledge of programming languages (i.e., Python, Typescript, Java) would be highly advantageous.
+      - Basic knowledge of CI/CD platforms like GitHub would be a plus.
+    objectives: A Comprehensive Study of Failure Points and Mitigation Strategies in Software Bill of Materials (SBOM) Workflows
+    topics:
+      - Software Bill of Materials (SBOM)
+      - CI/CD
+      - Software Supply Chain Security
+    references:
+      - text: "A First Appraisal of NIS2 and CRA Compliance Leveraging Open Source Tools"
+        links:
+          - name: DOI
+            url: https://doi.org/10.1109/REW66121.2025.00040
+
+  - id: p-2026-cleanse-2
+    title: Bill of Materials approach to secure AI/ML Systems
+    published: "2026-03-05"
+    applicationEnd: "2026-03-30 23:59"
+    year: 2026
+    description: >
+      Securing AI/ML Systems increasingly requires supply-chain visibility not just for software, but for models, datasets, dependencies, training pipelines, and runtime environments. Also regulations like the EU AI Act, and NIST AI RMF require organizations a clear way to document what goes into their AI models. <br />
+      Initiatives such as AI/ML-BOM [1,2] represent a new paradigm for ensuring full transparency, traceability, and accountability throughout the AI supply chain. This research project aims to begin with a comprehensive review of the state of the art, assessing the maturity of BOM-based approaches in the AI domain and examining the tools available to automate the creation and maintenance of such artifacts.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - CLEANSE
+      - SaFEWaRe
+    supervisor:
+      - PietroDeMatteis
+      - LucaPiras
+    prerequisites: Basic knowledge of LLM, Generative AI, AI Agents, Agentic AI.
+    objectives: The outcome will be a proposal framework and set of best practices for strengthening AI/ML-BOM workflows in different scenarios.
+    topics:
+      - AI/ML-BOM
+      - LLM
+      - Generative AI
+      - AI Agents
+      - Agentic AI
+    references:
+      - text: "OWASP AI Bill Of Materials (AIBOM) Project"
+        links:
+          - name: Link
+            url: https://owaspaibom.org/
+      - text: "Authoritative Guide to AI/ML-BOM"
+        links:
+          - name: Link
+            url: https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-AI-ML-BOM-en.pdf
