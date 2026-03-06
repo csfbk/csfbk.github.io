@@ -79,6 +79,11 @@
   name: Edoardo
   surname: Signorini
   orcid: 0000-0002-1224-6732
+
+- id: ElenaBortolameotti_MA
+  name: Elena
+  surname: Bortolameotti
+  usernameFBK: ebortolameotti
   
 - id: EnricoSorbera
   name: Enrico
