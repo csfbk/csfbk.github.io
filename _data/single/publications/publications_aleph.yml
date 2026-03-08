@@ -603,4 +603,20 @@
   - CloudComputing
   - PrivacyEnhancingCryptography
   
+## 2026
+
+- id: CC 2026 AlessioMeneghetti
+  title: Weak keys in QC-MDPC-based cryptosystems via the extended euclidean algorithm
+  authors:
+  - AlessioMeneghetti
+  - FedericaZanetti
+  destination: CC
+  destinationAddon: 'Part of a collection: CBCrypto 2025'
+  year: 2026
+  doi: 10.1007/s12095-026-00876-0
+  isALEPH: true
+  tags:
+  - Cryptanalysis
+  - PostQuantumCryptography
+
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
