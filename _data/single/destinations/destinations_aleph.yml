@@ -16,6 +16,11 @@
   url: https://www.mdpi.com/journal/applsci
   type: journal
 
+- id: CC
+  name: Cryptography and Communications
+  acronym: CC
+  type: journal
+
 - id: DCC
   name: Designs, Codes and Cryptography
   acronym: DCC
