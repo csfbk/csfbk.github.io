@@ -27,6 +27,13 @@ current:
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
 
+    - personId: ElenaBortolameotti_MA
+      type: M
+      topic: Transparency Logs as Bulletin Boards
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+      
     - personId: MatteoBerte_BA
       type: B
       topic: Trusted Execution Environments for Cryptographic Access Control
