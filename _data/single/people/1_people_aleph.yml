@@ -55,7 +55,11 @@
 - id: AndreaGangemi
   name: Andrea
   surname: Gangemi
- 
+
+- id: AntoninoAlì
+  name: Antonino
+  surname: Alì
+
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
@@ -148,6 +152,17 @@
   name: Giorgia
   surname: Gabardi
 
+- id: GiovanniCorti
+  name: Giovanni
+  surname: Corti
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: gcorti@fbk.eu
+  usernameFBK: gcorti
+
 - id: GiovanniTognolini
   name: Giovanni
   surname: Tognolini
@@ -224,6 +239,7 @@
       unit: Secure code liFEcycle for applications and netWoRking
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
+  usernameFBK: l.piras
 
 - id: LuisAugustoDiasKnob
   name: Luis Augusto
