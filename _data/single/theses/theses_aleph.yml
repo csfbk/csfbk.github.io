@@ -13,6 +13,23 @@
 #   institution:        # Institution (e.g., University of Trento)
 #   link:               # Link to the thesis, if present (e.g., IRIS handle)
 
+- id: LiviaMarini_MA
+  author: LiviaMarini_MA
+  title: >
+    Securing against the quantum threat: multilevel cybersecurity governance and implementation gaps in Italy
+  type: M
+#   abstract: >
+#     Textual abstract
+  supervisor:
+    - AntoninoAlì
+  co-supervisor:
+    - AlessandroTomasi
+    - PietroDeMatteis
+    - GiovanniCorti
+    - LucaPiras    
+  year: 2025
+#  awards:             # Eventual awards (e.g., CLUSIT)
+  institution: University of Trento and Sant'Anna School of Advanced Studies
 
 ## 2025
 
