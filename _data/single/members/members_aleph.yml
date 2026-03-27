@@ -61,13 +61,6 @@ current:
       institution: University of Trento
       yearFrom: 2025
       yearTo: 2026
-    
-    - personId: LiviaMarini_MA
-      type: M
-      topic: Post-Quantum Cryptography Transition
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
 
     - personId: LucaBortolotti_BA
       type: B
@@ -157,6 +150,9 @@ former:
     - personId: IonAndyDitu_BA
       thesisId: IonAndyDitu_BA
 
+    - personId: LiviaMarini_MA
+      thesisId: LiviaMarini_MA
+      
     - personId: LucaClaus_BA
       thesisId: LucaClaus_BA
 
