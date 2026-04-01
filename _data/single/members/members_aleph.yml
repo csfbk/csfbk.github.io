@@ -13,7 +13,6 @@ current:
     - GiacomoBrandi
     - EnricoSorbera
     - FedericaZanetti
-    - RobertaCimorelliBelfiore_PHD
     - GiuliaCavicchioni
     
   collaborators:
@@ -55,20 +54,6 @@ current:
       yearFrom: 2026
       yearTo: 2026
     
-    - personId: MatteoSantAnaCasarotto_BA
-      type: B
-      topic: On the Implementation of Cryptographic Mechanisms for Access Control in Rust
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2026
-
-    - personId: LucaBortolotti_BA
-      type: B
-      topic: Enhancing Cryptographic Access Control
-      institution: University of Trento
-      yearFrom: 2025
-      yearTo: 2025
-
     - personId: DavidIoanHangu_BA
       type: B
       topic: Development of Serious Games and Capture-the-Flags Competitions on Applied Cryptography
@@ -87,6 +72,11 @@ former:
     #   yearTo:         # e.g., 2016
 
   members:
+
+    - personId: RobertaCimorelliBelfiore_PHD
+      formerRole: Visiting PhD Student
+      yearFrom: 2025
+      yearTo: 2026
 
     - personId: ChiaraSpadafora
       formerRole: PhD Student
@@ -137,6 +127,11 @@ former:
     # - personId:       # ID of the person
     #   thesisId:       # ID of the thesis
 
+    - personId: MatteoSantAnaCasarotto_BA
+      # thesisId: |THESIS IS STILL TO DEFENDE|
+
+    - personId: LucaBortolotti_BA
+      thesisId: LucaBortolotti_BA
 
     - personId: ClaudioForoncelli_BA
       thesisId: ClaudioForoncelli_BA
