@@ -223,7 +223,6 @@
 - id: LucaBortolotti_BA
   name: Luca
   surname: Bortolotti
-  usernameFBK: lbortolotti
   
 - id: LucaClaus_BA
   name: Luca
@@ -318,7 +317,6 @@
 - id: MatteoSantAnaCasarotto_BA
   name: Matteo Sant'Ana
   surname: Casarotto
-  usernameFBK: mccasarotto
 
 - id: MatteoRizzi
   name: Matteo
@@ -363,12 +361,6 @@
 - id: RobertaCimorelliBelfiore_PHD
   name: Roberta
   surname: Cimorelli Belfiore
-  affiliations:
-    - role: PhD Student
-      unit: PhD program in Applied Sciences
-      institution: University of Molise
-      place: Molise, Italy
-  email: r.cimorellibelfio@studenti.unimol.it
 
 - id: RobertoCarbone
   name: Roberto
