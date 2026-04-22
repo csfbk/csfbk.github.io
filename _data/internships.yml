@@ -2834,3 +2834,45 @@ projects:
         links:
           - name: Link
             url: https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-AI-ML-BOM-en.pdf
+
+  - id: p-2026-safeware-1
+    title: Automated Cross-Regulation Compliance for Digital Regulations via Requirements Engineering
+    published: "2026-04-22"
+    applicationEnd: "2026-05-31 23:59"
+    year: 2026
+    description: >
+      Organizations operating in the digital space must simultaneously comply with multiple legal frameworks: data protection laws, AI-specific legislation, platform regulations, cybersecurity directives, and more. These regulations are developed independently, use inconsistent and not fully comparable terminology, and overlap in scope, creating a compliance landscape that is fragmented, contradictory, and costly to navigate. In practice, compliance is largely a manual, expert-driven process that does not scale.<br />
+      This project investigates how Requirements Engineering (RE) methods can be leveraged to automate cross-regulation compliance in the digital domain. The central research question is: how can legal obligations drawn from heterogeneous regulatory sources be extracted, formally represented, aligned, and reasoned over in a unified framework to be comprehensible for different stakeholders?<br />
+      Applicants will contribute to one or more of the following activities: 1) extraction and formalization of requirements from selected EU digital regulations into a unified goal model representation; 2) design of cross-regulation alignment and conflict detection mechanisms; 3) development and evaluation of a context-aware compliance navigation framework with users from heterogeneous backgrounds.<br />
+      This project offers the opportunity to engage with research at the intersection of legal analysis, requirements engineering, and knowledge representation, contributing to tools and methods with direct applicability across industry and policy contexts.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - SaFEWaRe
+      - ST
+    supervisor:
+      - LiviaMarini
+      - PietroDeMatteis
+      - LucaPiras
+      - MagdalenaMariaSolitro
+    prerequisites:
+      - Background in law, political science, or in a related field with exposure to EU regulatory frameworks.
+      - Ability to read, interpret, and critically analyze legal texts in English and Italian.
+      - Familiarity with EU digital regulation (e.g. GDPR, AI Act, DSA, or similar) is strongly advantageous.
+      - Good understanding of knowledge representation fundamentals and methodologies (semantic networks, ontologies, logic-based systems, graph databases) is considered a plus.
+      - Curiosity for interdisciplinary work at the boundary between law and computer science is essential.
+    objectives: >
+      The student is expected to contribute to one or more of the following activities:
+      <ul>
+        <li>Familiarization with the state of the art in regulatory requirements engineering and cross-regulation compliance.</li>
+        <li>Extraction and formalization of requirements from one or more EU digital regulations.</li>
+        <li>Design and evaluation of mechanisms for cross-regulation alignment, conflict detection, and context-aware compliance navigation.</li>
+      </ul>
+    topics:
+      - Requirements Engineering
+      - EU Digital Regulation
+      - Legal Informatics
+      - Cross-Regulation Compliance
+      - Goal Modeling
