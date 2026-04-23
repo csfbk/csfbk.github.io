@@ -137,7 +137,7 @@
 ## 2020
 - id: 5GWF20
   name: 3rd IEEE 5G World Forum
-  acronym: 5GWF20
+  acronym: 5GWF 2020
   url: https://ieee-wf-5g.org/
   type: conference
   location: Virtual Event
@@ -164,7 +164,7 @@
 
 - id: DETIPS2020
   name: 25th European Symposium on Research in Computer Security
-  acronym: DETIPS2020
+  acronym: DETIPS 2020
   url: https://www.surrey.ac.uk/esorics-2020
   type: conference
   location: Virtual Event
@@ -261,7 +261,7 @@
 - id: OSVS2024
   name: 1st Workshop on Operating Systems and Virtualization Security (OSVS)
   proceedings: 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
-  acronym: OSVS
+  acronym: OSVS 2024
   url: https://osvs.pages.dev/
   type: conference 
   location: Vienna, Austria
@@ -290,7 +290,7 @@
 
 - id: HCII25
   name: 27th International Conference on Human-Computer Interaction (HCII)
-  acronym: HCII
+  acronym: HCII 2025
   url: https://2025.hci.international/
   type: conference 
   location: Gothenburg, Sweden
@@ -300,7 +300,7 @@
 - id: OSVS2025
   name: 2nd Workshop on Operating Systems and Virtualization Security (OSVS)
   proceedings: 2025 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
-  acronym: OSVS
+  acronym: OSVS 2025
   url: https://osvs.pages.dev/
   type: conference 
   location: Venice, Italy
@@ -310,7 +310,7 @@
 - id: PrivCrypt25
   name: International Workshop on Foundations and Applications of Privacy-Enhancing Cryptography (PrivCrypt)
   proceedings: Workshops of the 23rd International Conference on Applied Cryptography and Network Security (ACNS 2025)
-  acronym: PrivCrypt
+  acronym: PrivCrypt 2025
   url: https://privcryptworkshop.github.io/
   type: conference 
   location: Munich, Germany
@@ -320,7 +320,7 @@
 - id: SACMAT2025
   name: 30th ACM Symposium on Access Control Models and Technologies (SACMAT)
   proceedings: 2025 ACM Symposium on Access Control Models and Technologies (SACMAT)
-  acronym: SACMAT
+  acronym: SACMAT 2025
   url: https://www.sacmat.org/2025/index.php
   type: conference 
   location: Stony Brook, NY, USA
@@ -336,5 +336,18 @@
   startDate: "2025-06-11"
   endDate: "2025-06-13"
 
-# PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
+## 2025
 
+- id: ACSW2026
+  name: Workshop on Automotive Cyber Security
+  proceedings: 2026 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)
+  acronym: ACSW 2026
+  url: https://acsw.unimore.it/2026/index.html
+  type: conference
+  location: Lisbon, Portugal
+  startDate: "2026-07-10"
+  endDate: "2026-07-10"
+
+
+
+# PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)

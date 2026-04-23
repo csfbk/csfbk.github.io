@@ -53,13 +53,6 @@ current:
       institution: University of Trento
       yearFrom: 2026
       yearTo: 2026
-    
-    - personId: DavidIoanHangu_BA
-      type: B
-      topic: Development of Serious Games and Capture-the-Flags Competitions on Applied Cryptography
-      institution: University of Trento
-      yearFrom: 2024
-      yearTo: 2025
 
   junior:
     # -   # ID of the person
@@ -127,8 +120,11 @@ former:
     # - personId:       # ID of the person
     #   thesisId:       # ID of the thesis
 
+    - personId: DavidIoanHangu_BA
+      # thesisId: |THESIS IS STILL TO DEFEND|
+
     - personId: MatteoSantAnaCasarotto_BA
-      # thesisId: |THESIS IS STILL TO DEFENDE|
+      # thesisId: |THESIS IS STILL TO DEFEND|
 
     - personId: LucaBortolotti_BA
       thesisId: LucaBortolotti_BA
