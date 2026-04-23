@@ -28,41 +28,41 @@ projects:
       - Privacy Enhancing Technologies
     references:
       - id: BBF18
-        text: "\"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains\". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019."
+        text: '"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-030-26948-7_20
           - name: Video
             url: https://www.youtube.com/watch?v=gui-D_Og61w"
       - id: BdM93
-        text: "\"One-way accumulators: a decentralized alternative to digital signatures.\" J C Benaloh, M de Mare, Eurocrypt 93."
+        text: '"One-way accumulators: a decentralized alternative to digital signatures." J C Benaloh, M de Mare, Eurocrypt 93.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/3-540-48285-7_24
       - id: CL02
-        text: "\"Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials.\" J Camenisch, A Lysyanskaya, CRYPTO 2002."
+        text: '"Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials." J Camenisch, A Lysyanskaya, CRYPTO 2002.'
         links:
           - name: DOI
             url: https://10.1007/3-540-45708-9_5"
       - id: LLX07
-        text: "\"Universal Accumulators with Efficient Nonmembership Proofs\". Li, J., Li, N., Xue, R., 2007."
+        text: '"Universal Accumulators with Efficient Nonmembership Proofs". Li, J., Li, N., Xue, R., 2007.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-540-72738-5_17
       - id: N05
-        text: "\"Accumulators from Bilinear Pairings and Applications.\" L Nguyen, CT-RSA 2005."
+        text: '"Accumulators from Bilinear Pairings and Applications." L Nguyen, CT-RSA 2005.'
         links:
-        - name: DOI
-          url: https://doi.org/10.1007/978-3-540-30574-3_19
+          - name: DOI
+            url: https://doi.org/10.1007/978-3-540-30574-3_19
       - id: VB20
-        text: "\"Dynamic Universal Accumulator with Batch Update over Bilinear Groups\". G. Vitto, A. Biryukov, IACR 2020, CT-RSA 2022."
+        text: '"Dynamic Universal Accumulator with Batch Update over Bilinear Groups". G. Vitto, A. Biryukov, IACR 2020, CT-RSA 2022.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-030-95312-6_17
           - name: Video
             url: https://www.youtube.com/watch?v=Zi9pJpZKHX0
       - id: CHAHC22
-        text: "\"Curve Trees: Practical and Transparent Zero-Knowledge Accumulators.\" M Campanelli, M Hall-Andersen, S Holmgaard Kamp."
+        text: '"Curve Trees: Practical and Transparent Zero-Knowledge Accumulators." M Campanelli, M Hall-Andersen, S Holmgaard Kamp.'
         links:
           - name: Link
             url: https://ia.cr/2022/756
@@ -141,7 +141,7 @@ projects:
       - id: BLM22
         text: "M Battagliola, R Longo, A Meneghetti: Extensible Decentralized Secret Sharing and Application to Schnorr Signatures."
         links:
-          - name : Link
+          - name: Link
             url: https://eprint.iacr.org/2022/1551
 
   - id: p-2023-09-aleph-4
@@ -229,7 +229,7 @@ projects:
     applicationEnd: "2023-09-27 23:59"
     year: 2023
     description: >
-      Cryptographic Access Control (CAC) is often employed to protect the confidentiality of Cloud-hosted sensitive data from both external attackers and curious service providers while enforcing access control policies. In CAC, the sensitive data is encrypted, and the permission to access the encrypted data is embodied by the (secret) decrypting key. Unfortunately, CAC usually incurs significant computational overhead — mainly due to cryptographic computations — that limits its applicability in real-world scenarios. Moreover, by itself, CAC does not provide suitable abstractions for specifying additional information and constraints (e.g., on how much a user is trusted) that may instead be useful to relieve such a computational overhead. Put in the context of an already ongoing collaboration with the University of Pittsburgh, the main goal of this project is to enhance CAC by investigating one or more of the following ideas: 
+      Cryptographic Access Control (CAC) is often employed to protect the confidentiality of Cloud-hosted sensitive data from both external attackers and curious service providers while enforcing access control policies. In CAC, the sensitive data is encrypted, and the permission to access the encrypted data is embodied by the (secret) decrypting key. Unfortunately, CAC usually incurs significant computational overhead — mainly due to cryptographic computations — that limits its applicability in real-world scenarios. Moreover, by itself, CAC does not provide suitable abstractions for specifying additional information and constraints (e.g., on how much a user is trusted) that may instead be useful to relieve such a computational overhead. Put in the context of an already ongoing collaboration with the University of Pittsburgh, the main goal of this project is to enhance CAC by investigating one or more of the following ideas:
       <ol>
         <li><b>Logic Predicates</b>: express assumptions and requirements about users and resources;</li>
         <li><b>Negative Permissions</b>: deny accesses explicitly through a careful distribution of cryptographic keys;</li>
@@ -308,8 +308,8 @@ projects:
     description: >
       Studying unlinkability in the world of digital identity holds significant importance. It helps create strong and privacy-preserving digital identity systems, allowing people to protect their privacy by preventing others from linking their actions and building profiles. A good example use case of this study is the European Digital Identity Wallet, which stores information such as IDs and mobile driving licenses.
       Cryptographic techniques such as selective disclosure and zero-knowledge mechanisms [1, 2, 3] can ensure that digital identity systems provide only the necessary information, contributing to the unlikability of identity credentials and user privacy in regards. However, it's imperative to question the reliability of these techniques.
-      Machine learning, with its proficiency in pattern recognition and data analysis, is a powerful tool in this context. It possesses the capability to uncover hidden links and vulnerabilities within these systems, enabling the detection and mitigation of re-identification and profiling [4]. 
-      During your internship, you will get a chance to explore both the theory and practical aspects of these techniques, based on your interests and prior knowledge. Our specific focus centers on investigating the key factors that contribute to the unlinkability of identity credentials, with a special emphasis on the implementation of unlinkability techniques in their creation and presentation within the relevant use case. We will also use machine learning to see how any of these key factors, i.e., credential's info (attribute, metadata, ...) can make it easier or harder to stay anonymous. 
+      Machine learning, with its proficiency in pattern recognition and data analysis, is a powerful tool in this context. It possesses the capability to uncover hidden links and vulnerabilities within these systems, enabling the detection and mitigation of re-identification and profiling [4].
+      During your internship, you will get a chance to explore both the theory and practical aspects of these techniques, based on your interests and prior knowledge. Our specific focus centers on investigating the key factors that contribute to the unlinkability of identity credentials, with a special emphasis on the implementation of unlinkability techniques in their creation and presentation within the relevant use case. We will also use machine learning to see how any of these key factors, i.e., credential's info (attribute, metadata, ...) can make it easier or harder to stay anonymous.
     level: MSc
     unit: ALEPH
     supervisor:
@@ -324,10 +324,10 @@ projects:
       - State-of-the-art study on available cryptographic unlinkability techniques.
       - Comparison of the unlinkability techniques on metrics of interest for the chosen unlikability scenarios and case studies. This could be employing machine learning-based analysis and proving whether the unlinkability is violated for chosen case studies or not.
     topics:
-      - Digital Identity 
+      - Digital Identity
       - Verifiable Credentials
       - Cryptography
-      - Privacy Enhancing Technologies 
+      - Privacy Enhancing Technologies
       - Machine Learning
     references:
       - id: 1
@@ -381,12 +381,12 @@ projects:
     timeFrame: from February 2023
     prerequisites:
       - Basic knowledge of container technologies (e.g., Docker, Linux containers, etc.)
-      - Basic knowledge of the Linux OS 
+      - Basic knowledge of the Linux OS
       - Basic knowledge of the Python programming language and Deep Learning libraries
     objectives:
       - Familiarization and study of the state-of-the-art related to container security
-      - Evaluation of available techniques for anomaly detection in containerized systems 
-      - Design and implementation of an online ML-based solution for the detection of container anomalies through the analysis of the containers' system calls. 
+      - Evaluation of available techniques for anomaly detection in containerized systems
+      - Design and implementation of an online ML-based solution for the detection of container anomalies through the analysis of the containers' system calls.
     topics:
       - Containerized systems
       - Machine Learning
@@ -403,7 +403,7 @@ projects:
     year: 2023
     description: >
       A Network Intrusion Detection System (NIDS) serves as the initial line of defence against network attacks that threaten the integrity of data, systems, and networks. Over recent years, Deep Neural Networks (DNNs) have been increasingly used in NIDSs to detect malicious traffic due to their remarkable accuracy in identifying malicious network activity. Nonetheless, DNNs exhibit susceptibility to Adversarial Machine Learning (AML) attacks, where subtle alterations to input data can lead to misclassification by the neural network. This vulnerability has particularly severe consequences, as adversarial attacks pose a substantial threat to overall network security.
-      While the majority of current research in the field of AML has been directed towards computer vision tasks like image classification and object recognition, there has been a notable increase in interest and activity within the cybersecurity domain. Nevertheless, several challenges persist in this domain, encompassing both performance-related issues and the practicality of applying these methods to real-world scenarios. 
+      While the majority of current research in the field of AML has been directed towards computer vision tasks like image classification and object recognition, there has been a notable increase in interest and activity within the cybersecurity domain. Nevertheless, several challenges persist in this domain, encompassing both performance-related issues and the practicality of applying these methods to real-world scenarios.
       The primary objective of this project is to explore innovative and practical methodologies aimed at enhancing the resilience of NIDSs against AML attacks.
     level: MSc
     unit: RiSING
@@ -412,7 +412,7 @@ projects:
     timeFrame: from February 2023
     prerequisites:
       - Basic knowledge of network security
-      - Basic knowledge of computer networking 
+      - Basic knowledge of computer networking
       - Basic knowledge of the Python programming language and Deep Learning libraries
     objectives:
       - Familiarization and study of the state-of-the-art related to AML attacks and defenses
@@ -449,11 +449,11 @@ projects:
       - Computer networking
       - eBPF
     references:
-      - text: 'ebpf.io, ‘What is eBPF? An Introduction and Deep Dive into the eBPF Technology’, Mar. 05, 2022.'
+      - text: "ebpf.io, ‘What is eBPF? An Introduction and Deep Dive into the eBPF Technology’, Mar. 05, 2022."
         links:
           - name: Link
             url: https://ebpf.io/what-is-ebpf/.
-      - text: 'J. Levin and T. A. Benson, ‘ViperProbe: Rethinking Microservice Observability with eBPF’, in 2020 IEEE 9th International Conference on Cloud Networking (CloudNet), Piscataway, NJ, USA: IEEE, Nov. 2020, pp. 1–8.'
+      - text: "J. Levin and T. A. Benson, ‘ViperProbe: Rethinking Microservice Observability with eBPF’, in 2020 IEEE 9th International Conference on Cloud Networking (CloudNet), Piscataway, NJ, USA: IEEE, Nov. 2020, pp. 1–8."
         links:
           - name: DOI
             url: https.//doi.org/10.1109/CloudNet51028.2020.9335808
@@ -507,7 +507,7 @@ projects:
       - Basics of AI
     objectives:
       - Identification and implementation of RL algorithms as Autonomous Cyber Defense Agents.
-      - Scalable Training simulator development for selected RL agents. 
+      - Scalable Training simulator development for selected RL agents.
       - Identification of type of trained agents (e.g., defensive, or offensive or defensive & offensive both) Type of security threats we want to address.
     topics:
       - Autonomous Cyber Defense (ACD)
@@ -736,7 +736,7 @@ projects:
     notes: Multiple positions available.
     references:
       - id: 1
-        text: "Alessandro Armando, Roberto Carbone, Luca Compagna. \"SATMC: A SAT-Based Model Checker for Security-Critical Systems\". In 20th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2014)"
+        text: 'Alessandro Armando, Roberto Carbone, Luca Compagna. "SATMC: A SAT-Based Model Checker for Security-Critical Systems". In 20th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2014)'
         links:
           name: DOI
           url: https://doi.org/10.1007/978-3-642-54862-8_3
@@ -918,41 +918,41 @@ projects:
       - Privacy Enhancing Technologies
     references:
       - id: BBF18
-        text: "\"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains\". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019."
+        text: '"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-030-26948-7_20
           - name: Video
             url: https://www.youtube.com/watch?v=gui-D_Og61w"
       - id: BdM93
-        text: "\"One-way accumulators: a decentralized alternative to digital signatures.\" J C Benaloh, M de Mare, Eurocrypt 93."
+        text: '"One-way accumulators: a decentralized alternative to digital signatures." J C Benaloh, M de Mare, Eurocrypt 93.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/3-540-48285-7_24
       - id: CL02
-        text: "\"Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials.\" J Camenisch, A Lysyanskaya, CRYPTO 2002."
+        text: '"Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials." J Camenisch, A Lysyanskaya, CRYPTO 2002.'
         links:
           - name: DOI
             url: https://10.1007/3-540-45708-9_5"
       - id: LLX07
-        text: "\"Universal Accumulators with Efficient Nonmembership Proofs\". Li, J., Li, N., Xue, R., 2007."
+        text: '"Universal Accumulators with Efficient Nonmembership Proofs". Li, J., Li, N., Xue, R., 2007.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-540-72738-5_17
       - id: N05
-        text: "\"Accumulators from Bilinear Pairings and Applications.\" L Nguyen, CT-RSA 2005."
+        text: '"Accumulators from Bilinear Pairings and Applications." L Nguyen, CT-RSA 2005.'
         links:
-        - name: DOI
-          url: https://doi.org/10.1007/978-3-540-30574-3_19
+          - name: DOI
+            url: https://doi.org/10.1007/978-3-540-30574-3_19
       - id: VB20
-        text: "\"Dynamic Universal Accumulator with Batch Update over Bilinear Groups\". G. Vitto, A. Biryukov, IACR 2020, CT-RSA 2022."
+        text: '"Dynamic Universal Accumulator with Batch Update over Bilinear Groups". G. Vitto, A. Biryukov, IACR 2020, CT-RSA 2022.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-030-95312-6_17
           - name: Video
             url: https://www.youtube.com/watch?v=Zi9pJpZKHX0
       - id: CHAHC22
-        text: "\"Curve Trees: Practical and Transparent Zero-Knowledge Accumulators.\" M Campanelli, M Hall-Andersen, S Holmgaard Kamp."
+        text: '"Curve Trees: Practical and Transparent Zero-Knowledge Accumulators." M Campanelli, M Hall-Andersen, S Holmgaard Kamp.'
         links:
           - name: Link
             url: https://ia.cr/2022/756
@@ -991,7 +991,7 @@ projects:
       - id: BLM22
         text: "M Battagliola, R Longo, A Meneghetti: Extensible Decentralized Secret Sharing and Application to Schnorr Signatures."
         links:
-          - name : Link
+          - name: Link
             url: https://eprint.iacr.org/2022/1551
 
   - id: p-2024-01-aleph-5
@@ -1002,7 +1002,7 @@ projects:
     description: >
       Studying unlinkability in the world of digital identity holds significant importance. It helps create strong and privacy-preserving digital identity systems, allowing people to protect their privacy, by preventing others from linking their actions and building profiles. A good example use case of this study is the European Digital Identity Wallet, which stores information such as IDs and mobile driving licenses.<br />
       Cryptographic techniques such as selective disclosure and zero-knowledge mechanisms [1,2,3] can ensure that digital identity systems provide only the necessary information, contributing to unlikability of identity credentials and user privacy in regards.  However, it's imperative to question the reliability of these techniques.<br />
-      Machine learning, with its proficiency in pattern recognition and data analysis, is  a powerful tool in this context. It possesses the capability to uncover hidden links and vulnerabilities within identity systems, enabling the detection and mitigation of re-identification and profiling [4]. During your internship, you'll get a chance to explore both the theory and practical aspects of these techniques, based on your interests and prior knowledge. Our primary focus will be on investigating the key factors that contribute to the unlinkability of identity credentials, with a special emphasis on the implementation of unlinkability techniques, particularly in the context of identity creation and presentation within relevant use cases. We'll also use machine learning to see how any of these key factors can make it easier or harder to stay anonymous. 
+      Machine learning, with its proficiency in pattern recognition and data analysis, is  a powerful tool in this context. It possesses the capability to uncover hidden links and vulnerabilities within identity systems, enabling the detection and mitigation of re-identification and profiling [4]. During your internship, you'll get a chance to explore both the theory and practical aspects of these techniques, based on your interests and prior knowledge. Our primary focus will be on investigating the key factors that contribute to the unlinkability of identity credentials, with a special emphasis on the implementation of unlinkability techniques, particularly in the context of identity creation and presentation within relevant use cases. We'll also use machine learning to see how any of these key factors can make it easier or harder to stay anonymous.
     level: MSc
     unit: ALEPH
     supervisor:
@@ -1012,7 +1012,7 @@ projects:
       - An undergraduate course in cryptography is required for basic notions.
       - "Having expertise in the following areas would provide a significant advantage: An understanding of selective disclosure and zero-knowledge proofs; Knowledge of machine learning, covering algorithms, frameworks (e.g., https://scikit-learn.org/), data preprocessing, model evaluation, and deployment; Proficiency in programming languages, specifically Python or R."
     objectives:
-      - State-of-the-art study on available cryptographic unlinkability techniques, 
+      - State-of-the-art study on available cryptographic unlinkability techniques,
       - Comparison of the unlinkability techniques on metrics of interest for the chosen unlikability scenarios and case studies. This could be employing machine-learning-based analysis and proving whether the unlinkability is violated for chosen case studies or not.
     topics:
       - Digital Identity (Verifiable Credentials)
@@ -1057,19 +1057,19 @@ projects:
       - Revocation
     references:
       - id: CRL
-        text: "\"Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile\". RFC 5280."
+        text: '"Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile". RFC 5280.'
         links:
           - name: Link
             url: https://datatracker.ietf.org/doc/rfc5280/
       - id: ISO18013-5
         text: "ISO/IEC 18013-5, Personal identification — ISO-compliant driving licence — Part 5: Mobile driving licence (mDL) application, First edition, 2021-09."
       - id: JCSL
-        text: "\"WT and CWT Status List\". T, Looker et al., 10 July 2023."
+        text: '"WT and CWT Status List". T, Looker et al., 10 July 2023.'
         links:
           - name: Link
             url: https://datatracker.ietf.org/doc/draft-looker-oauth-jwt-cwt-status-list/"
       - id: OCSP
-        text: "\"X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP\". RFC 6960."
+        text: '"X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP". RFC 6960.'
         links:
           - name: Link
             url: https://datatracker.ietf.org/doc/html/rfc6960
@@ -1114,7 +1114,7 @@ projects:
         links:
           - name: DOI
             url: https://doi.org/10.15157/diss/027
-  
+
   ## CLEANSE
   - id: p-2024-01-cil-1
     title: DevSecOps for Cloud Native Applications
@@ -1227,7 +1227,7 @@ projects:
       - RobertoDoriguzziCorin
     prerequisites:
       - Basic knowledge of network security
-      - Basic knowledge of computer networking 
+      - Basic knowledge of computer networking
       - Basic knowledge of the Python programming language and Deep Learning libraries
     objectives:
       - Familiarization and study of the state-of-the-art related to AML attacks and defenses
@@ -1277,7 +1277,7 @@ projects:
     year: 2024
     description: >
       OpenID Connect (OIDC) has shown to need a set of privacy best current practices (BCPs), since only a handful of guidelines can be found in this regard. In 2023, we provided a set of BCPs to fill that gap (Sassetti et al.), as well as an assessment of the privacy posture of several OIDC Providers (OPs). The results have shown that only a few OPs provide high baseline privacy, whereas many others implement only bare minimum requirements. Though, one of the issues of the analysis was the lack of automation, thus impacting its scale.<br />
-      As a new line of work, we plan on automating the assessment of the privacy posture of OPs and extending it to web applications that are integrating the solutions of identified OPs. This can be done either by using pentesting tools, i.e., Micro-Id-Gym (MIG) (Bisegna et al.), or with autonomously developed scripts; a third hybrid approach can be considered. 
+      As a new line of work, we plan on automating the assessment of the privacy posture of OPs and extending it to web applications that are integrating the solutions of identified OPs. This can be done either by using pentesting tools, i.e., Micro-Id-Gym (MIG) (Bisegna et al.), or with autonomously developed scripts; a third hybrid approach can be considered.
     level:
       - MSc
     unit: ST
@@ -1416,15 +1416,15 @@ projects:
       - SalvatoreManfredi
       - PietroDeMatteis
     prerequisites:
-      - Being able to work with YAML files 
+      - Being able to work with YAML files
       - Experience with a programming language at your choice (better if Python or rustlang)
       - Knowledge of common attacks (e.g. phishing, sniffing), the more the better
       - Knowledge of virtualization techniques
       - Problem-solving
     objectives:
-      - Implement a proposed use-case utilizing a fully functional open-source Breach and Attack Simulation (BAS) or Adversary Emulation tool. 
+      - Implement a proposed use-case utilizing a fully functional open-source Breach and Attack Simulation (BAS) or Adversary Emulation tool.
       - Gain a comprehensive understanding of the current threat landscape and the most significant threats organizations face.
-      - Ensure the work is well-documented and the attack simulations are replicable. 
+      - Ensure the work is well-documented and the attack simulations are replicable.
       - Identify vulnerabilities, gaps in security controls, and other weaknesses revealed by the attack simulations. Provide actionable recommendations for improving defenses against the simulated threat.
     topics:
       - Research tool
@@ -1479,7 +1479,7 @@ projects:
       - Ability to review code for security vulnerabilities, understanding how certain coding practices might introduce security risks
     objectives:
       - To extend the threat analysis for a digital identity wallet system considering the underlying technologies (Blockchain-based and OpenID-based) and by utilizing d the OWASP (Open Web Application Security Project) threat modeling procedures. Therefore at the end of this phase, we identify potential vulnerabilities, assess associated risks, and propose effective mitigation strategies.
-      - Performing a security analysis on the available Wallet Solutions in the wild to check their implementation against the set of identified threats. This provides us with a general overview of the adoption of potential mitigations and identifies the missing ones.          
+      - Performing a security analysis on the available Wallet Solutions in the wild to check their implementation against the set of identified threats. This provides us with a general overview of the adoption of potential mitigations and identifies the missing ones.
     topics:
       - Identity Management
       - Digital Identity Wallet
@@ -1672,7 +1672,7 @@ projects:
     applicationEnd: "2025-01-16 23:59"
     year: 2024
     description: >
-      Discovering, managing, and reporting on cryptographic assets is a critical step for the transition to quantum-safe systems and applications [0]. 
+      Discovering, managing, and reporting on cryptographic assets is a critical step for the transition to quantum-safe systems and applications [0].
       The Open Worldwide Application Security Project (OWASP) [1] proposes a standard to represent Cryptography Bill of Materials (CBOM) [2], useful to describe cryptographic assets and their dependencies in a Software Supply Chain Security (SSCS) context.
       A CBOM is useful to understand the assets, their dependencies and the compliance with regulations, and a key enabler of cryptographic agility to secure critical systems against quantum computing threats.
     type: IT
@@ -1761,7 +1761,7 @@ projects:
       - Basic knowledge of design patterns and software engineering
       - Basic experience with JavaScript
       - Experience with Python 3 development
-      - Experience with formal grammars 
+      - Experience with formal grammars
     objectives:
       - Study of the TLS protocol and its inner workings
       - Perform a literature review on the state-of-the-art in terms of tools, listing their features, applicability and scope
@@ -1856,7 +1856,7 @@ projects:
     prerequisites:
       - Cybersecurity knowledge
       - Basic knowledge of Large Language Models and Agentic AI
-      - Experience with Python 
+      - Experience with Python
       - English Language
     objectives:
       - Extending PILLAR's capabilities
@@ -2111,7 +2111,7 @@ projects:
       Cryptographic Access Control (CAC) is often employed to protect the confidentiality of cloud-hosted sensitive data from both external attackers and curious service providers while enforcing access control policies. In CAC, the sensitive data is encrypted, and the permission to access the encrypted data is embodied by the (secret) decrypting key. The Center for Cybersecurity (CS) of FBK has been working on an implementation of CAC in a tool called CryptoAC (short for Cryptographic Access Control) [1] applicable to diverse scenarios, such as the cloud-IoT continuum and cloud native applications. CryptoAC is an open-source tool written in the (multiplatform) Kotlin language, and potentially available as programming library, plugin, or microservice (Docker container). Unfortunately, CryptoAC is currently a research proof-of-concept and ignores many aspects relevant to the development and operation of cryptographic mechanisms. In this context, applicants would collaborate on improving the technology readiness level (TRL) of CryptoAC by choosing among the following activities:
       1) surveying generic guidelines, best practices, and specific reccomendations concerning the development of cryptographic mechanisms;
       2) re-implementing the core modules of CryptoAC using the (more secure and performant) Rust programming language;
-      3) extend the capabilities of CryptoAC in one or more of the following areas: user authentication with OpenID Connect and FIDO, cryptographic key management, strategies and tools for cryptographic bill of materials management. 
+      3) extend the capabilities of CryptoAC in one or more of the following areas: user authentication with OpenID Connect and FIDO, cryptographic key management, strategies and tools for cryptographic bill of materials management.
       This project provides the opportunity to acquire the fundamentals of scientific research, investigate and explore cutting-edge and relevant research topics, and engage in software engineering and development while allowing applicants to design, propose, and implement their own ideas.
     type: IT
     level:
@@ -2455,17 +2455,17 @@ projects:
       - Constant-time algorithms
     references:
       - id: KRRVV18
-        text: "A. Karmakar, S. S. Roy, O. Reparaz, F. Vercauteren and I. Verbauwhede, \"Constant-Time Discrete Gaussian Sampling,\" in IEEE Transactions on Computers, vol. 67, no. 11, pp. 1561-1571, 1 Nov. 2018"
+        text: 'A. Karmakar, S. S. Roy, O. Reparaz, F. Vercauteren and I. Verbauwhede, "Constant-Time Discrete Gaussian Sampling," in IEEE Transactions on Computers, vol. 67, no. 11, pp. 1561-1571, 1 Nov. 2018'
         links:
           - name: Link
             url: https://doi.org/10.1109/TC.2018.2814587
       - id: EGRZ25
-        text: "E. Eid, A. Greuet, N Reboud, R Zeitoun, \"Efficient High-Order Masking of FrodoKEM's CDT-Based Gaussian Sampler\". Cryptology {ePrint} Archive, Paper 2025/1308"
+        text: 'E. Eid, A. Greuet, N Reboud, R Zeitoun, "Efficient High-Order Masking of FrodoKEM''s CDT-Based Gaussian Sampler". Cryptology {ePrint} Archive, Paper 2025/1308'
         links:
           - name: Link
             url: https://eprint.iacr.org/2025/1308
       - id: HPRR20
-        text: "Howe, J., Prest, T., Ricosset, T., Rossi, M. (2020). \"Isochronous Gaussian Sampling: From Inception to Implementation\". PQCrypto 2020. LNCS vol 12100"
+        text: 'Howe, J., Prest, T., Ricosset, T., Rossi, M. (2020). "Isochronous Gaussian Sampling: From Inception to Implementation". PQCrypto 2020. LNCS vol 12100'
         links:
           - name: Link
             url: https://doi.org/10.1007/978-3-030-44223-1_4
@@ -2521,10 +2521,10 @@ projects:
     applicationEnd: "2025-12-31 23:59"
     year: 2025
     description: >
-      Access Control Encryption (ACE) [1] enforces both read and write access control directly at the encryption layer. In ACE, all messages are transmitted in encrypted form and mediated by a sanitizer, a component that ensures only policy-compliant ciphertexts are forwarded and removes any subliminal channels, without ever learning the plaintext or the identities of the communicating parties. 
+      Access Control Encryption (ACE) [1] enforces both read and write access control directly at the encryption layer. In ACE, all messages are transmitted in encrypted form and mediated by a sanitizer, a component that ensures only policy-compliant ciphertexts are forwarded and removes any subliminal channels, without ever learning the plaintext or the identities of the communicating parties.
       Contextual Reading ACE (CR-ACE) extends ACE by enabling context-dependent read access to encrypted data. In CR-ACE, decryption succeeds only if both the global access policy and contextual conditions (such as workflow stage, location, or emergency status) are satisfied. The underlying construction combines ACE with an Attribute-Based Key Encapsulation Mechanism (ABKEM) and a Data Encapsulation Mechanism (DEM).
       This project aims to implement and experimentally evaluate a first prototype implementation of CR-ACE, focusing on the public-context scenario, i.e., when contextual attributes are non-sensitive and can be attached in clear to sanitized ciphertexts.
-      
+
       <u>Possible</u> activities include:
       <ol>
         <li>study of the CR-ACE model and its formal security guarantees;</li>
@@ -2564,7 +2564,7 @@ projects:
     notes: >
       <details>
         <summary>Additional Information</summary>
-        
+
         The project encourages exploration of original research directions beyond implementation, allowing candidates the opportunity to contribute with novel insights (e.g., on side-channel resistance, post-quantum adaptations, or other emerging aspects). Should the work produce results suitable for publication, candidates will naturally be involved according to their contribution.
 
         Possible project phases:
@@ -2624,24 +2624,24 @@ projects:
       - text: "Finance worker pays out $25 million after video call with deepfake 'chief financial officer'"
         links:
           - name: Link
-            url: https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html 
-      - text: "ETSI Technical Standard 119 461 \"Electronic Signatures and Trust Infrastructures (ESI); Policy and security requirements for trust service components providing identity proofing of trust service subjects\""
+            url: https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html
+      - text: 'ETSI Technical Standard 119 461 "Electronic Signatures and Trust Infrastructures (ESI); Policy and security requirements for trust service components providing identity proofing of trust service subjects"'
         links:
           - name: Link
-            url: 
-      - text: "I. Amerini et al., \"Deepfake Media Forensics: State of the Art and Challenges Ahead\". arXiv:2408.00388, 2024."
+            url:
+      - text: 'I. Amerini et al., "Deepfake Media Forensics: State of the Art and Challenges Ahead". arXiv:2408.00388, 2024.'
         links:
           - name: Link
             url: https://arxiv.org/abs/2408.00388
-      - text: "Z. Huang, B. Xia, Z. Lin, Z. Mou, W. Yang, and J. Jia, \"FFAA: Multimodal Large Language Model based Explainable Open-World Face Forgery Analysis Assistant\", arXiv [cs.CV]. 2024."
+      - text: 'Z. Huang, B. Xia, Z. Lin, Z. Mou, W. Yang, and J. Jia, "FFAA: Multimodal Large Language Model based Explainable Open-World Face Forgery Analysis Assistant", arXiv [cs.CV]. 2024.'
         links:
           - name: Link
             url: https://arxiv.org/abs/2408.10072
-      - text: "C. Hegde, G. Mittal and N. Memon. \"Gotcha: Real-time video deepfake detection via challenge-response\". In IEEE European Symposium on Security and Privacy (EuroS&P), 2024."
+      - text: 'C. Hegde, G. Mittal and N. Memon. "Gotcha: Real-time video deepfake detection via challenge-response". In IEEE European Symposium on Security and Privacy (EuroS&P), 2024.'
         links:
           - name: Link
             url: https://github.com/mittalgovind/GOTCHA-Deepfakes
-      - text: "R. Ziglio, C. Pasquini and S. Ranise, \"Spotting Tell-Tale Visual Artifacts in Face Swapping Videos: Strengths and Pitfalls of CNN Detectors,\" 2025 13th International Workshop on Biometrics and Forensics (IWBF), Munich, Germany, 2025, pp. 01-06."
+      - text: 'R. Ziglio, C. Pasquini and S. Ranise, "Spotting Tell-Tale Visual Artifacts in Face Swapping Videos: Strengths and Pitfalls of CNN Detectors," 2025 13th International Workshop on Biometrics and Forensics (IWBF), Munich, Germany, 2025, pp. 01-06.'
         links:
           - name: DOI
             url: https://10.1109/IWBF63717.2025.11113429
