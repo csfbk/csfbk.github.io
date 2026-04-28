@@ -28,7 +28,7 @@ projects:
       - Privacy Enhancing Technologies
     references:
       - id: BBF18
-        text: '"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019.'
+        text: '"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains". D Boneh, B B?nz, B Fisch. IACR 2018, CRYPTO 2019.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-030-26948-7_20
@@ -181,12 +181,12 @@ projects:
             url: https://aleph.fbk.eu/tools/CryptoAC
 
   - id: p-2023-09-aleph-5
-    title: Access Control for BPMN — Implementation, Constraints, and Resilience
+    title: Access Control for BPMN ? Implementation, Constraints, and Resilience
     published: "2023-09-14"
     applicationEnd: "2023-09-27 23:59"
     year: 2023
     description: >
-      Workflows represent a series of activities that need to be executed in a specific order to achieve a certain goal. Business Process Model and Notation (BPMN) is the standard most widely adopted by organizations to model business processes as workflows. Within this context, the FBK's Center for Cybersecurity developed a methodology for deriving role-based access control policies from BPMN workflows automatically based on their syntax and that of BPMN symbols [1, 2]. The main goal of this project revolves around the implementation of the aforementioned methodology in a programming language of choice (e.g., Python, Kotlin, Rust). The project then seeks to enhance the capabilities of the aforementioned methodology to include the specification of constraints such as (dynamic and static) separation of duty. Finally — according to the time available — the project aims to investigate the relationship between the access control policies derived from BPMN workflows and the concepts of policy resiliency, workflow satisfiability, and policy change impact analysis.
+      Workflows represent a series of activities that need to be executed in a specific order to achieve a certain goal. Business Process Model and Notation (BPMN) is the standard most widely adopted by organizations to model business processes as workflows. Within this context, the FBK's Center for Cybersecurity developed a methodology for deriving role-based access control policies from BPMN workflows automatically based on their syntax and that of BPMN symbols [1, 2]. The main goal of this project revolves around the implementation of the aforementioned methodology in a programming language of choice (e.g., Python, Kotlin, Rust). The project then seeks to enhance the capabilities of the aforementioned methodology to include the specification of constraints such as (dynamic and static) separation of duty. Finally ? according to the time available ? the project aims to investigate the relationship between the access control policies derived from BPMN workflows and the concepts of policy resiliency, workflow satisfiability, and policy change impact analysis.
     level:
       - BSc
       - MSc
@@ -229,7 +229,7 @@ projects:
     applicationEnd: "2023-09-27 23:59"
     year: 2023
     description: >
-      Cryptographic Access Control (CAC) is often employed to protect the confidentiality of Cloud-hosted sensitive data from both external attackers and curious service providers while enforcing access control policies. In CAC, the sensitive data is encrypted, and the permission to access the encrypted data is embodied by the (secret) decrypting key. Unfortunately, CAC usually incurs significant computational overhead — mainly due to cryptographic computations — that limits its applicability in real-world scenarios. Moreover, by itself, CAC does not provide suitable abstractions for specifying additional information and constraints (e.g., on how much a user is trusted) that may instead be useful to relieve such a computational overhead. Put in the context of an already ongoing collaboration with the University of Pittsburgh, the main goal of this project is to enhance CAC by investigating one or more of the following ideas:
+      Cryptographic Access Control (CAC) is often employed to protect the confidentiality of Cloud-hosted sensitive data from both external attackers and curious service providers while enforcing access control policies. In CAC, the sensitive data is encrypted, and the permission to access the encrypted data is embodied by the (secret) decrypting key. Unfortunately, CAC usually incurs significant computational overhead ? mainly due to cryptographic computations ? that limits its applicability in real-world scenarios. Moreover, by itself, CAC does not provide suitable abstractions for specifying additional information and constraints (e.g., on how much a user is trusted) that may instead be useful to relieve such a computational overhead. Put in the context of an already ongoing collaboration with the University of Pittsburgh, the main goal of this project is to enhance CAC by investigating one or more of the following ideas:
       <ol>
         <li><b>Logic Predicates</b>: express assumptions and requirements about users and resources;</li>
         <li><b>Negative Permissions</b>: deny accesses explicitly through a careful distribution of cryptographic keys;</li>
@@ -270,7 +270,7 @@ projects:
     applicationEnd: "2023-09-27 23:59"
     year: 2023
     description: >
-      Microservices are the basic building blocks for modern Cloud-native applications. However, the orchestration — and especially the placement — of microservices should be aware of the functional and security requirements of the underlying applications. The main goal of this project revolves around the design of a methodology and a toolset for orchestrating (microservices in) Cloud-native applications to balance the minimization of risks due to the possible presence of security threats (e.g., malicious insider attackers, curious tenants) and the achievement of service performance requirements (e.g., expressed on computational resources, network throughput and latency).
+      Microservices are the basic building blocks for modern Cloud-native applications. However, the orchestration ? and especially the placement ? of microservices should be aware of the functional and security requirements of the underlying applications. The main goal of this project revolves around the design of a methodology and a toolset for orchestrating (microservices in) Cloud-native applications to balance the minimization of risks due to the possible presence of security threats (e.g., malicious insider attackers, curious tenants) and the achievement of service performance requirements (e.g., expressed on computational resources, network throughput and latency).
     level:
       - BSc
       - MSc
@@ -333,7 +333,7 @@ projects:
       - id: 1
         text: "Alp'ar, G., Jacobs, B.: Credential design in attribute-based identity management (2013)"
       - id: 2
-        text: "Camenisch, J., Lysyanskaya, A.: An efficient system for non-transferable anonymous credentials with optional anonymity revocation. In: Advances in Cryptology—EUROCRYPT 2001: International Conference on the Theory and Application of Cryptographic Techniques Innsbruck, Austria, May 6-10, 2001 Proceedings 20. pp. 93-118. Springer (2001)"
+        text: "Camenisch, J., Lysyanskaya, A.: An efficient system for non-transferable anonymous credentials with optional anonymity revocation. In: Advances in Cryptology?EUROCRYPT 2001: International Conference on the Theory and Application of Cryptographic Techniques Innsbruck, Austria, May 6-10, 2001 Proceedings 20. pp. 93-118. Springer (2001)"
       - id: 3
         text: "Ringers, S., Verheul, E., Hoepman, J.H.: An efficient self-blindable attribute-based credential scheme. In: Financial Cryptography and Data Security: 21st International Conference, FC 2017, Sliema, Malta, April 3-7, 2017, Revised Selected Papers 21. pp. 3-20. Springer (2017)"
       - id: 4
@@ -393,7 +393,7 @@ projects:
       - Anomaly Detection
     references:
       - text: 'El Khairi, Asbat, et al. "Contextualizing system calls in containers for anomaly-based intrusion detection." Proceedings of the 2022 on Cloud Computing Security Workshop. 2022.'
-      - text: 'Bèlair, Maxime, Sylvie Laniepce, and Jean-Marc Menaud. "Leveraging kernel security mechanisms to improve container security: a survey." Proceedings of the 14th international conference on availability, reliability and security. 2019.'
+      - text: 'B?lair, Maxime, Sylvie Laniepce, and Jean-Marc Menaud. "Leveraging kernel security mechanisms to improve container security: a survey." Proceedings of the 14th international conference on availability, reliability and security. 2019.'
       - text: 'Sultan, Sari, Imtiaz Ahmad, and Tassos Dimitriou. "Container security: Issues, challenges, and the road ahead." IEEE access 7 (2019)'
 
   - id: p-2023-09-rising-3
@@ -449,11 +449,11 @@ projects:
       - Computer networking
       - eBPF
     references:
-      - text: "ebpf.io, ‘What is eBPF? An Introduction and Deep Dive into the eBPF Technology’, Mar. 05, 2022."
+      - text: "ebpf.io, ?What is eBPF? An Introduction and Deep Dive into the eBPF Technology?, Mar. 05, 2022."
         links:
           - name: Link
             url: https://ebpf.io/what-is-ebpf/.
-      - text: "J. Levin and T. A. Benson, ‘ViperProbe: Rethinking Microservice Observability with eBPF’, in 2020 IEEE 9th International Conference on Cloud Networking (CloudNet), Piscataway, NJ, USA: IEEE, Nov. 2020, pp. 1–8."
+      - text: "J. Levin and T. A. Benson, ?ViperProbe: Rethinking Microservice Observability with eBPF?, in 2020 IEEE 9th International Conference on Cloud Networking (CloudNet), Piscataway, NJ, USA: IEEE, Nov. 2020, pp. 1?8."
         links:
           - name: DOI
             url: https.//doi.org/10.1109/CloudNet51028.2020.9335808
@@ -816,12 +816,12 @@ projects:
   # APRIL 2024
   ## ALEPH
   - id: p-2024-01-aleph-1
-    title: Access Control for BPMN — Implementation, Constraints, and Resilience
+    title: Access Control for BPMN ? Implementation, Constraints, and Resilience
     published: "2024-01-16"
     applicationEnd: "2024-01-31 23:59"
     year: 2024
     description: >
-      Workflows represent a series of activities that need to be executed in a specific order to achieve a certain goal. Business Process Model and Notation (BPMN) is the standard most widely adopted by organizations to model business processes as workflows. Within this context, the FBK's Center for Cybersecurity developed a methodology for deriving role-based access control policies from BPMN workflows automatically based on their syntax and that of BPMN symbols [1, 2]. The main goal of this project revolves around the implementation of the aforementioned methodology in a programming language of choice (e.g., Python, Kotlin, Rust). The project then seeks to enhance the capabilities of the aforementioned methodology to include the specification of constraints such as (dynamic and static) separation of duty. Finally — according to the time available — the project aims to investigate the relationship between the access control policies derived from BPMN workflows and the concepts of policy resiliency, workflow satisfiability, and policy change impact analysis.
+      Workflows represent a series of activities that need to be executed in a specific order to achieve a certain goal. Business Process Model and Notation (BPMN) is the standard most widely adopted by organizations to model business processes as workflows. Within this context, the FBK's Center for Cybersecurity developed a methodology for deriving role-based access control policies from BPMN workflows automatically based on their syntax and that of BPMN symbols [1, 2]. The main goal of this project revolves around the implementation of the aforementioned methodology in a programming language of choice (e.g., Python, Kotlin, Rust). The project then seeks to enhance the capabilities of the aforementioned methodology to include the specification of constraints such as (dynamic and static) separation of duty. Finally ? according to the time available ? the project aims to investigate the relationship between the access control policies derived from BPMN workflows and the concepts of policy resiliency, workflow satisfiability, and policy change impact analysis.
     level:
       - BSc
       - MSc
@@ -918,7 +918,7 @@ projects:
       - Privacy Enhancing Technologies
     references:
       - id: BBF18
-        text: '"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019.'
+        text: '"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains". D Boneh, B B?nz, B Fisch. IACR 2018, CRYPTO 2019.'
         links:
           - name: DOI
             url: https://doi.org/10.1007/978-3-030-26948-7_20
@@ -1019,10 +1019,10 @@ projects:
       - Cryptography and Privacy Enhancing Technologies
       - Machine Learning
     references:
-      - text: "Alpár, G., Jacobs, B.: Credential design in attribute-based identity management (2013)."
-      - text: "Camenisch, J., Lysyanskaya, A.: An efficient system for non-transferable anonymous credentials with optional anonymity revocation. In: Advances in Cryptology—EUROCRYPT 2001: International Conference on the Theory and Application of Cryptographic Techniques Innsbruck, Austria, May 6–10, 2001 Proceedings 20. pp. 93–118. Springer (2001)."
-      - text: "Ringers, S., Verheul, E., Hoepman, J.H.: An efficient self-blindable attribute-based credential scheme. In: Financial Cryptography and Data Security: 21st International Conference, FC 2017, Sliema, Malta, April 3-7, 2017, Revised Selected Papers 21. pp. 3–20. Springer (2017)."
-      - text: "Van Otterlo, M.: A machine learning view on profiling. Privacy, Due Process and the Computational Turn-Philosophers of Law Meet Philosophers of Technology. Abingdon: Routledge pp. 41–64 (2013)."
+      - text: "Alp?r, G., Jacobs, B.: Credential design in attribute-based identity management (2013)."
+      - text: "Camenisch, J., Lysyanskaya, A.: An efficient system for non-transferable anonymous credentials with optional anonymity revocation. In: Advances in Cryptology?EUROCRYPT 2001: International Conference on the Theory and Application of Cryptographic Techniques Innsbruck, Austria, May 6?10, 2001 Proceedings 20. pp. 93?118. Springer (2001)."
+      - text: "Ringers, S., Verheul, E., Hoepman, J.H.: An efficient self-blindable attribute-based credential scheme. In: Financial Cryptography and Data Security: 21st International Conference, FC 2017, Sliema, Malta, April 3-7, 2017, Revised Selected Papers 21. pp. 3?20. Springer (2017)."
+      - text: "Van Otterlo, M.: A machine learning view on profiling. Privacy, Due Process and the Computational Turn-Philosophers of Law Meet Philosophers of Technology. Abingdon: Routledge pp. 41?64 (2013)."
     notes: >
       The objectives can be tailored according to the intern's interests and the focus of the project.
 
@@ -1062,7 +1062,7 @@ projects:
           - name: Link
             url: https://datatracker.ietf.org/doc/rfc5280/
       - id: ISO18013-5
-        text: "ISO/IEC 18013-5, Personal identification — ISO-compliant driving licence — Part 5: Mobile driving licence (mDL) application, First edition, 2021-09."
+        text: "ISO/IEC 18013-5, Personal identification ? ISO-compliant driving licence ? Part 5: Mobile driving licence (mDL) application, First edition, 2021-09."
       - id: JCSL
         text: '"WT and CWT Status List". T, Looker et al., 10 July 2023.'
         links:
@@ -1176,7 +1176,7 @@ projects:
       - DevSecOps
     notes: Multiple positions available.
     references:
-      - text: "Myrbakken, H., & Colomo-Palacios, R. (2017). DevSecOps: a multivocal literature review. In Software Process Improvement and Capability Determination: 17th International Conference, SPICE 2017, Palma de Mallorca, Spain, October 4–5, 2017, Proceedings (pp. 17-29). Springer International Publishing."
+      - text: "Myrbakken, H., & Colomo-Palacios, R. (2017). DevSecOps: a multivocal literature review. In Software Process Improvement and Capability Determination: 17th International Conference, SPICE 2017, Palma de Mallorca, Spain, October 4?5, 2017, Proceedings (pp. 17-29). Springer International Publishing."
       - text: https://www.openpolicyagent.org/
         links:
           - name: Link
@@ -1567,7 +1567,7 @@ projects:
     applicationEnd: "2024-11-04 23:59"
     year: 2024
     description: >
-      "The characteristics of cloud native applications — like the inherent decentralization, the intricate threat model, and the presence of highly dynamic and interconnected microservices — bring forth a number of challenges to data security. In a recently published article [1], the Center for Cybersecurity (CS) of FBK has investigated the use of CryptoAC [2] to provide end-to-end protection of sensitive data in cloud native applications through cryptographic enforcement of access control policies. CryptoAC (short for Cryptographic Access Control) is an open-source tool written in the (multiplatform) Kotlin language, and potentially available as programming library, plugin, or microservice (Docker container). In this context, applicants may choose one of the following 2 activities: collaborate on extending the work in [1] by refining and evaluting the use of CryptoAC for data security in cloud native applications or extend the capabilities of CryptoAC in one or more of the following areas: user authentication with OpenID Connect and FIDO, integration of CryptoAC with Trusted Execution Environments (TEEs), cryptographic key management, strategies and tools for cryptographic bill of materials management. This project provides the opportunity to acquire the fundamentals of scientific research, investigate and explore cutting-edge and relevant research topics, and engage in software engineering and development while allowing applicants to design, propose, and implement their own ideas."
+      "The characteristics of cloud native applications ? like the inherent decentralization, the intricate threat model, and the presence of highly dynamic and interconnected microservices ? bring forth a number of challenges to data security. In a recently published article [1], the Center for Cybersecurity (CS) of FBK has investigated the use of CryptoAC [2] to provide end-to-end protection of sensitive data in cloud native applications through cryptographic enforcement of access control policies. CryptoAC (short for Cryptographic Access Control) is an open-source tool written in the (multiplatform) Kotlin language, and potentially available as programming library, plugin, or microservice (Docker container). In this context, applicants may choose one of the following 2 activities: collaborate on extending the work in [1] by refining and evaluting the use of CryptoAC for data security in cloud native applications or extend the capabilities of CryptoAC in one or more of the following areas: user authentication with OpenID Connect and FIDO, integration of CryptoAC with Trusted Execution Environments (TEEs), cryptographic key management, strategies and tools for cryptographic bill of materials management. This project provides the opportunity to acquire the fundamentals of scientific research, investigate and explore cutting-edge and relevant research topics, and engage in software engineering and development while allowing applicants to design, propose, and implement their own ideas."
     type: IT
     level:
       - BSc
@@ -1744,7 +1744,7 @@ projects:
     year: 2025
     description: >
       Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their compliance with the RFCs they are based on.<br />
-      To ensure that a TLS deployment is configured correctly, (inter)national cybersecurity agencies such as US’ NIST and Italian’s AgID/ACN periodically issue technical guidelines that describe a set of requirements able to mitigate known vulnerabilities and ensure an adequate security level. These guidelines presume that security issues are only due to an incorrect configuration while, in reality, problems may also arise from an incorrectly developed TLS libraries that generate messages which do not comply with the related RFCs.<br />
+      To ensure that a TLS deployment is configured correctly, (inter)national cybersecurity agencies such as US? NIST and Italian?s AgID/ACN periodically issue technical guidelines that describe a set of requirements able to mitigate known vulnerabilities and ensure an adequate security level. These guidelines presume that security issues are only due to an incorrect configuration while, in reality, problems may also arise from an incorrectly developed TLS libraries that generate messages which do not comply with the related RFCs.<br />
       The primary objective of this internship is to perform a technical review of the available software able to analyze raw network packets, validate their content and which structure is used by the protocol. The results will be employed in a process that aims to develop a new tool that can verify, analyze, and execute TLS connections. This tool will be used to assess the compliance of TLS libraries and related deployments.
     type: IT
     level:
@@ -1797,7 +1797,7 @@ projects:
     applicationPreviousEnd: "2025-02-07 23:59"
     year: 2025
     description: >
-      As modern systems become increasingly complex, ensuring their security, privacy and resilience requires more advanced approaches to threat modeling.  Artificial Intelligence (AI) has emerged as a powerful enabler to automate, enhance, and refine manual security and privacy assessments. By leveraging AI-driven techniques, organizations can identify the threats, vulnerabilities, potential attack vectors and mitigations more efficiently and with higher accuracy. However, the trustworthiness of AI-based threat modeling solutions must also be ensured—both to validate their findings and to mitigate any risks introduced by the AI systems themselves. This internship focuses on developing and evaluating AI-powered methodologies for automated threat modeling in cutting-edge systems such as Digital Identity Wallet and e-voting.
+      As modern systems become increasingly complex, ensuring their security, privacy and resilience requires more advanced approaches to threat modeling.  Artificial Intelligence (AI) has emerged as a powerful enabler to automate, enhance, and refine manual security and privacy assessments. By leveraging AI-driven techniques, organizations can identify the threats, vulnerabilities, potential attack vectors and mitigations more efficiently and with higher accuracy. However, the trustworthiness of AI-based threat modeling solutions must also be ensured?both to validate their findings and to mitigate any risks introduced by the AI systems themselves. This internship focuses on developing and evaluating AI-powered methodologies for automated threat modeling in cutting-edge systems such as Digital Identity Wallet and e-voting.
     type: IT
     level:
       - BSc
@@ -1843,7 +1843,7 @@ projects:
     applicationEnd: "2025-03-20 23:59"
     year: 2025
     description: >
-      The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, potential threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information—making the process time-intensive and reliant on thorough analysis. To address these challenges, at Security and Trust unit of the Center for Cybersecurity, we introduced and developed PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization.<br />
+      The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, potential threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information?making the process time-intensive and reliant on thorough analysis. To address these challenges, at Security and Trust unit of the Center for Cybersecurity, we introduced and developed PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization.<br />
       The primary objective of this internship is to conduct state-of-the-art research on privacy threat modeling, in particular, LLM-based approaches emphasizing how LLMs can be leveraged to automate and enhance these processes. The results will be employed to integrate AI agent concepts into PILLAR.
     type: IT
     level:
@@ -1918,7 +1918,7 @@ projects:
     year: 2025
     description: >
       OpenSSL is a software library initially released in 1998 that implements SSL and TLS protocols. Its usage provides secure communications over networks, and it has steadily become the de facto standard for the integration of TLS in webservers. With its latest release (v3.5), OpenSSL has deployed three PQC algorithms: ML-KEM (FIPS 203) for key exchange, ML-DSA (FIPS 204) and SLH-DSA (FIPS 205) as signature methods.<br />
-      The primary objective of this internship is to compare the algorithms’ implementation and validate the design choices performed during the design phase, investigating for common implementation flaws and possible side-channel attacks.
+      The primary objective of this internship is to compare the algorithms? implementation and validate the design choices performed during the design phase, investigating for common implementation flaws and possible side-channel attacks.
     type: IT
     level:
       - MSc
@@ -2018,7 +2018,7 @@ projects:
     applicationEnd: "2025-08-09 23:59"
     year: 2025
     description: >
-      Identity Management (IdM) protocols are the protocols supporting Single-Sign On (SSO) which is an authentication schema allowing the user to access different services using the same set of credentials. Two of the most known IdM protocols are SAML 2.0 SSO and OAuth 2.0/OpenID Connect. Several solutions for corporations like Google and Meta (Facebook), as well as for Public Administration—such as eIDAS, SPID, CIE, and the upcoming IT-Wallet—are based on IdM protocols. We propose improving an existing security testing tool to extend its capabilities by designing and implementing new features.
+      Identity Management (IdM) protocols are the protocols supporting Single-Sign On (SSO) which is an authentication schema allowing the user to access different services using the same set of credentials. Two of the most known IdM protocols are SAML 2.0 SSO and OAuth 2.0/OpenID Connect. Several solutions for corporations like Google and Meta (Facebook), as well as for Public Administration?such as eIDAS, SPID, CIE, and the upcoming IT-Wallet?are based on IdM protocols. We propose improving an existing security testing tool to extend its capabilities by designing and implementing new features.
     type: IT
     level:
       - BSc
@@ -2047,7 +2047,7 @@ projects:
     description: >
       Software systems are increasingly embedding diverse cryptographic functions to ensure the safe and secure implementation of code. At the same time, regulatory demands, such as those outlined in the Cryptographic Bill of Materials (CBOM)[1-2-3], require complete visibility into cryptography's use, including algorithms, parameters, modes of operation, and other relevant details. However, current solutions using static analysis and manual audits to enumerate and document these primitives are only available for a very small selection of libraries, such as Java and Python [4].<br />
       This research aims to explore how large language models (LLMs) fine-tuned on code, such as [5-6], can automatically detect calls to standard crypto-libraries, e.g., OpenSSL, Bouncy Castle, and custom routines, extract metadata (algorithm, mode, key size), and create the necessary CBOM inventory. This can be done by directly working with the codebase or extending existing analyzers [7].<br />
-      The student will survey related techniques, design LLM prompts and training strategies for reliable crypto‑function recognition, implement a prototype that processes repositories end-to-end, and evaluate its accuracy and performance against conventional static analyzers. Finally, the student must deliver a prototype that evaluates code for distinct languages (preferably C++, Go, JavaScript, or Rust) and assemble a structured crypto-inventory compliant with CBOM schemas.
+      The student will survey related techniques, design LLM prompts and training strategies for reliable crypto?function recognition, implement a prototype that processes repositories end-to-end, and evaluate its accuracy and performance against conventional static analyzers. Finally, the student must deliver a prototype that evaluates code for distinct languages (preferably C++, Go, JavaScript, or Rust) and assemble a structured crypto-inventory compliant with CBOM schemas.
     type: IT
     level:
       - MSc
@@ -2213,7 +2213,7 @@ projects:
     applicationEnd: "2025-10-10 23:59"
     year: 2025
     description: >
-      This internship and thesis project focuses on the study, development, and evaluation of data anonymization techniques applied to sensitive datasets intended for artificial intelligence (AI) applications. The work will address the dual challenge of preserving privacy while ensuring data remains sufficiently rich for AI model training [1, 2], in strict compliance with European regulations such as the GDPR [3]. The activity will involve surveying and classifying existing anonymization libraries and tools, such as [4, 5], both open-source and proprietary, based on their privacy models, technical features, and suitability for AI pipelines. Depending on the student’s interests, the project can be customized to emphasize:
+      This internship and thesis project focuses on the study, development, and evaluation of data anonymization techniques applied to sensitive datasets intended for artificial intelligence (AI) applications. The work will address the dual challenge of preserving privacy while ensuring data remains sufficiently rich for AI model training [1, 2], in strict compliance with European regulations such as the GDPR [3]. The activity will involve surveying and classifying existing anonymization libraries and tools, such as [4, 5], both open-source and proprietary, based on their privacy models, technical features, and suitability for AI pipelines. Depending on the student?s interests, the project can be customized to emphasize:
       <ul>
         <li>Research: investigating novel privacy-preserving methods or metrics;</li>
         <li>Development: integrating anonymization workflows into AI data preparation pipelines;</li>
@@ -2591,7 +2591,7 @@ projects:
     year: 2025
     description: >
       The generation and manipulation of facial images and videos have achieved increasingly hyper-realistic results in recent years. Modern face-swapping techniques can operate in real time and produce highly convincing results, making them one of the most diffused attack vectors for perpetrating impersonation-based scams and frauds online [1,2]. Technical means allowing for an early detection of compromised video evidence are therefore essential, and now required by technical standards for sensitive applications like remote identity proofing (see [3, Sec. 8.4.2]). A large body of research on face manipulation detection has led to the development of numerous dataset and detection approaches. Despite these efforts, deep-learning based detectors often struggle to generalize to real-world scenarios that differ from the data distributions seen during training. This generalization problem remains one of the primary challenges in deploying reliable detection systems in real-world scenarios [4].<br />
-      A recent research direction explores the use of Large Vision-Language Models (LVLMs) for deepfake detection. These models possess strong generalization capabilities and the ability to provide natural language explanations of the model’s predictions that enhance interpretability [5]. Such properties make LVLMs compelling candidates for robust and explainable face-swap detection.<br />
+      A recent research direction explores the use of Large Vision-Language Models (LVLMs) for deepfake detection. These models possess strong generalization capabilities and the ability to provide natural language explanations of the model?s predictions that enhance interpretability [5]. Such properties make LVLMs compelling candidates for robust and explainable face-swap detection.<br />
       This research aims to investigate the performance of LVLMs in detecting facial deepfakes on two novel datasets [6,7], assessing both their visual prediction and the textual explanation. Particular focus will be placed on the ability of the model to identify and localize different levels of face-swapping artifacts, from clearly visible artifacts to more subtle, high-fidelity manipulations.<br />
       The student will survey related work, become familiar with LVLMs architecture, and experiment with selected models on two novel deepfake detection datasets. Depending on time and interest, this analysis may also be extended from static images to videos, allowing the evaluation of LVLMs performance in more dynamic scenarios.
     type: IT
@@ -2654,7 +2654,7 @@ projects:
     applicationEnd: "2026-02-20 23:59"
     year: 2026
     description: >
-      Identity Management (IdM) protocols are the protocols supporting Single-Sign On (SSO) which is an authentication schema allowing the user to access different services using the same set of credentials. Two of the most known IdM protocols are SAML 2.0 SSO and OAuth 2.0/OpenID Connect. Several solutions for corporations like Google, Facebook and for Public Administration like eIDAS and SPID are based on IdM protocols. We propose to investigate and develop methodologies and tools for assessing the security and robustness of IdM implementations. This activity may include the definition of reusable testing patterns, the design and implementation of extensions or plugins for existing security testing tools—such as Micro-Id-Gym (MIG)—and the execution of automated security and conformance tests on IdM implementations.
+      Identity Management (IdM) protocols are the protocols supporting Single-Sign On (SSO) which is an authentication schema allowing the user to access different services using the same set of credentials. Two of the most known IdM protocols are SAML 2.0 SSO and OAuth 2.0/OpenID Connect. Several solutions for corporations like Google, Facebook and for Public Administration like eIDAS and SPID are based on IdM protocols. We propose to investigate and develop methodologies and tools for assessing the security and robustness of IdM implementations. This activity may include the definition of reusable testing patterns, the design and implementation of extensions or plugins for existing security testing tools?such as Micro-Id-Gym (MIG)?and the execution of automated security and conformance tests on IdM implementations.
     type: IT
     level:
       - BSc
@@ -2719,7 +2719,7 @@ projects:
     applicationEnd: "2026-03-27 23:59"
     year: 2026
     description: >
-      Identity Management systems, and especially National Digital Identity systems (NDIDs), are complex socio-technical infrastructures that must satisfy security, privacy, usability, trust, organizational, and legal requirements at the same time. To support designers in exploring design choices, linking requirements to mitigations, and deriving possible threats through a semi-automated workflow, we have developed an IdM Knowledge Base (IdM-KB) — a comprehensive repository of design goals, requirements, mitigations, threats, and attacks derived from a systematic review of over 186 academic and gray-literature sources. The IdM-KB is grounded in a purpose-built ontology and paired with a prototype tool that supports threat modeling workflows for IdM designers. The approach is promising, but it also has several limitations such as the knowledge base is still largely technology- and use-case-neutral, and it contains few use-case-specific entries. This internship project aims to address the current limitations by extending the current tool and evaluating it on a well-known NDID use case.
+      Identity Management systems, and especially National Digital Identity systems (NDIDs), are complex socio-technical infrastructures that must satisfy security, privacy, usability, trust, organizational, and legal requirements at the same time. To support designers in exploring design choices, linking requirements to mitigations, and deriving possible threats through a semi-automated workflow, we have developed an IdM Knowledge Base (IdM-KB) ? a comprehensive repository of design goals, requirements, mitigations, threats, and attacks derived from a systematic review of over 186 academic and gray-literature sources. The IdM-KB is grounded in a purpose-built ontology and paired with a prototype tool that supports threat modeling workflows for IdM designers. The approach is promising, but it also has several limitations such as the knowledge base is still largely technology- and use-case-neutral, and it contains few use-case-specific entries. This internship project aims to address the current limitations by extending the current tool and evaluating it on a well-known NDID use case.
     type: IT
     level:
       - BSc
@@ -2877,3 +2877,28 @@ projects:
       - Legal Informatics
       - Cross-Regulation Compliance
       - Goal Modeling
+
+  - id: p-2026-cs-001
+    title: "Test Internship Title"
+    published: "2026-04-28"
+    description: >
+      The goal of the internship is to handle ...
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ALEPH
+      - ST
+    supervisor:
+      - GiadaSciarretta
+      - MarcoPernpruner
+    prerequisites:
+      - Knowledge of IdM
+      - Experience in Java
+    objectives:
+      - Analyse literature
+      - Write papers
+    topics:
+      - IdM
+      - Research
