@@ -2877,3 +2877,28 @@ projects:
       - Legal Informatics
       - Cross-Regulation Compliance
       - Goal Modeling
+
+  - id: p-2026-cs-001
+    title: "Test Internship Title"
+    published: "2026-04-28"
+    description: >
+      The goal of the internship is to handle ...
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - ALEPH
+      - ST
+    supervisor:
+      - GiadaSciarretta
+      - MarcoPernpruner
+    prerequisites:
+      - Knowledge of IdM
+      - Experience in Java
+    objectives:
+      - Analyse literature
+      - Write papers
+    topics:
+      - IdM
+      - Research
