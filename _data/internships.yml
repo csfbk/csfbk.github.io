@@ -2877,3 +2877,35 @@ projects:
       - Legal Informatics
       - Cross-Regulation Compliance
       - Goal Modeling
+
+  - id: p-2026-st-4
+    title: "Secure Authorization Patterns in the Agentic AI Era"
+    published: "2026-05-13"
+    applicationEnd: "2026-05-23 23:59"
+    description: >
+      Traditional Authorization models such as Role-based Access Control (RBAC), Attribute-Based Access Control (ABAC) and OAuth scope based permissions were particularly designed for deterministic applications and mostly for static human identities. In these systems, authorization decisions typically evaluate who is requesting which resources under predefined conditions.<br />
+      Permissions were decided and it's valid for a longer period of time. However, emerging AI systems introduce plan, act and again replan where traditional authorization models act as static gates. It aims to dynamically reason, plan and execute multi-step actions across different tools, services, APIs and domains.<br />
+      Recent authorization models have moved towards more expressive models. Relationship-based systems such as Zanzibar/OpenFGA model permissions through relationships between users and resources, while policy engines such as Open Policy Agent (OPA) and AWS Cedar allow fine-grained policy based on attributes, context, and relationship. In agentic systems, these policy engines can be integrated directly into the agent execution loop so that each planned action is evaluated before executing, enabling dynamic policy enforcement.<br />
+      Recent discussions also propose constraint-aware planning, where policies guide the planning process itself rather than simply denying unauthorized actions. While these approaches represent important progress, they raise new questions about how authorization should evolve for autonomous systems that operate through goals and plans rather than individual requests.<br />
+      This research aims to explore how policy-based authorization mechanisms can guide and constrain agent planning and execution, and to analyze the limitations of existing models when applied to autonomous agents operating across multiple services and domains. Potential application scenarios and use cases will be identified and derived through a literature review of existing challenges in authorization and policy enforcement.
+    type: I
+    level:
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - AmirSharif
+    prerequisites:
+      - Good knowledge of cybersecurity, authorization principles and policy-based access control.
+      - Knowledge of OAuth, OpenID Connect, OPA, AWS Cedar, or OpenFGA is a plus, but not required.
+      - Interest in AI systems, autonomous agents, and security.
+      - Strong analytical and problem-solving skills.
+    objectives:
+      - Study traditional and recent authorization models, including RBAC, ABAC, OAuth scopes, relationship-based authorization, and policy-based authorization.
+      - Analyze the limitations of static authorization mechanisms when applied to agentic AI systems.
+      - Explore how policies can act not only as access-control checks, but also as constraints that guide agent planning.
+      - Investigate how the policy-based approach can integrate or complement other available solutions such as verifiable intent, Provenance Identity Continuity (PIC) Model, etc.
+    topics:
+      - AI Agent
+      - Authorization
+      - Verifiable Intent
