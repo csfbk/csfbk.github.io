@@ -516,7 +516,7 @@ projects:
     applicationEnd: 2023-09-27 23:59
     year: 2023
     description: |
-      TLSAssistant v2 is the latest version of our state-of-the-art analysis tool [1], a modular framework able to perform a wide set of checks and easily extensible with new features. Its main focus is to streamline the mitigation process of known and newly discovered TLS attacks, even for non-expert users, and it has recently gained the ability to assess security compliance against EU and US regulations.<br />
+      TLSAssistant v2 is the latest version of our state-of-the-art analysis tool [1], a modular framework able to perform a wide set of checks and easily extensible with new features. Its main focus is to streamline the mitigation process of known and newly discovered TLS attacks, even for non-expert users, and it has recently gained the ability to assess security compliance against EU and US regulations.
       The primary objective of this internship is to implement a novel module for the detection of new vulnerabilities in different scenarios (such as certificate chain validation, Android and iOS misconfigurations, and many others). The choice of the additional module will be made together with the selected candidate to maximize student interest and participation. Having to work with state-of-the-art tools and newly discovered vulnerabilities, the candidate will need determination and a willingness to overcome the challenges he or she is likely to face.
     level:
       - BSc
@@ -600,8 +600,8 @@ projects:
     applicationEnd: 2023-09-27 23:59
     year: 2023
     description: |
-      One of the strategic objectives of the European Union Agency for Cybersecurity (ENISA) to address the shortage and gap in cybersecurity skills is to increase user awareness among the general public and in primary and secondary education, as well as to strengthen training and promote cybersecurity in higher education [1]. To contribute to this effort, we are developing CyberQ, a web-based application that aims to assess users' cybersecurity awareness during dissemination events and training courses.<br />
-      The goal of this internship is to expand the inner structure, features, and user interface/user experience of the CyberQ prototype, as well as the set of predefined questions. This internship will give the student hands-on experience developing a useful and practical tool as well as an in-depth understanding of the complexities of cybersecurity awareness.<br />
+      One of the strategic objectives of the European Union Agency for Cybersecurity (ENISA) to address the shortage and gap in cybersecurity skills is to increase user awareness among the general public and in primary and secondary education, as well as to strengthen training and promote cybersecurity in higher education [1]. To contribute to this effort, we are developing CyberQ, a web-based application that aims to assess users' cybersecurity awareness during dissemination events and training courses.
+      The goal of this internship is to expand the inner structure, features, and user interface/user experience of the CyberQ prototype, as well as the set of predefined questions. This internship will give the student hands-on experience developing a useful and practical tool as well as an in-depth understanding of the complexities of cybersecurity awareness.
       The selected candidate will be able to contribute to the ongoing effort to raise cybersecurity awareness among the general public as well as in primary and secondary education. They will also be able to apply their knowledge and skills to develop a tool to promote cybersecurity in higher education and beyond.
     level:
       - BSc
@@ -715,7 +715,7 @@ projects:
     applicationEnd: 2023-09-27 23:59
     year: 2023
     description: |
-      In recent years, more and more online services are being exposed over the Internet to enable a seamless experience for the citizens (e.g., eHealth, eGovernment and home banking platforms). Depending on their level of sensibility, these services may require a strong authentication of the claimants, in order to have guarantees on their (digital) identity. Authentication protocols thus represent a significant target for malicious entities, who frequently try to compromise them to illegitimately access the underlying services and gain advantages. For this reason, evaluating the security of Identity Management protocols represents a fundamental task, as it allows to identify potential attackers and define countermeasures to mitigate them. Among the techniques that are commonly used in this field, formal methods represent the most precise, yet computationally complex: they usually require a formal specification of the protocol under the evaluation, and verify that the security properties to guarantee hold during the execution of the protocol.<br />
+      In recent years, more and more online services are being exposed over the Internet to enable a seamless experience for the citizens (e.g., eHealth, eGovernment and home banking platforms). Depending on their level of sensibility, these services may require a strong authentication of the claimants, in order to have guarantees on their (digital) identity. Authentication protocols thus represent a significant target for malicious entities, who frequently try to compromise them to illegitimately access the underlying services and gain advantages. For this reason, evaluating the security of Identity Management protocols represents a fundamental task, as it allows to identify potential attackers and define countermeasures to mitigate them. Among the techniques that are commonly used in this field, formal methods represent the most precise, yet computationally complex: they usually require a formal specification of the protocol under the evaluation, and verify that the security properties to guarantee hold during the execution of the protocol.
       The state of the art currently features many tools to perform security protocol verification, each one with its own peculiarities. Within the Security & Trust research unit, we are currently using the tool SATMC [1]; however, we would like to explore other tools (e.g., Tamarin [2], ProVerif [3], VerifPal [4]) in order to understand similarities and differences, as well as face challenges related to how the gap with SATMC can be filled.
     level: MSc
     unit: ST
@@ -788,8 +788,8 @@ projects:
     applicationEnd: 2023-09-27 23:59
     year: 2023
     description: |
-      "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."<br />
-      DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.<br />
+      "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."
+      DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.
       For Cloud Native Applications, security regards multiple levels (code, container, deployment, orchestrator, etc.) and the approach to introduce security should consider all of them.
     level:
       - BSc
@@ -798,7 +798,7 @@ projects:
     supervisor:
       - PietroDeMatteis
     objectives: |
-      The main target is related cloud native application development life cicle, based on micriservices and distribuited deployment (for example Docker and Kubernetes).<br />
+      The main target is related cloud native application development life cicle, based on micriservices and distribuited deployment (for example Docker and Kubernetes).
       Additional:
       <ul>
         <li>analyze scenarios and use cases</li>
@@ -894,8 +894,8 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      There is a strong interest in privacy-enhancing technologies to satisfy the complex requirements of digital identity, in particular minimizing the personal data shared at each presentation and preventing others from correlating the activity of digital identity credential holders between presentations. Important use cases are the Mobile Driver's License (ISO 18013-5) and the European Digital Identity Wallet.<br />
-      Cryptographic accumulators, e.g., [BdM93, N05, LLX07, BBF18, VB20] are efficient protocols to prove set (non-)membership that have been proposed as privacy-enhancing credential revocation mechanisms for digital credentials, e.g., [CL02].<br />
+      There is a strong interest in privacy-enhancing technologies to satisfy the complex requirements of digital identity, in particular minimizing the personal data shared at each presentation and preventing others from correlating the activity of digital identity credential holders between presentations. Important use cases are the Mobile Driver's License (ISO 18013-5) and the European Digital Identity Wallet.
+      Cryptographic accumulators, e.g., [BdM93, N05, LLX07, BBF18, VB20] are efficient protocols to prove set (non-)membership that have been proposed as privacy-enhancing credential revocation mechanisms for digital credentials, e.g., [CL02].
       During the internship, you will have an opportunity to consider theoretical and practical aspects of these technologies, to be agreed upon based on your interest and prior knowledge. We are particularly interested in a performance comparison of algorithms of interest, possibly using existing libraries (e.g., accumulator-rs).
     level: MSc
     unit: ALEPH
@@ -997,8 +997,8 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      Studying unlinkability in the world of digital identity holds significant importance. It helps create strong and privacy-preserving digital identity systems, allowing people to protect their privacy, by preventing others from linking their actions and building profiles. A good example use case of this study is the European Digital Identity Wallet, which stores information such as IDs and mobile driving licenses.<br />
-      Cryptographic techniques such as selective disclosure and zero-knowledge mechanisms [1,2,3] can ensure that digital identity systems provide only the necessary information, contributing to unlikability of identity credentials and user privacy in regards.  However, it's imperative to question the reliability of these techniques.<br />
+      Studying unlinkability in the world of digital identity holds significant importance. It helps create strong and privacy-preserving digital identity systems, allowing people to protect their privacy, by preventing others from linking their actions and building profiles. A good example use case of this study is the European Digital Identity Wallet, which stores information such as IDs and mobile driving licenses.
+      Cryptographic techniques such as selective disclosure and zero-knowledge mechanisms [1,2,3] can ensure that digital identity systems provide only the necessary information, contributing to unlikability of identity credentials and user privacy in regards.  However, it's imperative to question the reliability of these techniques.
       Machine learning, with its proficiency in pattern recognition and data analysis, is  a powerful tool in this context. It possesses the capability to uncover hidden links and vulnerabilities within identity systems, enabling the detection and mitigation of re-identification and profiling [4]. During your internship, you'll get a chance to explore both the theory and practical aspects of these techniques, based on your interests and prior knowledge. Our primary focus will be on investigating the key factors that contribute to the unlinkability of identity credentials, with a special emphasis on the implementation of unlinkability techniques, particularly in the context of identity creation and presentation within relevant use cases. We'll also use machine learning to see how any of these key factors can make it easier or harder to stay anonymous.
     level: MSc
     unit: ALEPH
@@ -1029,8 +1029,8 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      Revocation of X.509 certificates on the web is commonly addressed by Certificate Revocation Lists [CRL] and Online Certificate Status Protocol [OCSP]. The most common scenario is one in which the certificate Holder is a web server, the certificate Verifier is a desktop-run web browser, and the revocation Responder is also a web server. Scalability of this model to large numbers of Verifiers may be handled by content delivery networks.<br />
-      New scenarios of interest are emerging, including the Mobile Driving License [ISO18013-5], in which both Holder and Verifier may be edge devices, either or both of which may be offline for significant periods of time, and both have fewer resources than the web-based client-server scenario. New mechanisms are also being considered, e.g. [JCSL], as well as cryptographic revocation. It is not obvious in all possible scenarios what the best balance would be between frequency of revocation status requests, frequency of issuance (signature) of attestations and revocation information, and bandwidth consumed, given the different options available for implementing technologies, while at the same time guaranteeing the greatest degree of security and privacy for all participants.<br />
+      Revocation of X.509 certificates on the web is commonly addressed by Certificate Revocation Lists [CRL] and Online Certificate Status Protocol [OCSP]. The most common scenario is one in which the certificate Holder is a web server, the certificate Verifier is a desktop-run web browser, and the revocation Responder is also a web server. Scalability of this model to large numbers of Verifiers may be handled by content delivery networks.
+      New scenarios of interest are emerging, including the Mobile Driving License [ISO18013-5], in which both Holder and Verifier may be edge devices, either or both of which may be offline for significant periods of time, and both have fewer resources than the web-based client-server scenario. New mechanisms are also being considered, e.g. [JCSL], as well as cryptographic revocation. It is not obvious in all possible scenarios what the best balance would be between frequency of revocation status requests, frequency of issuance (signature) of attestations and revocation information, and bandwidth consumed, given the different options available for implementing technologies, while at the same time guaranteeing the greatest degree of security and privacy for all participants.
       During the internship, you will have an opportunity to consider theoretical and practical aspects of these technologies, to be agreed based on your interest and prior knowledge.
     level:
       - BSc
@@ -1079,8 +1079,8 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      Electronic voting (e-voting) includes processes in whole or in part executed by electronic means, such as by using voting machines to cast ballots, using scanners to digitize paper ballots, or casting votes remotely over the internet (i-voting).<br />
-      Cryptography is at the heart of end-to-end verifiable protocols, including additively homomorphic encryption to tally votes without decrypting each one, secure multi-party computation to avoid a single authority from having all private keys, and zero-knowledge proofs to prove ballot correctness, among other properties.<br />
+      Electronic voting (e-voting) includes processes in whole or in part executed by electronic means, such as by using voting machines to cast ballots, using scanners to digitize paper ballots, or casting votes remotely over the internet (i-voting).
+      Cryptography is at the heart of end-to-end verifiable protocols, including additively homomorphic encryption to tally votes without decrypting each one, secure multi-party computation to avoid a single authority from having all private keys, and zero-knowledge proofs to prove ballot correctness, among other properties.
       During a recent e-voting project, we developed a library for cryptographic functions in Python based on the MIRACL core library and the protocol summarized in [LMST22]. The successful applicant will have the opportunity to assist in performing the same task in the more secure and performant Rust language.
     level: MSc
     unit: ALEPH
@@ -1118,8 +1118,8 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."<br />
-      DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.<br />
+      "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."
+      DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.
       For Cloud Native Applications, security regards multiple levels (code, container, deployment, orchestrator, etc.) and the approach to introduce security should consider all of them.
     level:
       - BSc
@@ -1131,7 +1131,7 @@ projects:
       - Knowledge base of Software Development Life Cycle (optional).
       - Basic Knowledge with Kubernetes, DevOps or DevSecOps tools (optional).
     objectives: |
-      The main target is related cloud native application development life cicle, based on micriservices and distribuited deployment (for example Docker and Kubernetes).<br />
+      The main target is related cloud native application development life cicle, based on micriservices and distribuited deployment (for example Docker and Kubernetes).
       Additional:
       <ul>
         <li>analyze scenarios and use cases</li>
@@ -1186,7 +1186,7 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      Kubernetes Without Kubelet (KWOK) [1][2] is an experimental tool that is able to simulate large Kubernetes clusters with a very limited footprint on the system. While setting up regular Kubernetes clusters --- even for testing and educational purposes --- requires time, resources and even an innocent mistake may require a full redeployment, KWOK allows the provisioning of multiple clusters, each with hundreds of nodes, with no overhead and full compatibility with all the Kubernetes ecosystem. Workloads that are deployed will be transparently simulated on the system, reflecting any configuration provided by users (redundancy, quotas, labels) and reacting accordingly, just like a real cluster.<br />
+      Kubernetes Without Kubelet (KWOK) [1][2] is an experimental tool that is able to simulate large Kubernetes clusters with a very limited footprint on the system. While setting up regular Kubernetes clusters --- even for testing and educational purposes --- requires time, resources and even an innocent mistake may require a full redeployment, KWOK allows the provisioning of multiple clusters, each with hundreds of nodes, with no overhead and full compatibility with all the Kubernetes ecosystem. Workloads that are deployed will be transparently simulated on the system, reflecting any configuration provided by users (redundancy, quotas, labels) and reacting accordingly, just like a real cluster.
       The objective of this internship project is twofold. First, candidates will get acquainted with container orchestration and how to the Kubernetes works, the interactions between all the modules, and the configuratgions needed to run custom schedulers, CRDs, proxies and tools. Second, the candidate will learn more about CRDs and custom projects using K8s, testing in the KWOK a custom scheduler.
     level:
       - BSc
@@ -1273,7 +1273,7 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      OpenID Connect (OIDC) has shown to need a set of privacy best current practices (BCPs), since only a handful of guidelines can be found in this regard. In 2023, we provided a set of BCPs to fill that gap (Sassetti et al.), as well as an assessment of the privacy posture of several OIDC Providers (OPs). The results have shown that only a few OPs provide high baseline privacy, whereas many others implement only bare minimum requirements. Though, one of the issues of the analysis was the lack of automation, thus impacting its scale.<br />
+      OpenID Connect (OIDC) has shown to need a set of privacy best current practices (BCPs), since only a handful of guidelines can be found in this regard. In 2023, we provided a set of BCPs to fill that gap (Sassetti et al.), as well as an assessment of the privacy posture of several OIDC Providers (OPs). The results have shown that only a few OPs provide high baseline privacy, whereas many others implement only bare minimum requirements. Though, one of the issues of the analysis was the lack of automation, thus impacting its scale.
       As a new line of work, we plan on automating the assessment of the privacy posture of OPs and extending it to web applications that are integrating the solutions of identified OPs. This can be done either by using pentesting tools, i.e., Micro-Id-Gym (MIG) (Bisegna et al.), or with autonomously developed scripts; a third hybrid approach can be considered.
     level:
       - MSc
@@ -1306,7 +1306,7 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      TLSAssistant v2 is the latest version of our state-of-the-art analysis tool [1], a modular framework able to perform a wide set of checks and easily extensible with new features. Its main focus is to streamline the mitigation process of known and newly discovered TLS attacks, even for non-expert users, and it has recently gained the ability to assess security compliance against EU and US regulations.<br />
+      TLSAssistant v2 is the latest version of our state-of-the-art analysis tool [1], a modular framework able to perform a wide set of checks and easily extensible with new features. Its main focus is to streamline the mitigation process of known and newly discovered TLS attacks, even for non-expert users, and it has recently gained the ability to assess security compliance against EU and US regulations.
       The primary objective of this internship is to enhance its analysis capabilities by implementing a novel module able to perform static security assessments of Android and iOS applications. The module will be based on the powerful SEBASTiAn [2] open-source tool, developed by a spin-off company of the University of Genova. Working with a state-of-the-art tool and newly discovered vulnerabilities, the candidate will need determination and a willingness to overcome the challenges he or she is likely to face.
     level:
       - BSc
@@ -1345,7 +1345,7 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      A Breach and Attack Simulation (BAS) tool is a cybersecurity solution designed to assess and improve the security posture of an organization's IT infrastructure. BAS tools simulate TTP (Tactics, Techniques, and Procedures) of advanced real-world cyberattacks and security breaches in a controlled environment to evaluate the effectiveness of an organization's security defenses. The primary goal of a BAS is to identify vulnerabilities, misconfigurations, and weaknesses in security controls before real attackers can exploit them.<br />
+      A Breach and Attack Simulation (BAS) tool is a cybersecurity solution designed to assess and improve the security posture of an organization's IT infrastructure. BAS tools simulate TTP (Tactics, Techniques, and Procedures) of advanced real-world cyberattacks and security breaches in a controlled environment to evaluate the effectiveness of an organization's security defenses. The primary goal of a BAS is to identify vulnerabilities, misconfigurations, and weaknesses in security controls before real attackers can exploit them.
       The primary objective of this internship is to perform a literature review on the state-of-the-art, comparing the capabilities of existing tools, their features, and how they can be replicated.
     type: IT
     level:
@@ -1401,7 +1401,7 @@ projects:
     applicationEnd: 2024-01-31 23:59
     year: 2024
     description: |
-      A Breach and Attack Simulation (BAS) tool is a cybersecurity solution designed to assess and improve the security posture of an organization's IT infrastructure. BAS tools simulate TTP (Tactics, Techniques, and Procedures) of advanced real-world cyberattacks and security breaches in a controlled environment to evaluate the effectiveness of an organization's security defenses. The primary goal of a BAS is to identify vulnerabilities, misconfigurations, and weaknesses in security controls before real attackers can exploit them.<br />
+      A Breach and Attack Simulation (BAS) tool is a cybersecurity solution designed to assess and improve the security posture of an organization's IT infrastructure. BAS tools simulate TTP (Tactics, Techniques, and Procedures) of advanced real-world cyberattacks and security breaches in a controlled environment to evaluate the effectiveness of an organization's security defenses. The primary goal of a BAS is to identify vulnerabilities, misconfigurations, and weaknesses in security controls before real attackers can exploit them.
       Focusing on the future replicability of the task performed, the principal aim of this internship is to implement a proposed use-case utilizing a fully functional open-source BAS/Adversary Emulation tool.  By the end of the internship, the intern should have developed a thorough comprehension of the present state of threats and will have successfully simulated a highly consequential one, ultimately offering mitigation strategies. It would be ideal if the intern devised a method for constructing payloads that simulate advanced cyberattacks with ease, thereby establishing a modular and replicable approach.
     level:
       - BSc
@@ -1612,8 +1612,8 @@ projects:
     applicationPreviousEnd: 2024-11-12 23:59
     year: 2024
     description: |
-      "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."<br />
-      DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.<br />
+      "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required," describes Shannon Lietz, co-author of the "DevSecOps Manifesto."
+      DevSecOps (development, security, and operations) is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security.
       For Cloud Native Applications, security regards multiple levels (code, container, deployment, orchestrator, etc.) and the approach to introduce security should consider all of them.
     type: IT
     level:
@@ -1745,8 +1745,8 @@ projects:
     applicationPreviousEnd: 2025-02-20 23:59
     year: 2025
     description: |
-      Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their compliance with the RFCs they are based on.<br />
-      To ensure that a TLS deployment is configured correctly, (inter)national cybersecurity agencies such as US’ NIST and Italian’s AgID/ACN periodically issue technical guidelines that describe a set of requirements able to mitigate known vulnerabilities and ensure an adequate security level. These guidelines presume that security issues are only due to an incorrect configuration while, in reality, problems may also arise from an incorrectly developed TLS libraries that generate messages which do not comply with the related RFCs.<br />
+      Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their compliance with the RFCs they are based on.
+      To ensure that a TLS deployment is configured correctly, (inter)national cybersecurity agencies such as US’ NIST and Italian’s AgID/ACN periodically issue technical guidelines that describe a set of requirements able to mitigate known vulnerabilities and ensure an adequate security level. These guidelines presume that security issues are only due to an incorrect configuration while, in reality, problems may also arise from an incorrectly developed TLS libraries that generate messages which do not comply with the related RFCs.
       The primary objective of this internship is to perform a technical review of the available software able to analyze raw network packets, validate their content and which structure is used by the protocol. The results will be employed in a process that aims to develop a new tool that can verify, analyze, and execute TLS connections. This tool will be used to assess the compliance of TLS libraries and related deployments.
     type: IT
     level:
@@ -1846,7 +1846,7 @@ projects:
     applicationEnd: 2025-03-20 23:59
     year: 2025
     description: |
-      The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, potential threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information—making the process time-intensive and reliant on thorough analysis. To address these challenges, at Security and Trust unit of the Center for Cybersecurity, we introduced and developed PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization.<br />
+      The rapid evolution of Large Language Models (LLMs) has unlocked new possibilities for applying artificial intelligence across a wide range of fields, including privacy engineering. As modern applications increasingly handle sensitive user data, safeguarding privacy has become more critical than ever. To ensure robust data protection, potential threats must be identified and addressed early in the development process. Privacy threat modeling frameworks like LINDDUN offer structured approaches for uncovering these risks, yet they often require significant manual effort, expert knowledge, and detailed system information—making the process time-intensive and reliant on thorough analysis. To address these challenges, at Security and Trust unit of the Center for Cybersecurity, we introduced and developed PILLAR (Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool that implements and automates the LINDDUN framework through LLM integration to streamline and enhance privacy threat modeling. PILLAR automates key parts of the LINDDUN process, such as generating DFDs from unstructured textual inputs (e.g. system descriptions), eliciting privacy threats, and risk-based threat prioritization.
       The primary objective of this internship is to conduct state-of-the-art research on privacy threat modeling, in particular, LLM-based approaches emphasizing how LLMs can be leveraged to automate and enhance these processes. The results will be employed to integrate AI agent concepts into PILLAR.
     type: IT
     level:
@@ -1921,7 +1921,7 @@ projects:
     applicationPreviousEnd: 2025-05-09 23:59
     year: 2025
     description: |
-      OpenSSL is a software library initially released in 1998 that implements SSL and TLS protocols. Its usage provides secure communications over networks, and it has steadily become the de facto standard for the integration of TLS in webservers. With its latest release (v3.5), OpenSSL has deployed three PQC algorithms: ML-KEM (FIPS 203) for key exchange, ML-DSA (FIPS 204) and SLH-DSA (FIPS 205) as signature methods.<br />
+      OpenSSL is a software library initially released in 1998 that implements SSL and TLS protocols. Its usage provides secure communications over networks, and it has steadily become the de facto standard for the integration of TLS in webservers. With its latest release (v3.5), OpenSSL has deployed three PQC algorithms: ML-KEM (FIPS 203) for key exchange, ML-DSA (FIPS 204) and SLH-DSA (FIPS 205) as signature methods.
       The primary objective of this internship is to compare the algorithms’ implementation and validate the design choices performed during the design phase, investigating for common implementation flaws and possible side-channel attacks.
     type: IT
     level:
@@ -1967,8 +1967,8 @@ projects:
     applicationEnd: 2025-06-12 23:59
     year: 2025
     description: |
-      Software Systems are continuously and rapidly evolving, requiring engineers to address increasingly new complex and multi-dimensional aspects. These include for example the integration of Artificial Intelligence (AI), compliance with new and evolving EU Regulations (e.g., EU AI Act, NIS2, GDPR, etc.), and ensuring that systems are secure, ethical and trustworthy.<br />
-      To meet these demands, current practices in Secure Software Engineering and DevSecOps (Development, Security, and Operations) must be extended to address these new challenges. Especially when considering DevSecOps for Cloud Native Applications, where the attack surface spans multiple layers (e.g., code, container, deployment, orchestrator, etc.). "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required", describes Shannon Lietz, co-author of the "DevSecOps Manifesto".<br />
+      Software Systems are continuously and rapidly evolving, requiring engineers to address increasingly new complex and multi-dimensional aspects. These include for example the integration of Artificial Intelligence (AI), compliance with new and evolving EU Regulations (e.g., EU AI Act, NIS2, GDPR, etc.), and ensuring that systems are secure, ethical and trustworthy.
+      To meet these demands, current practices in Secure Software Engineering and DevSecOps (Development, Security, and Operations) must be extended to address these new challenges. Especially when considering DevSecOps for Cloud Native Applications, where the attack surface spans multiple layers (e.g., code, container, deployment, orchestrator, etc.). "The purpose and intent of DevSecOps is to build on the mindset that everyone is responsible for security with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required", describes Shannon Lietz, co-author of the "DevSecOps Manifesto".
       DevSecOps is an approach to automate the integration of cybersecurity processes at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery. It represents a natural and necessary evolution in the way development organizations approach security. For Cloud Native Applications, security regards multiple levels (code, container, deployment, orchestrator, etc.) and the approach to introduce security should consider all of them.
     type: IT
     level:
@@ -2049,8 +2049,8 @@ projects:
     applicationPreviousEnd: 2025-08-09 23:59
     year: 2025
     description: |
-      Software systems are increasingly embedding diverse cryptographic functions to ensure the safe and secure implementation of code. At the same time, regulatory demands, such as those outlined in the Cryptographic Bill of Materials (CBOM)[1-2-3], require complete visibility into cryptography's use, including algorithms, parameters, modes of operation, and other relevant details. However, current solutions using static analysis and manual audits to enumerate and document these primitives are only available for a very small selection of libraries, such as Java and Python [4].<br />
-      This research aims to explore how large language models (LLMs) fine-tuned on code, such as [5-6], can automatically detect calls to standard crypto-libraries, e.g., OpenSSL, Bouncy Castle, and custom routines, extract metadata (algorithm, mode, key size), and create the necessary CBOM inventory. This can be done by directly working with the codebase or extending existing analyzers [7].<br />
+      Software systems are increasingly embedding diverse cryptographic functions to ensure the safe and secure implementation of code. At the same time, regulatory demands, such as those outlined in the Cryptographic Bill of Materials (CBOM)[1-2-3], require complete visibility into cryptography's use, including algorithms, parameters, modes of operation, and other relevant details. However, current solutions using static analysis and manual audits to enumerate and document these primitives are only available for a very small selection of libraries, such as Java and Python [4].
+      This research aims to explore how large language models (LLMs) fine-tuned on code, such as [5-6], can automatically detect calls to standard crypto-libraries, e.g., OpenSSL, Bouncy Castle, and custom routines, extract metadata (algorithm, mode, key size), and create the necessary CBOM inventory. This can be done by directly working with the codebase or extending existing analyzers [7].
       The student will survey related techniques, design LLM prompts and training strategies for reliable crypto‑function recognition, implement a prototype that processes repositories end-to-end, and evaluate its accuracy and performance against conventional static analyzers. Finally, the student must deliver a prototype that evaluates code for distinct languages (preferably C++, Go, JavaScript, or Rust) and assemble a structured crypto-inventory compliant with CBOM schemas.
     type: IT
     level:
@@ -2151,9 +2151,9 @@ projects:
     applicationPreviousEnd: 2025-09-08 23:59
     year: 2025
     description: |
-      According to a Gartner research [1], Software Supply Chain attacks present serious security, compliance, and operational challenges for organizations, with estimated costs expected to rise from $46 billion in 2023 to $138 billion by 2031.<br />
-      A Software Bill of Materials (SBOM) is a critical component in modern software supply chain security. It provides a detailed inventory of all software components, libraries, and dependencies used in an application. By integrating SBOMs throughout the Software Development Life Cycle (SDLC), organizations can proactively identify vulnerabilities, ensure compliance, and enhance transparency [2].<br />
-      One of the standard to describe a bill of material in a machine-readable format is CycloneDX (CDX) [3], developed by the Open Worldwide Application Security Project(OWASP) [4] community. CycloneDX extends the concept of Bill of Material also to other components (xBOM) [5]: Cryptography, Configuration and Deployment, AI/Machine Learning and so on.<br />
+      According to a Gartner research [1], Software Supply Chain attacks present serious security, compliance, and operational challenges for organizations, with estimated costs expected to rise from $46 billion in 2023 to $138 billion by 2031.
+      A Software Bill of Materials (SBOM) is a critical component in modern software supply chain security. It provides a detailed inventory of all software components, libraries, and dependencies used in an application. By integrating SBOMs throughout the Software Development Life Cycle (SDLC), organizations can proactively identify vulnerabilities, ensure compliance, and enhance transparency [2].
+      One of the standard to describe a bill of material in a machine-readable format is CycloneDX (CDX) [3], developed by the Open Worldwide Application Security Project(OWASP) [4] community. CycloneDX extends the concept of Bill of Material also to other components (xBOM) [5]: Cryptography, Configuration and Deployment, AI/Machine Learning and so on.
       The focus of the Internship (and Thesis) is to explore the xBOM approach in SDLC phases to improve Security linked to the Software Supply Chain.
     type: IT
     level:
@@ -2278,8 +2278,8 @@ projects:
     applicationEnd: 2025-10-15 23:59
     year: 2025
     description: |
-      Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their conformance with the RFCs they are based on, nor to verify whether an actual stream of traffic is behaving in an anomalous way.<br />
-      The primary objective of this internship is to elevate the TRL (Technology Readiness Level) of an internal, and still unpublished, open-source tool able to parse and validate TLS 1.3 bytestreams. The tool will serve as the baseline for future researches, so its ongoing development and the required effort will be adjusted depending on the profile of the candidate (e.g., bachelor/master and inclination on specific topics).<br />
+      Since its first version was published as an RFC in 1999, Transport Layer Security (TLS) has rapidly become the de facto standard for providing confidentiality and integrity to communications exchanged in an unsecured environment. While there exist multiple implementations (e.g., OpenSSL, GnuTLS, rusttls) that allow system administrators to easily deploy a webserver, there does not exist a practical way to verify their conformance with the RFCs they are based on, nor to verify whether an actual stream of traffic is behaving in an anomalous way.
+      The primary objective of this internship is to elevate the TRL (Technology Readiness Level) of an internal, and still unpublished, open-source tool able to parse and validate TLS 1.3 bytestreams. The tool will serve as the baseline for future researches, so its ongoing development and the required effort will be adjusted depending on the profile of the candidate (e.g., bachelor/master and inclination on specific topics).
       At the end of the internship (and thesis) period, the selected candidate will possess an in-depth knowledge on bytestream analysis techniques, on a related network security protocol, and on applied research methodologies.
     type: IT
     level:
@@ -2357,9 +2357,9 @@ projects:
     applicationEnd: 2025-12-07 23:59
     year: 2025
     description: |
-      Bulletin Boards (BB) are a commonly resorted to, but not well specified, notion in cryptography, such as secure multiparty computation protocols. The main properties expected of a bulletin board are cryptographic verifiability, ability to be written to by several participants, and immutability - or at least, tamper-evidence.<br />
-      Many BB design goals are reminiscent of Certificate Transparency (CT) logs -- publicly verifiable, tamper-proof, append-only logs of issued PKI certificates.<br />
-      A use case of particular interest is e-voting protocols, especially cast ballot verifiability in the voting phase.<br />
+      Bulletin Boards (BB) are a commonly resorted to, but not well specified, notion in cryptography, such as secure multiparty computation protocols. The main properties expected of a bulletin board are cryptographic verifiability, ability to be written to by several participants, and immutability - or at least, tamper-evidence.
+      Many BB design goals are reminiscent of Certificate Transparency (CT) logs -- publicly verifiable, tamper-proof, append-only logs of issued PKI certificates.
+      A use case of particular interest is e-voting protocols, especially cast ballot verifiability in the voting phase.
       This internship is focused on the potential for CT log technologies as implementations of BBs, and research on possible enhancements of particular interest for the chosen use case.
     type: IT
     level:
@@ -2433,11 +2433,11 @@ projects:
     applicationEnd: 2025-12-10 23:59
     year: 2025
     description: |
-      Lattice-based cryptography is one of the main families of post-quantum cryptography, and among the first to have been officially standardized. A fundamental building block in many lattice-based schemes is the discrete Gaussian sampler. Significant research has been conducted in recent years, resulting in a lot of proposed schemes; however, designing a sampler that is both secure and efficient remains a challenging task.<br />
-      One of the most important security requirements is running in constant time to avoid side-channel attacks.<br />
-      The samplers that were recently proposed are based on different paradigms. Some of them use the Knuth-Yao random walk [KRRVV18], others the Cumulative Distribution Table [EGRZ25], or rejection sampling [HPRR20].<br />
-      This internship focuses on the study of these samplers, analyzing the strengths and weaknesses of each approach, and evaluating their security properties as well as their efficiency, since sampling is a significant proportion of the computational effort required in these schemes. This analysis aims to enable a choice for the scenarios in which each sampler is most suitable.<br />
-      Furthermore, some properties such as runtime performance, will be evaluated practically through benchmarking.<br />
+      Lattice-based cryptography is one of the main families of post-quantum cryptography, and among the first to have been officially standardized. A fundamental building block in many lattice-based schemes is the discrete Gaussian sampler. Significant research has been conducted in recent years, resulting in a lot of proposed schemes; however, designing a sampler that is both secure and efficient remains a challenging task.
+      One of the most important security requirements is running in constant time to avoid side-channel attacks.
+      The samplers that were recently proposed are based on different paradigms. Some of them use the Knuth-Yao random walk [KRRVV18], others the Cumulative Distribution Table [EGRZ25], or rejection sampling [HPRR20].
+      This internship focuses on the study of these samplers, analyzing the strengths and weaknesses of each approach, and evaluating their security properties as well as their efficiency, since sampling is a significant proportion of the computational effort required in these schemes. This analysis aims to enable a choice for the scenarios in which each sampler is most suitable.
+      Furthermore, some properties such as runtime performance, will be evaluated practically through benchmarking.
       The candidate will also explore the implementation of a constant-time Gaussian sampler in rust, analyzing how the various operations should be designed to be resistant against timing attacks.
     type: IT
     level:
@@ -2482,8 +2482,8 @@ projects:
     applicationEnd: 2025-12-10 23:59
     year: 2025
     description: |
-      Machine-learning systems are increasingly required to provide trustworthy, privacy-preserving, and verifiable outputs, especially in regulated or adversarial environments [1]. Zero-knowledge proofs (ZKPs), a staple of cryptographic privacy, have emerged as a promising technique to enable verifiable inference without revealing model weights or input data. Recent frameworks built on proof systems such as Halo2 [2, 3] aim to automate the transformation of neural networks into ZK circuits. However, current zkML solutions are difficult to deploy in practice due to their heavy computational overhead.<br />
-      This research aims to investigate how modern proving systems support machine-learning inference, analyze the design choices behind zkML frameworks, and evaluate whether circuit-level improvements or the adoption of different schemes can make zkML more practical. The study will consider both the cryptographic foundations (e.g., constraint systems, lookup arguments, commitment schemes) and the challenges of encoding neural-network computation into ZK circuits.<br />
+      Machine-learning systems are increasingly required to provide trustworthy, privacy-preserving, and verifiable outputs, especially in regulated or adversarial environments [1]. Zero-knowledge proofs (ZKPs), a staple of cryptographic privacy, have emerged as a promising technique to enable verifiable inference without revealing model weights or input data. Recent frameworks built on proof systems such as Halo2 [2, 3] aim to automate the transformation of neural networks into ZK circuits. However, current zkML solutions are difficult to deploy in practice due to their heavy computational overhead.
+      This research aims to investigate how modern proving systems support machine-learning inference, analyze the design choices behind zkML frameworks, and evaluate whether circuit-level improvements or the adoption of different schemes can make zkML more practical. The study will consider both the cryptographic foundations (e.g., constraint systems, lookup arguments, commitment schemes) and the challenges of encoding neural-network computation into ZK circuits.
       The student will survey related work, study the architectural principles of Halo2 and alternative proving systems, and experiment with existing zkML frameworks on small, representative models to assert their strengths and weaknesses. Lastly, given the time and interest, the student will attempt to extend an existing protocol or circuit to prove additional information.
     type: IT
     level:
@@ -2575,9 +2575,9 @@ projects:
     applicationPreviousEnd: 2026-01-23 23:59
     year: 2025
     description: |
-      The generation and manipulation of facial images and videos have achieved increasingly hyper-realistic results in recent years. Modern face-swapping techniques can operate in real time and produce highly convincing results, making them one of the most diffused attack vectors for perpetrating impersonation-based scams and frauds online [1,2]. Technical means allowing for an early detection of compromised video evidence are therefore essential, and now required by technical standards for sensitive applications like remote identity proofing (see [3, Sec. 8.4.2]). A large body of research on face manipulation detection has led to the development of numerous dataset and detection approaches. Despite these efforts, deep-learning based detectors often struggle to generalize to real-world scenarios that differ from the data distributions seen during training. This generalization problem remains one of the primary challenges in deploying reliable detection systems in real-world scenarios [4].<br />
-      A recent research direction explores the use of Large Vision-Language Models (LVLMs) for deepfake detection. These models possess strong generalization capabilities and the ability to provide natural language explanations of the model’s predictions that enhance interpretability [5]. Such properties make LVLMs compelling candidates for robust and explainable face-swap detection.<br />
-      This research aims to investigate the performance of LVLMs in detecting facial deepfakes on two novel datasets [6,7], assessing both their visual prediction and the textual explanation. Particular focus will be placed on the ability of the model to identify and localize different levels of face-swapping artifacts, from clearly visible artifacts to more subtle, high-fidelity manipulations.<br />
+      The generation and manipulation of facial images and videos have achieved increasingly hyper-realistic results in recent years. Modern face-swapping techniques can operate in real time and produce highly convincing results, making them one of the most diffused attack vectors for perpetrating impersonation-based scams and frauds online [1,2]. Technical means allowing for an early detection of compromised video evidence are therefore essential, and now required by technical standards for sensitive applications like remote identity proofing (see [3, Sec. 8.4.2]). A large body of research on face manipulation detection has led to the development of numerous dataset and detection approaches. Despite these efforts, deep-learning based detectors often struggle to generalize to real-world scenarios that differ from the data distributions seen during training. This generalization problem remains one of the primary challenges in deploying reliable detection systems in real-world scenarios [4].
+      A recent research direction explores the use of Large Vision-Language Models (LVLMs) for deepfake detection. These models possess strong generalization capabilities and the ability to provide natural language explanations of the model’s predictions that enhance interpretability [5]. Such properties make LVLMs compelling candidates for robust and explainable face-swap detection.
+      This research aims to investigate the performance of LVLMs in detecting facial deepfakes on two novel datasets [6,7], assessing both their visual prediction and the textual explanation. Particular focus will be placed on the ability of the model to identify and localize different levels of face-swapping artifacts, from clearly visible artifacts to more subtle, high-fidelity manipulations.
       The student will survey related work, become familiar with LVLMs architecture, and experiment with selected models on two novel deepfake detection datasets. Depending on time and interest, this analysis may also be extended from static images to videos, allowing the evaluation of LVLMs performance in more dynamic scenarios.
     type: IT
     level:
@@ -2670,9 +2670,9 @@ projects:
     applicationPreviousEnd: 2026-03-24 23:59
     year: 2026
     description: |
-      The advent of quantum computing poses a serious threat to classical public-key cryptography, including digital signature schemes that are a fundamental building block of modern Byzantine Fault Tolerant (BFT) consensus protocols. State-of-the-art BFT protocols, such as HotStuff and its derivatives, rely heavily on efficient digital signatures and quorum certificates to guarantee safety and liveness in adversarial settings.<br />
-      Post-quantum signature schemes, while offering resistance against quantum adversaries, introduce significant challenges in terms of signature size, verification cost, and communication overhead, which may deeply impact the performance and scalability of consensus protocols.<br />
-      This project aims to investigate the integration of post-quantum signature schemes into BFT consensus protocols. The work will start with a survey of existing post-quantum signature schemes and recent research on post-quantum secure consensus, highlighting different design approaches, including both direct replacement of classical signatures and protocol-level redesigns aimed at reducing or eliminating the reliance on signatures.<br />
+      The advent of quantum computing poses a serious threat to classical public-key cryptography, including digital signature schemes that are a fundamental building block of modern Byzantine Fault Tolerant (BFT) consensus protocols. State-of-the-art BFT protocols, such as HotStuff and its derivatives, rely heavily on efficient digital signatures and quorum certificates to guarantee safety and liveness in adversarial settings.
+      Post-quantum signature schemes, while offering resistance against quantum adversaries, introduce significant challenges in terms of signature size, verification cost, and communication overhead, which may deeply impact the performance and scalability of consensus protocols.
+      This project aims to investigate the integration of post-quantum signature schemes into BFT consensus protocols. The work will start with a survey of existing post-quantum signature schemes and recent research on post-quantum secure consensus, highlighting different design approaches, including both direct replacement of classical signatures and protocol-level redesigns aimed at reducing or eliminating the reliance on signatures.
       Building on this analysis, the student will study a state-of-the-art BFT protocol (e.g., HotStuff or related variants) and explore how post-quantum signatures can be incorporated, analyzing the resulting trade-offs in terms of security assumptions, communication complexity, and performance. Depending on time and interest, the work may include a prototype implementation and an experimental evaluation.
     type: IT
     level:
@@ -2731,7 +2731,7 @@ projects:
     applicationEnd: 2026-04-03 23:59
     year: 2026
     description: |
-      OpenID Connect (OIDC) has shown to need a set of privacy best current practices (BCPs), since only a handful of guidelines can be found in this regard. In 2023 and 2026, we provided a set of BCPs to fill that gap (Sassetti et al.), as well as an assessment of the privacy posture of several OIDC Providers (OPs). The results have shown that only a few OPs provide high baseline privacy, whereas many others implement only bare minimum requirements. Currently, the privacy posture checks are limited to OPs. As a result, the privacy practices of RPs and users remain uninvestigated.<br />
+      OpenID Connect (OIDC) has shown to need a set of privacy best current practices (BCPs), since only a handful of guidelines can be found in this regard. In 2023 and 2026, we provided a set of BCPs to fill that gap (Sassetti et al.), as well as an assessment of the privacy posture of several OIDC Providers (OPs). The results have shown that only a few OPs provide high baseline privacy, whereas many others implement only bare minimum requirements. Currently, the privacy posture checks are limited to OPs. As a result, the privacy practices of RPs and users remain uninvestigated.
       As a new line of work, we plan on extending the automated assessment of the privacy posture of OPs to RPs and users. First, we are going to develop a browser plugin that automatically draws a privacy profile of RPs based on the BCPs that are put in use. Then, we are going to set up an experiment with normal users to survey their privacy practices.
     type: IT
     level:
@@ -2793,7 +2793,7 @@ projects:
     applicationEnd: 2026-03-30 23:59
     year: 2026
     description: |
-      Securing AI/ML Systems increasingly requires supply-chain visibility not just for software, but for models, datasets, dependencies, training pipelines, and runtime environments. Also regulations like the EU AI Act, and NIST AI RMF require organizations a clear way to document what goes into their AI models. <br />
+      Securing AI/ML Systems increasingly requires supply-chain visibility not just for software, but for models, datasets, dependencies, training pipelines, and runtime environments. Also regulations like the EU AI Act, and NIST AI RMF require organizations a clear way to document what goes into their AI models. 
       Initiatives such as AI/ML-BOM [1,2] represent a new paradigm for ensuring full transparency, traceability, and accountability throughout the AI supply chain. This research project aims to begin with a comprehensive review of the state of the art, assessing the maturity of BOM-based approaches in the AI domain and examining the tools available to automate the creation and maintenance of such artifacts.
     type: IT
     level:
@@ -2829,9 +2829,9 @@ projects:
     applicationEnd: 2026-05-31 23:59
     year: 2026
     description: |
-      Organizations operating in the digital space must simultaneously comply with multiple legal frameworks: data protection laws, AI-specific legislation, platform regulations, cybersecurity directives, and more. These regulations are developed independently, use inconsistent and not fully comparable terminology, and overlap in scope, creating a compliance landscape that is fragmented, contradictory, and costly to navigate. In practice, compliance is largely a manual, expert-driven process that does not scale.<br />
-      This project investigates how Requirements Engineering (RE) methods can be leveraged to automate cross-regulation compliance in the digital domain. The central research question is: how can legal obligations drawn from heterogeneous regulatory sources be extracted, formally represented, aligned, and reasoned over in a unified framework to be comprehensible for different stakeholders?<br />
-      Applicants will contribute to one or more of the following activities: 1) extraction and formalization of requirements from selected EU digital regulations into a unified goal model representation; 2) design of cross-regulation alignment and conflict detection mechanisms; 3) development and evaluation of a context-aware compliance navigation framework with users from heterogeneous backgrounds.<br />
+      Organizations operating in the digital space must simultaneously comply with multiple legal frameworks: data protection laws, AI-specific legislation, platform regulations, cybersecurity directives, and more. These regulations are developed independently, use inconsistent and not fully comparable terminology, and overlap in scope, creating a compliance landscape that is fragmented, contradictory, and costly to navigate. In practice, compliance is largely a manual, expert-driven process that does not scale.
+      This project investigates how Requirements Engineering (RE) methods can be leveraged to automate cross-regulation compliance in the digital domain. The central research question is: how can legal obligations drawn from heterogeneous regulatory sources be extracted, formally represented, aligned, and reasoned over in a unified framework to be comprehensible for different stakeholders?
+      Applicants will contribute to one or more of the following activities: 1) extraction and formalization of requirements from selected EU digital regulations into a unified goal model representation; 2) design of cross-regulation alignment and conflict detection mechanisms; 3) development and evaluation of a context-aware compliance navigation framework with users from heterogeneous backgrounds.
       This project offers the opportunity to engage with research at the intersection of legal analysis, requirements engineering, and knowledge representation, contributing to tools and methods with direct applicability across industry and policy contexts.
     type: IT
     level:
@@ -2870,10 +2870,10 @@ projects:
     published: '2026-05-13'
     applicationEnd: 2026-05-23 23:59
     description: |
-      Traditional Authorization models such as Role-based Access Control (RBAC), Attribute-Based Access Control (ABAC) and OAuth scope based permissions were particularly designed for deterministic applications and mostly for static human identities. In these systems, authorization decisions typically evaluate who is requesting which resources under predefined conditions.<br />
-      Permissions were decided and it's valid for a longer period of time. However, emerging AI systems introduce plan, act and again replan where traditional authorization models act as static gates. It aims to dynamically reason, plan and execute multi-step actions across different tools, services, APIs and domains.<br />
-      Recent authorization models have moved towards more expressive models. Relationship-based systems such as Zanzibar/OpenFGA model permissions through relationships between users and resources, while policy engines such as Open Policy Agent (OPA) and AWS Cedar allow fine-grained policy based on attributes, context, and relationship. In agentic systems, these policy engines can be integrated directly into the agent execution loop so that each planned action is evaluated before executing, enabling dynamic policy enforcement.<br />
-      Recent discussions also propose constraint-aware planning, where policies guide the planning process itself rather than simply denying unauthorized actions. While these approaches represent important progress, they raise new questions about how authorization should evolve for autonomous systems that operate through goals and plans rather than individual requests.<br />
+      Traditional Authorization models such as Role-based Access Control (RBAC), Attribute-Based Access Control (ABAC) and OAuth scope based permissions were particularly designed for deterministic applications and mostly for static human identities. In these systems, authorization decisions typically evaluate who is requesting which resources under predefined conditions.
+      Permissions were decided and it's valid for a longer period of time. However, emerging AI systems introduce plan, act and again replan where traditional authorization models act as static gates. It aims to dynamically reason, plan and execute multi-step actions across different tools, services, APIs and domains.
+      Recent authorization models have moved towards more expressive models. Relationship-based systems such as Zanzibar/OpenFGA model permissions through relationships between users and resources, while policy engines such as Open Policy Agent (OPA) and AWS Cedar allow fine-grained policy based on attributes, context, and relationship. In agentic systems, these policy engines can be integrated directly into the agent execution loop so that each planned action is evaluated before executing, enabling dynamic policy enforcement.
+      Recent discussions also propose constraint-aware planning, where policies guide the planning process itself rather than simply denying unauthorized actions. While these approaches represent important progress, they raise new questions about how authorization should evolve for autonomous systems that operate through goals and plans rather than individual requests.
       This research aims to explore how policy-based authorization mechanisms can guide and constrain agent planning and execution, and to analyze the limitations of existing models when applied to autonomous agents operating across multiple services and domains. Potential application scenarios and use cases will be identified and derived through a literature review of existing challenges in authorization and policy enforcement.
     type: I
     level:
