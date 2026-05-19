@@ -65,8 +65,7 @@ projects:
         links:
           - name: Link
             url: https://ia.cr/2022/756
-    notes: |
-      The objectives may be weighted differently according to interest, availability, and the chosen topic.
+    notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
   - id: p-2023-09-aleph-2
     title: Rust E-voting Cryptographic Library
@@ -219,8 +218,7 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/ANNA
-    notes: |
-      The objectives may be weighted differently according to interest, availability, and the chosen topic.
+    notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
   - id: p-2023-09-aleph-6
     title: Enhancing Cryptographic Access Control with Predicates and Negative Permissions
@@ -260,8 +258,7 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
-    notes: |
-      The objectives may be weighted differently according to interest, availability, and the chosen topic.
+    notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
   - id: p-2023-09-aleph-7
     title: Multi-Objective Microservice Orchestration
@@ -337,8 +334,7 @@ projects:
         text: 'Ringers, S., Verheul, E., Hoepman, J.H.: An efficient self-blindable attribute-based credential scheme. In: Financial Cryptography and Data Security: 21st International Conference, FC 2017, Sliema, Malta, April 3-7, 2017, Revised Selected Papers 21. pp. 3-20. Springer (2017)'
       - id: 4
         text: 'Van Otterlo, M.: A machine learning view on profiling. Privacy, Due Process and the Computational Turn-Philosophers of Law Meet Philosophers of Technology. Abingdon: Routledge pp. 41-64 (2013)'
-    notes: |
-      The objectives may be weighted differently according to interest, availability, and the chosen topic.
+    notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
   - id: p-2023-09-rising-1
     title: Identifying Anomaly Behavior in Container Orchestrator Auditing Logs
@@ -535,8 +531,7 @@ projects:
       - Actionable mitigations
       - TLS misconfiguration
     timeFrame: Available starting from January 2024
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
     references:
       - text: 'TLSAssistant: Fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks'
         links:
@@ -731,8 +726,7 @@ projects:
     topics:
       - Identity Management
       - Security Protocol Verification
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
     references:
       - id: 1
         text: 'Alessandro Armando, Roberto Carbone, Luca Compagna. "SATMC: A SAT-Based Model Checker for Security-Critical Systems". In 20th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2014)'
@@ -809,8 +803,7 @@ projects:
       - Secure coding
       - Software Development Life Cycle (SDLC)
       - Container and orchestrator
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
 
   - id: p-2024-01-aleph-1
     title: Access Control for BPMN — Implementation, Constraints, and Resilience
@@ -850,8 +843,7 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/ANNA
-    notes: |
-      The objectives may be weighted differently according to interest, availability, and the chosen topic.
+    notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
   - id: p-2024-01-aleph-2
     title: Cryptographic Access Control for Blockchain-based Applications
@@ -953,8 +945,7 @@ projects:
         links:
           - name: Link
             url: https://ia.cr/2022/756
-    notes: |
-      The objectives may be weighted differently according to interest, availability, and the chosen topic.
+    notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
   - id: p-2024-01-aleph-4
     title: Key Recovery
@@ -1020,8 +1011,7 @@ projects:
       - text: 'Camenisch, J., Lysyanskaya, A.: An efficient system for non-transferable anonymous credentials with optional anonymity revocation. In: Advances in Cryptology—EUROCRYPT 2001: International Conference on the Theory and Application of Cryptographic Techniques Innsbruck, Austria, May 6–10, 2001 Proceedings 20. pp. 93–118. Springer (2001).'
       - text: 'Ringers, S., Verheul, E., Hoepman, J.H.: An efficient self-blindable attribute-based credential scheme. In: Financial Cryptography and Data Security: 21st International Conference, FC 2017, Sliema, Malta, April 3-7, 2017, Revised Selected Papers 21. pp. 3–20. Springer (2017).'
       - text: 'Van Otterlo, M.: A machine learning view on profiling. Privacy, Due Process and the Computational Turn-Philosophers of Law Meet Philosophers of Technology. Abingdon: Routledge pp. 41–64 (2013).'
-    notes: |
-      The objectives can be tailored according to the intern's interests and the focus of the project.
+    notes: The objectives can be tailored according to the intern's interests and the focus of the project.
 
   - id: p-2024-01-aleph-6
     title: Revocation Scalability
@@ -1070,8 +1060,7 @@ projects:
         links:
           - name: Link
             url: https://datatracker.ietf.org/doc/html/rfc6960
-    notes: |
-      The objectives may be weighted differently according to interest, availability, and the chosen topic.
+    notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
 
   - id: p-2024-01-aleph-7
     title: Rust E-voting Cryptographic Library
@@ -1144,8 +1133,7 @@ projects:
       - Software Development Life Cycle (SDLC)
       - DevSecOps
       - Container and orchestrator
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
 
   - id: p-2024-01-cil-2
     title: Enforcing policy based control for cloud native applications
@@ -1171,8 +1159,7 @@ projects:
       - Cloud Computing
       - Security Policy-based Controls
       - DevSecOps
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
     references:
       - text: 'Myrbakken, H., & Colomo-Palacios, R. (2017). DevSecOps: a multivocal literature review. In Software Process Improvement and Capability Determination: 17th International Conference, SPICE 2017, Palma de Mallorca, Spain, October 4–5, 2017, Proceedings (pp. 17-29). Springer International Publishing.'
       - text: https://www.openpolicyagent.org/
@@ -1264,8 +1251,7 @@ projects:
       - Identity Management protocols
       - Attack patterns
       - Penetration testing
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
 
   - id: p-2024-01-st-2
     title: Automated Privacy Posture Assessment of OpenID Connect Solutions
@@ -1325,8 +1311,7 @@ projects:
       - Actionable mitigations
       - TLS misconfiguration
     timeFrame: Available starting from January 2024
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
     references:
       - id: 1
         text: 'TLSAssistant: Fully-featured tool that combines state-of-the-art TLS analyzers with a report system that suggests appropriate mitigations and shows the full set of viable attacks'
@@ -1550,8 +1535,7 @@ projects:
       - Serious games
       - Capture-the-flag simulations
     timeFrame: We would like the applicant to start as soon as possible with the internship; the period for the thesis is then negotiateable.
-    notes: |
-      Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+    notes: Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
     references:
       - id: 1
         text: ECTEG Blockchain Project
@@ -1591,8 +1575,7 @@ projects:
       - Cloud Native Applications
       - Software Development
     timeFrame: We would like the applicant to start as soon as possible with the internship; the period for the thesis is then negotiateable.
-    notes: |
-      Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+    notes: Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
     references:
       - id: 1
         text: 'Work-in-Progress: A Sidecar Proxy for Usable and Performance-Adaptable End-to-End Protection of Communications in Cloud Native Applications'
@@ -1635,8 +1618,7 @@ projects:
       - Software Supply Chain
       - Threat Modeling
       - AI
-    notes: |
-      Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+    notes: Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
 
   - id: p-2024-st-8
     title: Automatic Security Testing Tool for Identity Management Protocols
@@ -1664,8 +1646,7 @@ projects:
       - Identity Management protocols
       - Attack patterns
       - Penetration testing
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
 
   - id: p-2024-cleanse-4
     title: Cryptography Bill of Materials (CBOM)
@@ -1704,8 +1685,7 @@ projects:
       - Cryptography Bill of Materials
       - Cryptographic compliance
       - Quantum-resistant cryptography
-    notes: |
-      Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
+    notes: Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
     references:
       - id: 0
         text: Transition to Post-Quantum Cryptography Standards (NIST IR 8547)
@@ -1773,8 +1753,7 @@ projects:
       - Compliance analysis
       - Packet analysis
       - TLS misconfiguration
-    notes: |
-      The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
+    notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
     references:
       - text: https://github.com/tlsfuzzer/tlslite-ng
         links:
@@ -1911,8 +1890,7 @@ projects:
       - Context-free grammar
       - Packet analysis
       - TLS vulnerabilities
-    notes: |
-      The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
+    notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
 
   - id: p-2025-st-5
     title: Validation of post-quantum algorithms in OpenSSL
@@ -2011,8 +1989,7 @@ projects:
       - Privacy
       - Security
       - Trust
-    notes: |
-      We offer curricular internship (no allowance).
+    notes: We offer curricular internship (no allowance).
       Multiple positions available.
       Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable). Exceptional work may lead to co-authored publications in International Conferences or Journals, with support and guidance from academic supervisors.
 
@@ -2188,8 +2165,7 @@ projects:
       - Software Supply Chain Security
       - SDLC
       - CI/CD
-    notes: |
-      Multiple positions available.
+    notes: Multiple positions available.
     references:
       - text: Leader's Guide to Software Supply Chain Security
         links:
@@ -2303,8 +2279,7 @@ projects:
       - Bytestream analysis
       - Conformance tests
       - Network anomalies
-    notes: |
-      The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
+    notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
 
   - id: p-2025-aleph-3
     title: Trusted Execution Environments for Cryptographic Access Control
@@ -2424,8 +2399,7 @@ projects:
         links:
           - name: Link
             url: https://stefano.berlato.it/publications/SACMAT2025.pdf
-    notes: |
-      The above list comprises all possible activities; actual activities will likely be a subset defined according to interests and time availability.
+    notes: The above list comprises all possible activities; actual activities will likely be a subset defined according to interests and time availability.
 
   - id: p-2025-aleph-6
     title: Gaussian sampling and constant-time cryptography
@@ -2600,8 +2574,7 @@ projects:
       - Large Language Models
       - Face Manipulation Detection
     timeFrame: Starting in February/March 2026.
-    notes: |
-      Depending on the student's needs, the activity may be carried out solely as a Thesis.
+    notes: Depending on the student's needs, the activity may be carried out solely as a Thesis.
     references:
       - text: 'Threat Intelligence Report 2025: Remote Identity Under Attack'
         links:
@@ -2697,8 +2670,7 @@ projects:
       - Byzantine Fault Tolerant Consensus
       - Distributed Systems
       - Blockchain Protocols
-    notes: |
-      Work in collaboration with the division "research on advanced technologies" of the Bank of Italy.
+    notes: Work in collaboration with the division "research on advanced technologies" of the Bank of Italy.
 
   - id: p-2026-st-2
     title: 'Automating Risk Assessment for Identity Management Solutions: A Knowledge-Base Approach'
@@ -2869,6 +2841,7 @@ projects:
     title: Secure Authorization Patterns in the Agentic AI Era
     published: '2026-05-13'
     applicationEnd: 2026-05-23 23:59
+    year: 2026
     description: |
       Traditional Authorization models such as Role-based Access Control (RBAC), Attribute-Based Access Control (ABAC) and OAuth scope based permissions were particularly designed for deterministic applications and mostly for static human identities. In these systems, authorization decisions typically evaluate who is requesting which resources under predefined conditions.
       Permissions were decided and it's valid for a longer period of time. However, emerging AI systems introduce plan, act and again replan where traditional authorization models act as static gates. It aims to dynamically reason, plan and execute multi-step actions across different tools, services, APIs and domains.
