@@ -5,4 +5,10 @@ current:
   members:
     - LauraCristiano
     - MartinaCicaloni
-    - MatteoBrosolo
+
+former:
+  members:
+    - personId: MatteoBrosolo
+      formerRole: 
+      yearFrom: 2025
+      yearTo: 2026

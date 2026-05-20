@@ -1,5 +1,10 @@
 - name: People
   link: /people/
+  dropdown:
+    - name: Current Members
+      link: /people/
+    - name: Former Members
+      link: /people/former
 - name: Publications
   link: /publications/
 - name: Internships

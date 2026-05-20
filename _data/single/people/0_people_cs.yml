@@ -4,7 +4,7 @@
   name: Laura
   surname: Cristiano
   affiliations:
-    - role: Researcher
+    - role: Research Support
       unit: Center for Cybersecurity
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -14,7 +14,7 @@
   name: Martina
   surname: Cicaloni
   affiliations:
-    - role: 
+    - role: Research Support
       unit: Center for Cybersecurity
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -23,12 +23,7 @@
 - id: MatteoBrosolo
   name: Matteo
   surname: Brosolo
-  affiliations:
-    - role: 
-      unit: Center for Cybersecurity
-      institution: Fondazione Bruno Kessler
-      place: Trento, Italy
-  email: mbrosolo@fbk.eu
+  usernameFBK: mbrosolo
 
 - id: PietroDeMatteis
   name: Pietro
