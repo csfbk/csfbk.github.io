@@ -160,6 +160,10 @@
   name:  Aggeliki
   surname: Tsohou
 
+- id: AlessandroTomasi
+  name:  Alessandro
+  surname: Tomasi
+
 - id: AmirSharif
   name:  Amir
   surname: Sharif
@@ -175,6 +179,14 @@
 - id: AndreiPetrovski
   name:  Andrei
   surname: Petrovski
+
+- id: AngeloSusi
+  name:  Angelo
+  surname: Susi
+
+- id: AnnaPerini
+  name:  Anna
+  surname: Perini
 
 - id: AnnapaolaMarconi
   name:  Annapaola
@@ -223,6 +235,10 @@
 - id: D.Sanchez
   name:  D.
   surname: Sanchez
+
+- id: DanieleDellagiacoma
+  name:  Daniele
+  surname: Dellagiacoma
 
 - id: DanieleMiorandi
   name:  Daniele
@@ -423,6 +439,10 @@
 - id: JanakaSenanayake
   name:  Janaka
   surname: Senanayake
+
+- id: JohnMylopoulos
+  name:  John
+  surname: Mylopoulos
 
 - id: JulienDebussche
   name:  Julien
