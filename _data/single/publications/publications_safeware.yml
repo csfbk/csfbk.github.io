@@ -43,6 +43,20 @@
   doi: 10.5220/0013488300003928
 
 
+- id: iris_2025_9b5ef3ac080e3a51d4d7
+  id_iris: 367387,
+  title: "Towards Cryptography Bill of Materials Compliance"
+  authors:
+    - ClaudioForoncelli
+    - AlessandroTomasi
+    - LucaPiras
+    - LuisAugustoDiasKnob
+    - PietroDeMatteis
+    - SilvioRanise
+  destination: ininternationalsecuritystandardisationresearchconferencessrspringer2025
+  year: 2025
+
+
 - id: iris_2025_76d49a5207f7de216c06
   id_iris: 361407,
   title: "Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments"
@@ -79,7 +93,7 @@
     - LucaPiras
     - MhdOmarAl-Kadri
     - AndreiPetrovski
-  destination: computersecurityesorics2024internationalworkshopssecaidisacps4cipandsecassurebydgoszczpolandseptember16202024revisedselectedpaperspartii
+  destination: computersecurityesorics2024internationalworkshopssecaidisacps4cipandsecassurerevisedselectedpaperspartii
   year: 2025
   doi: 10.1007/978-3-031-82362-6_27
 
@@ -94,7 +108,7 @@
     - GiacomoNalli
     - LucaPiras
     - HalilYetgin
-  destination: hciinternational2025latebreakingpapers27thinternationalconferenceonhumancomputerinteractionhcii2025gothenburgswedenjune22272025partxiv
+  destination: hciinternational2025latebreakingpapers27thinternationalconferenceonhumancomputerinteractionhcii2025partxiv
   year: 2025
   doi: 10.1007/978-3-032-13174-4_21
 
@@ -155,7 +169,7 @@
     - AndreiPetrovski
     - MhdOmarAl-Kadri
     - LucaPiras
-  destination: computersecurityesorics2023internationalworkshopscps4cipadiotsecassurewasptaurinpristaiandsecaithehaguethenetherlandsseptember25292023revisedselectedpaperspartii
+  destination: computersecurityesorics2023internationalworkshopscps4cipadiotsecassurewasptaurinpristaiandsecairevisedselectedpaperspartii
   year: 2024
   doi: 10.1007/978-3-031-54129-2_25
 
@@ -183,7 +197,7 @@
     - MhdOmarAl-Kadri
     - AndreiPetrovski
     - LucaPiras
-  destination: dataandapplicationssecurityandprivacyxxxvii
+  destination: dataandapplicationssecurityandprivacyxxxviidbsec2023
   year: 2023
   doi: 10.1007/978-3-031-37586-6_20
 
@@ -313,6 +327,21 @@
   doi: 10.1007/s00766-017-0280-z
 
 
+- id: iris_2019_df866d71de57d7050018
+  id_iris: 320366,
+  title: "Design Thinking and Acceptance Requirements for Designing Gamified Software"
+  authors:
+    - LucaPiras
+    - DanieleDellagiacoma
+    - AnnaPerini
+    - AngeloSusi
+    - PaoloGiorgini
+    - JohnMylopoulos
+  destination: 13thinternationalconferenceonresearchchallengesininformationsciencercis2019brusselsbelgiummay29312019
+  year: 2019
+  doi: 10.1109/RCIS.2019.8876973
+
+
 - id: iris_2019_77e50a1e7565bc452514
   id_iris: 317083,
   title: "Path-based Fragmentation Metric and RSA Algorithms for Elastic Optical Networks"
@@ -345,7 +374,7 @@
     - M.Pavlidis
     - R.D'addario
     - G.G.Zorzino
-  destination: trustprivacyandsecurityindigitalbusiness16thinternationalconferencetrustbus2019linzaustriaaugust26292019
+  destination: trustprivacyandsecurityindigitalbusiness16thinternationalconferencetrustbus2019
   year: 2019
   doi: 10.1007/978-3-030-27813-7_6
 
