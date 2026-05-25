@@ -7,6 +7,10 @@
   type: conference
   proceedings: Proceedings of 12th Ifip/ieee International Symposium on Integrated Network Management (IM 2011) and Workshops
 
+- id: 13thinternationalconferenceonresearchchallengesininformationsciencercis2019brusselsbelgiummay29312019
+  name: 13th International Conference on Research Challenges in Information Science, {rcis} 2019, Brussels, Belgium, May 29-31, 2019
+  type: conference
+
 - id: 14thinternationalconferenceontransparentopticalnetworksicton2012
   name: 14th International Conference on Transparent Optical Networks (ICTON), 2012
   type: conference
@@ -98,12 +102,12 @@
   name: Computer Security - Esorics 2019 International Workshops, Cybericps, Secpre, Spose, and Adiot, Revised Selected Papers
   type: conference
 
-- id: computersecurityesorics2023internationalworkshopscps4cipadiotsecassurewasptaurinpristaiandsecaithehaguethenetherlandsseptember25292023revisedselectedpaperspartii
-  name: Computer Security. Esorics 2023 International Workshops Cps4cip, Adiot, Secassure, Wasp, Taurin, Prist-ai, and Secai, the Hague, the Netherlands, September 25–29, 2023, Revised Selected Papers, Part Ii
+- id: computersecurityesorics2023internationalworkshopscps4cipadiotsecassurewasptaurinpristaiandsecairevisedselectedpaperspartii
+  name: Computer Security. Esorics 2023 International Workshops Cps4cip, Adiot, Secassure, Wasp, Taurin, Prist-ai, and Secai, Revised Selected Papers, Part Ii
   type: conference
 
-- id: computersecurityesorics2024internationalworkshopssecaidisacps4cipandsecassurebydgoszczpolandseptember16202024revisedselectedpaperspartii
-  name: Computer Security. Esorics 2024 International Workshops Secai, Disa, Cps4cip, and Secassure, Bydgoszcz, Poland, September 16–20, 2024, Revised Selected Papers, Part Ii
+- id: computersecurityesorics2024internationalworkshopssecaidisacps4cipandsecassurerevisedselectedpaperspartii
+  name: Computer Security. Esorics 2024 International Workshops Secai, Disa, Cps4cip, and Secassure, Revised Selected Papers, Part Ii
   type: conference
 
 - id: conceptualmodeling36thinternationalconferenceer2017valenciaspainnovember692017
@@ -114,12 +118,12 @@
   name: Cross-layer Design in Optical Networks
   type: conference
 
-- id: dataandapplicationssecurityandprivacyxxxvii
-  name: Data and Applications Security and Privacy Xxxvii
+- id: dataandapplicationssecurityandprivacyxxxviidbsec2023
+  name: Data and Applications Security and Privacy Xxxvii (DBSec 2023)
   type: conference
 
-- id: hciinternational2025latebreakingpapers27thinternationalconferenceonhumancomputerinteractionhcii2025gothenburgswedenjune22272025partxiv
-  name: Hci International 2025 – Late Breaking Papers 27th International Conference on Human-computer Interaction, Hcii 2025, Gothenburg, Sweden, June 22–27, 2025, Proceedings, Part Xiv
+- id: hciinternational2025latebreakingpapers27thinternationalconferenceonhumancomputerinteractionhcii2025partxiv
+  name: Hci International 2025 – Late Breaking Papers 27th International Conference on Human-computer Interaction, Hcii 2025, Proceedings, Part Xiv
   type: conference
 
 - id: ieee33rdinternationalrequirementsengineeringconferenceworkshopsrew
@@ -129,6 +133,10 @@
 - id: informationcomputersecurity
   name: Information & Computer Security
   type: journal
+
+- id: ininternationalsecuritystandardisationresearchconferencessrspringer2025
+  name: In Proceedings of International Security Standardisation Research Conference (SSR). Springer, 2025.
+  type: conference
 
 - id: internationaljournalofadaptiveresilientandautonomicsystems
   name: International Journal of Adaptive, Resilient and Autonomic Systems
@@ -166,8 +174,8 @@
   name: The Practice of Enterprise Modeling
   type: conference
 
-- id: trustprivacyandsecurityindigitalbusiness16thinternationalconferencetrustbus2019linzaustriaaugust26292019
-  name: Trust, Privacy and Security in Digital Business 16th International Conference, Trustbus 2019, Linz, Austria, August 26–29, 2019, Proceedings
+- id: trustprivacyandsecurityindigitalbusiness16thinternationalconferencetrustbus2019
+  name: Trust, Privacy and Security in Digital Business 16th International Conference, Trustbus 2019, Proceedings
   type: conference
 
 - id: trustprivacyandsecurityindigitalbusiness17thinternationalconferencetrustbus2020
