@@ -47,13 +47,6 @@ current:
       yearFrom: 2026
       yearTo: 2026
 
-    - personId: LeonardoRusso_I
-      type: M
-      topic: On the Implementation and Evaluation of Contextual Reading Access Control Encryption
-      institution: University of Trento
-      yearFrom: 2026
-      yearTo: 2026
-
   junior:
     # -   # ID of the person
       
@@ -125,6 +118,13 @@ former:
 
     - personId: MatteoSantAnaCasarotto_BA
       # thesisId: |THESIS IS STILL TO DEFEND|
+
+    - personId: LeonardoRusso_I
+      type: M
+      topic: On the Implementation and Evaluation of Contextual Reading Access Control Encryption
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
 
     - personId: LucaBortolotti_BA
       thesisId: LucaBortolotti_BA
