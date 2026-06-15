@@ -19,6 +19,16 @@
   name: Adam J.
   surname: Lee
 
+- id: AlessandroPerez
+  name: Alessandro
+  surname: Perez
+  affiliations:
+    - role: Researcher
+      unit: ALEPH
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: aperez@fbk.eu
+
 - id: AlessandroTomasi
   name: Alessandro
   surname: Tomasi
