@@ -604,6 +604,23 @@
   - CloudComputing
   - PrivacyEnhancingCryptography
   
+- id: ssr2025 ClaudioForoncelli_BA
+  title: "Towards Cryptography Bill of Materials Compliance"
+  authors:
+  - ClaudioForoncelli_BA
+  - PietroDeMatteis
+  - LuisAugustoDiasKnob
+  - LucaPiras
+  - AlessandroTomasi
+  - SilvioRanise
+  destination: ssr2025
+  destinationAddon: ''
+  year: 2026
+  doi: 10.1007/978-3-032-19567-8_10
+  isALEPH: True
+  tags:
+  - PostQuantumCryptography
+
 ## 2026
 
 - id: CC 2026 AlessioMeneghetti
