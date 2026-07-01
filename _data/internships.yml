@@ -2765,7 +2765,7 @@ projects:
     applicationEnd: 2026-03-30 23:59
     year: 2026
     description: |
-      Securing AI/ML Systems increasingly requires supply-chain visibility not just for software, but for models, datasets, dependencies, training pipelines, and runtime environments. Also regulations like the EU AI Act, and NIST AI RMF require organizations a clear way to document what goes into their AI models. 
+      Securing AI/ML Systems increasingly requires supply-chain visibility not just for software, but for models, datasets, dependencies, training pipelines, and runtime environments. Also regulations like the EU AI Act, and NIST AI RMF require organizations a clear way to document what goes into their AI models.
       Initiatives such as AI/ML-BOM [1,2] represent a new paradigm for ensuring full transparency, traceability, and accountability throughout the AI supply chain. This research project aims to begin with a comprehensive review of the state of the art, assessing the maturity of BOM-based approaches in the AI domain and examining the tools available to automate the creation and maintenance of such artifacts.
     type: IT
     level:
