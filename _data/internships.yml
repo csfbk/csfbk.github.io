@@ -2869,3 +2869,34 @@ projects:
       - AI Agent
       - Authorization
       - Verifiable Intent
+
+  - id: p-2026-cs-001
+    title: Security and Privacy Analysis of Remote HSM Architectures for European Digital Identity Wallets
+    published: '2026-07-01'
+    applicationEnd: 2026-08-05 23:59
+    year: 2026
+    description: ''
+    type: IT
+    level:
+      - MSc
+    unit:
+      - ST
+    supervisor:
+      - AmirSharif
+      - ZahraEbadiAnsaroudi
+    objectives:
+      - Study the ARF high-level requirements, and related EUDI Wallet architectural assumptions relevant to WSCD, Wallet Secure Cryptographic Application (WSCA), Wallet Instance Attestation, Key Attestation, device binding, user authentication, and credential presentation.
+      - Define a structured catalogue of security and privacy requirements for remote HSM-based EUDI Wallet architectures, including requirements for key protection, authentication, access control, logging, unlinkability, backend trust, availability, revocation, and recovery.
+      - Analyze the German, Italian, and Dutch Digital Identity Wallet solutions to understand how their architecture handles remote or backend-supported cryptographic operations.
+      - Evaluate how each analyzed national solution satisfies, partially satisfies, or leaves open the identified security and privacy requirements.
+      - Develop a reusable threat model for remote HSM architectures in Digital Identity Wallets, covering assets, actors, trust boundaries, data flows, attacker capabilities, and architecture-specific threats.
+    topics:
+      - Digital Identity
+      - EUDI Wallet
+      - Remote HSM
+      - Threat Modeling
+    prerequisites:
+      - Good knowledge of cybersecurity
+      - Knowledge of OAuth, OpenID Connect, and digital identity wallet is a plus, but not required
+      - Basic understanding of cryptographic concepts such as digital signatures, public/private keys, hardware security modules, attestations, and key binding
+      - Strong analytical and problem-solving skills
