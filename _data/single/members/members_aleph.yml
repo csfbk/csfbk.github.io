@@ -27,9 +27,9 @@ current:
     #   yearFrom:       # e.g., 2022
     #   yearTo:         # e.g., 2023
 
-    - personId: ElenaBortolameotti_MA
+    - personId: LeonardoRusso_MA
       type: M
-      topic: Transparency Logs as Bulletin Boards
+      topic: Multi-Party Computation in the Head techniques for Post-Quantum Signatures
       institution: University of Trento
       yearFrom: 2026
       yearTo: 2026
@@ -117,6 +117,13 @@ former:
     - personId: DavidIoanHangu_BA
       # thesisId: |THESIS IS STILL TO DEFEND|
 
+    - personId: ElenaBortolameotti_MA
+      type: M
+      topic: Transparency Logs as Bulletin Boards
+      institution: University of Trento
+      yearFrom: 2026
+      yearTo: 2026
+      
     - personId: MatteoSantAnaCasarotto_BA
       # thesisId: |THESIS IS STILL TO DEFEND|
 
