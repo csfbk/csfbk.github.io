@@ -1,3 +1,14 @@
+# 2026
+- id: FrancescoNodari_B
+  title: "An Empirical Comparison of SBOM and SCA for Software Vulnerability Assessment"
+  type: B
+  author: FrancescoNodari
+  supervisor: DomenicoSiracusa
+  co-supervisor:
+    - PietroDeMatteis
+  year: 2026
+  institution: University of Trento
+  
 # 2025
 - id: IlariaRocchi_M
   title: "Deriving Compliance Insights from Enriched Software Bills of Materials"
