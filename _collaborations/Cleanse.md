@@ -6,6 +6,7 @@ people:
     - LucaPiras
 
 theses:
+    - FrancescoNodari_B
     - IlariaRocchi_M
     - ClaudioForoncelli_B
     - LorenzoZarantonello_B
@@ -20,6 +21,7 @@ theses:
 
 publications:
     - iris_2026_479e9b7a4f2ceb77c588
+    - iris_2025_9b5ef3ac080e3a51d4d7
     - iris_2025_2155e5c0bfe35466f3e3
     - iris_2025_76d49a5207f7de216c06
     - iris_2024_c56690dc40cba80c3529  
