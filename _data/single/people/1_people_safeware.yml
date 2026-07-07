@@ -51,14 +51,14 @@
   affiliations:
     # order is important do not invert roles
     - role: Developer
-      institution: Deda Group
+      institution: Dedagroup SpA
       place: Trento, Italy
     - formerRole: Developer
       role: CLEANSE Lab Coordinator
       unit: Secure code liFEcycle for applications and netWoRking
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
-  email: pietro.dematteis@dedagroup.it
+  email: pietro.dematteis@deda.com
   
 - id: ValentinoArmani
   name: Valentino
@@ -315,6 +315,10 @@
 - id: FrancescoAvesani
   name:  Francesco
   surname: Avesani
+
+- id: FrancescoNodari
+  name:  Francesco
+  surname: Nodari
 
 - id: G.Bosco
   name:  G.
