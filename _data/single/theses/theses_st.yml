@@ -1126,3 +1126,14 @@
     - MarcoPernpruner
   year: 2026
   institution: University of Trento
+
+- id: SimoneRossi_M
+  title: "TLS ECH-Protected Web Traffic Correlation Using Machine Learning Techniques"
+  type: M
+  author: SimoneRossi
+  supervisor: SilvioRanise
+  co-supervisor:
+    - SalvatoreManfredi
+    - RiccardoGermenia
+  year: 2026
+  institution: University of Trento and University of Turku
