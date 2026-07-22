@@ -81,6 +81,16 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
 
+- id: AinurAlmukambetova
+  name: Ainur
+  surname: Almukambetova
+  email: aalmukambetova@fbk.eu
+  affiliations:
+    - role: Researcher
+      unit: Secure code liFEcycle for applications and netWoRking
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+
 # Related
 - id: DomenicoSiracusa
   name: Domenico
