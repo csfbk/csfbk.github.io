@@ -1,5 +1,4 @@
 projects:
-
   - id: p-2023-09-aleph-1
     title: Cryptographic Revocation
     published: '2023-09-14'
@@ -66,7 +65,6 @@ projects:
           - name: Link
             url: https://ia.cr/2022/756
     notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
-
   - id: p-2023-09-aleph-2
     title: Rust E-voting Cryptographic Library
     published: '2023-09-14'
@@ -105,7 +103,6 @@ projects:
         links:
           - name: DOI
             url: https://doi.org/10.15157/diss/027
-
   - id: p-2023-09-aleph-3
     title: Key Recovery
     published: '2023-09-14'
@@ -141,7 +138,6 @@ projects:
         links:
           - name: Link
             url: https://eprint.iacr.org/2022/1551
-
   - id: p-2023-09-aleph-4
     title: Cryptographic Access Control for Blockchain-based Applications
     published: '2023-09-14'
@@ -177,7 +173,6 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
-
   - id: p-2023-09-aleph-5
     title: Access Control for BPMN — Implementation, Constraints, and Resilience
     published: '2023-09-14'
@@ -219,7 +214,6 @@ projects:
           - name: Link
             url: https://aleph.fbk.eu/tools/ANNA
     notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
-
   - id: p-2023-09-aleph-6
     title: Enhancing Cryptographic Access Control with Predicates and Negative Permissions
     published: '2023-09-14'
@@ -259,7 +253,6 @@ projects:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
     notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
-
   - id: p-2023-09-aleph-7
     title: Multi-Objective Microservice Orchestration
     published: '2023-09-14'
@@ -295,7 +288,6 @@ projects:
         links:
           - name: Link
             url: https://rising.fbk.eu/tools/FogAtlas
-
   - id: p-2023-09-aleph-8
     title: Cryptographic Unlinkability in Digital Identity Protection
     published: '2023-09-14'
@@ -335,7 +327,6 @@ projects:
       - id: 4
         text: 'Van Otterlo, M.: A machine learning view on profiling. Privacy, Due Process and the Computational Turn-Philosophers of Law Meet Philosophers of Technology. Abingdon: Routledge pp. 41-64 (2013)'
     notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
-
   - id: p-2023-09-rising-1
     title: Identifying Anomaly Behavior in Container Orchestrator Auditing Logs
     published: '2023-09-14'
@@ -358,7 +349,6 @@ projects:
       - Anomaly detection
       - Kubernetes
       - Public cloud
-
   - id: p-2023-09-rising-2
     title: System Calls Misuse Detection in Containerized Systems
     published: '2023-09-14'
@@ -389,7 +379,6 @@ projects:
       - text: El Khairi, Asbat, et al. "Contextualizing system calls in containers for anomaly-based intrusion detection." Proceedings of the 2022 on Cloud Computing Security Workshop. 2022.
       - text: 'Bèlair, Maxime, Sylvie Laniepce, and Jean-Marc Menaud. "Leveraging kernel security mechanisms to improve container security: a survey." Proceedings of the 14th international conference on availability, reliability and security. 2019.'
       - text: 'Sultan, Sari, Imtiaz Ahmad, and Tassos Dimitriou. "Container security: Issues, challenges, and the road ahead." IEEE access 7 (2019)'
-
   - id: p-2023-09-rising-3
     title: Robustness of Intrusion Detection Systems against Adversarial Machine Learning attacks
     published: '2023-09-14'
@@ -420,7 +409,6 @@ projects:
       - text: 'He, Ke, Dan Dongseong Kim, and Muhammad Rizwan Asghar. "Adversarial machine learning for network intrusion detection systems: a comprehensive survey." IEEE Communications Surveys & Tutorials (2023).'
       - text: 'Alhajjar, Elie, Paul Maxwell, and Nathaniel Bastian. "Adversarial machine learning in network intrusion detection systems." Expert Systems with Applications 186 (2021): 115782.'
       - text: 'Jmila, Houda, and Mohamed Ibn Khedher. "Adversarial machine learning for network intrusion detection: A comparative study." Computer Networks 214 (2022): 109073.'
-
   - id: p-2023-09-rising-4
     title: Evaluating the Impact of eBPF Observability Solutions on System Resources
     published: '2023-09-14'
@@ -457,7 +445,6 @@ projects:
         links:
           - name: DOI
             url: https.//doi.org/10.1109/NOMS47738.2020.9110434.
-
   - id: p-2023-09-st-1
     title: Adversarial Attacks in AI and their Consequences
     published: '2023-09-14'
@@ -481,7 +468,6 @@ projects:
     topics:
       - Adversarial attacks in AI
       - Consequences and risks of adversarial attacks
-
   - id: p-2023-09-st-2
     title: Artificial Intelligence for Autonomous Cyber Defense
     published: '2023-09-14'
@@ -505,7 +491,6 @@ projects:
     topics:
       - Autonomous Cyber Defense (ACD)
       - Reinforcement Learning (RL)
-
   - id: p-2023-09-st-3
     title: Automated Vulnerability Detection for TLS Deployments
     published: '2023-09-14'
@@ -537,7 +522,6 @@ projects:
         links:
           - name: Link
             url: https://github.com/stfbk/tlsassistant
-
   - id: p-2023-09-st-4
     title: Automatic Security Testing Tool for Identity Management Protocols
     published: '2023-09-14'
@@ -561,7 +545,6 @@ projects:
       - Identity Management protocols
       - Attack patterns
       - Penetration testing
-
   - id: p-2023-09-st-5
     title: Computational and Security Evaluation of Different Authentication/Authorization Protocols for IoT Devices
     published: '2023-09-14'
@@ -588,7 +571,6 @@ projects:
       - Internet of Things
       - Authentication
       - Access Control
-
   - id: p-2023-09-st-6
     title: Developing a Web-based Assessment Tool for Training Courses and Dissemination Events
     published: '2023-09-14'
@@ -619,7 +601,6 @@ projects:
         links:
           - name: Link
             url: https://www.enisa.europa.eu/publications/addressing-skills-shortage-and-gap-through-higher-education
-
   - id: p-2023-09-st-7
     title: Enhancing Access Control Systems using Machine Learning
     published: '2023-09-14'
@@ -647,7 +628,6 @@ projects:
       - Develop a prototype of an adaptive access control system that adjusts permission levels based on user behavior and contextual information.
       - Conduct experiments to evaluate the accuracy of the anomaly detection model and the effectiveness of the adaptive access control policies.
       - Document the implementation details, challenges faced, and lessons learned during the internship.
-
   - id: p-2023-09-st-8
     title: Enhancing mIDAssistant Plugin Capability
     published: '2023-09-14'
@@ -678,7 +658,6 @@ projects:
         links:
           - name: Link
             url: https://github.com/stfbk/mIDAssistant
-
   - id: p-2023-09-st-9
     title: Exploring Trustworthy AI
     published: '2023-09-14'
@@ -703,7 +682,6 @@ projects:
       - Trustworthy AI (Concepts and dimensions)
       - Ethical considerations in AI
       - AI trustworthiness assessment
-
   - id: p-2023-09-st-10
     title: Mind the Gap Between Security Protocol Verification Tools
     published: '2023-09-14'
@@ -748,7 +726,6 @@ projects:
         links:
           - name: Link
             url: https://verifpal.com/
-
   - id: p-2023-09-st-11
     title: Threat Modeling for Digital Identity Wallet
     published: '2023-09-14'
@@ -775,7 +752,6 @@ projects:
       - Digital Identity
       - Threat Modeling
       - Identity Wallet
-
   - id: p-2023-09-cil-1
     title: DevSecOps for Cloud Native Applications
     published: '2023-09-14'
@@ -804,7 +780,6 @@ projects:
       - Software Development Life Cycle (SDLC)
       - Container and orchestrator
     notes: Multiple positions available.
-
   - id: p-2024-01-aleph-1
     title: Access Control for BPMN — Implementation, Constraints, and Resilience
     published: '2024-01-16'
@@ -844,7 +819,6 @@ projects:
           - name: Link
             url: https://aleph.fbk.eu/tools/ANNA
     notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
-
   - id: p-2024-01-aleph-2
     title: Cryptographic Access Control for Blockchain-based Applications
     published: '2024-01-16'
@@ -879,7 +853,6 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
-
   - id: p-2024-01-aleph-3
     title: Cryptographic Revocation
     published: '2024-01-16'
@@ -946,7 +919,6 @@ projects:
           - name: Link
             url: https://ia.cr/2022/756
     notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
-
   - id: p-2024-01-aleph-4
     title: Key Recovery
     published: '2024-01-16'
@@ -981,7 +953,6 @@ projects:
         links:
           - name: Link
             url: https://eprint.iacr.org/2022/1551
-
   - id: p-2024-01-aleph-5
     title: Machine Learning Insights into Cryptographic Unlinkability for Digital Identity Protection
     published: '2024-01-16'
@@ -1012,7 +983,6 @@ projects:
       - text: 'Ringers, S., Verheul, E., Hoepman, J.H.: An efficient self-blindable attribute-based credential scheme. In: Financial Cryptography and Data Security: 21st International Conference, FC 2017, Sliema, Malta, April 3-7, 2017, Revised Selected Papers 21. pp. 3–20. Springer (2017).'
       - text: 'Van Otterlo, M.: A machine learning view on profiling. Privacy, Due Process and the Computational Turn-Philosophers of Law Meet Philosophers of Technology. Abingdon: Routledge pp. 41–64 (2013).'
     notes: The objectives can be tailored according to the intern's interests and the focus of the project.
-
   - id: p-2024-01-aleph-6
     title: Revocation Scalability
     published: '2024-01-16'
@@ -1061,7 +1031,6 @@ projects:
           - name: Link
             url: https://datatracker.ietf.org/doc/html/rfc6960
     notes: The objectives may be weighted differently according to interest, availability, and the chosen topic.
-
   - id: p-2024-01-aleph-7
     title: Rust E-voting Cryptographic Library
     published: '2024-01-16'
@@ -1100,7 +1069,6 @@ projects:
         links:
           - name: DOI
             url: https://doi.org/10.15157/diss/027
-
   - id: p-2024-01-cil-1
     title: DevSecOps for Cloud Native Applications
     published: '2024-01-16'
@@ -1134,7 +1102,6 @@ projects:
       - DevSecOps
       - Container and orchestrator
     notes: Multiple positions available.
-
   - id: p-2024-01-cil-2
     title: Enforcing policy based control for cloud native applications
     published: '2024-01-16'
@@ -1166,7 +1133,6 @@ projects:
         links:
           - name: Link
             url: https://www.openpolicyagent.org/
-
   - id: p-2024-01-rising-1
     title: Creating a testing enviroment in Kubernetes Orchestration with KWOK
     published: '2024-01-16'
@@ -1197,7 +1163,6 @@ projects:
         links:
           - name: Link
             url: https://github.com/kubernetes-sigs/kwok
-
   - id: p-2024-01-rising-2
     title: Robustness of Intrusion Detection Systems against Adversarial Machine Learning attacks
     published: '2024-01-16'
@@ -1225,7 +1190,6 @@ projects:
       - text: 'He, Ke, Dan Dongseong Kim, and Muhammad Rizwan Asghar. "Adversarial machine learning for network intrusion detection systems: a comprehensive survey." IEEE Communications Surveys & Tutorials (2023).'
       - text: 'Alhajjar, Elie, Paul Maxwell, and Nathaniel Bastian. "Adversarial machine learning in network intrusion detection systems." Expert Systems with Applications 186 (2021): 115782.'
       - text: 'Jmila, Houda, and Mohamed Ibn Khedher. "Adversarial machine learning for network intrusion detection: A comparative study." Computer Networks 214 (2022): 109073.'
-
   - id: p-2024-01-st-1
     title: Automatic Security Testing Tool for Identity Management Protocols
     published: '2024-01-16'
@@ -1252,7 +1216,6 @@ projects:
       - Attack patterns
       - Penetration testing
     notes: Multiple positions available.
-
   - id: p-2024-01-st-2
     title: Automated Privacy Posture Assessment of OpenID Connect Solutions
     published: '2024-01-16'
@@ -1285,7 +1248,6 @@ projects:
       - Privacy
       - API Testing
       - GDPR
-
   - id: p-2024-01-st-3
     title: Automated Vulnerability Detection for Mobile TLS Deployments
     published: '2024-01-16'
@@ -1323,7 +1285,6 @@ projects:
         links:
           - name: Link
             url: https://github.com/talos-security/SEBASTiAn
-
   - id: p-2024-01-st-4
     title: BAS tools - Analysis of state-of-the-art techniques and their impact
     published: '2024-01-16'
@@ -1379,7 +1340,6 @@ projects:
         links:
           - name: Link
             url: https://www.akamai.com/infectionmonkey
-
   - id: p-2024-01-st-5
     title: BAS tools - Implementation of an attack pattern to mimic a threat actor
     published: '2024-01-16'
@@ -1435,7 +1395,6 @@ projects:
         links:
           - name: Link
             url: https://caldera.mitre.org
-
   - id: p-2024-01-st-6
     title: Threat Modeling for Digital Identity Wallet
     published: '2024-01-16'
@@ -1467,7 +1426,6 @@ projects:
       - Identity Management
       - Digital Identity Wallet
       - Threat Modelling
-
   - id: p-2024-st-7
     title: Digital Identity Wallet Solution Threat Analysis and Compliance Review
     published: '2024-10-11'
@@ -1506,7 +1464,6 @@ projects:
       - Dynamic code analysis
       - Compliance
     timeFrame: We would like the applicant to start as soon as possible with the internship; the period for the thesis is then negotiateable.
-
   - id: p-2024-aleph-8
     title: Course Development with the European Cybercrime Training and Education Group
     published: '2024-10-11'
@@ -1542,7 +1499,6 @@ projects:
         links:
           - name: Link
             url: https://www.ecteg.eu/running/blockchain-project/
-
   - id: p-2024-aleph-9
     title: Cryptographic Access Control for Cloud Native Applications
     published: '2024-10-11'
@@ -1587,7 +1543,6 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
-
   - id: p-2024-cleanse-3
     title: DevSecOps for Cloud Native Applications
     published: '2024-10-12'
@@ -1619,7 +1574,6 @@ projects:
       - Threat Modeling
       - AI
     notes: Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable).
-
   - id: p-2024-st-8
     title: Automatic Security Testing Tool for Identity Management Protocols
     published: '2024-10-18'
@@ -1647,7 +1601,6 @@ projects:
       - Attack patterns
       - Penetration testing
     notes: Multiple positions available.
-
   - id: p-2024-cleanse-4
     title: Cryptography Bill of Materials (CBOM)
     published: '2024-12-17'
@@ -1717,7 +1670,6 @@ projects:
         links:
           - name: Link
             url: https://github.com/scc-digitalhub/AAC
-
   - id: p-2025-st-1
     title: Packet stream analysis for TLS compliance
     published: '2025-01-20'
@@ -1771,7 +1723,6 @@ projects:
         links:
           - name: Link
             url: https://github.com/tls-attacker/TLS-Attacker
-
   - id: p-2025-st-2
     title: AI-Powered Threat Modeling
     published: '2025-01-22'
@@ -1818,7 +1769,6 @@ projects:
       - LLMs
       - STRIDE
       - LINDDUN
-
   - id: p-2025-st-3
     title: LLM-powered Privacy Threat Modeling
     published: '2025-02-20'
@@ -1863,7 +1813,6 @@ projects:
         links:
           - name: Link
             url: https://linddun.org/
-
   - id: p-2025-st-4
     title: Context-free grammar for TLS validation
     published: '2025-03-12'
@@ -1891,7 +1840,6 @@ projects:
       - Packet analysis
       - TLS vulnerabilities
     notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
-
   - id: p-2025-st-5
     title: Validation of post-quantum algorithms in OpenSSL
     published: '2025-04-11'
@@ -1938,7 +1886,6 @@ projects:
         links:
           - name: Link
             url: https://csrc.nist.gov/pubs/fips/205/final
-
   - id: p-2025-safeware-1
     title: AI, Secure Software Engineering and DevSecOps for Cloud Native Applications
     published: '2025-05-12'
@@ -1990,7 +1937,6 @@ projects:
       - Security
       - Trust
     notes: We offer curricular internship (no allowance). Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable). Exceptional work may lead to co-authored publications in International Conferences or Journals, with support and guidance from academic supervisors.
-
   - id: p-2025-st-6
     title: Automatic Security Testing Tool for Identity Management Protocols
     published: '2025-07-09'
@@ -2016,7 +1962,6 @@ projects:
       - Identity Management protocols
       - Attack patterns
       - Security testing
-
   - id: p-2025-aleph-1
     title: Automated CBOM inventory through LLMs
     published: '2025-07-09'
@@ -2080,7 +2025,6 @@ projects:
         links:
           - name: Link
             url: https://github.com/PQCA/sonar-cryptography/blob/main/docs/LANGUAGE_SUPPORT.md
-
   - id: p-2025-aleph-2
     title: On the Implementation of Cryptographic Mechanisms for Access Control in Rust
     published: '2025-08-06'
@@ -2118,7 +2062,6 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
-
   - id: p-2025-cleanse-1
     title: xBOM based approach for Software Supply Chain Security in SDLC
     published: '2025-08-08'
@@ -2185,7 +2128,6 @@ projects:
         links:
           - name: Link
             url: https://cyclonedx.org/news/cyclonedx-v1.6-now-an-ecma-international-standard/
-
   - id: p-2025-st-7
     title: Evaluating and Enhancing Data Anonymization Techniques for Sensitive Data
     published: '2025-09-10'
@@ -2245,7 +2187,6 @@ projects:
         links:
           - name: Link
             url: https://secupi.com/
-
   - id: p-2025-st-8
     title: Validating TLS Implementations via Bytestream Parsing
     published: '2025-10-02'
@@ -2278,7 +2219,6 @@ projects:
       - Conformance tests
       - Network anomalies
     notes: The project's scope will be adjusted to accommodate the number of available credits, making it suitable for both bachelor and master students. However, due to the need for future-proof and reusable results, access to the thesis period is dependent on an assessment performed on (and during) the internship period.
-
   - id: p-2025-aleph-3
     title: Trusted Execution Environments for Cryptographic Access Control
     published: '2025-11-04'
@@ -2323,7 +2263,6 @@ projects:
         links:
           - name: Link
             url: https://aleph.fbk.eu/tools/CryptoAC
-
   - id: p-2025-aleph-4
     title: Transparency logs as bulletin boards
     published: '2025-11-07'
@@ -2357,7 +2296,6 @@ projects:
       - Bulletin board
       - Certificate transparency
     timeFrame: Available immediately or from March 2026
-
   - id: p-2025-aleph-5
     title: Formalizing a Trust-based Key Management System
     published: '2025-11-18'
@@ -2398,7 +2336,6 @@ projects:
           - name: Link
             url: https://stefano.berlato.it/publications/SACMAT2025.pdf
     notes: The above list comprises all possible activities; actual activities will likely be a subset defined according to interests and time availability.
-
   - id: p-2025-aleph-6
     title: Gaussian sampling and constant-time cryptography
     published: '2025-11-19'
@@ -2447,7 +2384,6 @@ projects:
         links:
           - name: Link
             url: https://doi.org/10.1007/978-3-030-44223-1_4
-
   - id: p-2025-aleph-7
     title: Zero-Knowledge Proof Systems for Machine-Learning
     published: '2025-11-24'
@@ -2492,7 +2428,6 @@ projects:
         links:
           - name: Link
             url: https://docs.ezkl.xyz/
-
   - id: p-2025-aleph-8
     title: On the Implementation and Evaluation of Contextual Reading Access Control Encryption
     published: '2025-12-01'
@@ -2539,7 +2474,6 @@ projects:
         links:
           - name: Link
             url: https://eprint.iacr.org/2017/429.pdf
-
   - id: p-2025-st-9
     title: Large Vision-Language Models for face-swapping detection
     published: '2025-12-15'
@@ -2604,7 +2538,6 @@ projects:
             url: https://10.1109/IWBF63717.2025.11113429
           - name: Complementary material
             url: https://st.fbk.eu/complementary/IWBF2025/
-
   - id: p-2026-st-1
     title: Automatic Security Testing Tool for Identity Management Protocols
     published: '2026-01-21'
@@ -2633,7 +2566,6 @@ projects:
       - Identity management protocols
       - Security testing tools
       - Conformance testing
-
   - id: p-2026-aleph-1
     title: Post-Quantum Byzantine Fault Tolerant Consensus Protocols
     published: '2026-02-24'
@@ -2669,7 +2601,6 @@ projects:
       - Distributed Systems
       - Blockchain Protocols
     notes: Work in collaboration with the division "research on advanced technologies" of the Bank of Italy.
-
   - id: p-2026-st-2
     title: 'Automating Risk Assessment for Identity Management Solutions: A Knowledge-Base Approach'
     published: '2026-03-04'
@@ -2694,7 +2625,6 @@ projects:
       - Identity Management
       - Threat Modeling
       - Knowledge Base
-
   - id: p-2026-st-3
     title: Automated Privacy Assessment of OpenID Connect Parties
     published: '2026-03-04'
@@ -2725,7 +2655,6 @@ projects:
       - OpenID Connect
       - Privacy
       - Best Current Practices
-
   - id: p-2026-cleanse-1
     title: Failure Points and Mitigation Strategies in Software Bill of Materials (SBOM) Workflows
     published: '2026-03-05'
@@ -2756,7 +2685,6 @@ projects:
         links:
           - name: DOI
             url: https://doi.org/10.1109/REW66121.2025.00040
-
   - id: p-2026-cleanse-2
     title: Bill of Materials approach to secure AI/ML Systems
     published: '2026-03-05'
@@ -2792,7 +2720,6 @@ projects:
         links:
           - name: Link
             url: https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-AI-ML-BOM-en.pdf
-
   - id: p-2026-safeware-1
     title: Automated Cross-Regulation Compliance for Digital Regulations via Requirements Engineering
     published: '2026-04-22'
@@ -2834,7 +2761,6 @@ projects:
       - Legal Informatics
       - Cross-Regulation Compliance
       - Goal Modeling
-
   - id: p-2026-st-4
     title: Secure Authorization Patterns in the Agentic AI Era
     published: '2026-05-13'
@@ -2867,11 +2793,10 @@ projects:
       - AI Agent
       - Authorization
       - Verifiable Intent
-
   - id: p-2026-cs-001
     title: Security and Privacy Analysis of Remote HSM Architectures for European Digital Identity Wallets
     published: '2026-07-01'
-    applicationEnd: 2026-08-31 23:59
+    applicationEnd: 2026-08-05 23:59
     year: 2026
     description: |
       Digital Identity Wallets rely on strong cryptographic protection to bind credentials to a legitimate wallet instance. In the European Digital Identity (EUDI) Wallet ecosystem, this protection is closely connected to what is called Wallet Secure Cryptographic Device (WSCD), where cryptographic keys used for Personal Identification Data (PID) and other sensitive credentials must be protected at an appropriate high assurance or security level. The EUDI Wallet Architecture and Reference Framework (ARF) allows different WSCD architectures, including remote architectures commonly implemented through remote Hardware Security Modules (HSMs) hosted by the wallet provider or a trusted backend service. In such cases, the provider remains responsible for ensuring that the overall architecture meets Level of Assurance High where required, and that proper user authentication, secure key management, and access control mechanisms are in place so that only legitimate wallet instances can use the protected cryptographic assets.
@@ -2902,8 +2827,7 @@ projects:
       - Knowledge of OAuth, OpenID Connect, and digital identity wallet is a plus, but not required
       - Basic understanding of cryptographic concepts such as digital signatures, public/private keys, hardware security modules, attestations, and key binding
       - Strong analytical and problem-solving skills
-    applicationPreviousEnd: 2026-08-05 23:59
-
+    applicationPreviousEnd: 2026-08-31 23:59
   - id: p-2026-cs-002
     title: Automated Cross-Regulation Compliance for Digital Regulations via Requirements Engineering
     published: '2026-07-17'
