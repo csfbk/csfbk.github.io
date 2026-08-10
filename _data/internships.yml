@@ -2903,6 +2903,8 @@ projects:
       - Basic understanding of cryptographic concepts such as digital signatures, public/private keys, hardware security modules, attestations, and key binding
       - Strong analytical and problem-solving skills
     applicationPreviousEnd: 2026-08-05 23:59
+    applicationDeadline: 2026-08-05 23:59
+    previousApplicationDeadline: 2026-08-05 23:59
 
   - id: p-2026-cs-002
     title: Automated Cross-Regulation Compliance for Digital Regulations via Requirements Engineering
