@@ -1989,9 +1989,7 @@ projects:
       - Privacy
       - Security
       - Trust
-    notes: We offer curricular internship (no allowance).
-      Multiple positions available.
-      Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable). Exceptional work may lead to co-authored publications in International Conferences or Journals, with support and guidance from academic supervisors.
+    notes: We offer curricular internship (no allowance). Multiple positions available. Doing both internship and thesis is recommended but not required (i.e., only internship may be acceptable). Exceptional work may lead to co-authored publications in International Conferences or Journals, with support and guidance from academic supervisors.
 
   - id: p-2025-st-6
     title: Automatic Security Testing Tool for Identity Management Protocols
@@ -2873,7 +2871,7 @@ projects:
   - id: p-2026-cs-001
     title: Security and Privacy Analysis of Remote HSM Architectures for European Digital Identity Wallets
     published: '2026-07-01'
-    applicationEnd: 2026-08-05 23:59
+    applicationEnd: 2026-08-31 23:59
     year: 2026
     description: |
       Digital Identity Wallets rely on strong cryptographic protection to bind credentials to a legitimate wallet instance. In the European Digital Identity (EUDI) Wallet ecosystem, this protection is closely connected to what is called Wallet Secure Cryptographic Device (WSCD), where cryptographic keys used for Personal Identification Data (PID) and other sensitive credentials must be protected at an appropriate high assurance or security level. The EUDI Wallet Architecture and Reference Framework (ARF) allows different WSCD architectures, including remote architectures commonly implemented through remote Hardware Security Modules (HSMs) hosted by the wallet provider or a trusted backend service. In such cases, the provider remains responsible for ensuring that the overall architecture meets Level of Assurance High where required, and that proper user authentication, secure key management, and access control mechanisms are in place so that only legitimate wallet instances can use the protected cryptographic assets.
@@ -2904,6 +2902,7 @@ projects:
       - Knowledge of OAuth, OpenID Connect, and digital identity wallet is a plus, but not required
       - Basic understanding of cryptographic concepts such as digital signatures, public/private keys, hardware security modules, attestations, and key binding
       - Strong analytical and problem-solving skills
+    applicationPreviousEnd: 2026-08-05 23:59
 
   - id: p-2026-cs-002
     title: Automated Cross-Regulation Compliance for Digital Regulations via Requirements Engineering
@@ -2919,6 +2918,9 @@ projects:
     level:
       - BSc
     unit:
+      - CLEANSE
+      - SaFEWaRe
+      - ST
     supervisor:
       - LiviaMarini
       - PietroDeMatteis
