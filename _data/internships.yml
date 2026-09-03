@@ -2907,7 +2907,7 @@ projects:
   - id: p-2026-cs-002
     title: Automated Cross-Regulation Compliance for Digital Regulations via Requirements Engineering
     published: '2026-07-17'
-    applicationEnd: 2026-09-01 23:59
+    applicationEnd: 2026-09-30 23:59
     year: 2026
     description: |-
       Organizations operating in the digital space must simultaneously comply with multiple legal frameworks: data protection laws, AI-specific legislation, platform regulations, cybersecurity directives, and more. These regulations are developed independently, use inconsistent and not fully comparable terminology, and overlap in scope, creating a compliance landscape that is fragmented, contradictory, and costly to navigate. In practice, compliance is largely a manual, expert-driven process that does not scale.
@@ -2938,3 +2938,4 @@ projects:
     topics:
       - EU Digital Regulations
       - Requirements Engineering
+    applicationPreviousEnd: 2026-09-01 23:59
