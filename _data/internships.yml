@@ -2974,3 +2974,40 @@ projects:
         link: https://aclanthology.org/2024.naacl-long.300/
       - text: 'Shen et al., PII-Bench: Evaluating Query-Aware Privacy Protection Systems, ACL 2026.'
         link: https://arxiv.org/abs/2502.18545
+
+  - id: p-2026-cs-004
+    title: Web Content Poisoning in Retrieval-Augmented Large Language Models
+    published: '2026-09-15'
+    applicationEnd: 2026-10-31 23:59
+    year: 2026
+    description: |-
+      Large Language Models (LLMs) increasingly rely on external sources to access recent or domain-specific information. Search engines, Retrieval-Augmented Generation (RAG), and Web-enabled agents let models retrieve information at inference time, but they also introduce a new security problem: retrieved content may come from untrusted or manipulated sources.
+      An attacker may create or modify online content to be retrieved for specific user queries and influence the LLM's generated answer. This can include misleading information intended to change a response's factual content, as well as content designed to influence the model's behavior through indirect prompt injection.
+      This project aims to study how malicious or manipulated Web content affects retrieval-enabled LLM applications. The work will start with an analysis of existing attacks against RAG and Web-enabled LLM systems. The student will then develop a controlled environment where an LLM can retrieve benign and adversarial content and evaluate how different types of poisoned content affect retrieval and generated responses.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - DAISY
+    supervisor:
+      - LuisAugustoDiasKnob
+    objectives:
+      - Develop a test environment for retrieving benign and adversarial Web content.
+      - Investigate techniques to detect or reduce the impact of malicious retrieved content, such as source validation, cross-source comparison, and detection of suspicious or inconsistent information.
+      - Study existing attacks against RAG and Web-enabled LLM systems.
+      - Evaluate how poisoned content affects retrieval and LLM responses.
+    topics:
+      - Large Language Models, Web Security, Retrieval-Augmented Generation, Information Retrieval, Data Poisoning, Indirect Prompt Injection
+    prerequisites:
+      - Basic knowledge of Python.
+      - Basic knowledge of cybersecurity.
+      - Knowledge of RAG, information retrieval, or Web technologies is a plus.
+      - Basic knowledge of Large Language Models.
+    references:
+      - text: 'Chang et al., Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems, USENIX Security 2026.'
+        link: https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_chang.pdf
+      - text: 'Zou et al., PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models, USENIX Security 2025.'
+        link: https://www.usenix.org/conference/usenixsecurity25/presentation/zou-poisonedrag
+      - text: 'Syros et al., MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks, USENIX Security 2026.'
+        link: https://www.usenix.org/conference/usenixsecurity26/presentation/syros
