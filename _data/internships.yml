@@ -2939,3 +2939,38 @@ projects:
       - EU Digital Regulations
       - Requirements Engineering
     applicationPreviousEnd: 2026-09-01 23:59
+
+  - id: p-2026-cs-003
+    title: Sensitive Data Detection and Prompt Sanitization for Large Language Models
+    published: '2026-09-15'
+    applicationEnd: 2026-10-31 23:59
+    year: 2026
+    description: |-
+      Large Language Models (LLMs) are increasingly integrated into applications that process user-generated content. When users access these models through external services, prompts may contain sensitive information such as names, locations, organizations, contact details, financial information, or other attributes that should not leave the local environment.
+      One possible approach to reduce this exposure is to detect and sanitize sensitive information before sending a prompt to an external LLM. Named Entity Recognition (NER) and newer PII detection models can support this process. However, traditional NER models usually focus on a limited set of entities, while privacy-oriented applications may require a broader definition of sensitive information. At the same time, simply removing or masking all detected information may reduce the quality of the context provided to the LLM.
+      This project aims to study and evaluate techniques for detecting and sanitizing sensitive information in LLM prompts. The work will start with an analysis and comparison of existing NER and PII detection approaches, including transformer-based and open-label models. Based on this analysis, the student will develop a prototype to evaluate sanitization strategies such as masking, pseudonymization, and information generalization, and analyze their impact on both privacy and LLM output quality.
+      Depending on time and interest, the project may also investigate query-aware sanitization, where information is removed or generalized based on its relevance to the user's requested task.
+    type: IT
+    level:
+      - BSc
+      - MSc
+    unit:
+      - DAISY
+    supervisor:
+      - LuisAugustoDiasKnob
+    objectives:
+      - Study existing approaches for NER, PII detection, and prompt sanitization.
+      - Evaluate existing models for detecting sensitive information, with particular attention to missed sensitive data.
+      - Develop a prototype to compare different sanitization strategies.
+      - Evaluate the trade-off between sensitive information exposure and the quality of downstream LLM responses.
+    topics:
+      - Large Language Models, Natural Language Processing, Named Entity Recognition, Personally Identifiable Information, Privacy, Prompt Sanitization
+    prerequisites:
+      - Basic knowledge of Python.
+      - Basic knowledge of Machine Learning and Natural Language Processing.
+      - Knowledge of LLMs, transformers, or Hugging Face is a plus.
+    references:
+      - text: 'Zaratiana et al., GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer, NAACL 2024.'
+        link: https://aclanthology.org/2024.naacl-long.300/
+      - text: 'Shen et al., PII-Bench: Evaluating Query-Aware Privacy Protection Systems, ACL 2026.'
+        link: https://arxiv.org/abs/2502.18545
