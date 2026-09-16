@@ -1,2 +1,10 @@
 _site/
 .jekyll-metadata
+
+# Auto-generated files from units' data
+_data/destinations.yml
+_data/members_units.yml
+_data/people.yml
+_data/publications.yml
+_data/theses.yml
+_data/tools.yml

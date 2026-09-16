@@ -37,9 +37,16 @@ show_link_fbk: true
 sass:
   style: compressed
   source_dir: _sass
+  quiet_deps: true
+  silence_deprecations: [import]
 
 plugins:
+  - jekyll-feed
+  - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
   collaborations:
@@ -144,16 +151,11 @@ defaults:
       layout: topic
 
 exclude:
-  [
-    "Gemfile",
-    "clean-theme.gemspec",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor/bundle/",
-    "vendor/cache/",
-    "vendor/gems/",
-    "vendor/ruby/",
-    "*/template*.md",
-    "*/_template*.md",
-    "README*.md",
-  ]
+  - Gemfile
+  - Gemfile.lock
+  - clean-theme.gemspec
+  - node_modules
+  - vendor
+  - "*/template*.md"
+  - "*/_template*.md"
+  - "README*.md"
