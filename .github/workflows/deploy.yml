@@ -27,9 +27,6 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
-      - name: Merge single YAML data files
-        run: ./scripts/merge_data.sh
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
