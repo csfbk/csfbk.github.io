@@ -71,6 +71,8 @@ collections:
   projects:
     output: true
     layout: project
+  publications:
+    output: true
   teaching:
     output: true
     layout: page
