@@ -15,6 +15,21 @@
 
 ## 2026
 
+- id: MatteoSantAnaCasarotto_BA
+  author: MatteoSantAnaCasarotto_BA
+  title: "Re-engineering CryptoAC in Rust: Cryptographic Access Control for E2E Encryption in Cloud Native Applications"
+  type: B
+  abstract: >
+    Cloud native applications are composed of multiple microservices that exchange data across networks and infrastructures that cannot always be considered fully trusted. Traditional access control mechanisms rely on a trusted mediator to enforce a policy, while TLS only protects communication point-to- point. Therefore, neither solution alone guarantees the confidentiality of data for End-to-end (E2E) communication involving untrusted intermediaries. This thesis presents a re-engineering of CryptoAC, a framework for the development of Cryptographic Access Control (CAC) schemes, in the Rust programming language. The new design focuses on protecting data in transit between microservices and on providing the abstractions required to implement cryptographic Role-Based Access Control (RBAC) schemes. First, we analyze the Rust cryptography ecosystem and define common interfaces for Authenticated Encryption with Associated Data (AEAD), asymmetric encryption, and digital signatures. These interfaces allow scheme implementations to remain independent from the concrete cryptographic provider, which administrators can select at compile time. We then re-engineer and implement the main components of the CryptoAC framework: the Policy Administration Point (PAP), the client, and the Metadata Manager (MM). The client can be combined with a transparent proxy to encrypt and decrypt messages without requiring changes to existing microservices. For the MM, we compare an instruction-oriented API, resembling a CRUD interface, with a function-oriented API that exposes one endpoint for each administrative function of the scheme. Finally, we assess the impact of cryptography on the overall computational cost of each administrative function. Overall, this work provides a concrete foundation for assessing the feasibility of CAC solutions for cloud native applications and for evaluating the trade-offs between their security guarantees, cryptographic overhead, and quality-of-service requirements.
+  supervisor:
+    - MarcoPatrignani
+  co-supervisor:
+    - StefanoBerlato
+  year: 2026
+  #awards:             # Eventual awards (e.g., CLUSIT)
+  institution: University of Trento
+  #link:               # Link to the thesis, if present (e.g., IRIS handle)
+
 - id: LucaBortolotti_BA
   author: LucaBortolotti_BA
   title: "Transparent proxy per CryptoAC: Design e implementazione di un meccanismo di transparent proxy in Kubernetes per CryptoAC"
@@ -26,9 +41,9 @@
   co-supervisor:
     - StefanoBerlato
   year: 2026
-  awards:             # Eventual awards (e.g., CLUSIT)
+  #awards:             # Eventual awards (e.g., CLUSIT)
   institution: University of Trento
-  link:               # Link to the thesis, if present (e.g., IRIS handle)
+  #link:               # Link to the thesis, if present (e.g., IRIS handle)
 
 ## 2025
 
