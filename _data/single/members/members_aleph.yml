@@ -115,7 +115,11 @@ former:
     #   thesisId:       # ID of the thesis
 
     - personId: DavidIoanHangu_BA
-      # thesisId: |THESIS IS STILL TO DEFEND|
+      type: B
+      topic: Course Development with the European Cybercrime Training and Education Group
+      institution: University of Trento
+      yearFrom: 2024
+      yearTo: 2025
 
     - personId: ElenaBortolameotti_MA
       type: M
@@ -125,7 +129,7 @@ former:
       yearTo: 2026
       
     - personId: MatteoSantAnaCasarotto_BA
-      # thesisId: |THESIS IS STILL TO DEFEND|
+      thesisId: MatteoSantAnaCasarotto_BA
 
     - personId: LeonardoRusso_I
       type: M
