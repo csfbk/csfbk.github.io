@@ -3024,8 +3024,34 @@ projects:
 
       This project aims to continue investigating runtime monitoring techniques for WebAssembly security. The student will study existing approaches and develop or extend tools to collect and analyze behavioral information from WebAssembly applications. The work may focus on browser or standalone environments and investigate one or more runtime signals, such as memory activity, WASI execution traces, host system calls, or combinations of these sources. The collected data will be used to characterize application behavior and evaluate techniques for identifying vulnerabilities, anomalies, malicious activities, or other security-relevant patterns.
     type: IT
-    level: []
-    unit: []
-    supervisor: []
-    objectives: []
-    topics: []
+    level:
+      - BSc
+      - MSc
+    unit:
+      - DAISY
+    supervisor:
+      - LuisAugustoDiasKnob
+    objectives:
+      - Study existing approaches for runtime security analysis and monitoring of WebAssembly applications.
+      - Develop or extend tools for collecting behavioral information from WebAssembly environments.
+      - Experimentally evaluate the collected information for identifying security-relevant behavior.
+      - Analyze one or more runtime signals, such as linear memory, WASI calls, or host system calls.
+    topics:
+      - WebAssembly
+      - Runtime Security
+      - Behavioral Analysis
+      - System Monitoring
+      - WASI
+      - Machine Learning
+      - Cybersecurity
+    prerequisites:
+      - Basic knowledge of Python or another programming language.
+      - Basic knowledge of cybersecurity and operating systems.
+      - Knowledge of WebAssembly, Machine Learning, or system monitoring is a plus.
+    references:
+      - text: 'WebAssembly System Interface (WASI)'
+        link: https://github.com/WebAssembly/WASI
+      - text: 'WebAssembly Core Specification'
+        link: https://www.w3.org/TR/wasm-core/
+      - text: 'M. Bordignon, L. A. D. Knob, R. Doriguzzi-Corin, "Machine Learning-Based Vulnerability Detection in WebAssembly Using WASI Execution Traces", CNSM 2026.'
+        link: https://arxiv.org
