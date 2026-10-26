@@ -231,6 +231,17 @@
   surname: Marini
   usernameFBK: lmarini
 
+- id: LiviaMarini
+  name: Livia
+  surname: Marini
+  affiliations:
+    - role: Research Assistant
+      unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: lmarini@fbk.eu
+  usernameFBK: lmarini
+
 - id: AlessandroColombo_BA
   name: Alessandro
   surname: Colombo
