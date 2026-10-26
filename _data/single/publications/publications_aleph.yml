@@ -142,7 +142,7 @@
     - EVoting
     
 - id: POLSIM2023
-  #id_iris: 323366
+  id_iris: 323366
   title: "A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes"
   authors:
     - StefanoBerlato
@@ -638,7 +638,7 @@
   - PostQuantumCryptography
 
 - id: ACSW2026
-  #id_iris:                  # ID of the publication in FBK IRIS (e.g., "324208") (optional)
+  id_iris: 373007
   title: Revisiting the ETSI ITS Lifecycle with Certificateless Authorization Based on Group Signatures
   authors:
   - RiccardoGennaro_MA
@@ -657,6 +657,21 @@
   destination: ACSW2026
   isALEPH: true
   year: 2026
-  #doi:                # doi (e.g., 10.1145/3320269.3384767)
+  doi: 10.1109/EuroSPW72509.2026.00052
 
-# PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
+- id: ICDS2026
+  #id_iris:                  # ID of the publication in FBK IRIS (e.g., "324208") (optional)
+  title: The Odyssey of European Digital Sovereignty and a Knowledge Base to Orient Newcomers
+  authors:                  # Authors of the publication (create a new line for each author)
+    - StefanoBerlato
+    - LiviaMarini
+    - GiovanniCorti
+    - Silvio Ranise
+  tags:                     
+    - DigitalSovereignty
+  abstract: >               
+    European digital sovereignty lies at the centre of many legal, industrial, and technological initiatives launched by the European Commission (EC). Yet, information about these initiatives is scattered, and newcomers may struggle to grasp the bigger picture. This paper offers a primer to help newcomers understand the evolution of European digital sovereignty, discover and correlate key strategic initiatives via an open knowledge base, and recognize the challenges still ahead.    
+  destination: ICDS2026
+  isALEPH: true
+  year: 2026
+  #doi:                # doi (e.g., 10.1145/3320269.3384767)
