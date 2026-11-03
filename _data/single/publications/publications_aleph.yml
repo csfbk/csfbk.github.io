@@ -274,6 +274,7 @@
   doi: 10.1109/ICIN60470.2024.10494482
 
 - id: JISA 2024 AndreaFlamini
+  id_iris: 347387
   title: On cryptographic mechanisms for the selective disclosure of verifiable credentials
   authors:
   - AndreaFlamini
@@ -675,3 +676,21 @@
   isALEPH: true
   year: 2026
   #doi:                # doi (e.g., 10.1145/3320269.3384767)
+
+- id: WPES26
+  title: Comparing Privacy-Preserving Revocation for the EUDI Wallet
+  authors:
+  - AndreaFlamini
+  - AnjaLehmann
+  - GiadaSciarretta
+  - MarioScuro
+  - NicolaSmaniotto
+  - AlessandroTomasi
+  - SilvioRanise
+  destination: WPES2026
+  year: 2026
+  doi: 10.1145/3847192.3847376
+  isALEPH: true
+  tags:
+  - PrivacyEnhancingCryptography
+  - ZKP
