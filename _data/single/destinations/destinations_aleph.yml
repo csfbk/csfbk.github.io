@@ -367,7 +367,14 @@
   startDate: "2026-10-25"
   endDate: "2026-10-27"
 
-
+- id: WPES2026
+  name: 25th Workshop on Privacy in the Electronic Society
+  acronym: WPES 2026
+  url: https://wpes2026.github.io/
+  type: conference
+  location: The Hague, The Netherlands
+  startDate: "2026-11-15"
+  endDate: "2026-11-15"
 
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID (IN CASE OF CONFERENCES, WITHIN YEARS)
