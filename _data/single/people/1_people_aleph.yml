@@ -23,8 +23,8 @@
   name: Alessandro
   surname: Perez
   affiliations:
-    - role: Researcher
-      unit: ALEPH
+    - role: PhD Student
+      unit: Applied Cryptography
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: aperez@fbk.eu
@@ -69,6 +69,13 @@
 - id: AntoninoAlì
   name: Antonino
   surname: Alì
+
+- id: AnjaLehmann
+  name: Anja
+  surname: Lehmann
+  affiliations:
+    - institution: Hasso Plattner Institute
+      place: Potsdam, Germany
 
 - id: ChiaraSpadafora
   name: Chiara
@@ -306,7 +313,7 @@
   name: Mario
   surname: Scuro
   affiliations:
-    - role: Research Assistant
+    - role: Researcher
       unit: Applied Cryptography
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
