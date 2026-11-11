@@ -19,6 +19,10 @@
   name: Adam J.
   surname: Lee
 
+- id: AlessandroColombo_BA
+  name: Alessandro
+  surname: Colombo
+
 - id: AlessandroPerez
   name: Alessandro
   surname: Perez
@@ -249,10 +253,6 @@
   email: lmarini@fbk.eu
   usernameFBK: lmarini
 
-- id: AlessandroColombo_BA
-  name: Alessandro
-  surname: Colombo
-
 - id: LucaBortolotti_BA
   name: Luca
   surname: Bortolotti
@@ -433,16 +433,16 @@
   surname: Montanari
   usernameFBK: smontanari
 
+- id: SilvioCretti
+  name: Silvio
+  surname: Cretti
+  email: scretti@fbk.eu
+
 - id: SilvioRanise
   name: Silvio
   surname: Ranise
   usernameFBK: ranise
   orcid: 0000-0001-7269-9285
-
-- id: SilvioCretti
-  name: Silvio
-  surname: Cretti
-  email: scretti@fbk.eu
 
 - id: SimoneBrunello_BA
   name: Simone
