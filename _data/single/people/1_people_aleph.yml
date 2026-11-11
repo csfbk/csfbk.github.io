@@ -149,7 +149,7 @@
   name: Giacomo
   surname: Brandi
   affiliations:
-    - role: Researcher
+    - role: PhD Student
       unit: Applied Cryptography
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -260,6 +260,17 @@
 - id: LucaClaus_BA
   name: Luca
   surname: Claus
+
+- id: LucaDiDomenico
+  name: Luca
+  surname: Di Domenico
+  affiliations:
+    - role: PhD Student
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: ldidomenico@fbk.eu
+  orcid: 0009-0005-5455-8362
 
 - id: LucaPiras
   name: Luca
