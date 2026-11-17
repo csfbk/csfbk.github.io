@@ -1,6 +1,6 @@
 ---
 title: Curricular Internships
-subtitle: Open Calls
+subtitle: Current Projects
 layout: page
 permalink: /internships/
 ---
@@ -62,7 +62,7 @@ A collection of student theses carried out with our group that have received awa
 
 {% assign thesesWithAwards = site.data.theses | where_exp: "thesis", "thesis.awards" %}
 {::nomarkdown}
-{%- include list-theses.html source=thesesWithAwards -%}
+{%- include list-theses.html source=thesesWithAwards sort_by="year" sort_reverse=true -%}
 {:/nomarkdown}
 </div>
 

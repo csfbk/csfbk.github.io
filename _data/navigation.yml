@@ -12,7 +12,7 @@
 - name: Internships
   link: /internships/
   dropdown:
-    - name: Open Calls
+    - name: Current Projects
       link: /internships/
     - name: Archive
       link: /internships/archive/
