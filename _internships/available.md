@@ -58,7 +58,7 @@ This page lists the internship projects currently available in the Center for Cy
 
 # Hall of Fame
 
-A collection of student theses carried out with our group that have received awards or special recognition.
+A collection of student theses carried out with our group that have received awards or special recognition. A complete list of the theses developed at our Center is available on the [dedicated page](/theses).
 
 {% assign thesesWithAwards = site.data.theses | where_exp: "thesis", "thesis.awards" %}
 {::nomarkdown}
