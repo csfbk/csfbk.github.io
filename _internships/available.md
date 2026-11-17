@@ -5,34 +5,36 @@ layout: page
 permalink: /internships/
 ---
 
-<div class="columns is-multiline">
-<div class="column is-12" markdown="1">
 This page lists the internship projects currently available in the Center for Cybersecurity of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK). Please note that these are <b>curricular internship projects</b> (which does not include financial compensation) <b>intended specifically for bachelor's and master's university students</b>, and not employment contracts. Please refer to [jobs.fbk.eu](https://jobs.fbk.eu/) for job offers and open positions.
 
-<div class="notification is-primary">
-    <h1 class="no-toc text-inherit">Procedure</h1>
+{% include toc.md %}
+
+<div class="columns is-multiline">
+<div class="column is-6 is-flex is-flex-direction-column" markdown="1">
+<div class="notification is-primary is-flex-grow-1">
+    <h1 class="text-inherit">Procedure</h1>
     <ol class="mt-0">
-        <li><b>Application</b>: submit your application for the internship project you are interested in using the <b><a href="https://forms.gle/woK1EtSbHPcrVohu8">designated online form</a></b> and providing the required information. Make sure to apply before the specified deadline. You are advised <u>not</u> to apply to more than two projects at the same time.</li>
-        <li><b>Selection</b>: project supervisors will review the applications and choose the most suitable candidate. If needed, they may request an oral interview during the selection process. Each project is evaluated independently.</li>
-        <li><b>Results</b>: once the selection process is complete, all applicants (both selected and not selected) will be notified of the outcome for the specific project.</li>
+        <li><b>Application</b>: submit your application for the internship project you are interested in using the <b><a href="https://forms.gle/woK1EtSbHPcrVohu8">designated online form</a></b> and providing the required information by the specified deadline. You are advised <u>not</u> to apply to more than two projects at the same time.</li>
+        <li><b>Selection</b>: project supervisors will review the applications and choose the most suitable candidate. Each project is evaluated independently.</li>
+        <li><b>Results</b>: once the selection process is complete, all applicants will be notified of the outcome for the specific project.</li>
     </ol>
 </div>
+</div>
 
-<div class="notification is-warning">
-    <h1 class="no-toc text-inherit">Contact Information</h1>
-    <p>Depending on your question, please reach out to the appropriate contact below:</p>
+<div class="column is-6 is-flex is-flex-direction-column" markdown="1">
+<div class="notification is-warning is-flex-grow-1">
+    <h1 class="text-inherit">Contact Information</h1>
+    <p>Depending on your question, please reach out to the appropriate contact:</p>
     <ol class="mt-0">
         <li><strong>General internship questions:</strong> <a href="mailto:internships-cs@fbk.eu">internships-cs@fbk.eu</a></li>
         <li><strong>Administrative and funding matters</strong> (such as Erasmus+ eligibility): <a href="mailto:scholar@fbk.eu">scholar@fbk.eu</a></li>
-        <li><strong>Questions about a specific project:</strong> Reach out directly to the project supervisor.</li>
+        <li><strong>Project-related questions:</strong> reach out directly to the supervisor(s).</li>
     </ol>
-    <p><em>Please note: Applications sent via email will <u>not</u> be considered.</em></p>
+    <p>Please note that applications sent via email will <u>not</u> be considered.</p>
+</div>
 </div>
 
-{% include toc.md %}
-</div>
-
-<div class="column is-12 mb-4" markdown="1">
+<div class="column is-12 mt-2 mb-4" markdown="1">
 # Available Internships
 
 {% assign todayDate = "now" | date: "%Y-%m-%d %H:%M" %}
@@ -45,7 +47,7 @@ This page lists the internship projects currently available in the Center for Cy
         <p>Projects are listed starting with those that have the earliest submission deadlines.</p>
         {%- include list-internships.html source=internships -%}
     {%- else -%}
-        *No open internships at the moment, but stay tuned! New projects are added regularly, so be sure to check back soon. In the meantime, see the [awards](#hall-of-fame) our students have won and explore our [recently closed projects](#recently-closed-projects) to get an idea of past topics.*
+        *No open internships at the moment, but stay tuned! New projects are added regularly, so be sure to check back soon. In the meantime, see the [awards](#hall-of-fame) our students have won and explore our [recent projects](#recent-projects) to get an idea of past topics.*
     {%- endif -%}
 {%- endif %}
 
@@ -65,9 +67,10 @@ A collection of student theses carried out with our group that have received awa
 </div>
 
 <div class="column is-12" markdown="1">
-# Recently Closed Projects
 
-Our three most recent projects that have closed for applications. While they are no longer open, they give a good idea of the research topics and tasks we typically offer. You can find earlier projects in our [archive](/internships/archive).
+# Recent Projects
+
+Our three most recent projects. While they are no longer open for applications, they give a good idea of the research topics and tasks we typically offer. You can find earlier projects in our [archive](/internships/archive).
 
 {% assign lastInternships = site.data.internships.projects | where_exp: "project", "project.applicationEnd < todayDate" | sort: "applicationEnd" | reverse | slice: 0, 3 %}
 {::nomarkdown}
